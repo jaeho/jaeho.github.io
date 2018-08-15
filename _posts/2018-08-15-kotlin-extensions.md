@@ -19,7 +19,7 @@ Kotlin에서 제공하는 공식문서에는 [extensions](https://kotlinlang.org
 
 특히나 주로 사용하는 코틀린의 `let()`, `run()`, `apply()`, `use()` 등 유용한 함수들은 이 Extensions으로 구현되어있기때문에 Extensions이야 말로 `Kotlin`을 시작하면 가장 먼저 알고 넘어가야할 개념이라고 생각한다.
 
-확장 함수 만들기
+Extensions Function 만들기
 -
 확장 함수를 만들기 위해서는 하나만 기억하면 된다.
 
@@ -61,3 +61,99 @@ fun Context?.getScreenWidth(): Int {
 this.getScreenWidth()
 ```
 
+Higher-Order Function에서의 Extensions
+-
+[Higher-Order Function](https://kotlinlang.org/docs/reference/lambdas.html)에도 `Extension`을 적용할 수 있다.
+
+```kotlin
+fun onClick(view: View?, body: () -> Unit) {
+    view?.setOnClickListener { body }
+}
+
+onClick(view, { doSomething })
+```
+
+위와 같은 Higher-Order Function이 있다고 가정하자. View의 확장 함수로 사용하면 아래처럼 수정하기 위해 아래와 같이 수정할 수 있다.
+
+```kotlin
+fun View?.onClick(onClick: () -> Unit) {
+    this?.setOnClickListener { onClick }
+}
+
+view.onClick { doSomething }
+```
+
+Extensions을 사용하니 그저 View에서 onClick 함수를 부르는것 만으로도 간단한 onClick 이벤트 처리가 가능해진다!
+
+Inline?
+-
+`Kotlin` 문서에서는 Higher-Order Function 과 관련하여 다음과 같이 경고하고 있다.
+
+> Using Higherer-order functions imposes certain runtime penalties: each function is an object, and it captures a closure, i.e. those variables that are accessed in the body of the function. Memory allocations (both for function objects and classes) and virtual calls introduce runtime overhead.
+
+> 고차 함수를 사용할때 런타임 오버해드가 있을 수 있다.
+
+그리고 이걸 해결할 방법으로 inline 키워드를 제시하고 있다. 도대체 무슨말인지 아래의 코드를 한번 살펴 보자. 위에서 만든 View 클래스의 확장 함수 onClick을 사용한 코드이다.
+
+```
+fun TextView?.toText(msg: () -> CharSequence) {
+    this?.text = msg()
+}
+
+
+fun multipleSetText(v1: TextView, v2: TextView, v3: TextView) {
+    v1.toText { "a" }
+    v2.toText { "b" }
+    v3.toText { "c" }
+}
+```
+
+위 코드를 Decompile하면 아래와 같은 내용이 나온다.
+
+```
+public final void multipleSetText(@NotNull TextView v1, @NotNull TextView v2, @NotNull TextView v3) {
+  Intrinsics.checkParameterIsNotNull(v1, "v1");
+  Intrinsics.checkParameterIsNotNull(v2, "v2");
+  Intrinsics.checkParameterIsNotNull(v3, "v3");
+  ExtensionsKt.toText(v1, (Function0)null.INSTANCE);
+  ExtensionsKt.toText(v2, (Function0)null.INSTANCE);
+  ExtensionsKt.toText(v3, (Function0)null.INSTANCE);
+}
+```
+`toText` 함수를 사용할때마다 `Function` 객체가 생성되는 것을 확인 할 수 있다. 문서에서 지적하고 있는 오버해드가 발생하는 부분이다. 이때 inline 키워드를 적용한다면 함수 호출시 `Function`객체를 생성하지 않고 해당 함수 내용을 풀어서 써준다. 그 결과는 다음과 같다.
+
+
+```
+// inline 키워드 추가 
+inline fun TextView?.toText(msg: () -> CharSequence) {
+    this?.text = msg()
+}
+
+// Decompile 결과 
+public final void multipleSetText(@NotNull TextView v1, @NotNull TextView v2, @NotNull TextView v3) {
+  Intrinsics.checkParameterIsNotNull(v1, "v1");
+  Intrinsics.checkParameterIsNotNull(v2, "v2");
+  Intrinsics.checkParameterIsNotNull(v3, "v3");
+  String var8 = "a";
+  v1.setText((CharSequence)var8);
+  var8 = "b";
+  v2.setText((CharSequence)var8);
+  var8 = "c";
+  v3.setText((CharSequence)var8);
+}
+```
+
+고차 함수 호출시 마다 생성되던 Function0 객체 대신 해당 `Function` 결과를 풀어써 있는것을 확인 할 수 있다. 이로써 오버해드 걱정 끝.
+
+
+DSL(Domain-Specific Language)
+-
+위에서 살펴본 `Kotlin Extensions` 와 `Higher-Order Function`을 사용하면 간단한 DSL 형태를 만들어 사용하는 것도 가능하다. 자주쓰는 `Toast` 함수를 `Context`의 확장 함수로 적용하여 다음과 같이 쓸 수도 있다.
+
+```
+inline infix fun Context.toast(message: String) {
+    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+}
+
+c toast "Goobye!"
+```

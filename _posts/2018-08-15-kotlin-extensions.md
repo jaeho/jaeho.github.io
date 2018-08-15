@@ -21,3 +21,43 @@ Kotlin에서 제공하는 공식문서에는 [extensions](https://kotlinlang.org
 
 확장 함수 만들기
 -
+확장 함수를 만들기 위해서는 하나만 기억하면 된다.
+
+> 리시버를 메서드 이름의 앞에 적고 . 으로 구분한다.
+
+위 사항을 기억하고 다음 함수를 확장함수로 변환해 보자.
+
+```java
+public class Utils {
+    public static int getScreenWidth(Context context) {
+        WindowManager display = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Point point = new Point();
+        display.getDefaultDisplay().getSize(point);
+        return point.x;
+    }
+}
+
+```
+자바 전형적인 Util클래스의 모습이다. `Context`를 전달받아 `WindoManager`를 통해 화면 사이즈를 구해 반환하는 함수이다. 이 함수를 `Context`의 확장함수로 변환하면 아래와 같다.
+
+```kotlin
+fun Context?.getScreenWidth(): Int {
+    (this?.getSystemService(Context.WINDOW_SERVICE) as WindowManager).let {
+        val point = Point()
+        it.defaultDisplay.getSize(point)
+        return point.x
+    }
+}
+```
+
+`Utils`클래스로 선언된 자바 함수는 사용시 
+
+```
+ Utils.getScreenWidth(context);
+```
+위와 같이 사용하게 되지만 `Context`를 확장한 함수의 경우 `Activity`나 `Application`등 `Context`를 확장한 클래스에서 `this.` 으로 사용할 수 있다. 물론 `this`는 생략 가능하다.
+
+```
+this.getScreenWidth()
+```
+

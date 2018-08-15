@@ -4,7 +4,7 @@ date: 2018-08-15 18:16:00 +0900
 categories: kotlin
 ---
 
-What is kotlin "Extensions"?
+Kotlin-Extensions to DSL
 -
 
 Kotlin에서 제공하는 공식문서에는 [extensions](https://kotlinlang.org/docs/reference/extensions.html)을 다음과 같이 설명하고 있다.

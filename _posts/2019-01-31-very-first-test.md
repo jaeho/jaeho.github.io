@@ -4,24 +4,26 @@ date: 2019-01-31 11:07:00 +0900
 categories: android
 ---
 
-## 로컬(JVM) 단위 테스트
+로컬(JVM) 단위 테스트
+-
 
 ### Intro
--
+
 
 * 위치: ```module-name/src/test/java/```
 * [Developers 의 설명](https://developer.android.com/studio/test/?hl=ko)
 
 ```
-컴퓨터의 로컬 JVM(Java Virtual Machine)에서 실행되는 테스트입니다. 테스트에 Android 프레임워크 종속성이 없거나 Android 프레임워크 종속성에 대한 모의 객체를 생성할 수 있는 경우 이 테스트를 사용하면 실행 시간을 최소화할 수 있습니다.
+컴퓨터의 로컬 JVM(Java Virtual Machine)에서 실행되는 테스트입니다. 
+테스트에 Android 프레임워크 종속성이 없거나 Android 프레임워크 종속성에 대한 모의 객체를 생성할 수 있는 경우 이 테스트를 사용하면 실행 시간을 최소화할 수 있습니다.
 
-런타임에 이 테스트는 모든 final 한정자가 삭제된, 수정된 버전의 android.jar에 대해 실행됩니다. 여기서는 Mockito와 같이 흔히 사용되는 모의 라이브러리를 사용할 수 있습니다.
+런타임에 이 테스트는 모든 final 한정자가 삭제된, 수정된 버전의 android.jar에 대해 실행됩니다. 
+여기서는 Mockito와 같이 흔히 사용되는 모의 라이브러리를 사용할 수 있습니다.
 ```
 * 한계점: JVM에서 동작하는 만큼 Android Runtime 환경과 차이가 발생 할 수 있다. Mockito와 Robolectrics로 커버하지만 근본적으로 다른 환경이라는 걸 인지하고 비즈니스 로직을 검증하는데 사용해야 한다.
 
 
 ### Walkthrough
--
 
 - dependencies 설정
 
@@ -106,8 +108,9 @@ public class NetworkSecurityPolicy {
     }
 }
 ```
+
 ### With Jacoco
--
+
 
 **What is Jacoco?** 자코코는 **Ja**va **Co**de **Co**verage의 줄임말이다. Android Studio는 유닛 테스트를 지원하지만 테스트 커버리지 측정은 자체적으로 지원하지 않고 있기 때문에 테스트 커버리지를 측정할 수 있는 툴이 필요하다. Java의 코드 커버리지 측정툴 중 가장 유명한것은 Cobertuna지만 Jacoco가 gradle 플러그인 지원, Java 7/8 지원, Runtime에 실행 가능한 점 등의 특성 때문에 많이 사용되고 있다.
 
@@ -156,17 +159,22 @@ task 상세
 	- 1.3.0 이상: testDebugUnitTest.exec
 - reports: 커버리지 결과 리포트 형식을 지정합니다.
 
-![테스트 결과](images/2019-01-31-very-first-test-1.png)
+
+계측 테스트
 - 
-![커버리지 리포트] (images/2019-01-31-very-first-test-3.png)
 
-
-## 계측 테스트
 * 위치: ```module-name/src/androidTest/java/```
 * [Developers 의 설명](https://developer.android.com/studio/test/?hl=ko)
 
 ```
-하드웨어 기기나 에뮬레이터에서 실행되는 테스트입니다. 이 테스트에서는 Instrumentation API에 액세스할 수 있으며, 테스트하는 앱의 Context 와 같은 정보에 대한 액세스 권한을 개발자에게 제공하고, 개발자는 테스트 코드에서 테스트되는 앱을 제어할 수 있습니다. 사용자 상호작용을 자동화하는 통합 및 기능적 UI 테스트를 작성하거나 테스트에 모의 객체가 충족할 수 없는 Android 종속성이 있는 경우 이 테스트를 사용합니다.
+하드웨어 기기나 에뮬레이터에서 실행되는 테스트입니다. 
+이 테스트에서는 Instrumentation API에 액세스할 수 있으며, 
+테스트하는 앱의 Context 와 같은 정보에 대한 액세스 권한을 개발자에게 제공하고, 
+개발자는 테스트 코드에서 테스트되는 앱을 제어할 수 있습니다. 
+사용자 상호작용을 자동화하는 통합 및 기능적 UI 테스트를 작성하거나 테스트에 모의 객체가 충족할 수 없는 Android 종속성이 있는 경우 이 테스트를 사용합니다.
 
-계측 테스트는 APK(앱 APK와는 별개임)로 빌드되므로 자체 AndroidManifest.xml 파일을 가져야 합니다. 하지만, Gradle이 빌드 과정에서 이 파일을 자동으로 생성하므로 프로젝트 소스 세트에는 표시되지 않습니다. `minSdkVersion`에 다른 값을 지정하거나 테스트 전용 실행 리스너를 등록하는 등과 같이 필요한 경우 자체 매니페스트 파일을 추가할 수 있습니다. 앱을 빌드하면 Gradle이 여러 매니페스트 파일을 하나의 매니페스트 파일로 병합합니다.
+계측 테스트는 APK(앱 APK와는 별개임)로 빌드되므로 자체 AndroidManifest.xml 파일을 가져야 합니다. 
+하지만, Gradle이 빌드 과정에서 이 파일을 자동으로 생성하므로 프로젝트 소스 세트에는 표시되지 않습니다.
+`minSdkVersion`에 다른 값을 지정하거나 테스트 전용 실행 리스너를 등록하는 등과 같이 필요한 경우 자체 매니페스트 파일을 추가할 수 있습니다. 
+앱을 빌드하면 Gradle이 여러 매니페스트 파일을 하나의 매니페스트 파일로 병합합니다.
 ```

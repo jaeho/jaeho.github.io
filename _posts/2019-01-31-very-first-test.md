@@ -2,6 +2,7 @@
 title: "Android with Test"
 date: 2019-01-31 11:07:00 +0900
 categories: android
+classes: wide
 ---
 
 로컬(JVM) 단위 테스트

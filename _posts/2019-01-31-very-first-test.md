@@ -59,17 +59,13 @@ Test In Android
 4. 테스트는 느립니다.
 	- "apk 패키징 > apk 설치 > 실행" 과정 이 선행 되어야 하기 때문에 누군가의 PC처럼 시스템 자체가 빠르지 않은 경우가 아니더라고 해도 Android의 테스트 프레임워크는 기본적인 java 테스트에 비해 느립니다. 
 
-그럼에도 불구하고 우리는 Android Test를 100% 포기 할 수는 없습니다. 위와 같은 제약이 있다 하더라도 테스트의 의의를 살릴 수 있고 무의미한 짓이 아닌 효용성 있는 테스트 코드 작성을 위해 끊임 없이 고민해야합니다. 왜냐면 ~~저 위에서 자꾸 그걸 시키기 때문~~ 우리는 작은 코드 한줄에도 치열하게 고민하고 끊임없이 개선해 나아가야 할 운명을 갖고 사는 개발자이기 때문입니다.
+그럼에도 불구하고 우리는 Android Test를 100% 포기 할 수는 없습니다. 위와 같은 제약이 있다 하더라도 테스트의 의의를 살릴 수 있고 무의미한 짓이 아닌 효용성 있는 테스트 코드 작성을 위해 끊임 없이 고민해야합니다. 왜냐면 ~~저 위에서 자꾸 그걸 시키기 때문~~ 우리는 작은 코드 한줄에도 치열하게 고민하고 끊임없이 개선해 나아가야 할 운명을 갖고 사는 개발자이기 때문입니다. 그러니 해 볼 수 있는것 부터 하나씩 시작해 봅시다.
 
 
-로컬(JVM) 단위 테스트
+해 볼 수 있는 것 1 "로컬(JVM) 단위 테스트"
 -
 
-### Intro
-
-
-* 위치: ```module-name/src/test/java/```
-* [Developers 의 설명](https://developer.android.com/studio/test/?hl=ko)
+Android의 높은 진입 장벽을 우회하여 일단 UI가 아닌 비즈니스 로직부터 검증해 봅시다. 하지만 그냥 Java에서는 한없이 간단했던 이 일조차 Android 에서는 그리 녹록치 않습니다. [공식 문서](https://developer.android.com/studio/test/?hl=ko)에서는 로컬 단위 테스트에 대해 아래와 같이 소개하고 있습니다.
 
 ```
 컴퓨터의 로컬 JVM(Java Virtual Machine)에서 실행되는 테스트입니다. 
@@ -78,12 +74,12 @@ Test In Android
 런타임에 이 테스트는 모든 final 한정자가 삭제된, 수정된 버전의 android.jar에 대해 실행됩니다. 
 여기서는 Mockito와 같이 흔히 사용되는 모의 라이브러리를 사용할 수 있습니다.
 ```
-* 한계점: JVM에서 동작하는 만큼 Android Runtime 환경과 차이가 발생 할 수 있다. Mockito와 Robolectrics로 커버하지만 근본적으로 다른 환경이라는 걸 인지하고 비즈니스 로직을 검증하는데 사용해야 한다.
 
+하지만 다들 아시다시피 우리는 비즈니스 로직이라 하더라도 Android 프레임워크에 대부분 종속성을 가지고 있습니다. 그렇다면 Mock 객체가 필요하다는 얘기고 Mock 객체를 사용하기 위한 라이브러리 사용, 설정, 스터디 등 귀찮은 일들이 추가된다는 이야기 이기도 합니다. 아무튼 그 어려운걸 하나씩 차근차근 해봅시다.
 
-### Walkthrough
+* 추가적으로 로컬 단위 테스트의 한계점에 대해 살펴보면 말그대로 로컬(JVM)에서 동작하는 만큼 Android Runtime 환경과 차이가 발생 할 수 있습니다. Mockito와 Robolectrics로 커버하지만 근본적으로 다른 환경이라는 걸 인지하고 비즈니스 로직을 검증하는데 사용해야 합니다.
 
-- dependencies 설정
+- Step1. dependencies 설정
 
 ```
 dependencies {
@@ -98,17 +94,31 @@ dependencies {
 }
 ```
 
-- test 클래스 작성 
-```module-name/src/test/java/com/ncsoft/sdk/test/Test.java```
+- Step2. deafultConfig 설정에 testInstrumentationRunner 추가
+
+```
+android {
+	defaultConfig {
+		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+	}
+}
+```
+
+
+- Step3. Test 코드 작성 
+	- 파일 위치: ```{module-name}/src/test/java/{package-path}/Test.java```
+		- 파일 위치는 변경 가능하지만 이때 gradle 파일에 따로 설정해줘야합니다. 방법은 Google로..
+	- Test 클래스를 작성할때 주의점은 @RunWith 어노테이션으로 실행할 러너를 지정해줘야 하는점을 잊지 말아야 합니다. 저 같은 경우 항상 그걸 잊어서 Empty Test Suit 오류를 보고 뭘까 한번씩 꼭 생각하게 됩니다.
+	- 아래 코드를 참고해 주세요.
 
 ```
 @RunWith(RobolectricTestRunner.class)
 public class Test {
 
-    protected static final String APP_ID = "24623D7B-EDCC-D337-A5DB-A57AC5A83794";
-    protected static final String APP_SECRET = "MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQCYc5fuo+wdG1BhcrM+TWWM93z2Zgr0pB7r7oa3LZT7krRNEkKeW4d0ErPFMEWJGrtJWFNY9NpiPnKe4J/Lfp4X40LJpWb/TlQfqDtDuz0+p6dXK8aIxzaMFjI3xL9rvrgV8kwnDgE8poeO4DTfZsUXUfSHGbuykxVFVVc0K8zwB0ZD+WHjIIRrmgTUGrRUSp8LDPMZuboUiFEkOXWWBiPDmLmpFl1+zImBJGh8YrvdyxbCd0RFS1aUurFHVhhJMvUnowNea6+mJWKuxOMPR/N0UNaw5Ue/jESxQENR6eGxL5vBabWGEUm/pj/SdEnB20FWu2kK6mO8kveguRjGb1+ZAgMBAAECggEBAJLDlZyUCpbq2LM3rP9pmz3edFrxWdKyvWH8u4xVQXv/e7xGvAOfsgM4jgBjvE2Fgo/VjEezURoLbGUvciaBusjcbEucBE/8pFflqUhHVWqgFCWDaxn6TrUGGUo/Ctk7PhVCsbVXcjFlUFNn3P7E/TC6IWJ+j4gWuP+KbO04zY60tZeanpbxVtnpomN4zrQ3lrLM6OELYehncAW+eJvieq/J0cHKljf5d63CuWc24DlLfJEu0IZ5g5s86113eyNkCTBccg9TcxGfILt7Bywb+lCyZhQjpr7r98hpzGWhtpx+5GpxTA9kPBWgeq4OvIJnGjLOPCiZrai0t1Rq69soAgECgYEAyxfNhv0W3QAOmKLiE+zL7pWfT30R9GNNEB9A1Vs8Cq6JxojgXnwkACGIKeKrwA2cRen9MpdS0Orhy3EKlUUByP6SAdgqEGHAhTg4fXIz43A3a+iyhR6iutKCJQQpxngQFMAx7iLwUmMg3Keh3Q0/33RidrsLUkaZ+jHmjuAIiEkCgYEAwCqH/EL9He/BIJp6TThSByrV51U5kq5zXDuXl4Eil1gzcf/YrAwOk+TRkHlqWLsVrw0t1BzpoWoHGEVlVOkn4u2G9SyT9vzG84aRlHEAGxDrFa0q+WlYVOSYaYRfeGiKuX3gKGBieUby4CFJ/7LKbnRzV1V6xbAyejkK20lPPNECgYEAvNm0bzq24Ohlqj+ENHz0ITYWfubRJEyWY1B8jCkbSt+EFA5BfPq4yzpjEHfLt3mwgD6WCE44Xzaaof/KlIUnpMw73uUwMC2FxRtDRDtGzs4RaxFlt22GamzHQj59ziTk5zbU9xicGjA9ZZGnbRMd+t6RlNBXNbmbAtEWEHN426kCgYEAvQdZWxE+UbttO7gZhGpZbkl5vqR8DMjkG59XICZcM4oEmSg2KA94K40ThE2bCguGafrJ0PRb8XcN4Zcp9Zugq75BWl1uc6/1uMnv3JhHpVhAF8OPGWbCCEgRkQIws44KoCqtXKprU6cx9L1qQEfMj1inuQoRyfLnxIjmIA1+D3ECgYEArdTZJdySTCFjveObNwhMzPKOed7GGsPOJvhE3qwqoQehmyNakyANZXe4qmsKzvy5xRiqxwgW0lokafysOD8Pw1IOYkv3vEXwJapSXcHuQfwh80FhG7OcRixT87GE2QslNUZ35S3JplRENUmErW3k5TPGryB4tzVfEC+FdIGESUg=";
-    protected static final String SESSION = "0250305D-9732-418D-8648-19655197171B";
-    protected static final String RC = "https://rc-api.ncsoft.com/";
+    protected static final String APP_ID = "...";
+    protected static final String APP_SECRET = "...";
+    protected static final String SESSION = "...";
+    protected static final String RC = "https://api-server-url/";
     
     @Before
     public void setUp() throws Exception {
@@ -127,14 +137,14 @@ public class Test {
 
         RuntimeEnvironment.APIGATE_URL = RC;
         RuntimeEnvironment.GAMEDATA_GAME_KEY = "lms";
-        RuntimeEnvironment.BUCKET_HOST_URL = "https://rc-api.ncsoft.com";
+        RuntimeEnvironment.BUCKET_HOST_URL = RC;
     }
     
     @Test
     public void getGameUserArticleCount() throws Exception {
         Nc2Article.GameUser gameUser = Mockito.mock(Nc2Article.GameUser.class);
-        gameUser.gameCharacterId = "215BADC1-4041-11E7-80CD-00155D01E804";
-        gameUser.gameUserUid = "A692B5C8-103C-4390-8F23-0CB7C1DAFDF3";
+        gameUser.gameCharacterId = "...";
+        gameUser.gameUserUid = "...";
         gameUser.gameServerId = 1;
 
         Nc2ApiResponse<Nc2User.ArticleCount> response = Nc2User.getArticleCount(gameUser);
@@ -144,9 +154,20 @@ public class Test {
 }
 ```
 
-- Troubleshooting	
-	- 네트워크 연결 테스트중 https 연결에 대하여 PKIX path validation failed: java.security.cert.CertPathValidatorException: Algorithm constraints check failed on signature algorithm: SHA384WithRSAEncryption 발생
-	- 다음 클래스를 생성 한다. ```src/test/java/android/security/NetworkSecurityPolicy```
+- Step4. Troubleshooting	
+
+- java.lang.AbstractMethodError: org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.isTypeMockable(Ljava/lang/Class;)Lorg/mockito/plugins/MockMaker$TypeMockability;
+
+	- 권장 솔루션: 아래 종속성을 추가한다.
+
+```
+	testImplementation "org.powermock:powermock-module-junit4:1.6.6"
+	testImplementation "org.powermock:powermock-api-mockito:1.6.6"
+```
+
+- 네트워크 연결 테스트중 https 연결에 대하여 PKIX path validation failed: java.security.cert.CertPathValidatorException: Algorithm constraints check failed on signature algorithm: SHA384WithRSAEncryption
+
+	- 권장 솔루션: 다음 클래스를 생성 한다. ```src/test/java/android/security/NetworkSecurityPolicy```
 
 ```
 package android.security;

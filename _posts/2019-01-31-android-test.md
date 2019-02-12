@@ -45,7 +45,7 @@ Test In Android
 -
 그렇다면 우리가 사랑하는 Android에서의 테스트는 어떤가요? 불행하게도 Android는 테스트를 수행하기에 많은 장벽이 있습니다. 이게 바로 오늘 이와 같은 문서를 마련한 이유이기도 하죠. Android 테스트가 어려운 많지만 정리해보자면 다음과 같습니다.
 
-1. Mock 객체를 사용하기 굉장히 까다로운 구조입니다.
+1. [Mock 객체](https://jaeho.github.io/android/test-double/)를 사용하기 굉장히 까다로운 구조입니다.
 	- Android는 기본적으로 android.test.mock 패키지를 통해 MockContext, MockApplication, MockResource와 같은 기본적인 Mock 객체를 제공합니다. 하지만 이들의 구현체는 UnsupportedOperationException만 뱉는 사용하기 어려운 껍데기입니다. 만약 필요하다면 이 Mock객체를 직접 구현해야하는데 이건 쉬운일이 아닙니다.
 	
 2. 테스트를 위해 제공되는 Istrumentation Test가 난해합니다.

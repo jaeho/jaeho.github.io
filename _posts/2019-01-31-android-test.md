@@ -65,19 +65,30 @@ Test In Android
 해 볼 수 있는 것 "로컬(JVM) 단위 테스트"
 -
 
-Android의 높은 진입 장벽을 우회하여 일단 UI가 아닌 비즈니스 로직부터 검증해 봅시다. 하지만 그냥 Java에서는 한없이 간단했던 이 일조차 Android 에서는 그리 녹록치 않습니다. [공식 문서](https://developer.android.com/studio/test/?hl=ko)에서는 로컬 단위 테스트에 대해 아래와 같이 소개하고 있습니다.
+Android의 높은 진입 장벽을 우회하여 일단 UI가 아닌 비즈니스 로직부터 검증해 봅시다. 하지만 그냥 Java에서는 한없이 간단했던 이 일조차 Android 에서는 그리 녹록치 않습니다. 본래 Android Runtime에서 수행되어야 할 테스트가 PC JVM에서 실행되는 만큼 다른 환경에 따른 추가 처리가 필요하기 때문입니다. [공식 문서](https://developer.android.com/studio/test/?hl=ko)에서는 로컬 단위 테스트에 대해 아래와 같이 소개하고 있습니다.
 
 ```
 컴퓨터의 로컬 JVM(Java Virtual Machine)에서 실행되는 테스트입니다. 
 테스트에 Android 프레임워크 종속성이 없거나 Android 프레임워크 종속성에 대한 모의 객체를 생성할 수 있는 경우 이 테스트를 사용하면 실행 시간을 최소화할 수 있습니다.
 
-런타임에 이 테스트는 모든 final 한정자가 삭제된, 수정된 버전의 android.jar에 대해 실행됩니다. 
+런타임에 이 테스트는 모든 final 한정자가 삭제된 수정된 버전의 android.jar에 대해 실행됩니다. 
 여기서는 Mockito와 같이 흔히 사용되는 모의 라이브러리를 사용할 수 있습니다.
 ```
 
-하지만 다들 아시다시피 우리는 비즈니스 로직이라 하더라도 Android 프레임워크에 대부분 종속성을 가지고 있습니다. 그렇다면 Mock 객체가 필요하다는 얘기고 Mock 객체를 사용하기 위한 라이브러리 사용, 설정, 스터디 등 귀찮은 일들이 추가된다는 이야기 이기도 합니다. 아무튼 그 어려운걸 하나씩 차근차근 해봅시다.
+테스트 테스크가 시작되면 중간에 ```mockableAndroidJar``` 테스크를 호출하는것을 확인 할 수 있습니다. 이 테스크가 위 소개글에서 설명하는 android.jar 파일을 mock 인터페이스 형태로 컴파일하는 테스크 입니다. 문제는 android.jar가 mock 형태의 기능을 제공하기 때문에 사실상 아무런 기능을 하지 않는다는 것입니다. 아마도 처음 테스트 코드를 작성하며 Android 프레임워크에 기능을 사용하게 되면 이런 에러 메시지를 만난 경험이 있을 것입니다. 
 
-* 추가적으로 로컬 단위 테스트의 한계점에 대해 살펴보면 말그대로 로컬(JVM)에서 동작하는 만큼 Android Runtime 환경과 차이가 발생 할 수 있습니다. Mockito와 Robolectrics로 커버하지만 근본적으로 다른 환경이라는 걸 인지하고 비즈니스 로직을 검증하는데 사용해야 합니다.
+```
+java.lang.RuntimeException: Stub!?
+```
+
+이런 부분을 해결하기 위해서는 Stub으로 구현된 부분을 실제로 구현해야 합니다만 이건 테스트를 위한 테스트 코드 작성을 요구하여 테스트의 무결성에 영향을 줄 뿐아니라 무엇보다 굉장히 번거롭습니다.
+
+> 꼭 코드 작성이 아니라 Stub에 해당하는 라이브러리를 직접 추가해 줄 수도 있습니다. 예를들어 Android 프레임 워크에 포함된 ```org.json.JSONObject``` 객체를 사용하며 Stub!? 이 발생한 경우 JSONObject 라이브러리를 추가하여 해결 할 수도 있습니다.
+
+이런 한계점을 개선하기 위해 시도되고 있는 여러 프로젝트중 가장 유명하고 많이 사용하는것이 ```Robolectric``` 입니다. Robolectric은 JVM에서 Android SDK가 제공하는 코드를 가로채 정상 실행 될 수 있도록 동작합니다.
+
+Android 프레임워크에 대한 종속성을 Robolectric이 어느정도 해결해 준다고 하더라도 말그대로 로컬(JVM)에서 동작하는 만큼 Android Runtime 환경과 차이가 발생 할 수 있습니다. 로컬 테스트는 근본적으로 다른 환경이라는 걸 인지하고 비즈니스 로직을 검증하는데 사용해야 합니다.
+
 
 - Step1. dependencies 설정
 
@@ -108,6 +119,12 @@ android {
 	- 기본 위치: ```{module-name}/src/test/java/{package-path}/Test.java```
 	- Test 클래스를 작성할때 주의점은 @RunWith 어노테이션으로 실행할 러너를 지정해줘야 하는점을 잊지 말아야 합니다. 저 같은 경우 항상 그걸 잊어서 Empty Test Suit 오류를 보고 뭘까 한번씩 꼭 생각하게 됩니다.
 	- 실습해봅시다.
+
+- Robolectics를 이용한 깨알 꿀팁
+	- Logcat을 콘솔로 출력 하고 싶을때는?
+		- ```ShadowLog.stream = System.out;```
+	- 특정 버전의 단말에서 테스트를 실행하는 것처럼 환경을 설정하고 싶을때는?
+		- ```Robolectric.Reflection.setFinalStaticField(Build.VERSION.class, "SDK_INT", Build.VERSION_CODES.JELLY_BEAN);```
 
 
 Troubleshooting	

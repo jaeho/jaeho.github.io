@@ -1,9 +1,66 @@
 ---
-title: "Android with Test"
+title: "Android Test"
 date: 2019-01-31 11:07:00 +0900
 categories: android
 classes: wide
 ---
+
+What is Test Code?
+-
+구글에 "test code"를 검색해보면 결과가 5,490,000,000개, 범위를 조금 좁혀 "android test code"를 검색해 보면 1,180,000,000개가 검색 됩니다. 이처럼 많은 관심을 받고 있는 테스트 코드 우리는 어디까지 알고 어디까지 활용하고 있을까요?
+
+간단히 정의하자면 테스트 코드는 코드에 대한 검증을 위한 코드입니다. 예를 들어 살펴보겠습니다. 다음은 IU의 IUri.getHost() 함수가 제대로 동작하는지 알아보기위한 테스트 코드입니다. 아래 코드는 IUri.getHost()의 결과가 예상된 결과에 맞는지 검증하고 있습니다. 
+
+```
+@Test
+public void getHostHome() {
+    IUri.Host excepted = IUri.Host.Home;
+    IUri.Host input = IUri.getHost(Uri.parse("nc2://home"));
+    Assert.assertEquals(input, excepted);
+}
+
+@Test
+public void getHostUnknown() {
+    IUri.Host excepted = IUri.Host.Unknown;
+    IUri.Host input = IUri.getHost(Uri.parse("nc2://whatislove"));
+    Assert.assertEquals(input, excepted);
+}
+```
+
+간단하게 작성된 위 테스트 코드는 어떤점에서 필요할까요?
+
+1. 먼저 혹시 있을지 모르는 코드상의 오류를 발견할 수 있게 도와줍니다. 
+2. 반복적으로 수행할 테스트를 자동화하여 편의성을 높여줍니다.
+3. 설계를 개선합니다.
+	- 이건 매우 중요한 항목입니다.
+	- 위 코드가 제대로 동작하는것을 검증하기 위해서는 getHost() 함수가 매우 독립적으로 동작하도록 설계되어야 되는것이 우선입니다. 
+	- 다른 코드를 수정했을때 위 테스트 코드의 결과가 변하게 되는 상황을 모니터링 할 수 있게 되어 설계를 수정하고 독립적인 모듈로 동작하도록 수정할수 있도록 가이드합니다.
+4. 테스트 코드 자체가 하나의 가이드 역할을 합니다.
+	- 추후 이 프로젝트를 넘겨받을 사람은 문서가 아닌 테스트 코드를 보고 해당 코드의 역할과 기대되는 동작을 유추할 수 있게 됩니다. 잘짜여진 테스트 코드는 인수인계 문서를 줄여줍니다.
+5. 뿌듯합니다.
+	- 커버리지는 어떤 절대적인 척도도 될 수 없지만 높아지는 커버리지는 개발자 가슴 깊은 곳의 만족감을 충족 시켜줍니다. (적어도 저한테는 그랬습니다)
+
+
+Test In Android
+-
+그렇다면 우리가 사랑하는 Android에서의 테스트는 어떤가요? 불행하게도 Android는 테스트를 수행하기에 많은 장벽이 있습니다. 이게 바로 오늘 이와 같은 문서를 마련한 이유이기도 하죠. Android 테스트가 어려운 많지만 정리해보자면 다음과 같습니다.
+
+1. Mock 객체를 사용하기 굉장히 까다로운 구조입니다.
+	- Android는 기본적으로 android.test.mock 패키지를 통해 MockContext, MockApplication, MockResource와 같은 기본적인 Mock 객체를 제공합니다. 하지만 이들의 구현체는 UnsupportedOperationException만 뱉는 사용하기 어려운 껍데기입니다. 만약 필요하다면 이 Mock객체를 직접 구현해야하는데 이건 쉬운일이 아닙니다.
+	
+2. 테스트를 위해 제공되는 Istrumentation Test가 난해합니다.
+	- ActivityTestCase, ActivityUnitTestCase, ActivityInstrumentationTestCase2 등 정체 불명의 도구들이 많습니다. 내 Application 객체의 Function 하나를 테스트 하기위해, 또는 내 Activity의 동작을 테스트하기위해 무엇을 선택해야 하는지 부터 고민스러워 집니다.
+	- 참고로 ActivityUnitTestCase는 레이아웃 및 격리 된 메서드를 테스트하는 데 사용하며 ActivityInstrumentationTestCase2는 터치/마우스 이벤트를 보내고 Activity의 상태 관리를 테스트하려는 경우 사용할 수 있습니다. 일반적으로 ActivityTestCase는 사용하지 않습니다.
+	
+3. UI 테스트는 원래 어렵습니다.
+	- 이건 비단 Android의 이슈는 아닙니다. iOS도 웹도 PC 어플리케이션도 UI 생성과 이벤트를 다루는 코드는 테스트하기 어려운 분야입니다. 
+	- 그 효용성에 대해서도 갑을논박이 많은 분야입니다. UI 객체의 속성은 자주 바뀌고 익명 클래스 등을 통해 처리되는 이벤트는 Mock 객체로 바꾸고 추적하기가 어렵습니다.
+	
+4. 테스트는 느립니다.
+	- "apk 패키징 > apk 설치 > 실행" 과정 이 선행 되어야 하기 때문에 누군가의 PC처럼 시스템 자체가 빠르지 않은 경우가 아니더라고 해도 Android의 테스트 프레임워크는 기본적인 java 테스트에 비해 느립니다. 
+
+그럼에도 불구하고 우리는 Android Test를 100% 포기 할 수는 없습니다. 위와 같은 제약이 있다 하더라도 테스트의 의의를 살릴 수 있고 무의미한 짓이 아닌 효용성 있는 테스트 코드 작성을 위해 끊임 없이 고민해야합니다. 왜냐면 ~~저 위에서 자꾸 그걸 시키기 때문~~ 우리는 작은 코드 한줄에도 치열하게 고민하고 끊임없이 개선해 나아가야 할 운명을 갖고 사는 개발자이기 때문입니다.
+
 
 로컬(JVM) 단위 테스트
 -

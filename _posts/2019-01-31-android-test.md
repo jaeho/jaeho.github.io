@@ -62,7 +62,7 @@ Test In Android
 그럼에도 불구하고 우리는 Android Test를 100% 포기 할 수는 없습니다. 위와 같은 제약이 있다 하더라도 테스트의 의의를 살릴 수 있고 무의미한 짓이 아닌 효용성 있는 테스트 코드 작성을 위해 끊임 없이 고민해야합니다. 왜냐면 ~~저 위에서 자꾸 그걸 시키기 때문~~ 우리는 작은 코드 한줄에도 치열하게 고민하고 끊임없이 개선해 나아가야 할 운명을 갖고 사는 개발자이기 때문입니다. 그러니 해 볼 수 있는것 부터 하나씩 시작해 봅시다.
 
 
-해 볼 수 있는 것 1 "로컬(JVM) 단위 테스트"
+해 볼 수 있는 것 "로컬(JVM) 단위 테스트"
 -
 
 Android의 높은 진입 장벽을 우회하여 일단 UI가 아닌 비즈니스 로직부터 검증해 봅시다. 하지만 그냥 Java에서는 한없이 간단했던 이 일조차 Android 에서는 그리 녹록치 않습니다. [공식 문서](https://developer.android.com/studio/test/?hl=ko)에서는 로컬 단위 테스트에 대해 아래와 같이 소개하고 있습니다.
@@ -104,65 +104,24 @@ android {
 }
 ```
 
-
 - Step3. Test 코드 작성 
-	- 파일 위치: ```{module-name}/src/test/java/{package-path}/Test.java```
-		- 파일 위치는 변경 가능하지만 이때 gradle 파일에 따로 설정해줘야합니다. 방법은 Google로..
+	- 기본 위치: ```{module-name}/src/test/java/{package-path}/Test.java```
 	- Test 클래스를 작성할때 주의점은 @RunWith 어노테이션으로 실행할 러너를 지정해줘야 하는점을 잊지 말아야 합니다. 저 같은 경우 항상 그걸 잊어서 Empty Test Suit 오류를 보고 뭘까 한번씩 꼭 생각하게 됩니다.
-	- 아래 코드를 참고해 주세요.
+	- 실습해봅시다.
 
-```
-@RunWith(RobolectricTestRunner.class)
-public class Test {
 
-    protected static final String APP_ID = "...";
-    protected static final String APP_SECRET = "...";
-    protected static final String SESSION = "...";
-    protected static final String RC = "https://api-server-url/";
-    
-    @Before
-    public void setUp() throws Exception {
-        Context context = Mockito.mock(Context.class);
-        Nc2Sdk.initialize(context, new Nc2SessionProvider() {
-            @Override
-            public String getSession() {
-                return SESSION;
-            }
+Troubleshooting	
+-
 
-            @Override
-            public void refreshSession(OnRefreshedSession onRefreshedSession) {
-
-            }
-        }, APP_ID, APP_SECRET);
-
-        RuntimeEnvironment.APIGATE_URL = RC;
-        RuntimeEnvironment.GAMEDATA_GAME_KEY = "lms";
-        RuntimeEnvironment.BUCKET_HOST_URL = RC;
-    }
-    
-    @Test
-    public void getGameUserArticleCount() throws Exception {
-        Nc2Article.GameUser gameUser = Mockito.mock(Nc2Article.GameUser.class);
-        gameUser.gameCharacterId = "...";
-        gameUser.gameUserUid = "...";
-        gameUser.gameServerId = 1;
-
-        Nc2ApiResponse<Nc2User.ArticleCount> response = Nc2User.getArticleCount(gameUser);
-        out.println(response);
-        assertTrue(response.isSuccess());
-    }
-}
-```
-
-- Step4. Troubleshooting	
+프로젝트에 테스트를 적용하며 발생했던 이슈에 대해 간략하게 정리해봤습니다.
 
 - java.lang.AbstractMethodError: org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.isTypeMockable(Ljava/lang/Class;)Lorg/mockito/plugins/MockMaker$TypeMockability;
 
 	- 권장 솔루션: 아래 종속성을 추가한다.
 
 ```
-	testImplementation "org.powermock:powermock-module-junit4:1.6.6"
-	testImplementation "org.powermock:powermock-api-mockito:1.6.6"
+	testImplementation "org.powermock:powermock-module-junit4:1.6.2"
+	testImplementation "org.powermock:powermock-api-mockito:1.6.2"
 ```
 
 - 네트워크 연결 테스트중 https 연결에 대하여 PKIX path validation failed: java.security.cert.CertPathValidatorException: Algorithm constraints check failed on signature algorithm: SHA384WithRSAEncryption
@@ -188,10 +147,10 @@ public class NetworkSecurityPolicy {
 }
 ```
 
-### With Jacoco
+Jacoco
+-
 
-
-**What is Jacoco?** 자코코는 **Ja**va **Co**de **Co**verage의 줄임말이다. Android Studio는 유닛 테스트를 지원하지만 테스트 커버리지 측정은 자체적으로 지원하지 않고 있기 때문에 테스트 커버리지를 측정할 수 있는 툴이 필요하다. Java의 코드 커버리지 측정툴 중 가장 유명한것은 Cobertuna지만 Jacoco가 gradle 플러그인 지원, Java 7/8 지원, Runtime에 실행 가능한 점 등의 특성 때문에 많이 사용되고 있다.
+**What is Jacoco?** 자코코는 **Ja**va **Co**de **Co**verage의 줄임말입니다. Android Studio는 유닛 테스트를 지원하지만 테스트 커버리지 측정은 자체적으로 지원하지 않고 있기 때문에 테스트 커버리지를 측정할 수 있는 툴이 필요하죠. Java의 코드 커버리지 측정툴 중 가장 유명한것은 Cobertuna지만 Jacoco가 gradle 플러그인 지원, Java 7/8 지원, Runtime에 실행 가능한 점 등의 특성 때문에 많이 사용되고 있습니다.
 
 - Jacoco의 적용
 
@@ -239,21 +198,3 @@ task 상세
 - reports: 커버리지 결과 리포트 형식을 지정합니다.
 
 
-계측 테스트
-- 
-
-* 위치: ```module-name/src/androidTest/java/```
-* [Developers 의 설명](https://developer.android.com/studio/test/?hl=ko)
-
-```
-하드웨어 기기나 에뮬레이터에서 실행되는 테스트입니다. 
-이 테스트에서는 Instrumentation API에 액세스할 수 있으며, 
-테스트하는 앱의 Context 와 같은 정보에 대한 액세스 권한을 개발자에게 제공하고, 
-개발자는 테스트 코드에서 테스트되는 앱을 제어할 수 있습니다. 
-사용자 상호작용을 자동화하는 통합 및 기능적 UI 테스트를 작성하거나 테스트에 모의 객체가 충족할 수 없는 Android 종속성이 있는 경우 이 테스트를 사용합니다.
-
-계측 테스트는 APK(앱 APK와는 별개임)로 빌드되므로 자체 AndroidManifest.xml 파일을 가져야 합니다. 
-하지만, Gradle이 빌드 과정에서 이 파일을 자동으로 생성하므로 프로젝트 소스 세트에는 표시되지 않습니다.
-`minSdkVersion`에 다른 값을 지정하거나 테스트 전용 실행 리스너를 등록하는 등과 같이 필요한 경우 자체 매니페스트 파일을 추가할 수 있습니다. 
-앱을 빌드하면 Gradle이 여러 매니페스트 파일을 하나의 매니페스트 파일로 병합합니다.
-```

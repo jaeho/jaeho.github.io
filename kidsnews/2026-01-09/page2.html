@@ -34,16 +34,15 @@
 
 .paper {
     width: 210mm;
-    min-height: 297mm;
-    background-color: #fffdf5; /* 미색 종이 느낌 */
-    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+    height: 297mm;
+    background-color: #fff;
     position: relative;
-    box-shadow: 0 0 40px rgba(0,0,0,0.1);
+    box-shadow: none;
 }
 
-/* 텍스트 가독성 최적화 (22px Bold) */
+/* 텍스트 가독성 최적화 (20px Bold) */
 .article-text {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.7;
     text-align: justify;
@@ -52,7 +51,7 @@
 }</style>
 </head>
 
-<body class="bg-gray-100 flex justify-center py-10 antialiased">
+<body class="bg-white flex justify-center antialiased">
     <div class="paper p-10 flex flex-col gap-8">
         <header class="flex flex-col border-b-4 border-[#2bee79] pb-6">
             <div class="flex justify-between items-end mb-2">

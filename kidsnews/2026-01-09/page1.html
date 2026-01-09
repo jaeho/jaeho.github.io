@@ -34,16 +34,15 @@
 
 .paper {
     width: 210mm;
-    min-height: 297mm;
-    background-color: #fffdf5; /* 미색 종이 느낌 */
-    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+    height: 297mm;
+    background-color: #fff;
     position: relative;
-    box-shadow: 0 0 40px rgba(0,0,0,0.1);
+    box-shadow: none;
 }
 
-/* 텍스트 가독성 최적화 (22px Bold) */
+/* 텍스트 가독성 최적화 (20px Bold) */
 .article-text {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.7;
     text-align: justify;
@@ -52,21 +51,21 @@
 }</style>
 </head>
 
-<body class="bg-gray-100 flex justify-center py-10 antialiased">
+<body class="bg-white flex justify-center antialiased">
 
-    <div class="paper p-10 flex flex-col gap-8 shadow-2xl">
+    <div class="paper p-10 flex flex-col gap-8">
 
-        <header class="flex flex-col border-b-4 border-[#2bee79] pb-6">
+        <header class="flex flex-col border-b-4 border-[#2bee79] pb-4">
             <div class="flex justify-between items-end mb-2">
                 <span class="text-sm font-bold text-gray-400 uppercase tracking-widest">Daily Kids News</span>
                 <a href="page2.html" class="px-3 py-1 bg-[#2bee79]/20 rounded-full text-xs font-bold text-green-800 hover:bg-[#2bee79]/40 transition-colors cursor-pointer">PAGE 01</a>
             </div>
-            <h1 class="text-5xl font-black tracking-tight text-center text-gray-900">
+            <h1 class="text-4xl font-black tracking-tight text-center text-gray-900">
                 하루 한 장 어린이 신문
             </h1>
-            <div class="flex justify-center items-center mt-4 gap-4 text-gray-500">
+            <div class="flex justify-center items-center mt-2 gap-4 text-gray-500">
                 <span class="h-px w-12 bg-gray-300"></span>
-                <p class="text-lg font-bold">2026년 01월 09일 (금요일)</p>
+                <p class="text-base font-bold">2026년 01월 09일 (금요일)</p>
                 <span class="h-px w-12 bg-gray-300"></span>
             </div>
         </header>
@@ -100,24 +99,20 @@
             </div>
         </article>
 
-        <div class="grid grid-cols-2 gap-6 mt-auto pt-8 border-t-2 border-dashed border-gray-300">
-            <div class="bg-blue-50 rounded-2xl p-6 border border-blue-100 relative overflow-hidden">
+        <div class="grid grid-cols-2 gap-6 mt-auto pt-4 border-t-2 border-dashed border-gray-300">
+            <div class="bg-blue-50 rounded-2xl p-4 border border-blue-100 relative overflow-hidden">
                 <h3 class="text-blue-600 font-black text-sm uppercase mb-3 flex items-center gap-2">
                     <span>📘</span> 오늘의 단어
                 </h3>
-                <p class="text-2xl font-black text-gray-900 mb-1">경쟁</p>
-                <p class="text-lg font-bold text-blue-800/80">누가 더 잘하나 서로 실력을 겨루는 것을 말해요.</p>
+                <p class="text-xl font-black text-gray-900 mb-1">경쟁</p>
+                <p class="text-base font-bold text-blue-800/80">누가 더 잘하나 서로 실력을 겨루는 것을 말해요.</p>
             </div>
 
-            <div class="bg-yellow-50 rounded-2xl p-6 border-2 border-dashed border-yellow-200 relative">
+            <div class="bg-yellow-50 rounded-2xl p-4 border-2 border-dashed border-yellow-200 relative">
                 <h3 class="text-yellow-700 font-black text-sm uppercase mb-3 flex items-center gap-2">
                     <span>🔍</span> 숨은 단어 찾기
                 </h3>
-                <p class="text-xl font-bold text-gray-800 leading-snug">노란색 몸에 빨간 볼을 가진 전기 포켓몬의 이름이에요. 기사에서 이 이름을 찾아 동그라미를 쳐보세요!</p>
-                <div
-                    class="w-full h-24 mt-4 bg-white/50 rounded-xl border border-yellow-100 flex items-center justify-center">
-                    <span class="text-gray-400 font-bold">찾은 단어: [ 피카츄 ]</span>
-                </div>
+                <p class="text-lg font-bold text-gray-800 leading-snug">노란색 몸에 빨간 볼을 가진 전기 포켓몬의 이름이에요. 기사에서 이 이름을 찾아 동그라미를 쳐보세요!</p>
             </div>
         </div>
 

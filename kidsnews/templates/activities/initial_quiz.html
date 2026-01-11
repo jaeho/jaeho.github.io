@@ -1,0 +1,17 @@
+<div class="flex flex-col gap-8">
+    <p class="text-2xl font-bold text-gray-800 italic">✏️ {{ instruction }}</p>
+    <div class="space-y-10">
+        {% for item in items %}
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"{{ item.clue }}"</p>
+            <div class="flex gap-3">
+                {% for char in item.initials %}
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    {{ char }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

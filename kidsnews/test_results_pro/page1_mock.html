@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>하루 한 장 어린이 신문 - 하하 어린이 신문 테스트 발행</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>/* Tailwind CDN은 HTML에서 호출하므로 여기에는 커스텀 클래스만 넣습니다. */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&family=Noto+Sans+KR:wght@400;700;900&display=swap');
+
+/* 드롭캡: 첫 번째 문단의 첫 글자를 크고 예쁘게 */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4rem;
+    line-height: 0.8;
+    font-weight: 900;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: #2bee79; /* 하하신문 포인트 컬러 */
+}
+
+/* 실제 인쇄 시 A4 규격을 유지하기 위한 설정 */
+@media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .paper {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.paper {
+    width: 210mm;
+    min-height: 297mm;
+    background-color: #fffdf5; /* 미색 종이 느낌 */
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+    position: relative;
+    box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+/* 텍스트 가독성 최적화 (22px Bold) */
+.article-text {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.7;
+    text-align: justify;
+    word-break: keep-all;
+    color: #111814;
+}</style>
+</head>
+
+<body class="bg-gray-100 flex justify-center py-10 antialiased">
+
+<div class="paper p-10 flex flex-col gap-8 shadow-2xl">
+
+    <header class="flex flex-col border-b-4 border-[#2bee79] pb-6">
+        <div class="flex justify-between items-end mb-2">
+            <span class="text-sm font-bold text-gray-400 uppercase tracking-widest">Daily Kids News</span>
+            <span
+                    class="px-3 py-1 bg-[#2bee79]/20 rounded-full text-xs font-bold text-green-800">PAGE 01</span>
+        </div>
+        <h1 class="text-5xl font-black tracking-tight text-center text-gray-900">
+            하루 한 장 어린이 신문
+        </h1>
+        <div class="flex justify-center items-center mt-4 gap-4 text-gray-500">
+            <span class="h-px w-12 bg-gray-300"></span>
+            <p class="text-lg font-bold">2024년 1월 1일 (월요일)</p>
+            <span class="h-px w-12 bg-gray-300"></span>
+        </div>
+    </header>
+
+        <section class="relative rounded-2xl overflow-hidden shadow-xl">
+            
+            <img src="test_article_image.png" class="w-full aspect-video object-cover" alt="News Image">
+            
+
+            <div
+                class="absolute bottom-4 left-4 right-4 bg-white/85 backdrop-blur-xl p-6 rounded-xl border border-white/50 shadow-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 leading-tight">
+                    하하 어린이 신문 테스트 발행
+                </h2>
+                <p class="text-sm text-green-600 font-black mt-2 uppercase tracking-widest">Today's Special</p>
+            </div>
+        </section>
+
+        <article class="flex-1">
+            <div class="grid grid-cols-2 gap-8 article-text">
+                <div class="drop-cap">
+                    오늘은 하하 어린이 신문의 새로운 시스템을 테스트하는 날이에요.
+                </div>
+                <div>
+                    
+                    <p class="mb-4">멋진 활동지들이 잘 만들어지는지 확인해볼까요?</p>
+                    
+                    <p class="mb-4">모두 함께 즐겁게 문제를 풀어보아요.</p>
+                    
+                </div>
+            </div>
+        </article>
+
+        <div class="grid grid-cols-2 gap-6 mt-auto pt-8 border-t-2 border-dashed border-gray-300">
+            <div class="bg-blue-50 rounded-2xl p-6 border border-blue-100 relative overflow-hidden">
+                <h3 class="text-blue-600 font-black text-sm uppercase mb-3 flex items-center gap-2">
+                    <span>📘</span> 오늘의 단어
+                </h3>
+                <p class="text-2xl font-black text-gray-900 mb-1">시스템</p>
+                <p class="text-lg font-bold text-blue-800/80">필요한 기능을 실현하기 위하여 관련 요소를 체계적으로 결합한 집합체예요.</p>
+            </div>
+
+            <div class="bg-yellow-50 rounded-2xl p-6 border-2 border-dashed border-yellow-200 relative">
+                <h3 class="text-yellow-700 font-black text-sm uppercase mb-3 flex items-center gap-2">
+                    <span>🎨</span> 같이 해보자
+                </h3>
+                <p class="text-xl font-bold text-gray-800 leading-snug"></p>
+                <div class="w-full h-24 mt-4 bg-white/50 rounded-xl border border-yellow-100"></div>
+            </div>
+        </div>
+
+        <div class="text-center text-xs font-bold text-gray-400">
+            하하 어린이 신문 | 주원이를 위한 매일매일 놀이터
+        </div>
+    </div>
+
+</body>
+
+</html>

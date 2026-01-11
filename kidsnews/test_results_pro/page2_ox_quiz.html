@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>/* Tailwind CDN은 HTML에서 호출하므로 여기에는 커스텀 클래스만 넣습니다. */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&family=Noto+Sans+KR:wght@400;700;900&display=swap');
+
+/* 드롭캡: 첫 번째 문단의 첫 글자를 크고 예쁘게 */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4rem;
+    line-height: 0.8;
+    font-weight: 900;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: #2bee79; /* 하하신문 포인트 컬러 */
+}
+
+/* 실제 인쇄 시 A4 규격을 유지하기 위한 설정 */
+@media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .paper {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.paper {
+    width: 210mm;
+    min-height: 297mm;
+    background-color: #fffdf5; /* 미색 종이 느낌 */
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+    position: relative;
+    box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+/* 텍스트 가독성 최적화 (22px Bold) */
+.article-text {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.7;
+    text-align: justify;
+    word-break: keep-all;
+    color: #111814;
+}</style>
+</head>
+<body class="bg-gray-100 flex justify-center py-10 antialiased">
+<div class="paper p-10 flex flex-col gap-8">
+    <header class="flex flex-col border-b-4 border-[#2bee79] pb-6">
+        <div class="flex justify-between items-end mb-2">
+            <span class="text-sm font-bold text-gray-400 uppercase tracking-widest">Daily Kids Play</span>
+            <span class="px-3 py-1 bg-[#2bee79]/20 rounded-full text-xs font-bold text-green-800">PAGE 02</span>
+        </div>
+        <h1 class="text-4xl font-black tracking-tight text-gray-900">ox_quiz 활동</h1>
+    </header>
+
+    <main class="flex-1">
+        <div class="flex flex-col gap-6">
+    <p class="text-2xl font-bold text-gray-800 mb-2">✅ 기사 내용을 읽고 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.</p>
+    <div class="space-y-4">
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                1.
+                
+                
+                오늘은 하하 어린이 신문의 새로운 시스템을 테스트하는 날이다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                2.
+                
+                
+                이번 시스템 테스트를 통해 확인하려는 것은 활동지가 잘 만들어지는지 여부이다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                3.
+                
+                
+                기사에서는 문제를 풀 때 다른 사람과 함께하지 말고 혼자서 풀라고 말하고 있다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+    </main>
+
+    <footer class="mt-auto pt-8 border-t-2 border-dashed border-gray-300">
+        <div class="bg-blue-50 rounded-2xl p-6 border border-blue-100 relative overflow-hidden">
+            <h3 class="text-blue-600 font-black text-sm uppercase mb-3 flex items-center gap-2">
+                <span>📘</span> 똑똑해지는 시간 (오늘의 단어)
+            </h3>
+            <div class="flex items-baseline gap-4">
+                <p class="text-4xl font-black text-gray-900">시스템</p>
+                <p class="text-xl font-bold text-blue-800/80">필요한 기능을 실현하기 위하여 관련 요소를 체계적으로 결합한 집합체예요.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

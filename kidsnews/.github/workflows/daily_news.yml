@@ -1,0 +1,68 @@
+name: Seed News Automation
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # 한국 시간 기준 매일 오전 8시 (UTC 23:00)
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: '특별 주제 (비워두면 자동)'
+        required: false
+        default: ''
+      new:
+        description: '기존 데이터 삭제 후 재생성'
+        type: boolean
+        default: false
+      activity:
+        description: '활동 타입 강제 지정'
+        type: choice
+        options:
+          - ""
+          - ox_quiz
+          - hidden_objects
+          - initial_quiz
+          - emotion_guess
+          - basic
+          - coloring
+        default: ""
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      # [1] 가장 중요: 리포지토리의 파일들을 서버로 복사해옵니다.
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # [2] 파이썬 설치
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # [3] 의존성 라이브러리 설치
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jinja2 pillow playwright google-genai
+          python -m playwright install chromium
+
+      # [4] 뉴스 생성 실행
+      - name: Run make_news.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python make_news.py --new
+
+      # [5] 생성된 결과물만 추출하여 jaeho.github.io 레포로 전송
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.EXTERNAL_REPO_TOKEN }}
+        with:
+          source-directory: '.' # 현재 폴더 전체 (또는 생성된 폴더만 지정 가능)
+          destination-github-username: 'jaeho'
+          destination-repository-name: 'jaeho.github.io'
+          user-email: 'github-actions[bot]@users.noreply.github.com'
+          target-branch: master
+          target-directory: 'kidsnews' # jaeho.github.io/kidsnews 폴더 안에 저장됨

@@ -1,34 +1,39 @@
 {
   "page1": {
-    "headline": "밤이 되면 고양이 눈이 커지는 비밀!",
+    "headline": "우와! 우주 아기 별들의 놀이터, 성운!",
     "article_body": [
-      "가느다란 고양이 눈이 밤에는 왜 커질까요? 고양이는 어두운 밤에도 사물을 아주 잘 봐요. 어둠 속 친구를 잘 찾는 특별한 마법이 있답니다.",
-      "눈 속 검은 구멍인 '동공'이 커지면서 빛을 많이 빨아들여요. 그래서 어둠 속에서도 세상을 환하게 볼 수 있지요. 반짝이는 고양이 눈은 밤의 등불 같아요.",
-      "고양이의 눈은 정말 멋지죠? 오늘 밤 창밖에서 반짝이는 고양이 눈을 찾아봐요. 고양이에게 다정하게 인사하기로 약속해요!"
+      "친구들, 밤하늘에 반짝이는 별들 정말 예쁘지? NASA의 제임스 웹 우주 망원경이 아주 멀리 떨어진 '성운'이라는 곳을 찍었는데, 짜잔! 마치 알록달록 솜사탕처럼 신비로운 모습이야.",
+      "이 성운은 아기 별들이 태어나는 특별한 장소래. 엄마 뱃속처럼 따뜻하고 포근한 가스와 먼지들이 모여 새로운 별을 만들고 있대. 망원경 덕분에 성운의 숨겨진 모습까지 자세히 볼 수 있게 되었어. 마치 탐험가가 된 기분이지?",
+      "우리도 망원경으로 우주를 더 자세히 관찰하면, 지금보다 훨씬 더 놀라운 발견을 할 수 있을 거야! 앞으로 어떤 멋진 우주의 비밀이 밝혀질지 함께 기대해보자! 정말 신나지 않니?",
+      "이 성운은 아기 별들이 태어나는 특별한 장소래. 엄마 뱃속처럼 따뜻하고 포근한 가스와 먼지들이 모여 새로운 별을 만들고 있대. 망원경 덕분에 성운의 숨겨진 모습까지 자세히 볼 수 있게 되었어. 마치 탐험가가 된 기분이지?"
     ],
-    "image_prompt": "A cute fluffy cat with big round glowing eyes sitting in a cozy room at night, warm and soft pastel colors, whimsical storybook illustration style."
+    "image_prompt": "A warm and realistic children's book illustration style. An explorer child is looking through a telescope at a colorful nebula in space, surrounded by stars.",
+    "category_tag": "오늘의 우주",
+    "reference": "example.com/nebula"
   },
-  "activity_type": "ox_quiz",
+  "activity_type": "hidden_objects",
   "word_info": {
-    "word": "동공",
-    "definition": "우리 눈 가운데에 있는 까만 구멍이에요."
+    "word": "성운",
+    "definition": "별들이 태어나는 가스와 먼지로 이루어진 구름"
   },
   "hidden_word": {
-    "word": "마법",
-    "mission": "'마법'이라는 단어를 기사에서 찾아 동그라미를 쳐보세요!"
+    "word": "망원경",
+    "mission": "본문에서 '망원경' 단어를 찾아 동그라미 쳐보세요!"
   },
-  "selected_topic": "고양이는 왜 밤에 눈이 커다랗게 변할까요?",
-  "selected_category": "동물과 자연",
+  "selected_category": "오늘의 우주",
+  "selected_topic": "NASA's James Webb Telescope Captures Stunning Image of a Nebula",
   "wisdom_pool_data": {
-    "text": "콩 심은 데 콩 나고 팥 심은 데 팥 난다",
-    "description": "원인에 따라 결과가 생긴다는 뜻이야. 좋은 행동을 하면 좋은 결과가 올 거야! 항상 좋은 씨앗을 심는 마음으로 바른 행동을 하렴!"
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 먼지들이 하나둘씩 모여서 커다란 산이 된다는 뜻이에요. 우주 성운 속 작은 가스와 먼지들이 모여서 반짝이는 아기 별이 되는 것과 똑같지요!",
+    "message": "우리 친구도 매일매일 조금씩 배우고 노력하면, 밤하늘의 주인공인 별처럼 아주 멋지고 빛나는 사람이 될 수 있을 거예요!"
   },
   "activity_data": {
-    "instruction": "기사 내용을 바탕으로 각 문장이 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "instruction": "신비로운 성운과 아기 별들이 가득한 우주 놀이터에서 숨겨진 물건 3개를 찾아보세요!",
     "items": [
-      "고양이는 어두운 밤에는 사물을 잘 볼 수 없다.",
-      "어둠 속에서 고양이의 동공은 빛을 많이 빨아들이기 위해 커진다.",
-      "고양이의 동공이 커지면 빛을 많이 빨아들여 어둠 속에서도 세상을 환하게 볼 수 있다."
-    ]
+      "젖병",
+      "목마",
+      "크레파스"
+    ],
+    "image_prompt": "Black and white line art style for searching objects, a whimsical cosmic nebula with swirling star dust and cute baby stars, hidden items include one baby bottle, one rocking horse, and one crayon cleverly blended into the celestial clouds, intricate details, coloring book page style."
   }
 }

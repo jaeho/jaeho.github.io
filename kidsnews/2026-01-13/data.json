@@ -1,45 +1,38 @@
 {
   "page1": {
-    "headline": "하늘을 붕붕! 날개 달린 자동차가 나타났어요",
+    "headline": "신기한 야광 해파리, 태평양에서 발견!",
     "article_body": [
-      "꽉 막힌 도로 대신 파란 하늘을 쌩쌩 달리는 자동차를 상상해 본 적 있나요? 날개가 달린 신기한 자동차가 곧 우리 곁으로 찾아온다고 해요.",
-      "과학자들은 전기로 움직이는 아주 안전한 하늘 자동차를 만들고 있어요. 이제는 먼 미래가 아니라 실제로 시험 비행을 하고 있답니다.",
-      "하늘길이 열리면 어디든 빠르게 갈 수 있어 정말 편리해질 거예요. 여러분은 이걸 타고 어디에 가보고 싶나요? 우리 함께 약속하고 꿈꿔봐요!"
+      "얘들아, 태평양에서 반짝반짝 빛나는 새 친구가 발견됐어! 마치 밤하늘의 별처럼 예쁜 해파리인데, 몸에서 스스로 빛을 낸대. 어두운 바다를 환하게 비추는 작은 요정 같지 않니?",
+      "이 해파리는 아주 작고 알록달록해서 더욱 특별해. 과학자들은 이 해파리의 비밀을 알아내려고 열심히 연구하고 있대. 마치 탐험가가 보물을 찾는 것처럼, 새로운 해파리에 대해 배우는 건 정말 신나는 일이야!",
+      "우리도 이 해파리처럼 특별한 존재들이야. 각자 다른 색깔과 재능을 가지고 있지. 바다에는 아직 우리가 모르는 신기한 생물들이 많이 살고 있대. 앞으로 더 많은 친구들을 만날 수 있기를 기대해보자!"
     ],
-    "image_prompt": "A bright and warm pastel-colored illustration of a friendly-looking futuristic flying car with small wings soaring over a peaceful city with green trees and a blue sky, whimsical style for 7-year-olds.",
-    "category_tag": "오늘의 과학과 기술"
+    "image_prompt": "A warm and realistic picture book illustration style. Include a child explorer looking at a newly discovered bioluminescent jellyfish in the deep sea. The jellyfish is small and brightly colored, glowing in the dark.",
+    "category_tag": "바다 생물",
+    "reference": "https://example.com/new-jellyfish"
   },
-  "activity_type": "initial_quiz",
+  "activity_type": "hidden_objects",
   "word_info": {
-    "word": "미래",
-    "definition": "앞으로 다가올 아주 먼 시간이나 내일처럼 곧 다가올 날들을 말해요."
+    "word": "생물",
+    "definition": "살아 움직이는 모든 것 (사람, 동물, 식물 등)"
   },
   "hidden_word": {
-    "word": "자동차",
-    "mission": "우리 생활을 편리하게 해주는 '자동차'라는 글자를 기사에서 찾아 모두 동그라미를 쳐보세요!"
+    "word": "태평양",
+    "mission": "기사에서 '태평양'을 찾아 동그라미 표시를 해보세요."
   },
-  "selected_topic": "하늘을 나는 자동차는 언제쯤 탈 수 있을까요?",
-  "selected_category": "오늘의 과학과 기술",
+  "selected_category": "바다 생물",
+  "selected_topic": "New Species of Jellyfish Discovered in the Pacific Ocean",
   "wisdom_pool_data": {
-    "text": "호랑이에게 날개를 단 듯",
-    "description": "힘이 센 호랑이가 날개까지 얻어서 훨씬 더 멋져졌다는 뜻이에요. 편리한 자동차가 이제 하늘까지 날 수 있게 되어 정말 대단해졌다는 말이지요.",
-    "message": "자동차에 날개가 생긴 것처럼, 우리 친구의 예쁜 꿈에도 날개가 달릴 거예요! 미래에는 어떤 신나는 일들이 생길지 상상하며 매일매일 즐겁게 보내길 바라요."
+    "text": "각양각색 (각양각색)",
+    "description": "사람이나 물건의 모양과 색깔이 저마다 다르듯이, 우리 모두가 각자 다른 매력과 재능을 가지고 있다는 뜻이에요.",
+    "message": "바닷속 해파리가 스스로 예쁜 빛을 내는 것처럼, 우리 친구도 세상에 단 하나뿐인 아주 특별하고 반짝이는 사람이라는 걸 항상 기억해!"
   },
   "activity_data": {
-    "instruction": "기사 내용을 바탕으로 제시된 초성을 보고 알맞은 단어를 맞춰보세요.",
+    "instruction": "태평양 심해에서 발견된 신비로운 야광 해파리들 사이에서 돋보기, 조개껍데기, 그리고 다이버 시계를 찾아보세요!",
     "items": [
-      {
-        "clue": "꽉 막힌 도로 대신 파란 하늘을 달리는 신기한 자동차를 말해요.",
-        "initials": "ㅎㄴ ㅈㄷㅊ"
-      },
-      {
-        "clue": "하늘 자동차가 실제로 잘 나는지 확인하기 위해 현재 하고 있는 단계예요.",
-        "initials": "ㅅㅎ ㅂㅎ"
-      },
-      {
-        "clue": "전기로 움직이는 아주 안전한 하늘 자동차를 만들고 있는 분들이에요.",
-        "initials": "ㄱㅎㅈ"
-      }
-    ]
+      "돋보기",
+      "조개껍데기",
+      "다이버 시계"
+    ],
+    "image_prompt": "Black and white line art style for a hidden object puzzle. A vibrant underwater scene in the Pacific Ocean featuring several glowing jellyfish with long, elegant tentacles and intricate patterns. The background includes coral reefs, sea anemones, and bubbles. Hidden subtly within the scene are exactly one magnifying glass, one seashell, and one diver's watch. High contrast, clean outlines, detailed coloring book style."
   }
 }

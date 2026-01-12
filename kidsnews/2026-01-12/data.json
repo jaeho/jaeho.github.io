@@ -1,27 +1,31 @@
 {
   "page1": {
-    "headline": "알록달록 변신 천재, 카멜레온의 비밀!",
+    "headline": "마당에 떨어진 비밀 친구, 반짝이 별!",
     "article_body": [
-      "숲속에는 아주 특별한 마법사가 살고 있어요. 바로 몸의 색깔을 마음대로 바꾸는 카멜레온이에요. 카멜레온은 초록색 나뭇잎 위에 있으면 몸을 초록색으로 바꾸고, 갈색 나뭇가지 위에 있으면 갈색으로 변한답니다.",
-      "왜 카멜레온은 색깔을 바꾸는 걸까요? 무서운 적이 나타났을 때 몸을 숨기기 위해서이기도 하지만, 사실은 기분을 나타내기 위해서이기도 해요. 기분이 아주 좋을 때나 화가 났을 때 몸의 색깔이 화려하게 변한답니다.",
-      "카멜레온의 피부 아래에는 작은 알갱이들이 들어 있어요. 이 알갱이들이 서로 가까워지거나 멀어지면서 빛을 반사해 다른 색깔을 만들어내는 거예요. 정말 신기한 자연의 마법이죠? 여러분은 오늘 어떤 색깔의 기분인가요?"
+      "밤하늘에 반짝이는 작은 별이 우리 집 마당으로 톡 떨어졌어요. 강아지 초코는 깜짝 놀라 꼬리를 살랑살랑 흔들며 다가갔지요.",
+      "별은 초코에게 달콤한 사탕 냄새가 난다며 방긋 웃어주었어요. 둘은 밤새도록 구름 위를 달리는 꿈을 꾸며 신나게 놀았답니다.",
+      "아침이 되자 별은 다시 하늘로 올라갔어요. 초코는 이제 밤마다 밤하늘을 보며 반가운 친구 별을 찾아보며 행복해해요."
     ],
-    "image_prompt": "A cute and friendly cartoon chameleon sitting on a tree branch, with half of its body vibrant green and the other half bright yellow with colorful spots. The background is a soft, sunlit forest in a warm watercolor style."
+    "image_prompt": "A cute brown puppy looking at a small glowing yellow star in a cozy garden at night, soft pastel colors, dreamy storybook illustration style, warm lighting."
   },
-  "activity_type": "coloring",
+  "activity_type": "ox_quiz",
   "word_info": {
-    "word": "반사",
-    "definition": "빛이나 소리가 물체에 부딪혀서 다시 튕겨 나가는 것을 말해요."
+    "word": "마당",
+    "definition": "우리 집 앞에 있는 기분 좋은 빈 땅이에요."
   },
   "hidden_word": {
-    "word": "마법사",
-    "mission": "'신비로운 힘을 써서 신기한 일을 하는 사람'을 뜻하는 이 단어를 기사에서 찾아 동그라미를 쳐보세요!"
+    "word": "꼬리",
+    "mission": "강아지 몸 뒤에 달린 '꼬리'를 기사에서 찾아 동그라미를 쳐보세요!"
   },
   "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
   "selected_category": "기타",
   "wisdom_pool_data": null,
   "activity_data": {
-    "instruction": "나뭇잎 사이에 숨어 있는 변신 천재 카멜레온을 여러분만의 알록달록한 색깔로 멋지게 색칠해 보세요!",
-    "image_prompt": "Simple black and white line art for kids coloring book, a cute chameleon sitting on a tree branch with large leaves, thick outlines, minimal detail, no shading, white background, high contrast, clean lines."
+    "instruction": "제시된 기사 내용을 바탕으로 질문의 내용이 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "items": [
+      "강아지 초코의 집 마당에 떨어진 것은 작은 별이다.",
+      "별은 초코에게서 달콤한 사탕 냄새가 난다며 방긋 웃어주었다.",
+      "아침이 되자 별은 초코의 집 마당에 계속 머무르기로 했다."
+    ]
   }
 }

@@ -78,9 +78,9 @@ body {
 
 /* 기사 본문 최적화 */
 .article-text {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
-    line-height: 1.8;
+    line-height: 1.65;
     text-align: justify;
     word-break: keep-all;
     color: var(--text-main);
@@ -202,13 +202,51 @@ body {
 
         <main class="flex-1 overflow-hidden">
             <div class="flex flex-col gap-6">
-    <div class="bg-green-50 p-6 rounded-2xl border border-green-100 shadow-sm text-center">
-        <p class="text-xl font-bold text-gray-800">나뭇잎 사이에 숨어 있는 변신 천재 카멜레온을 여러분만의 알록달록한 색깔로 멋지게 색칠해 보세요!</p>
-        <p class="text-sm text-green-600 font-bold mt-2">✨ 선을 따라 예쁘게 색칠해볼까요? ✨</p>
-    </div>
-
-    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
-        <img src="activity_image.png" class="w-full">
+    <p class="text-2xl font-bold text-gray-800 mb-2">✅ 제시된 기사 내용을 바탕으로 질문의 내용이 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.</p>
+    <div class="space-y-4">
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                1.
+                
+                
+                강아지 초코의 집 마당에 떨어진 것은 작은 별이다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                2.
+                
+                
+                별은 초코에게서 달콤한 사탕 냄새가 난다며 방긋 웃어주었다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                3.
+                
+                
+                아침이 되자 별은 초코의 집 마당에 계속 머무르기로 했다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
     </div>
 </div>
         </main>

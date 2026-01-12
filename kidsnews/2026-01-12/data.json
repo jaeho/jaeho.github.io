@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "뒤로도 슝슝! 비행 천재 잠자리",
+    "article_body": [
+      "가을 하늘에 잠자리가 나타났어요. 잠자리는 날개가 네 개나 있어서 아주 빠르게 날 수 있답니다.",
+      "잠자리는 정말 신기해요. 앞으로만 가는 게 아니라, 뒤로도 날고 공중에 가만히 멈춰 있기도 해요.",
+      "큰 눈으로 먹이도 잘 찾는 잠자리! 우리 함께 멋진 비행 천재 잠자리를 응원하며 관찰해 볼까요?"
+    ],
+    "image_prompt": "A bright, pastel-colored illustration of a cute dragonfly flying in a clear blue autumn sky with some cosmos flowers, soft and warm art style for children."
+  },
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "비행",
+    "definition": "하늘을 자유롭게 날아다니는 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "하늘",
+    "mission": "푸르고 높은 '하늘' 단어를 기사에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "뒤로도 날 수 있는 비행의 천재, 잠자리 이야기",
+  "selected_category": "동물과 자연",
+  "wisdom_pool_data": {
+    "text": "핑계 없는 무덤 없다",
+    "description": "어떤 일에든 이유가 있다는 뜻이야.",
+    "message": "주원아, 어떤 결과에도 배우는 점이 있을 거야!"
+  },
+  "activity_data": {
+    "instruction": "제시된 기사 내용을 바탕으로 잠자리에 대한 OX 퀴즈를 풀어보세요.",
+    "items": [
+      "잠자리는 날개가 네 개여서 아주 빠르게 날 수 있다.",
+      "잠자리는 앞으로만 비행할 수 있으며 뒤로는 날지 못한다.",
+      "잠자리는 큰 눈을 가지고 있어 먹이를 잘 찾을 수 있다."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "바닷속 귀염둥이 해달은 잠잘 때 서로 손을 꼭 잡는대요!",
+    "article_body": [
+      "여러분, 바다에 사는 보들보들한 해달을 아나요? 해달은 바다 위에 둥둥 떠서 조개를 먹기도 하고 세수도 하는 아주 귀여운 동물 친구예요.",
+      "그런데 해달은 잠을 잘 때 아주 특별한 행동을 해요. 바로 옆에 있는 친구나 가족과 손을 꼭 잡는 것이지요! 왜 손을 잡고 자는 걸까요?",
+      "그건 바로 잠든 사이에 파도에 휩쓸려 멀리 떠내려가지 않기 위해서예요. 미역 같은 바닷풀을 몸에 돌돌 감고 자기도 한답니다. 친구를 놓치지 않으려는 해달의 마음이 정말 따뜻하고 똑똑하지 않나요?"
+    ],
+    "image_prompt": "Two cute sea otters floating on their backs in a calm blue ocean, holding hands and smiling while they sleep. Some green seaweed is floating nearby. Soft, bright, and warm digital illustration style for children's books."
+  },
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "휩쓸리다",
+    "definition": "강한 물결이나 바람 같은 힘에 끌려 한쪽으로 가버리는 것을 말해요."
+  },
+  "wisdom_window": {
+    "title": "백지장도 맞들면 낫다",
+    "meaning": "아무리 쉬운 일이라도 서로 힘을 합치면 훨씬 더 쉽고 좋다는 뜻이에요. 손을 잡고 자는 해달처럼요!"
+  },
+  "hidden_word": {
+    "word": "해달",
+    "mission": "바다에 살며 털이 보들보들하고 조개를 좋아하는 이 동물의 이름을 기사에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 해달의 습성에 관한 OX 퀴즈를 작성했습니다.",
+    "items": [
+      "해달은 잠을 잘 때 파도에 휩쓸려 떠내려가지 않기 위해 친구나 가족과 손을 잡습니다.",
+      "해달은 미역 같은 바닷풀을 몸에 돌돌 감고 잠을 자기도 합니다.",
+      "해달이 손을 잡고 자는 이유는 잠결에 먹이를 빼앗기지 않기 위해서입니다."
+    ]
+  }
+}

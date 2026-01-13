@@ -1,38 +1,38 @@
 {
   "page1": {
-    "headline": "신기한 해왕성 행성의 고리가 더 자세히 보인다!",
+    "headline": "아기 침팬지는 숲속의 꼬마 대장!",
     "article_body": [
-      "얘들아, 아주 먼 옛날, 1989년에 보이저 2호라는 탐사선이 해왕성 옆을 지나가면서 해왕성의 고리를 보여줬는데, 이번에 제임스 웹 우주 망원경이 훨씬 더 자세한 사진을 찍었어! 마치 우리가 아주 선명한 안경을 쓰고 보는 것 같아.",
-      "새로운 사진에는 해왕성의 희미한 먼지 띠와 7개의 귀여운 달도 함께 찍혔대. 마치 해왕성이 예쁜 목걸이를 하고, 작은 강아지 7마리와 함께 산책하는 모습 같지 않니? 망원경 덕분에 우주는 정말 신비롭고 아름다운 곳이라는 걸 다시 한번 알게 되었어.",
-      "우리 모두 탐험가 친구처럼 망원경을 들고 우주를 탐험해 보는 건 어때? 어쩌면 우리 눈으로도 새로운 행성이나 별을 발견할 수 있을지도 몰라! 상상력을 마음껏 펼쳐서 우주를 향한 꿈을 키워보자!"
+      "아기 침팬지는 숲속의 꼬마 대장이에요. 우리 친구들이 놀이터 정글짐을 오르듯, 침팬지도 높은 나무 꼭대기를 향해 엉금엉금 기어오르는 것을 정말 좋아한답니다.",
+      "어른들이 보면 깜짝 놀랄 만큼 위험해 보이지만, 아기 침팬지는 씩씩해요. 나뭇가지 사이를 휙휙 날아다니며 짜릿한 모험을 즐기는 용감한 탐험가거든요.",
+      "이런 아슬아슬한 장난은 멋진 어른이 되기 위한 훈련이래요. 두려움을 이겨내고 스스로 용기를 내는 법을 배우며, 몸과 마음을 튼튼하게 키우는 중이랍니다."
     ],
-    "image_prompt": "A warm and realistic picture book illustration style, featuring an explorer child looking through a telescope at Neptune's rings. The image should evoke a sense of wonder and discovery.",
-    "category_tag": "오늘의 우주",
-    "reference": "https://www.nasa.gov/feature/goddard/2022/webb-reveals-neptune-s-rings"
+    "image_prompt": "A warm and realistic picture book illustration. A brave baby chimpanzee jumping between high tree branches in a lush green forest. Below, a cute 7-year-old child dressed as an explorer with binoculars is looking up at the chimpanzee with a smile. Soft sunlight filtering through leaves, detailed nature background.",
+    "category_tag": "동물 친구들",
+    "reference": "https://www.sciencenews.org/article/chimpanzees-thrill-seeking-toddlerhood"
   },
   "activity_type": "hidden_objects",
   "word_info": {
-    "word": "해왕성",
-    "definition": "태양에서 아주 멀리 떨어진 푸른색 행성"
+    "word": "용기",
+    "definition": "무서워하거나 두려워하지 않고 씩씩하게 나서는 마음이에요."
   },
   "hidden_word": {
-    "word": "망원경",
-    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요! (먼 곳을 더 자세히 볼 수 있게 해주는 도구)"
+    "word": "탐험가",
+    "mission": "이 단어는 위험을 무릅쓰고 새로운 곳을 찾아 떠나는 사람을 말해요. 기사 속에서 이 단어를 찾아 동그라미를 쳐보세요!"
   },
-  "selected_category": "오늘의 우주",
-  "selected_topic": "James Webb telescope reveals Neptune's rings in stunning detail",
+  "selected_category": "동물 친구들",
+  "selected_topic": "아기 침팬지는 용감한 모험가!",
   "wisdom_pool_data": {
-    "text": "백문이 불여일견",
-    "description": "백 번 듣는 것보다 한 번 직접 눈으로 보는 것이 훨씬 더 정확하게 알 수 있다는 뜻이에요.",
-    "message": "해왕성의 예쁜 고리를 망원경으로 직접 본 것처럼, 우리 친구도 궁금한 것이 있다면 직접 관찰하고 탐험해 보세요! 그러면 우주의 멋진 비밀들을 더 많이 발견할 수 있을 거예요."
+    "text": "될성부른 나무는 떡잎부터 알아본다",
+    "description": "쑥쑥 크게 자랄 나무는 아주 작은 잎사귀일 때부터 튼튼하다는 뜻이에요. 어릴 때부터 씩씩하고 바르게 행동하면 나중에 아주 훌륭한 사람이 될 수 있다는 말이지요.",
+    "message": "숲속의 꼬마 대장 아기 침팬지처럼 우리 친구도 씩씩하고 용감하게 행동해 볼까요? 지금처럼 몸과 마음을 튼튼하게 키우면 나중에 분명 멋진 어른이 될 수 있을 거예요!"
   },
   "activity_data": {
-    "instruction": "해왕성의 신비로운 고리와 우주 배경 속에 숨겨진 3가지 물건(망원경, 삼지창, 다이아몬드)을 찾아보세요. 각 물건은 그림 속에 단 하나씩만 정교하게 숨겨져 있습니다.",
+    "instruction": "숲속의 꼬마 대장 아기 침팬지와 함께 숨바꼭질을 해볼까요? 그림 속에 숨어있는 아래 3가지 물건을 찾아보세요.",
     "items": [
-      "망원경",
-      "삼지창",
-      "다이아몬드"
+      "바나나",
+      "왕관",
+      "쌍안경"
     ],
-    "image_prompt": "Intricate black and white line art of the planet Neptune featuring its detailed rings, set against a cosmic background with stars, nebulae, and small moons. Subtly hide exactly one telescope, one trident, and one diamond within the complex patterns of the rings and space dust. The style should be like a challenging hidden object coloring book page with clean, sharp outlines."
+    "image_prompt": "Black and white line art style for searching objects, coloring page style. A cute baby chimpanzee posing confidently like a captain in a dense forest with trees and vines. Hidden objects seamlessly integrated into the background: one banana, one crown, and one pair of binoculars. Clean outlines, high contrast, suitable for kids."
   }
 }

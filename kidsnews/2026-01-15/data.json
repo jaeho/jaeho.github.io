@@ -1,36 +1,33 @@
 {
   "page1": {
-    "headline": "슝슝 비행기 타고 지구 한 바퀴를 돌아요!",
+    "headline": "우주에서 119 구급차가 달려와요!",
     "article_body": [
-      "푸른 하늘을 쌩쌩 날아가는 비행기를 본 적 있나요? 아주 커다란 지구를 한 바퀴 다 돌려면 얼마나 걸릴지 궁금해요. 지구는 정말 넓고 크답니다.",
-      "아주 빠른 비행기로 쉬지 않고 달려도 꼬박 이틀 정도가 걸려요. 밥도 먹고 잠도 자면서 하늘 위에서 아주 오랜 시간을 보내야 한답니다.",
-      "멋진 조종사가 되어 비행기를 타고 어느 나라에 가보고 싶나요? 오늘 밤 꿈속에서 신나는 지구 여행을 떠나기로 우리 꼭 약속해요!"
+      "우주정거장에서 일하던 우주비행사 한 명이 갑자기 몸이 아파졌어요. 그래서 친구들과 함께 스페이스X 우주선을 타고 예정보다 일찍 지구로 돌아오게 되었답니다.",
+      "이번 우주선은 마치 우주를 나는 119 구급차 같아요. 아픈 친구를 위해 아주 빠르게 지구로 내려와요. 동료들은 친구가 빨리 낫기를 바라며 서로를 챙겨주었죠.",
+      "오늘 밤, 우주선이 무사히 도착하도록 우리도 응원해 볼까요? 아픈 비행사님이 얼른 건강해져서 다시 멋진 우주 탐험을 떠날 수 있으면 정말 좋겠어요."
     ],
-    "image_prompt": "A bright, pastel-colored illustration of a cute airplane flying around a smiling Earth with fluffy clouds and a sun, friendly storybook style for children.",
-    "category_tag": "오늘의 세계와 사회"
+    "image_prompt": "Warm and realistic picture book style illustration. A brave child explorer in a yellow outfit looking up at the night sky through a telescope. In the starry sky, a spacecraft glowing warmly like an ambulance light is descending towards a peaceful Earth. Soft, comforting colors.",
+    "category_tag": "우주 구조대",
+    "reference": "https://www.space.com/news/live/spacex-crew-11-astronaut-medical-evacuation-updates"
   },
-  "activity_type": "ox_quiz",
+  "activity_type": "coloring",
   "word_info": {
-    "word": "지구",
-    "definition": "우리가 살고 있는 아주 크고 둥근 땅과 바다예요."
+    "word": "우주정거장",
+    "definition": "우주비행사들이 우주에 머물며 연구하고 잠도 자는 커다란 집이에요."
   },
   "hidden_word": {
-    "word": "조종사",
-    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "구급차",
+    "mission": "이 단어는 무엇일까요? '아픈 사람을 병원으로 빨리 데려다주는 차'를 뜻해요. 기사 본문에서 찾아 동그라미를 쳐보세요!"
   },
-  "selected_topic": "비행기로 지구 한 바퀴를 돌려면 얼마나 걸릴까요?",
-  "selected_category": "오늘의 세계와 사회",
+  "selected_category": "우주 구조대",
+  "selected_topic": "아픈 우주비행사를 구하러 우주선이 지구로 돌아와요!",
   "wisdom_pool_data": {
-    "text": "천리 길도 한 걸음부터",
-    "description": "아무리 멀리 있는 곳에 가고 싶어도, 발을 내딛는 첫걸음부터 시작해야 한다는 뜻이에요. 큰 꿈도 차근차근 시작하면 꼭 이룰 수 있다는 말이에요.",
-    "message": "비행기를 타고 넓은 지구를 한 바퀴 도는 멋진 여행도 오늘 밤 꾸는 작은 꿈에서부터 시작된답니다. 우리 친구의 소중한 꿈이 이루어지도록 선생님이 항상 응원할게요!"
+    "text": "동고동락 (同苦同樂)",
+    "description": "힘들 때나 즐거울 때나, 친구들과 짝꿍처럼 항상 함께하는 것을 말해요.",
+    "message": "우주비행사 아저씨들이 아픈 동료를 위해 함께 지구로 돌아온 것처럼, 우리도 친구가 힘들 때 곁에서 힘이 되어 주는 든든한 친구가 되어 볼까요?"
   },
   "activity_data": {
-    "instruction": "제시된 글의 내용을 바탕으로 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
-    "items": [
-      "아주 빠른 비행기로 쉬지 않고 지구를 한 바퀴 도는 데는 꼬박 이틀 정도가 걸린다.",
-      "지구는 아주 작기 때문에 비행기를 타고 금방 한 바퀴를 돌 수 있다.",
-      "비행기를 타고 지구 여행을 할 때는 하늘 위에서 밥을 먹고 잠을 잘 정도로 오랜 시간이 걸린다."
-    ]
+    "instruction": "우주를 날아가는 119 구급차를 나만의 색깔로 예쁘게 칠해보세요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute 119 ambulance flying in outer space, simple stars and planets in the background, thick black lines, white background, no shading, no color, high contrast, vector style"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "page1": {
+    "headline": "반짝반짝! 엉덩이에서 빛이 나는 반딧불이",
+    "article_body": [
+      "밤이 되면 숲속에서 반짝반짝 빛나는 꼬마 요정이 나타나요. 바로 엉덩이에서 빛을 내는 반딧불이예요.",
+      "엉덩이 속에 신비한 마법 가루가 있답니다. 이 가루가 공기와 만나면 예쁜 노란 빛을 반짝하고 내보내요.",
+      "친구를 부르거나 서로 인사할 때 불을 밝혀요. 밤하늘을 수놓는 작은 등불 친구가 정말 신기하고 예쁘죠?"
+    ],
+    "image_prompt": "A warm, pastel-colored illustration of a cute firefly with a glowing yellow tail in a dark forest. Soft magical sparkles, friendly cartoon style for 7-year-olds."
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "반딧불이",
+    "definition": "밤에 엉덩이에서 반짝반짝 예쁜 빛을 내는 작은 곤충이에요."
+  },
+  "hidden_word": {
+    "word": "마법",
+    "mission": "신기한 힘을 뜻하는 '마법'이라는 단어를 기사에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "반딧불이는 엉덩이에서 어떻게 빛을 낼까요?",
+  "selected_category": "동물과 자연",
+  "wisdom_pool_data": {
+    "text": "꿩 먹고 알 먹기",
+    "description": "한 가지 일을 해서 두 가지 좋은 이익을 얻었을 때를 말해요.",
+    "message": "주원아, 오늘 한 가지 목표를 세우면 기분 좋은 일들이 더 많이 따라올 거야!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 반딧불이에 관한 다음 초성 퀴즈의 정답을 맞춰보세요.",
+    "items": [
+      {
+        "clue": "밤이 되면 숲속에서 엉덩이에 빛을 내며 나타나는 꼬마 요정의 이름은 무엇인가요?",
+        "initials": [
+          "ㅂ",
+          "ㄷ",
+          "ㅂ",
+          "ㅇ"
+        ]
+      },
+      {
+        "clue": "반딧불이의 엉덩이 속에 들어 있는, 공기와 만나면 빛을 내는 신비한 물질은 무엇인가요?",
+        "initials": [
+          "ㅁ",
+          "ㅂ",
+          "ㄱ",
+          "ㄹ"
+        ]
+      },
+      {
+        "clue": "반딧불이가 불을 밝히는 이유는 친구를 부르거나 서로 이것을 하기 위해서입니다.",
+        "initials": [
+          "ㅇ",
+          "ㅅ"
+        ]
+      }
+    ]
+  }
+}

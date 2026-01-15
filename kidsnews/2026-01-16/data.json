@@ -1,59 +1,32 @@
 {
   "page1": {
-    "headline": "엄마 주머니에서 쏙! 귀여운 아기 나무캥거루 탄생",
+    "headline": "미래의 내 모습은 어떨까요?",
     "article_body": [
-      "영국에 있는 체스터 동물원에서 아주 특별하고 귀여운 아기 나무캥거루가 태어났어요. 나무캥거루는 세상에 몇 마리 남지 않은 아주 희귀한 친구랍니다.",
-      "아기는 엄마 배에 있는 따뜻하고 폭신한 주머니 속에 쏙 들어가 지냈어요. 그러다 바깥세상이 궁금한 듯 고개를 내밀고 인사하는 모습이 처음 포착되었어요.",
-      "나무캥거루는 나무 위에서 살며 긴 꼬리로 균형을 잘 잡아요. 작고 소중한 아기가 초록 숲속에서 건강하게 쑥쑥 자랄 수 있도록 우리 함께 응원해 보아요!"
+      "세상에는 정말 많은 직업이 있어요. 하늘을 멋지게 나는 조종사도 있고, 달콤한 빵을 굽는 제빵사도 있지요. 여러분은 어떤 멋진 어른이 되고 싶나요?",
+      "미래에는 지금 없는 새로운 일도 생겨나요. 로봇을 고치는 의사나 우주 여행 가이드가 될 수도 있답니다. 상상만 해도 정말 가슴이 두근거리지 않나요?",
+      "내가 무엇을 제일 좋아하는지 생각해보세요. 좋아하는 일을 하면 매일 행복할 거예요. 꿈을 이루기 위해 오늘부터 씩씩하게 노력하겠다고 약속해요!"
     ],
-    "image_prompt": "A warm and realistic picture book illustration style. A rare baby tree kangaroo peeking its head out of its mother's soft pouch in a lush green tree. A small, curious child explorer wearing a safari hat and binoculars is observing them with a gentle smile from a distance. Soft sunlight filtering through the jungle leaves, creating a cozy and magical atmosphere.",
-    "category_tag": "숲속 친구들",
-    "reference": "https://www.itv.com/news/granada/2026-01-14/rare-baby-tree-kangaroo-emerges-from-mothers-pouch-for-the-first-time-at-chester-zoo"
+    "image_prompt": "Cute 7-year-old children dreaming about their future jobs, wearing astronaut helmets and chef hats, bright and warm pastel colors, soft illustration style, happy expressions, futuristic background elements like stars and robots.",
+    "category_tag": "오늘의 직업과 미래"
   },
-  "activity_type": "initial_quiz",
+  "activity_type": "coloring",
   "word_info": {
-    "word": "희귀한",
-    "definition": "세상에 아주 조금밖에 없어서 특별하고 소중한 상태를 말해요."
+    "word": "직업",
+    "definition": "어른이 되어서 하는 일이에요. 의사 선생님이나 소방관 아저씨처럼 돈을 벌고 보람을 느끼는 일이지요."
   },
   "hidden_word": {
-    "word": "주머니",
-    "mission": "엄마 캥거루가 아기를 안전하고 따뜻하게 품어주는 곳이에요. 이 단어를 기사 본문 속에서 찾아 동그라미를 쳐보세요!"
+    "word": "우주",
+    "mission": "달과 별이 반짝이는 아주 넓고 신비한 곳이에요. 기사 본문 속에서 이 단어를 찾아 동그라미를 쳐보세요!"
   },
-  "selected_category": "숲속 친구들",
-  "selected_topic": "엄마 주머니 속에서 쏙! 희귀한 아기 나무캥거루 탄생",
+  "selected_topic": "미래의 나는 어떤 일을 하고 있을까요?",
+  "selected_category": "오늘의 직업과 미래",
   "wisdom_pool_data": {
     "text": "천리 길도 한 걸음부터",
-    "description": "아무리 멀고 긴 여행이라도 가장 먼저 첫 발자국을 떼는 것부터 시작된다는 뜻이에요.",
-    "message": "엄마 주머니 밖으로 처음 고개를 내민 아기 캥거루처럼, 우리 친구도 새로운 세상을 향해 용기 있게 첫걸음을 내디뎌 보아요!"
+    "description": "아무리 먼 곳을 가려고 해도 첫 발걸음을 떼야 도착할 수 있다는 뜻이에요. 커다란 꿈을 이루기 위해서는 지금 당장 할 수 있는 작은 일부터 시작하는 게 중요하다는 말이지요.",
+    "message": "멋진 어른이 되기 위해 오늘 할 수 있는 작은 일부터 신나게 시작해 볼까요? 한 걸음씩 씩씩하게 나아가면 우리 친구의 꿈에 꼭 도착할 수 있을 거예요!"
   },
   "activity_data": {
-    "instruction": "영국 체스터 동물원에서 태어난 아기 나무캥거루 기사와 관련된 단어를 맞히는 초성 퀴즈입니다.",
-    "items": [
-      {
-        "clue": "영국 체스터 동물원에서 태어난 아주 희귀하고 귀여운 아기 동물의 이름입니다.",
-        "initials": [
-          "ㄴ",
-          "ㅁ",
-          "ㅋ",
-          "ㄱ",
-          "ㄹ"
-        ]
-      },
-      {
-        "clue": "아기가 태어나서 고개를 내밀기 전까지 지냈던 엄마 배 속의 따뜻하고 폭신한 곳입니다.",
-        "initials": [
-          "ㅈ",
-          "ㅁ",
-          "ㄴ"
-        ]
-      },
-      {
-        "clue": "나무 위에서 생활할 때 균형을 잘 잡을 수 있게 도와주는 신체 부위입니다.",
-        "initials": [
-          "ㄲ",
-          "ㄹ"
-        ]
-      }
-    ]
+    "instruction": "미래에 어떤 멋진 어른이 될지 상상하며 그림을 예쁘게 색칠해보세요.",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute child dreaming about the future with thought bubbles showing a rocket, a robot, and an artist palette, thick distinct lines, white background, no shading, no grayscale, vector style, minimalist and easy to color"
   }
 }

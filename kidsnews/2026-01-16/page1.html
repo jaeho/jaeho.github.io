@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <title>씨앗 어린이 신문 - 엄마 주머니에서 쏙! 귀여운 아기 나무캥거루 탄생</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -180,55 +180,82 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
+
     <div class="paper flex flex-col gap-6">
+
         <header class="flex items-center justify-between border-b border-primary/10 pb-4">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
                 </div>
                 <div>
-                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 놀이터</h1>
-                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids Play</p>
+                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 신문</h1>
+                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids News</p>
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <a href="page1.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
-                    PAGE 02
+                <a href="page2.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
+                    PAGE 01
                 </a>
             </div>
         </header>
 
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        <div class="flex justify-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-slate-50 rounded-full text-sm font-bold text-slate-500">
+                <span class="material-symbols-rounded text-base">calendar_today</span>
+                2026년 01월 16일 (금요일)
+            </div>
+        </div>
 
-        <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-green-50 p-6 rounded-2xl border border-green-100 shadow-sm text-center">
-        <p class="text-xl font-bold text-gray-800">밤하늘을 춤추는 신비로운 빛, 오로라를 알록달록하게 색칠해보세요.</p>
-        <p class="text-sm text-green-600 font-bold mt-2">✨ 선을 따라 예쁘게 색칠해볼까요? ✨</p>
-    </div>
+        <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-primary/10 h-64">
+            
+            <img src="article_image.png" class="w-full h-full object-cover" alt="News Image">
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+                <span class="inline-block px-3 py-1 bg-primary text-white text-[10px] font-bold rounded-lg mb-2 uppercase">Today's Special</span>
+                <h2 class="text-white text-2xl font-extrabold leading-tight mb-1">엄마 주머니에서 쏙! 귀여운 아기 나무캥거루 탄생</h2>
+                <p class="text-white/90 text-xs font-medium">오늘의 주제 [숲속 친구들] 엄마 주머니 속에서 쏙! 희귀한 아기 나무캥거루 탄생</p>
+            </div>
+        </section>
 
-    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
-        <img src="activity_image.png" class="w-full">
-    </div>
-</div>
-        </main>
+        <article class="flex-1 overflow-hidden">
+            <div class="columns-2 gap-8 article-text h-full">
+                
+                <p class="drop-cap">영국에 있는 체스터 동물원에서 아주 특별하고 귀여운 아기 나무캥거루가 태어났어요. 나무캥거루는 세상에 몇 마리 남지 않은 아주 희귀한 친구랍니다.</p>
+                
+                <p class="">아기는 엄마 배에 있는 따뜻하고 폭신한 주머니 속에 쏙 들어가 지냈어요. 그러다 바깥세상이 궁금한 듯 고개를 내밀고 인사하는 모습이 처음 포착되었어요.</p>
+                
+                <p class="">나무캥거루는 나무 위에서 살며 긴 꼬리로 균형을 잘 잡아요. 작고 소중한 아기가 초록 숲속에서 건강하게 쑥쑥 자랄 수 있도록 우리 함께 응원해 보아요!</p>
+                
+            </div>
+        </article>
 
-        <footer class="mt-auto">
+        <div class="grid grid-cols-2 gap-3 mt-auto">
             <div class="card-blue">
-                <div class="flex items-center gap-2 mb-2 text-blue-600">
-                    <span class="material-symbols-rounded text-sm">lightbulb</span>
-                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
+                <div class="flex items-center gap-2 mb-1 text-blue-600">
+                    <span class="material-symbols-rounded text-sm">menu_book</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 단어</span>
                 </div>
-                <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">백문이 불여일견</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">‘백 번 듣는 것보다 한 번 보는 게 낫다’는 뜻이에요. 아무리 설명을 많이 들어도, 직접 내 눈으로 한 번 보는 것만큼 확실하고 멋진 것은 없다는 말이지요.</p>
+                <p class="text-xl font-extrabold text-slate-900 mb-1">희귀한</p>
+                <p class="text-base font-bold text-blue-700/90 leading-snug">세상에 아주 조금밖에 없어서 특별하고 소중한 상태를 말해요.</p>
+            </div>
+
+            <div class="card-yellow">
+                <div class="flex items-center gap-2 mb-1 text-yellow-600">
+                    <span class="material-symbols-rounded text-sm">search_check</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">숨은 단어 찾기</span>
+                </div>
+                <p class="text-base font-extrabold text-yellow-900/90 leading-relaxed mb-2">엄마 캥거루가 아기를 안전하고 따뜻하게 품어주는 곳이에요. 이 단어를 기사 본문 속에서 찾아 동그라미를 쳐보세요!</p>
+                <div class="flex gap-1">
+                    <span class="text-[10px] font-bold text-yellow-600/50 uppercase">Hint: 주머니</span>
                 </div>
             </div>
-        </footer>
+        </div>
 
         <footer class="text-center pt-2">
             <p class="text-[9px] text-slate-400 font-bold uppercase tracking-widest">
-                씨앗 어린이 신문 3호 (2026년 01월 15일)
+                씨앗 어린이 신문 3호 (2026년 01월 16일)
             </p>
         </footer>
     </div>

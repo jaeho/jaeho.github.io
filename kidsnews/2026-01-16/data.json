@@ -1,0 +1,59 @@
+{
+  "page1": {
+    "headline": "엄마 주머니에서 쏙! 귀여운 아기 나무캥거루 탄생",
+    "article_body": [
+      "영국에 있는 체스터 동물원에서 아주 특별하고 귀여운 아기 나무캥거루가 태어났어요. 나무캥거루는 세상에 몇 마리 남지 않은 아주 희귀한 친구랍니다.",
+      "아기는 엄마 배에 있는 따뜻하고 폭신한 주머니 속에 쏙 들어가 지냈어요. 그러다 바깥세상이 궁금한 듯 고개를 내밀고 인사하는 모습이 처음 포착되었어요.",
+      "나무캥거루는 나무 위에서 살며 긴 꼬리로 균형을 잘 잡아요. 작고 소중한 아기가 초록 숲속에서 건강하게 쑥쑥 자랄 수 있도록 우리 함께 응원해 보아요!"
+    ],
+    "image_prompt": "A warm and realistic picture book illustration style. A rare baby tree kangaroo peeking its head out of its mother's soft pouch in a lush green tree. A small, curious child explorer wearing a safari hat and binoculars is observing them with a gentle smile from a distance. Soft sunlight filtering through the jungle leaves, creating a cozy and magical atmosphere.",
+    "category_tag": "숲속 친구들",
+    "reference": "https://www.itv.com/news/granada/2026-01-14/rare-baby-tree-kangaroo-emerges-from-mothers-pouch-for-the-first-time-at-chester-zoo"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "희귀한",
+    "definition": "세상에 아주 조금밖에 없어서 특별하고 소중한 상태를 말해요."
+  },
+  "hidden_word": {
+    "word": "주머니",
+    "mission": "엄마 캥거루가 아기를 안전하고 따뜻하게 품어주는 곳이에요. 이 단어를 기사 본문 속에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_category": "숲속 친구들",
+  "selected_topic": "엄마 주머니 속에서 쏙! 희귀한 아기 나무캥거루 탄생",
+  "wisdom_pool_data": {
+    "text": "천리 길도 한 걸음부터",
+    "description": "아무리 멀고 긴 여행이라도 가장 먼저 첫 발자국을 떼는 것부터 시작된다는 뜻이에요.",
+    "message": "엄마 주머니 밖으로 처음 고개를 내민 아기 캥거루처럼, 우리 친구도 새로운 세상을 향해 용기 있게 첫걸음을 내디뎌 보아요!"
+  },
+  "activity_data": {
+    "instruction": "영국 체스터 동물원에서 태어난 아기 나무캥거루 기사와 관련된 단어를 맞히는 초성 퀴즈입니다.",
+    "items": [
+      {
+        "clue": "영국 체스터 동물원에서 태어난 아주 희귀하고 귀여운 아기 동물의 이름입니다.",
+        "initials": [
+          "ㄴ",
+          "ㅁ",
+          "ㅋ",
+          "ㄱ",
+          "ㄹ"
+        ]
+      },
+      {
+        "clue": "아기가 태어나서 고개를 내밀기 전까지 지냈던 엄마 배 속의 따뜻하고 폭신한 곳입니다.",
+        "initials": [
+          "ㅈ",
+          "ㅁ",
+          "ㄴ"
+        ]
+      },
+      {
+        "clue": "나무 위에서 생활할 때 균형을 잘 잡을 수 있게 도와주는 신체 부위입니다.",
+        "initials": [
+          "ㄲ",
+          "ㄹ"
+        ]
+      }
+    ]
+  }
+}

@@ -1,34 +1,34 @@
 {
   "page1": {
-    "headline": "우주 여행 마치고 바다로 풍덩!",
+    "headline": "꽁꽁 얼음 속 아기 늑대의 마지막 식사",
     "article_body": [
-      "우주 정거장에 머물던 우주비행사 네 명이 지구로 돌아왔어요. 우주선을 타고 푸른 바다 위로 '첨벙'하고 안전하게 미끄럼틀을 타듯 내려왔답니다. 정말 신나겠죠?",
-      "이번에는 아주 특별한 연습도 했어요. 만약 우주에서 친구가 갑자기 아프면 어떻게 할까요? 아픈 동료를 업고 탈출하는 멋진 구조 방법을 열심히 배웠대요.",
-      "서로를 돕는 마음이 우주만큼 넓은 것 같아요. 긴 여행을 마치고 집으로 돌아온 우주비행사들에게 우리 모두 큰 박수를 보내주기로 약속해요!"
+      "아주 먼 옛날, 꽁꽁 언 땅속에서 잠자던 아기 늑대가 발견되었어요. 무려 1만 4천 년 전 추운 빙하기에 살았던 친구랍니다. 마치 타임머신을 타고 우리에게 온 것 같죠?",
+      "놀랍게도 늑대 뱃속에서 털코뿔소의 흔적이 나왔대요. 지금은 사라진 털코뿔소를 아기 늑대가 냠냠 먹었나 봐요. 마치 보물찾기하듯 얼음 속에서 옛날 이야기를 들려주네요.",
+      "박사님들은 이 흔적을 보고 옛날 동물들이 어떻게 살았는지 연구하고 있어요. 얼음 속 비밀 친구들이 들려줄 다음 이야기가 벌써부터 정말 궁금하지 않나요?"
     ],
-    "image_prompt": "Warm and realistic picture book style illustration. A round spacecraft capsule floating on the gentle blue ocean waves. Four astronauts in white spacesuits are waving happily from the open hatch. A cute child explorer with a hat is watching them from a small yellow boat nearby with binoculars. Bright sunny sky.",
-    "category_tag": "오늘의 우주",
-    "reference": "https://www.space.com"
+    "image_prompt": "A warm and realistic picture book style illustration. A cute child explorer wearing thick winter gear is gently looking at a preserved baby wolf in a snowy, icy cave. Above the wolf, a faint, dreamlike, semi-transparent image of a woolly rhino appears. Soft, magical lighting, detailed texture of ice and fur.",
+    "category_tag": "얼음 속 비밀",
+    "reference": "https://www.yna.co.kr/view/AKR20200818000000"
   },
   "activity_type": "cartoon",
   "word_info": {
-    "word": "동료",
-    "definition": "함께 일하거나 같이 활동하는 친구를 말해요."
+    "word": "빙하기",
+    "definition": "온 세상이 꽁꽁 얼어붙을 만큼 아주 춥고 눈이 많이 내렸던 옛날 시대를 말해요."
   },
   "hidden_word": {
-    "word": "구조",
-    "mission": "이 단어는 위험에 빠진 사람을 구하는 것을 뜻해요. 기사 본문 속에서 이 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "보물찾기",
+    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
   },
-  "selected_category": "오늘의 우주",
-  "selected_topic": "우주에서 돌아온 우주비행사들 (SpaceX Crew-11)",
+  "selected_category": "얼음 속 비밀",
+  "selected_topic": "빙하기 아기 늑대 뱃속에서 발견된 털코뿔소",
   "wisdom_pool_data": {
-    "text": "백지장도 맞들면 낫다",
-    "description": "가벼운 종이 한 장도 둘이서 같이 들면 훨씬 가볍다는 뜻이에요. 아무리 쉬운 일이라도 친구와 힘을 합치면 더 쉽고 잘할 수 있다는 말이랍니다.",
-    "message": "우주비행사들이 동료를 구하기 위해 서로 돕는 연습을 한 것처럼, 우리 친구도 도움이 필요한 친구가 있다면 '내가 도와줄게!' 하고 먼저 손을 내밀어 볼까요?"
+    "text": "온고지신 (溫故知新)",
+    "description": "옛날 것을 잘 배워서 새로운 지혜를 얻는다는 뜻이에요. 아주 오래된 아기 늑대를 보고 옛날 지구가 어땠는지 알아낸 것처럼 말이에요!",
+    "message": "오래된 물건이나 이야기 속에는 우리가 몰랐던 신기한 보물이 숨어 있단다. 우리 친구도 옛날이야기를 읽으며 새로운 생각을 쑥쑥 키워보자!"
   },
   "activity_data": {
     "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
-    "first_cut_dialogue": "자, 이제 지구로 가는 '우주 미끄럼틀' 출발합니다! 바다로 풍덩 할 준비 됐나요?",
-    "image_prompt": "Black and white simple line art for kids, a cute round space capsule with a large parachute opening above, descending towards simple ocean waves below, a cute astronaut face peeking out of a small round window looking excited, white background, thick lines, coloring book style, no shading"
+    "first_cut_dialogue": "우와! 꽁꽁 언 얼음 속에 1만 년 전 친구가 잠자고 있어! 넌 누구니?",
+    "image_prompt": "Black and white simple line art for kids, a cute explorer character looking at a large block of ice with a magnifying glass, inside the ice a cute baby wolf is curled up sleeping, thick outlines, white background, no shading, coloring page style"
   }
 }

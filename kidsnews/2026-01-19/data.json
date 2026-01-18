@@ -1,0 +1,51 @@
+{
+  "page1": {
+    "headline": "말하는 재주꾼 앵무새의 비밀!",
+    "article_body": [
+      "안녕! 앵무새는 다른 새들과 달리 사람 말을 따라 하는 특별한 재주가 있어요. 앵무새는 혀가 아주 두껍고 말랑해서 소리를 잘 흉내 내지요.",
+      "목 안에는 소리를 만드는 '명관'이라는 곳이 있어요. 이곳을 움직여서 사람 목소리와 비슷한 소리를 내요. 주인의 말을 귀 기울여 듣고 따라 한답니다.",
+      "앵무새는 사랑을 받으면 더 신나서 말을 해요. 여러분은 앵무새에게 어떤 예쁜 말을 가르쳐주고 싶나요? 오늘은 가족에게 앵무새처럼 사랑한다고 말해봐요!"
+    ],
+    "image_prompt": "A colorful, cute parrot perched on a wooden branch, wearing a small bowtie, looking friendly. Bright pastel illustration style for kids, soft colors, warm lighting, storybook vibe.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "명관",
+    "definition": "새의 목 안에 있는, 소리를 만들어내는 아주 특별한 주머니예요."
+  },
+  "hidden_word": {
+    "word": "흉내",
+    "definition": "다른 사람의 말이나 몸짓을 그대로 똑같이 따라 하는 것이에요."
+  },
+  "selected_topic": "앵무새는 어떻게 사람 말을 따라 할까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "가는 말이 고와야 오는 말이 곱다",
+    "description": "내가 먼저 예쁜 말을 하면, 듣는 사람도 기분이 좋아져서 나에게 예쁜 말을 해준다는 뜻이에요.",
+    "message": "앵무새가 주인의 사랑을 받고 예쁜 말을 흉내 내는 것처럼, 우리 친구도 가족들에게 먼저 \"사랑해요\"라고 예쁘게 말해볼까요? 그럼 가족들도 아주 행복해할 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 앵무새의 특징에 대한 초성 퀴즈를 풀어보세요.",
+    "items": [
+      {
+        "clue": "사람의 말을 따라 하는 특별한 재주가 있는 이 새의 이름은 무엇일까요?",
+        "initials": [
+          "ㅇㅁㅅ"
+        ]
+      },
+      {
+        "clue": "앵무새의 목 안에서 소리를 만드는 역할을 하는 곳의 이름은 무엇일까요?",
+        "initials": [
+          "ㅁㄱ"
+        ]
+      },
+      {
+        "clue": "소리를 잘 흉내 낼 수 있게 도와주는 앵무새의 아주 두껍고 말랑한 부위는 무엇일까요?",
+        "initials": [
+          "ㅎ"
+        ]
+      }
+    ]
+  }
+}

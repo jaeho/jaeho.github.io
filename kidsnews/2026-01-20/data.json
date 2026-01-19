@@ -1,32 +1,38 @@
 {
   "page1": {
-    "headline": "두둥실 떠다니는 우주 호텔로 떠나요!",
+    "headline": "찹쌀떡 닮은 아기 물범이 왔어요!",
     "article_body": [
-      "친구들, 미래에는 별들이 반짝이는 우주 호텔로 신나는 여행을 떠나요. 창문 밖으로 파란 지구가 보이는 아주 높은 곳에 지어질 예정이라 정말 기대가 돼요.",
-      "이곳에서는 몸이 둥둥 떠다녀서 벽에 붙은 침낭 속에서 잠을 자요. 물방울도 공중에 뜨기 때문에 물을 마실 땐 빨대로 조심조심 마셔야 한답니다.",
-      "무거운 공도 가볍게 들고 슈퍼맨처럼 슝 날아다니는 놀이도 할 수 있어요. 친구들은 우주 호텔에서 가장 먼저 무엇을 하고 싶은지 이야기해 볼까요?"
+      "캘리포니아 바닷가에 코끼리바다물범 가족이 소풍을 왔어요. 덩치 큰 아빠들은 \"우어어!\" 힘자랑을 하고, 엄마 곁에는 귀여운 아기들이 옹기종기 모여 있답니다.",
+      "갓 태어난 아기 물범은 눈이 보석처럼 반짝여요. 모래 위에서 뒹굴며 젖을 먹는 모습이 꼭 커다란 찹쌀떡 같아요. 따뜻한 햇볕을 쬐며 쑥쑥 자라고 있대요.",
+      "조용하던 해변이 물범들의 노랫소리로 시끌벅적해졌어요. 우리 친구들도 겨울 바다로 떠난다면, 모래 위에서 쿨쿨 낮잠 자는 귀여운 물범 가족을 만날 수 있을 거예요!"
     ],
-    "image_prompt": "A futuristic space hotel floating in space, large windows showing the blue Earth and twinkling stars, cute children floating in zero gravity inside the hotel, bright and warm pastel colors, whimsical storybook illustration style.",
-    "category_tag": "오늘의 과학과 기술"
+    "image_prompt": "A warm, realistic picture book illustration of a sunny California beach filled with elephant seals. Cute baby seals with big black eyes are rolling on the sand like mochi. Large adult seals are in the background showing off strength. A 7-year-old child explorer in safari gear is watching them happily from a safe distance with binoculars. Soft sunlight, pastel and earth tones.",
+    "category_tag": "동물 친구들",
+    "reference": "https://apnews.com"
   },
-  "activity_type": "coloring",
+  "activity_type": "hidden_objects",
   "word_info": {
-    "word": "침낭",
-    "definition": "잠을 잘 때 이불처럼 몸을 따뜻하게 감싸주는 큰 주머니예요."
+    "word": "시끌벅적",
+    "definition": "여러 사람이 모여서 아주 떠들썩하고 복잡한 모양을 말해요."
   },
   "hidden_word": {
-    "word": "지구",
-    "mission": "우리가 살고 있는 아름다운 푸른 별이에요. 본문에서 이 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "보석",
+    "mission": "아기 물범의 눈은 이것처럼 반짝반짝 빛난대요. 아주 귀하고 아름다운 돌인 이 단어를 기사에서 찾아 동그라미 쳐보세요!"
   },
-  "selected_topic": "미래의 우주 호텔은 어떤 모습으로 지어질까요?",
-  "selected_category": "오늘의 과학과 기술",
+  "selected_category": "동물 친구들",
+  "selected_topic": "해변으로 돌아온 아기 코끼리바다물범",
   "wisdom_pool_data": {
-    "text": "백문이 불여일견",
-    "description": "백 번 이야기를 듣는 것보다 한 번 직접 눈으로 보는 게 훨씬 낫다는 뜻이에요.",
-    "message": "우주 호텔 이야기를 듣기만 해도 신나지만, 나중에 우리 친구가 직접 가보면 훨씬 더 멋질 거예요! 넓은 세상을 직접 경험하는 큰 꿈을 꾸며 무럭무럭 자라나요."
+    "text": "눈에 넣어도 아프지 않다",
+    "description": "너무너무 귀엽고 사랑스러워서, 눈 속에 넣어도 정말로 아프지 않을 것 같다는 뜻이에요. 그만큼 아주 소중하다는 말이죠!",
+    "message": "찹쌀떡처럼 귀여운 아기 물범이 따뜻한 햇살을 받고 쑥쑥 자라는 것처럼, 우리 친구도 부모님의 사랑을 듬뿍 받으며 건강하고 씩씩하게 자라기로 약속해요!"
   },
   "activity_data": {
-    "instruction": "신비로운 우주 호텔을 알록달록한 색깔로 자유롭게 꾸며보세요!",
-    "image_prompt": "Black and white simple line art for kids coloring book, a whimsical space hotel floating in the galaxy, surrounded by cute stars and planets, thick black outlines, white background, no shading, no color, clean lines, vector style, easy to color"
+    "instruction": "하얗고 몽실몽실한 아기 물범이 쉬고 있는 빙하 배경 속에 숨겨진 3가지 사물을 찾아보세요.",
+    "items": [
+      "물고기",
+      "조개",
+      "딸기"
+    ],
+    "image_prompt": "A cute, round baby seal that looks like a sticky rice cake lying on an ice floe, black and white line art style for a coloring page or hidden object game. The background features simple glaciers and soft waves. Hidden camouflaged within the lines of the ice and water are exactly one fish, one seashell, and one strawberry. Clean outlines, high contrast, no shading."
   }
 }

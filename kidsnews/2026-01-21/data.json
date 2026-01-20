@@ -1,0 +1,58 @@
+{
+  "page1": {
+    "headline": "침팬지의 단짝 친구, 제인 구달 할머니",
+    "article_body": [
+      "제인 할머니는 동물을 아주 사랑했어요. 아프리카 숲에서 침팬지들과 살며 친구가 되었지요. 할머니는 조용히 기다려 침팬지들의 다정한 마음을 얻었답니다.",
+      "침팬지들은 할머니에게 도구 쓰는 법을 보여주었어요. 풀줄기로 개미를 낚는 모습은 정말 신기했죠. 침팬지는 우리와 아주 닮은 숲속의 소중한 친구예요.",
+      "할머니는 지금도 지구를 지키려 노력하세요. 우리도 할머니처럼 동물을 아낄 수 있을까요? 오늘부터 작은 생명도 소중히 아껴주기로 다 함께 약속해요!"
+    ],
+    "image_prompt": "A warm, bright pastel illustration of Jane Goodall with a kind smile, sitting in a lush African forest with a friendly chimpanzee. The style is soft, whimsical, and perfect for 7-year-old children.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "도구",
+    "definition": "일을 하거나 무언가를 만들 때 편하게 쓰기 위해 만든 물건이에요."
+  },
+  "hidden_word": {
+    "word": "아프리카",
+    "mission": "이 단어는 제인 구달 할머니가 침팬지를 만나러 간 아주 넓은 땅의 이름이에요. 본문에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "제인 구달 할머니는 어떻게 침팬지의 친구가 되었을까요?",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "지성이면 감천이다",
+    "description": "정성을 다하면 하늘도 감동한다는 뜻으로, 마음을 다해 노력하면 무엇이든 이룰 수 있다는 말이에요.",
+    "message": "제인 할머니가 침팬지들을 진심으로 사랑하고 기다려준 것처럼, 우리도 주변의 작은 생명들을 소중히 아껴주는 따뜻한 어린이가 되기로 해요!"
+  },
+  "activity_data": {
+    "instruction": "제인 할머니와 침팬지 이야기에 관한 초성 퀴즈입니다. 기사 내용을 떠올리며 정답을 맞춰보세요.",
+    "items": [
+      {
+        "clue": "할머니가 아프리카 숲에서 만나 친구가 된 동물입니다.",
+        "initials": [
+          "ㅊ",
+          "ㅍ",
+          "ㅈ"
+        ]
+      },
+      {
+        "clue": "제인 할머니가 침팬지들을 만나러 간 대륙의 이름입니다.",
+        "initials": [
+          "ㅇ",
+          "ㅍ",
+          "ㄹ",
+          "ㅋ"
+        ]
+      },
+      {
+        "clue": "침팬지들이 개미를 낚기 위해 도구로 사용한 것입니다.",
+        "initials": [
+          "ㅍ",
+          "ㅈ",
+          "ㄱ"
+        ]
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <title>씨앗 어린이 신문 - 숲속의 초록 솜털, 이끼는 왜 그늘을 좋아할까?</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -180,85 +180,78 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-2">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
+
+    <div class="paper flex flex-col gap-6">
+
+        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
                 </div>
                 <div>
-                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 놀이터</h1>
-                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids Play</p>
+                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 신문</h1>
+                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids News</p>
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <a href="page1.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
-                    PAGE 02
+                <a href="page2.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
+                    PAGE 01
                 </a>
             </div>
         </header>
 
-        
+        <div class="flex justify-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-slate-50 rounded-full text-sm font-bold text-slate-500">
+                <span class="material-symbols-rounded text-base">calendar_today</span>
+                2026년 01월 26일 (월요일)
+            </div>
+        </div>
 
-        <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-2 h-full">
-    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
-        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
+        <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-primary/10 h-64">
+            
+            <img src="article_image.png" class="w-full h-full object-cover" alt="News Image">
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+                <span class="inline-block px-3 py-1 bg-primary text-white text-[10px] font-bold rounded-lg mb-2 uppercase">Today's Special</span>
+                <h2 class="text-white text-2xl font-extrabold leading-tight mb-1">숲속의 초록 솜털, 이끼는 왜 그늘을 좋아할까?</h2>
+                <p class="text-white/90 text-xs font-medium">오늘의 주제 [오늘의 동물과 자연] 이끼는 왜 항상 촉촉하고 그늘진 곳을 좋아할까요?</p>
+            </div>
+        </section>
 
-        <div class="cartoon-grid">
-            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">1</div>
-                <img src="activity_image.png" class="w-full h-full object-cover" alt="Cartoon Story Start">
-                <div class="cartoon-dialogue">
-                    으악! 해가 너무 쨍쨍해! 난 뿌리가 없어서 금방 말라버린단 말이야, 어디 축축하고 시원한 곳 없을까?
+        <article class="flex-1 overflow-hidden">
+            <div class="columns-2 gap-8 article-text h-full">
+                
+                <p class="drop-cap">숲속 바위 틈엔 초록색 솜털 같은 이끼가 살아요. 이끼는 왜 항상 축축하고 어두운 그늘에만 있을까요? 그 비밀은 이끼의 몸에 있답니다.</p>
+                
+                <p class="">이끼는 뿌리가 없어서 온몸으로 물을 마셔야 해요. 햇볕이 쨍쨍하면 몸이 금방 말라버려서, 물을 꿀꺽 마실 수가 없게 된답니다.</p>
+                
+                <p class="">그래서 이끼는 물기가 많은 시원한 그늘을 좋아해요. 비 온 뒤 숲에 가면 이끼가 더 초록색으로 빛나죠. 숲에서 귀여운 이끼 친구를 한번 찾아볼까요?</p>
+                
+            </div>
+        </article>
+
+        <div class="grid grid-cols-2 gap-3 mt-auto">
+            <div class="card-blue">
+                <div class="flex items-center gap-2 mb-1 text-blue-600">
+                    <span class="material-symbols-rounded text-sm">menu_book</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 단어</span>
                 </div>
+                <p class="text-xl font-extrabold text-slate-900 mb-1">뿌리</p>
+                <p class="text-base font-bold text-blue-700/90 leading-snug">식물이 땅속에 뻗어 물과 영양분을 쪽쪽 빨아들이는 빨대 같은 부분이에요.</p>
             </div>
 
-            <!-- 2nd Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">2</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
+            <div class="card-yellow">
+                <div class="flex items-center gap-2 mb-1 text-yellow-600">
+                    <span class="material-symbols-rounded text-sm">search_check</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">숨은 단어 찾기</span>
                 </div>
-            </div>
-
-            <!-- 3rd Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">3</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
-            </div>
-
-            <!-- 4th Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">4</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
+                <p class="text-base font-extrabold text-yellow-900/90 leading-relaxed mb-2">이 단어는 무엇일까요? '숲속 바위에 사는 초록 솜털 식물'이라는 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!</p>
+                <div class="flex gap-1">
+                    <span class="text-[10px] font-bold text-yellow-600/50 uppercase">Hint: 이끼</span>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="text-center italic text-slate-400 text-sm">
-        여러분만의 재미있는 이야기를 그려보세요!
-    </div>
-</div>
-        </main>
-
-        <footer class="mt-auto">
-            <div class="card-blue">
-                <div class="flex items-center gap-2 mb-2 text-blue-600">
-                    <span class="material-symbols-rounded text-sm">lightbulb</span>
-                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
-                </div>
-                <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">이가 없으면 잇몸으로 산다</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">이끼는 식물에게 중요한 '뿌리'가 없지만, 대신 '온몸'으로 물을 마시며 씩씩하게 살아요. 이가 빠져서 없으면 잇몸으로 음식을 먹는 것처럼, 부족한 게 있어도 포기하지 않고 다른 방법을 찾아서 잘해낼 수 있다는 뜻이에요.</p>
-                </div>
-            </div>
-        </footer>
 
         <footer class="text-center pt-2">
             <p class="text-[9px] text-slate-400 font-bold uppercase tracking-widest">

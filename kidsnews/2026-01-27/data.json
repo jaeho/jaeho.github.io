@@ -1,0 +1,46 @@
+{
+  "page1": {
+    "headline": "달나라로 슝! 거대 로켓이 나타났어요",
+    "article_body": [
+      "우주로 가는 커다란 은색 기차가 나타났어요! 나사가 만든 거대한 로켓이 달에 갈 준비를 마치고 발사대에 우뚝 섰답니다. 마치 구름 위까지 닿을 것 같은 아주 높은 건물처럼 보여요.",
+      "이 로켓의 이름은 ‘아르테미스 2호’예요. 곧 용감한 우주 비행사들이 이 로켓을 타고 달 주변을 쌩쌩 달릴 거예요. 우리 친구들도 밤하늘을 보며 우주로 떠나는 로켓을 응원해 줄 수 있나요?",
+      "달나라는 어떤 모습일지 정말 궁금해요. 커다란 로켓을 타고 여행하는 모습은 얼마나 멋질까요? 우리 함께 멋진 탐험가가 되어 반짝이는 달을 향해 신나는 마음으로 인사를 건네보아요!"
+    ],
+    "image_prompt": "A warm and realistic picture book illustration style. A small child explorer in a yellow jacket looking at a giant, silver space rocket standing on a launch pad. The rocket is tall and majestic. A crescent moon and twinkling stars are in the soft night sky. Soft lighting, cozy and magical atmosphere.",
+    "category_tag": "우주 뉴스",
+    "reference": "https://www.space.com/nasa-artemis-2-moon-rocket-launch-pad-update"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "로켓",
+    "definition": "하늘 높이 슝 날아서 우주로 가는 아주 크고 빠른 탈것이에요."
+  },
+  "hidden_word": {
+    "word": "우주",
+    "mission": "별과 달이 떠 있는 아주 넓고 신비로운 공간이에요. 기사 본문 속에서 이 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_category": "우주 뉴스",
+  "selected_topic": "“달에 갈 준비 끝!” 나사의 거대한 로켓이 나타났어요",
+  "wisdom_pool_data": {
+    "text": "천리 길도 한 걸음부터",
+    "description": "아무리 멀리 있는 달나라까지 가는 여행이라도, 처음 한 발자국을 떼는 것부터 시작한다는 뜻이에요.",
+    "message": "우주 비행사들도 처음에는 우리 친구처럼 작은 꿈을 꾸는 아이였대요. 아주 먼 달나라도 로켓을 만드는 첫 시작이 있었던 것처럼, 우리 친구의 멋진 꿈을 향해 오늘부터 한 걸음씩 신나게 나아가 봐요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 한 초성 퀴즈입니다. 제시된 초성을 보고 알맞은 단어를 맞춰보세요!",
+    "items": [
+      {
+        "clue": "나사가 만든 거대한 로켓의 이름으로, 곧 달 주변을 비행할 예정인 것은 무엇일까요?",
+        "initials": "ㅇㄹㅌㅁㅅ 2ㅎ"
+      },
+      {
+        "clue": "로켓을 타고 달 주변을 쌩쌩 달릴 용감한 사람들을 무엇이라고 부를까요?",
+        "initials": "ㅇㅈ ㅂㅎㅅ"
+      },
+      {
+        "clue": "반짝이는 달을 향해 신나는 마음으로 인사를 건네는 우리 모두는 멋진 이것이에요.",
+        "initials": "ㅌㅎㄱ"
+      }
+    ]
+  }
+}

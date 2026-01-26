@@ -1,36 +1,34 @@
 {
   "page1": {
-    "headline": "선인장은 왜 뾰족한 가시 옷을 입었을까요?",
+    "headline": "입으로 아기를 낳는 거인 해파리",
     "article_body": [
-      "뜨거운 사막에는 비가 거의 오지 않아 물이 아주 부족해요. 선인장은 잎이 넓으면 몸속의 물이 금방 말라버리기 때문에, 잎을 뾰족한 가시로 바꾸었답니다.",
-      "가시는 목마른 동물들이 선인장을 함부로 먹지 못하게 지켜줘요. 소중한 물을 뺏기지 않으려고 뾰족한 가시 갑옷을 입고 튼튼하게 서 있는 것이랍니다.",
-      "선인장의 가시는 사실 잎이 변한 멋진 보물이에요. 우리 친구들도 나를 지켜주는 특별한 힘이 있나요? 씩씩한 선인장처럼 오늘도 힘내기로 약속해요!"
+      "깊은 바닷속에 아주 큰 '유령 해파리'가 나타났어요. 몸길이가 10미터나 돼서 스쿨버스만큼 길답니다. 물속에서 팔랑팔랑 헤엄치는 모습이 정말 신기하고 멋져요.",
+      "이 해파리에게는 특별한 비밀이 있어요. 바로 입으로 아기를 낳는다는 거예요! 배가 아니라 입으로 아기 해파리가 쏙 나온다니, 정말 깜짝 놀랄만한 일이죠?",
+      "깜깜한 바다를 떠다니는 해파리는 마치 커다란 리본 같아요. 아직 우리가 모르는 신비한 친구들이 바다에 많이 숨어 있답니다. 다음엔 또 누굴 만나게 될까요?"
     ],
-    "image_prompt": "A cute green cactus character with soft spines standing in a sunny desert, smiling face, warm pastel colors, children's book illustration style, gentle sunlight, sand dunes in background, high quality.",
-    "category_tag": "오늘의 동물과 자연"
+    "image_prompt": "Warm and realistic picture book illustration style. A brave little explorer child inside a small yellow submarine, looking with wonder at a gigantic Phantom Jellyfish (Stygiomedusa gigantea) in the deep dark blue ocean. The jellyfish has extremely long, dark red ribbon-like arms trailing behind it, looking soft and mysterious. Bubbles and faint bioluminescence around.",
+    "category_tag": "신비한 바다",
+    "reference": "https://www.livescience.com/"
   },
-  "activity_type": "ox_quiz",
+  "activity_type": "cartoon",
   "word_info": {
-    "word": "사막",
-    "definition": "비가 거의 오지 않아서 모래가 많고 햇볕이 아주 뜨거운 땅이에요."
+    "word": "비밀",
+    "definition": "남에게 알리지 않고 나만 알고 있거나 감추어 둔 것을 말해요."
   },
   "hidden_word": {
-    "word": "갑옷",
-    "mission": "우리 몸을 다치지 않게 보호해 주는 튼튼한 옷이에요. 기사 속에서 이 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "스쿨버스",
+    "mission": "해파리가 얼마나 큰지 설명할 때 나온 '노란 자동차'는 무엇일까요? 기사에서 이 단어를 찾아 동그라미를 쳐보세요!"
   },
-  "selected_topic": "선인장은 가시가 왜 있을까요?",
-  "selected_category": "오늘의 동물과 자연",
+  "selected_category": "신비한 바다",
+  "selected_topic": "입으로 아기를 낳는 10미터 거대 해파리 등장!",
   "wisdom_pool_data": {
-    "text": "유비무환",
-    "description": "‘미리 준비를 잘 해두면 나중에 걱정할 일이 없다’는 뜻이에요. 비가 오지 않는 사막에서 살아남기 위해 선인장이 미리 뾰족한 가시 옷을 입고 물을 지킬 준비를 한 것처럼 말이에요.",
-    "message": "선인장이 가시 갑옷으로 소중한 물을 지키는 것처럼, 우리 친구도 학교 갈 준비나 마음의 준비를 잘하는 멋진 어린이가 되어볼까요? 씩씩한 선인장처럼 오늘도 힘내요!"
+    "text": "기상천외 (奇想天外)",
+    "description": "보통 사람들은 쉽게 상상할 수 없을 만큼 아주 엉뚱하고 깜짝 놀랄 정도로 신기한 일을 뜻해요.",
+    "message": "입으로 아기를 낳는 해파리라니, 정말 상상도 못한 신기한 모습이지? 우리가 사는 세상에는 이렇게 깜짝 놀랄 비밀 친구들이 많이 숨어 있어. 앞으로도 반짝이는 호기심으로 넓은 세상을 살펴보자!"
   },
   "activity_data": {
-    "instruction": "다음 글을 읽고 내용이 올바르면 O, 틀리면 X를 선택하세요.",
-    "items": [
-      "선인장의 가시는 사실 잎이 변해서 만들어진 것이다.",
-      "선인장의 가시는 목마른 동물들이 선인장을 쉽게 먹을 수 있도록 도와준다.",
-      "뜨거운 사막에는 비가 자주 내려서 물이 아주 풍부하다."
-    ]
+    "instruction": "첫 번째 칸을 보고 거인 해파리의 비밀을 상상해서 나머지 만화를 완성해보세요!",
+    "first_cut_dialogue": "우와! 저기 봐, 스쿨버스만큼 커다란 리본이 헤엄치고 있어!",
+    "image_prompt": "Black and white simple line art for kids, a huge jellyfish with long flowing arms like ribbons swimming in the sea, a small cute fish looking up at the giant jellyfish in surprise, white background, thick lines, no shading, coloring page style"
   }
 }

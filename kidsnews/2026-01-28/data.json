@@ -1,0 +1,52 @@
+{
+  "page1": {
+    "headline": "엄마 껌딱지 아기 봉고 '밀리'를 만나요!",
+    "article_body": [
+      "미국 탬파 동물원에 아기 동부 봉고 '밀리'가 태어났어요. 동부 봉고는 세상에 몇 마리 남지 않은 아주 소중한 친구랍니다. 밀리는 쌀 한 가마니 무게로 튼튼하게 태어났대요.",
+      "밀리는 엄마 옆에서 폴짝폴짝 뛰놀아요. 줄무늬 옷을 입은 모습이 꼭 숲속 요정 같지요? 엄마 곁에서 맘마도 먹고 잠도 쿨쿨 자는 아주 건강한 아기랍니다.",
+      "꼬마 탐험가 여러분, 밀리가 아프지 않고 쑥쑥 크도록 함께 응원해 줘요! 자연을 사랑하는 마음으로 밀리를 아껴주세요. 나중에 만나면 반갑게 인사해 주세요!"
+    ],
+    "image_prompt": "Warm and realistic picture book illustration. A young child explorer in a safari hat and vest, holding binoculars, looking at a baby Eastern Bongo and its mother in a lush zoo enclosure. The baby bongo has reddish-brown fur and distinct white vertical stripes, hopping playfully. Soft sunlight filtering through green trees, cozy and gentle atmosphere.",
+    "category_tag": "숲속 새생명",
+    "reference": "https://www.wtsp.com/article/life/animals/new-endangered-animal-born-at-zootampa"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "동부 봉고",
+    "definition": "아름다운 줄무늬를 가진, 소와 비슷하게 생긴 아주 희귀한 동물 친구예요."
+  },
+  "hidden_word": {
+    "word": "소중한",
+    "mission": "이 단어는 '매우 귀하고 아껴야 한다'는 뜻이에요. 기사 본문 속에서 'ㅅㅈㅎ'으로 시작하는 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_category": "숲속 새생명",
+  "selected_topic": "동물원에 찾아온 귀여운 아기 봉고 '밀리'",
+  "wisdom_pool_data": {
+    "text": "바늘 가는 데 실 간다",
+    "description": "바늘이 가는 곳에 항상 실이 따라가는 것처럼, 서로 아주 친해서 어디든 꼭 붙어 다니는 사이를 말해요.",
+    "message": "엄마 곁을 떠나지 않는 아기 봉고 밀리처럼, 우리 친구도 가족의 사랑을 듬뿍 받으며 건강하고 행복하게 자라길 응원할게요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 아기 동부 봉고 '밀리'와 관련된 초성 퀴즈를 맞혀보세요.",
+    "items": [
+      {
+        "clue": "탬파 동물원에서 새롭게 태어난 아기 동부 봉고의 이름은 무엇일까요?",
+        "initials": [
+          "ㅁㄹ"
+        ]
+      },
+      {
+        "clue": "세상에 몇 마리 남지 않은 아주 소중한 친구인 이 동물의 종류는 무엇일까요?",
+        "initials": [
+          "ㄷㅂ ㅂㄱ"
+        ]
+      },
+      {
+        "clue": "줄무늬 옷을 입은 밀리의 예쁜 모습은 꼭 무엇 같다고 했나요?",
+        "initials": [
+          "ㅅㅅ ㅇㅈ"
+        ]
+      }
+    ]
+  }
+}

@@ -1,52 +1,32 @@
 {
   "page1": {
-    "headline": "엄마 껌딱지 아기 봉고 '밀리'를 만나요!",
+    "headline": "조선 시대에도 하늘을 나는 수레가 있었대요!",
     "article_body": [
-      "미국 탬파 동물원에 아기 동부 봉고 '밀리'가 태어났어요. 동부 봉고는 세상에 몇 마리 남지 않은 아주 소중한 친구랍니다. 밀리는 쌀 한 가마니 무게로 튼튼하게 태어났대요.",
-      "밀리는 엄마 옆에서 폴짝폴짝 뛰놀아요. 줄무늬 옷을 입은 모습이 꼭 숲속 요정 같지요? 엄마 곁에서 맘마도 먹고 잠도 쿨쿨 자는 아주 건강한 아기랍니다.",
-      "꼬마 탐험가 여러분, 밀리가 아프지 않고 쑥쑥 크도록 함께 응원해 줘요! 자연을 사랑하는 마음으로 밀리를 아껴주세요. 나중에 만나면 반갑게 인사해 주세요!"
+      "비행기는 언제 처음 생겼을까요? 놀랍게도 옛날 조선 시대에 하늘을 나는 수레 ‘비거’가 있었대요. 커다란 날개를 펄럭이며 위험에 빠진 사람들을 구출했답니다.",
+      "비거는 튼튼한 가죽으로 만들었고, 바람을 타고 씽씽 하늘을 날았어요. 정평구 님이 만들었는데 네 명이나 탈 수 있을 만큼 아주 튼튼하고 힘이 셌대요.",
+      "아쉽게도 지금은 비거의 모습이 남아있지 않아요. 친구들의 상상력으로 멋진 비거를 색칠해볼까요? 나중에 더 훌륭한 비행기를 꼭 만들어보아요!"
     ],
-    "image_prompt": "Warm and realistic picture book illustration. A young child explorer in a safari hat and vest, holding binoculars, looking at a baby Eastern Bongo and its mother in a lush zoo enclosure. The baby bongo has reddish-brown fur and distinct white vertical stripes, hopping playfully. Soft sunlight filtering through green trees, cozy and gentle atmosphere.",
-    "category_tag": "숲속 새생명",
-    "reference": "https://www.wtsp.com/article/life/animals/new-endangered-animal-born-at-zootampa"
+    "image_prompt": "A warm and cute pastel illustration showing a wooden flying machine like a glider made of leather flying over an old Korean Joseon Dynasty fortress, blue sky, soft clouds, children looking up in amazement, storybook style.",
+    "category_tag": "오늘의 역사와 인물"
   },
-  "activity_type": "initial_quiz",
+  "activity_type": "coloring",
   "word_info": {
-    "word": "동부 봉고",
-    "definition": "아름다운 줄무늬를 가진, 소와 비슷하게 생긴 아주 희귀한 동물 친구예요."
+    "word": "발명가",
+    "definition": "새로운 물건이나 방법을 처음으로 생각해 내고 만든 사람이에요."
   },
   "hidden_word": {
-    "word": "소중한",
-    "mission": "이 단어는 '매우 귀하고 아껴야 한다'는 뜻이에요. 기사 본문 속에서 'ㅅㅈㅎ'으로 시작하는 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "가죽",
+    "mission": "동물의 피부를 잘 말려서 부드럽고 질기게 만든 것이에요. 본문에서 찾아 동그라미 쳐보세요!"
   },
-  "selected_category": "숲속 새생명",
-  "selected_topic": "동물원에 찾아온 귀여운 아기 봉고 '밀리'",
+  "selected_topic": "조선 시대 하늘을 나는 비행기 '비거'가 정말 있었을까요?",
+  "selected_category": "오늘의 역사와 인물",
   "wisdom_pool_data": {
-    "text": "바늘 가는 데 실 간다",
-    "description": "바늘이 가는 곳에 항상 실이 따라가는 것처럼, 서로 아주 친해서 어디든 꼭 붙어 다니는 사이를 말해요.",
-    "message": "엄마 곁을 떠나지 않는 아기 봉고 밀리처럼, 우리 친구도 가족의 사랑을 듬뿍 받으며 건강하고 행복하게 자라길 응원할게요!"
+    "text": "온고지신",
+    "description": "옛날이야기나 물건에서 배울 점을 잘 찾으면, 나중에 더 멋지고 새로운 것을 만들 수 있다는 뜻이에요.",
+    "message": "조선 시대에 벌써 하늘을 나는 수레가 있었다니 정말 신기하죠? 우리 친구도 옛날 조상님들의 지혜를 잘 배워서, 미래에 더 멋진 비행기를 만드는 훌륭한 사람이 되어보세요!"
   },
   "activity_data": {
-    "instruction": "기사 내용을 바탕으로 아기 동부 봉고 '밀리'와 관련된 초성 퀴즈를 맞혀보세요.",
-    "items": [
-      {
-        "clue": "탬파 동물원에서 새롭게 태어난 아기 동부 봉고의 이름은 무엇일까요?",
-        "initials": [
-          "ㅁㄹ"
-        ]
-      },
-      {
-        "clue": "세상에 몇 마리 남지 않은 아주 소중한 친구인 이 동물의 종류는 무엇일까요?",
-        "initials": [
-          "ㄷㅂ ㅂㄱ"
-        ]
-      },
-      {
-        "clue": "줄무늬 옷을 입은 밀리의 예쁜 모습은 꼭 무엇 같다고 했나요?",
-        "initials": [
-          "ㅅㅅ ㅇㅈ"
-        ]
-      }
-    ]
+    "instruction": "조선 시대에 만들어졌다고 전해지는 신비한 비행 수레 '비거'를 상상하며 알록달록하게 색칠해 보세요.",
+    "image_prompt": "Black and white simple line art for kids coloring book, a traditional Korean wooden flying cart (Bigeo) from the Joseon Dynasty flying in the sky with clouds, simple wooden wings, a cute character wearing Hanbok inside, white background, thick clean lines, no shading, no grayscale, high contrast, vector style, easy to color."
   }
 }

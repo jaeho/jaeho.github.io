@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>씨앗 어린이 신문 - 꼬마 하마 무뎅이의 용감한 첫 수영!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2ECC71",
+                    }
+                }
+            }
+        }
+    </script>
+    <style>/* Tailwind CDN은 HTML에서 호출하므로 여기에는 커스텀 클래스만 넣습니다. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gaegu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+    --primary-color: #2ECC71;
+    --background-light: #F9FCF9;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --accent-blue: #EBF5FF;
+    --accent-yellow: #FFFBEB;
+    --paper-bg: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--text-main);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 실제 인쇄 및 캡처 시 A4 규격 유지 */
+@media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .paper {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.paper {
+    width: 210mm;
+    height: 297mm;
+    background-color: var(--paper-bg);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    padding: 15mm;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 드롭캡: 씨앗 어린이 신문 스타일 */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4.5rem;
+    line-height: 0.8;
+    font-weight: 800;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: var(--primary-color);
+}
+
+/* 기사 본문 최적화 */
+.article-text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.65;
+    text-align: justify;
+    word-break: keep-all;
+    color: var(--text-main);
+    height: 100%;
+    column-fill: auto;
+}
+
+.article-text p {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.text-hand {
+    font-family: 'Gaegu', cursive;
+}
+
+/* 아이콘 스타일 */
+.material-symbols-rounded {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+/* 카드 공통 스타일 */
+.card-blue {
+    background-color: var(--accent-blue);
+    border: 1px solid #dbeafe;
+    border-radius: 24px;
+    padding: 14px;
+}
+
+.card-yellow {
+    background-color: var(--accent-yellow);
+    border: 2px dashed #fde68a;
+    border-radius: 24px;
+    padding: 14px;
+}
+
+/* 헤더 스타일링 */
+.header-eco-icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
+}
+
+/* 4컷 만화 스타일 */
+.cartoon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    height: 100%;
+}
+
+.cartoon-panel {
+    border: 3px solid #1e293b;
+    border-radius: 12px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.cartoon-number {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.cartoon-dialogue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid #1e293b;
+}</style>
+</head>
+
+<body class="bg-white flex justify-center antialiased">
+
+    <div class="paper flex flex-col gap-6">
+
+        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+            <div class="flex items-center gap-3">
+                <div class="header-eco-icon">
+                    <span class="material-symbols-rounded">eco</span>
+                </div>
+                <div>
+                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 신문</h1>
+                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids News</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="page2.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
+                    PAGE 01
+                </a>
+            </div>
+        </header>
+
+        <div class="flex justify-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-slate-50 rounded-full text-sm font-bold text-slate-500">
+                <span class="material-symbols-rounded text-base">calendar_today</span>
+                2026년 01월 29일 (목요일)
+            </div>
+        </div>
+
+        <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-primary/10 h-64">
+            
+            <img src="article_image.png" class="w-full h-full object-cover" alt="News Image">
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+                <span class="inline-block px-3 py-1 bg-primary text-white text-[10px] font-bold rounded-lg mb-2 uppercase">Today's Special</span>
+                <h2 class="text-white text-2xl font-extrabold leading-tight mb-1">꼬마 하마 무뎅이의 용감한 첫 수영!</h2>
+                <p class="text-white/90 text-xs font-medium">오늘의 주제 [숲속 소식] 아기 하마 '무뎅'의 좌충우돌 첫 수영 도전기</p>
+            </div>
+        </section>
+
+        <article class="flex-1 overflow-hidden">
+            <div class="columns-2 gap-8 article-text h-full">
+                
+                <p class="drop-cap">태국 동물원의 아기 하마 무뎅이가 처음 물속에 들어갔어요. 꼬물꼬물 작은 발로 엄마 뒤를 졸졸 따라가요. 무뎅이는 물속 세상이 정말 궁금했나 봐요.</p>
+                
+                <p class="">물이 조금 무서웠지만, 엄마가 지켜주자 용기를 냈어요. 첨벙첨벙 물장구를 치는 모습이 물 위를 둥둥 떠다니는 사탕 같아요. 정말 사랑스러운 모습이죠?</p>
+                
+                <p class="">전 세계 친구들이 무뎅이의 첫 수영을 응원해요. 무뎅이가 씩씩하게 수영하며 쑥쑥 자라길 함께 빌어주세요. 우리도 무뎅이처럼 멋진 도전을 해볼까요?</p>
+                
+            </div>
+        </article>
+
+        <div class="grid grid-cols-2 gap-3 mt-auto">
+            <div class="card-blue">
+                <div class="flex items-center gap-2 mb-1 text-blue-600">
+                    <span class="material-symbols-rounded text-sm">menu_book</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 단어</span>
+                </div>
+                <p class="text-xl font-extrabold text-slate-900 mb-1">수영</p>
+                <p class="text-base font-bold text-blue-700/90 leading-snug">팔다리를 움직여서 물 위를 떠다니거나 앞으로 나아가는 일이에요.</p>
+            </div>
+
+            <div class="card-yellow">
+                <div class="flex items-center gap-2 mb-1 text-yellow-600">
+                    <span class="material-symbols-rounded text-sm">search_check</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">숨은 단어 찾기</span>
+                </div>
+                <p class="text-base font-extrabold text-yellow-900/90 leading-relaxed mb-2">어려운 일에 당당히 맞서는 마음이에요. 기사에서 '도전'이라는 글자를 찾아 동그라미를 쳐보세요!</p>
+            </div>
+        </div>
+
+        <footer class="text-center pt-2">
+            <p class="text-[9px] text-slate-400 font-bold uppercase tracking-widest">
+                씨앗 어린이 신문 3호 (2026년 01월 29일)
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

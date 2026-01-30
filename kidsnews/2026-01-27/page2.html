@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2ECC71",
+                    }
+                }
+            }
+        }
+    </script>
+    <style>/* Tailwind CDN은 HTML에서 호출하므로 여기에는 커스텀 클래스만 넣습니다. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gaegu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+    --primary-color: #2ECC71;
+    --background-light: #F9FCF9;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --accent-blue: #EBF5FF;
+    --accent-yellow: #FFFBEB;
+    --paper-bg: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--text-main);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 실제 인쇄 및 캡처 시 A4 규격 유지 */
+@media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .paper {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.paper {
+    width: 210mm;
+    height: 297mm;
+    background-color: var(--paper-bg);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    padding: 15mm;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 드롭캡: 씨앗 어린이 신문 스타일 */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4.5rem;
+    line-height: 0.8;
+    font-weight: 800;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: var(--primary-color);
+}
+
+/* 기사 본문 최적화 */
+.article-text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.65;
+    text-align: justify;
+    word-break: keep-all;
+    color: var(--text-main);
+    height: 100%;
+    column-fill: auto;
+}
+
+.article-text p {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.text-hand {
+    font-family: 'Gaegu', cursive;
+}
+
+/* 아이콘 스타일 */
+.material-symbols-rounded {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+/* 카드 공통 스타일 */
+.card-blue {
+    background-color: var(--accent-blue);
+    border: 1px solid #dbeafe;
+    border-radius: 24px;
+    padding: 14px;
+}
+
+.card-yellow {
+    background-color: var(--accent-yellow);
+    border: 2px dashed #fde68a;
+    border-radius: 24px;
+    padding: 14px;
+}
+
+/* 헤더 스타일링 */
+.header-eco-icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
+}
+
+/* 4컷 만화 스타일 */
+.cartoon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    height: 100%;
+}
+
+.cartoon-panel {
+    border: 3px solid #1e293b;
+    border-radius: 12px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.cartoon-number {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.cartoon-dialogue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid #1e293b;
+}</style>
+</head>
+
+<body class="bg-white flex justify-center antialiased">
+    <div class="paper flex flex-col gap-6">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+            <div class="flex items-center gap-3">
+                <div class="header-eco-icon">
+                    <span class="material-symbols-rounded">eco</span>
+                </div>
+                <div>
+                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 놀이터</h1>
+                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids Play</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="page1.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
+                    PAGE 02
+                </a>
+            </div>
+        </header>
+
+        
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        
+
+        <main class="flex-1 overflow-hidden">
+            <div class="flex flex-col gap-8">
+    <p class="text-2xl font-bold text-gray-800 italic">✏️ 기사 내용을 바탕으로 한 초성 퀴즈입니다. 제시된 초성을 보고 알맞은 단어를 맞춰보세요!</p>
+    <div class="space-y-10">
+        
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"나사가 만든 거대한 로켓의 이름으로, 곧 달 주변을 비행할 예정인 것은 무엇일까요?"</p>
+            <div class="flex gap-3">
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅇ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㄹ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅌ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅁ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅅ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                     
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    2
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅎ
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"로켓을 타고 달 주변을 쌩쌩 달릴 용감한 사람들을 무엇이라고 부를까요?"</p>
+            <div class="flex gap-3">
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅇ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅈ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                     
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅂ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅎ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅅ
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"반짝이는 달을 향해 신나는 마음으로 인사를 건네는 우리 모두는 멋진 이것이에요."</p>
+            <div class="flex gap-3">
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅌ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅎ
+                </div>
+                
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㄱ
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+        </main>
+
+        <footer class="mt-auto">
+            <div class="card-blue">
+                <div class="flex items-center gap-2 mb-2 text-blue-600">
+                    <span class="material-symbols-rounded text-sm">lightbulb</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <p class="text-3xl font-black text-slate-900">천리 길도 한 걸음부터</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">아무리 멀리 있는 달나라까지 가는 여행이라도, 처음 한 발자국을 떼는 것부터 시작한다는 뜻이에요.</p>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="text-center pt-2">
+            <p class="text-[9px] text-slate-400 font-bold uppercase tracking-widest">
+                씨앗 어린이 신문 3호 (2026년 01월 27일)
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

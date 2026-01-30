@@ -1,37 +1,46 @@
 {
   "page1": {
-    "headline": "붕붕! 하늘을 자유롭게 나는 드론 조종사",
+    "headline": "새해 첫 선물, 씰룩씰룩 아기 땅돼지가 태어났어요!",
     "article_body": [
-      "드론은 사람이 타지 않는 멋진 비행기예요. 조종사는 땅에서 리모컨으로 드론을 멀리까지 날려 보내요. 손가락을 요리조리 움직이면 드론이 하늘에서 춤을 춘답니다.",
-      "드론은 우리를 돕는 고마운 친구예요. 하늘 높이 날아올라 멋진 사진을 찍기도 하고, 사람들이 가기 힘든 곳에 무거운 택배 상자를 대신 배달해주기도 해요.",
-      "훌륭한 조종사가 되려면 연습이 필요해요. 처음엔 어렵지만, 매일 배우면 드론을 마음대로 움직일 수 있답니다. 우리 친구들도 멋진 드론 조종사가 되어 볼까요?"
+      "새해 첫날, 미국 내슈빌 동물원에서 귀여운 선물이 도착했어요! 바로 아기 땅돼지가 태어난 거예요. 몸무게가 1.8kg으로 아주 작고 소중한 친구랍니다.",
+      "아기 땅돼지는 분홍빛 피부와 기다란 코를 가졌어요. 엄마 옆에서 코를 씰룩거리며 냄새를 맡는 모습이 마치 보들보들한 인형 같아요. 정말 사랑스럽지요?",
+      "이제 막 세상을 만난 아기 땅돼지가 무럭무럭 자랄 수 있게 응원해 주세요. 씩씩한 꼬마 탐험가 여러분도 이 신기한 친구를 만나러 함께 가볼까요?"
     ],
-    "image_prompt": "A cute illustration of a child holding a remote controller and looking up at a drone flying in the blue sky. Soft pastel colors, warm atmosphere, suitable for children's book.",
-    "category_tag": "오늘의 직업과 미래"
+    "image_prompt": "Warm and realistic picture book illustration style. A cute baby aardvark with a pinkish skin and long snout twitching its nose next to its mother in a cozy zoo habitat. A young child explorer wearing a hat and binoculars is watching them curiously with a gentle smile. Soft sunlight, natural textures, heartwarming atmosphere.",
+    "category_tag": "동물 친구",
+    "reference": "https://a-z-animals.com/articles/meet-the-rare-baby-aardvark-born-just-minutes-into-the-new-year/"
   },
-  "activity_type": "hidden_objects",
+  "activity_type": "initial_quiz",
   "word_info": {
-    "word": "조종사",
-    "definition": "비행기나 드론, 로봇 같은 기계를 마음대로 움직이는 사람이에요."
+    "word": "땅돼지",
+    "definition": "땅속에 굴을 파고 살며 긴 코로 벌레를 잡아먹는 신기한 동물이에요."
   },
   "hidden_word": {
-    "word": "택배",
-    "mission": "이 단어는 무엇일까요? '물건을 상자에 담아 집으로 배달해 주는 것'을 뜻해요. 기사에서 찾아 동그라미를 쳐보세요!"
+    "word": "씰룩",
+    "mission": "코가 가볍게 움직이는 모양을 뜻해요. 기사 본문 속에서 이 단어를 찾아 동그라미를 쳐보세요!"
   },
-  "selected_topic": "조종사는 드론을 자유자재로 움직여요",
-  "selected_category": "오늘의 직업과 미래",
+  "selected_category": "동물 친구",
+  "selected_topic": "내슈빌 동물원의 깜짝 선물! 새해 첫 아기 땅돼지 탄생",
   "wisdom_pool_data": {
-    "text": "천리 길도 한 걸음부터",
-    "description": "아무리 먼 곳을 가더라도 첫 발을 떼는 게 가장 중요하다는 뜻이에요. 무슨 일이든 시작하고 꾸준히 하는 것이 중요하다는 말이랍니다.",
-    "message": "처음에는 드론 조종이 어렵게 느껴질 수 있어. 하지만 한 걸음씩 천천히 연습하면 멋진 조종사가 될 수 있단다. 우리 용기 내어 시작해 볼까?"
+    "text": "금지옥엽 (金枝玉葉)",
+    "description": "금처럼 반짝이고 옥처럼 예쁜 보물 같은 아이라는 뜻이에요. 아주아주 소중하고 귀한 존재를 말할 때 사용해요.",
+    "message": "새해 첫 선물로 온 아기 땅돼지처럼, 우리 친구도 세상에서 가장 소중한 보물이랍니다! 올 한 해도 아기 땅돼지처럼 씩씩하고 건강하게 무럭무럭 자라길 응원할게요."
   },
   "activity_data": {
-    "instruction": "드론을 날리는 멋진 풍경 속에 숨겨진 건전지, 조종기, 고글을 찾아보세요.",
+    "instruction": "기사 내용을 바탕으로 한 초성 퀴즈입니다. 제시된 힌트를 보고 정답을 맞춰보세요!",
     "items": [
-      "건전지",
-      "조종기",
-      "고글"
-    ],
-    "image_prompt": "Black and white line art style for searching objects. A scene showing a drone pilot flying a quadcopter in a park with trees and clouds. Hidden seamlessly within the detailed line art are a battery, a remote controller, and pilot goggles. Clean outlines, coloring book style, high resolution."
+      {
+        "clue": "내슈빌 동물원에서 새해 첫날 태어난 귀여운 아기 동물의 이름은 무엇인가요?",
+        "initials": "ㄸㄷㅈ"
+      },
+      {
+        "clue": "아기 땅돼지는 어떤 색깔의 피부를 가지고 있나요?",
+        "initials": "ㅂㅎㅂ"
+      },
+      {
+        "clue": "기사 마지막 부분에서 독자들을 부르는 말로, '씩씩한 꼬마 OOO'에 들어갈 단어는?",
+        "initials": "ㅌㅎㄱ"
+      }
+    ]
   }
 }

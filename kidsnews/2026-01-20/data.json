@@ -1,0 +1,46 @@
+{
+  "page1": {
+    "headline": "17년 만에 찾아온 선물, 아기 침팬지 탄생!",
+    "article_body": [
+      "17년이라는 긴 기다림 끝에 영국 동물원에서 아기 침팬지가 태어났어요. 엄마는 보물을 얻은 것처럼 아기를 품에 꼭 안고 있답니다. 정말 신기하고 기쁜 소식이지요?",
+      "아기는 따뜻한 품에서 코잠을 자고 우유도 맛있게 먹어요. 탐험가 친구들도 이 모습을 보고 박수를 쳤지요. 엄마의 보살핌 덕분에 아기는 무럭무럭 튼튼하게 자랄 거예요.",
+      "이제 아기에게는 새로운 가족과 친구가 많이 생겼어요. 우리도 이 작고 귀여운 생명이 건강하게 자라길 응원해요. 사랑 가득한 눈으로 아기를 함께 반겨주기로 해요."
+    ],
+    "image_prompt": "A warm and realistic picture book illustration of a mother chimpanzee tenderly hugging her newborn baby in a lush green forest habitat. A young child dressed as a friendly explorer with a safari hat is watching them with a joyful smile. Soft, golden sunlight filters through the trees, creating a peaceful and heartwarming atmosphere.",
+    "category_tag": "동물 친구",
+    "reference": "https://www.colchesterzoologicalsociety.com/baby-chimpanzee-born-after-17-years/"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "보살핌",
+    "definition": "누군가를 정성껏 돌보고 도와주는 따뜻한 마음이에요."
+  },
+  "hidden_word": {
+    "word": "침팬지",
+    "mission": "원숭이와 닮았지만 꼬리가 없는 이 동물의 이름은 무엇일까요? 기사 속에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_category": "동물 친구",
+  "selected_topic": "17년 만에 태어난 아기 침팬지",
+  "wisdom_pool_data": {
+    "text": "금지옥엽 (金枝玉葉)",
+    "description": "금으로 만든 나뭇가지와 옥으로 만든 잎사귀라는 뜻으로, 아주아주 소중하고 귀한 아이를 말해요.",
+    "message": "17년 만에 태어난 아기 침팬지가 엄마에게 큰 보물인 것처럼, 우리 친구도 엄마 아빠에게는 세상에 하나뿐인 귀한 '금지옥엽'이랍니다. 아기 침팬지처럼 우리 친구도 건강하고 따뜻하게 자라나길 응원해요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 주요 단어의 초성을 맞춰보세요.",
+    "items": [
+      {
+        "clue": "17년 만에 영국 동물원에서 태어난 이 동물의 이름은 무엇일까요?",
+        "initials": "ㅊㅍㅈ"
+      },
+      {
+        "clue": "엄마는 아기를 이것을 얻은 것처럼 소중하게 품에 꼭 안고 있어요.",
+        "initials": "ㅂㅁ"
+      },
+      {
+        "clue": "아기 침팬지의 탄생 소식을 듣고 박수를 치며 기뻐한 친구들은 누구일까요?",
+        "initials": "ㅌㅎㄱ"
+      }
+    ]
+  }
+}

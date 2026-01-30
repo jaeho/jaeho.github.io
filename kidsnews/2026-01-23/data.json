@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "진짜 피부가 남은 아기 공룡 발견!",
+    "article_body": [
+      "6,600만 년 전 살았던 아기 공룡이 타임머신을 타고 나타났어요. 보통 뼈만 남는데, 이번엔 신기하게도 진짜 피부와 뾰족한 가시가 그대로 남아있답니다.",
+      "과학자들은 마치 공룡이 살아있는 듯 생생해서 깜짝 놀랐어요. 덕분에 우리는 아주 먼 옛날 공룡의 실제 모습이 얼마나 멋졌는지 더 자세히 알 수 있게 되었어요.",
+      "땅속에 숨어있던 보물을 찾은 기분이에요. 여러분도 나중에 멋진 탐험가가 되어 공룡의 비밀을 찾고 싶지 않나요? 공룡이 들려주는 신비로운 모험을 함께 떠나봐요!"
+    ],
+    "image_prompt": "A warm and realistic picture book illustration style. A young child explorer with a magnifying glass is looking closely at a baby duck-billed dinosaur fossil. The fossil clearly shows detailed skin texture and small spikes rather than just bones. Gentle sunlight filters into a soft excavation site, magical atmosphere, earthy tones.",
+    "category_tag": "공룡 탐험",
+    "reference": "https://www.snexplores.org/article/ammolite-gems-rainbow-shimmer-dinosaur-skin-2026"
+  },
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "화석",
+    "definition": "아주 옛날에 살았던 동물이나 식물의 모양이 돌처럼 딱딱하게 굳은 것이에요."
+  },
+  "hidden_word": {
+    "word": "탐험가",
+    "mission": "이 단어는 '위험을 무릅쓰고 새로운 곳을 찾아가 살펴보는 사람'을 뜻해요. 기사 본문 속에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_category": "공룡 탐험",
+  "selected_topic": "6,600만 년 전 공룡의 '진짜 피부'가 발견되었어요!",
+  "wisdom_pool_data": {
+    "text": "백문이 불여일견",
+    "description": "백 번 듣는 것보다 한 번 직접 보는 것이 훨씬 더 잘 알 수 있다는 뜻이에요. 공룡 이야기를 듣기만 하다가 진짜 피부를 직접 보게 되니 공룡의 모습을 더 생생하게 알 수 있게 되었지요.",
+    "message": "우리 친구도 책으로만 보던 것을 직접 경험하며 배우는 멋진 탐험가가 되길 바랄게요. 직접 보고 느끼는 세상은 훨씬 더 신비롭고 재미있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 제시된 문장이 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "items": [
+      "6,600만 년 전 살았던 아기 공룡은 다른 화석들처럼 뼈만 남은 상태로 발견되었다. (O/X)",
+      "이번에 발견된 아기 공룡 화석에는 진짜 피부와 뾰족한 가시가 그대로 남아 있다. (O/X)",
+      "과학자들은 공룡 화석의 모습이 살아있는 듯 생생해서 깜짝 놀랐다. (O/X)"
+    ]
+  }
+}

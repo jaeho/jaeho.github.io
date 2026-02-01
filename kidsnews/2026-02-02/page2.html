@@ -180,8 +180,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -199,42 +199,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-purple-50 p-6 rounded-2xl border border-purple-100">
-        <p class="text-xl font-bold text-gray-800 leading-relaxed">
-            🤔 따뜻한 봄날, 꿀벌들이 하얀 딸기꽃 사이를 부지런히 날아다니며 꽃가루를 옮겨주고 있습니다. 덕분에 탐스러운 빨간 딸기가 주렁주렁 열렸습니다. <br>
-            <span class="text-purple-600">주인공은 어떤 마음일까요? 그림을 보고 맞춰보세요!</span>
-        </p>
-    </div>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
 
-    <div class="grid grid-cols-3 gap-4">
-        
-        <div class="flex flex-col gap-3">
-            <div class="aspect-square bg-white rounded-2xl shadow-md border-2 border-gray-100 overflow-hidden">
-                <img src="emotion_0.png" class="w-full h-full object-cover">
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.png" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    꿀꺽꿀꺽! 아 시원해~ 근데 물속에 사는 물고기도 나처럼 목이 마를까?
+                </div>
             </div>
-            <div class="bg-white p-2 rounded-xl text-center border border-gray-200">
-                <p class="text-sm font-black text-gray-400">? ? ?</p>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
             </div>
         </div>
-        
-        <div class="flex flex-col gap-3">
-            <div class="aspect-square bg-white rounded-2xl shadow-md border-2 border-gray-100 overflow-hidden">
-                <img src="emotion_1.png" class="w-full h-full object-cover">
-            </div>
-            <div class="bg-white p-2 rounded-xl text-center border border-gray-200">
-                <p class="text-sm font-black text-gray-400">? ? ?</p>
-            </div>
-        </div>
-        
     </div>
 
-    <div class="mt-4 p-6 bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200">
-        <p class="text-lg font-bold text-gray-400">우리 주원이는 이럴 때 어떤 마음이 들 것 같나요? 엄마, 아빠에게 말해주세요!</p>
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -246,8 +254,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">바늘 가는 데 실 간다</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">바늘이 콕콕 지나가면 실도 쫄래쫄래 따라가죠? 이처럼 꿀벌과 꽃도 항상 함께해야 하는 '단짝 짝꿍'이라는 뜻이에요. 꿀벌이 있어야 맛있는 열매도 생길 수 있답니다.</p>
+                    <p class="text-3xl font-black text-slate-900">백문이 불여일견</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">백 번 설명을 듣는 것보다 직접 한 번 보는 게 더 낫다는 뜻이에요. 말로만 듣는 것보다 내 눈으로 직접 보면 훨씬 더 잘 알 수 있답니다.</p>
                 </div>
             </div>
         </footer>

@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "꿀벌이 떠나면 맛있는 딸기도 없대요",
+    "article_body": [
+      "붕붕 꿀벌은 꽃들의 짝꿍이에요. 벌이 꽃가루를 부지런히 옮겨주어야 사과나 딸기 같은 맛있는 열매가 생겨난답니다. 꿀벌은 정말 고마운 꼬마 요리사지요.",
+      "그런데 요즘 꿀벌들이 자꾸 사라지고 있어요. 지구가 너무 더워져서 꿀벌이 살기 힘들기 때문이래요. 꿀벌이 없으면 우리가 좋아하는 과일도 먹을 수 없어요.",
+      "소중한 꿀벌을 지키려면 어떻게 할까요? 꽃과 나무를 아끼고 쓰레기는 꼭 휴지통에 버리기로 해요. 우리 모두 꿀벌 친구를 지켜주겠다고 약속할까요?"
+    ],
+    "image_prompt": "A cute honeybee sitting on a colorful flower in a sunny garden, soft pastel colors, children's book illustration style, warm and happy atmosphere, with strawberries and apples in the background.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "꽃가루",
+    "definition": "꽃 속에 들어 있는 아주 작은 노란 가루예요. 꿀벌이 이것을 옮겨주면 열매가 자라나요."
+  },
+  "hidden_word": {
+    "word": "약속",
+    "mission": "우리가 꼭 지키겠다고 하는 다짐이에요. 기사 마지막 문단에서 이 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "꿀벌이 사라지면 우리가 먹는 과일도 사라진대요",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "바늘 가는 데 실 간다",
+    "description": "바늘이 콕콕 지나가면 실도 쫄래쫄래 따라가죠? 이처럼 꿀벌과 꽃도 항상 함께해야 하는 '단짝 짝꿍'이라는 뜻이에요. 꿀벌이 있어야 맛있는 열매도 생길 수 있답니다.",
+    "message": "바늘이 없으면 실도 소용없듯이, 꿀벌이 없으면 우리가 좋아하는 딸기도 만날 수 없어. 꿀벌 친구가 우리 곁에 오래 머물도록 자연을 사랑해주자!"
+  },
+  "activity_data": {
+    "scenario": "따뜻한 봄날, 꿀벌들이 하얀 딸기꽃 사이를 부지런히 날아다니며 꽃가루를 옮겨주고 있습니다. 덕분에 탐스러운 빨간 딸기가 주렁주렁 열렸습니다.",
+    "emotions": [
+      {
+        "type": "고마움",
+        "prompt": "Close-up of a fluffy honeybee pollinating a white strawberry flower, warm sunlight, soft bokeh background, macro photography, peaceful atmosphere"
+      },
+      {
+        "type": "기쁨",
+        "prompt": "A basket full of ripe red strawberries in a green field, vibrant colors, bright lighting, joyful harvest scene"
+      }
+    ]
+  }
+}

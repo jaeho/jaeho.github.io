@@ -1,0 +1,44 @@
+{
+  "page1": {
+    "headline": "하늘 위의 화가, 드론이 그리는 우리 동네 지도!",
+    "article_body": [
+      "하늘을 씽씽 나는 드론이 지도를 그려요. 드론 카메라가 높은 곳에서 땅을 찰칵 찍는답니다. 나무와 집의 위치를 아주 정확하게 알 수 있어서 정말 신기해요.",
+      "드론 측량사는 이 사진을 모아 지도를 만들어요. 사람이 가기 힘든 좁은 산길도 드론은 쉽게 날아가요. 정말 똑똑하고 든든한 우리들의 날개 친구예요.",
+      "미래에는 드론 덕분에 더 안전한 지도가 많아질 거예요. 여러분은 드론을 타고 어디를 보고 싶나요? 우리 나중에 드론과 멋진 지도를 만들기로 약속해요!"
+    ],
+    "image_prompt": "A friendly drone with big eyes and a camera flying over a peaceful cartoon neighborhood with green trees and colorful houses, soft pastel colors, storybook illustration style, bright sunny day.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "basic",
+  "word_info": {
+    "word": "측량사",
+    "definition": "땅의 크기와 모양을 재서 지도를 만드는 사람이에요."
+  },
+  "hidden_word": {
+    "word": "카메라",
+    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "드론으로 땅의 모양을 정밀하게 그리는 드론 측량사",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "백문이 불여일견",
+    "description": "백 번 듣는 것보다 내 눈으로 직접 한 번 보는 것이 훨씬 더 정확하다는 뜻이에요. 드론이 하늘에서 직접 사진을 찍어 지도를 만드는 것과 같답니다.",
+    "message": "드론이 높은 곳에서 세상을 바라보듯, 우리 친구도 넓은 마음과 밝은 눈으로 세상을 배우며 멋진 꿈을 그려가길 응원할게요!"
+  },
+  "activity_data": {
+    "drawing_titles": [
+      "드론의 눈으로 본 우리 동네 풍경화",
+      "하늘 위에서 찰칵! 내가 그린 드론 지도",
+      "날아라 드론! 스케치북에 담은 우리 마을",
+      "드론 카메라에 포착된 우리 집과 골목길",
+      "알록달록 드론 지도로 완성하는 우리 동네"
+    ],
+    "writing_titles": [
+      "드론 조종사가 되어 내려다본 세상",
+      "하늘 위의 화가, 드론과 함께한 특별한 하루",
+      "드론 지도를 그리며 발견한 우리 마을의 보물",
+      "내가 만약 드론이라면? 하늘에서 본 풍경 이야기",
+      "드론이 그려준 지도를 보고 느낀 우리 동네의 새로운 모습"
+    ]
+  }
+}

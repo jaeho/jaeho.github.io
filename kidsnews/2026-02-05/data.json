@@ -1,37 +1,33 @@
 {
   "page1": {
-    "headline": "브라질 삼바 축제는 왜 반짝거릴까요?",
+    "headline": "커다란 바위 속에 숨은 보물 도시, 페트라",
     "article_body": [
-      "브라질에서는 매년 커다란 삼바 축제가 열려요. 반짝이는 옷을 입은 사람들이 신나게 춤을 춰요. 북소리가 울리면 온 세상이 축제장으로 변해요.",
-      "이 축제는 슬픈 마음을 날려 보내려 시작됐어요. 화려한 깃털은 기쁨을 상징해요. 모두가 밝은 옷을 입으면 마음속에 행복이 피어나요.",
-      "여러분도 음악에 맞춰 엉덩이를 씰룩이며 춤을 춰볼까요? 우리 함께 멋진 주인공이 되어 보아요. 여러분은 어떤 색 옷을 입고 싶나요?"
+      "요르단 사막에는 아주 특별한 도시가 있어요. 바로 커다란 바위산을 조각해서 만든 '페트라'예요. 햇빛을 받으면 붉은 장밋빛이 나서 정말 아름답답니다.",
+      "옛날 사람들은 망치와 정만 가지고 이 거대한 바위를 깎아 집과 무덤을 만들었어요. 좁은 바위 틈을 지나면 신비로운 보물 창고가 짠하고 나타나요.",
+      "마치 영화 속 모험가가 된 기분이 들지 않나요? 바위 도시에 어떤 비밀이 숨어 있을지 상상해 보아요. 우리도 멋진 탐험가가 되어 떠나볼까요?"
     ],
-    "image_prompt": "A bright and cheerful illustration of a Brazilian Samba festival, children wearing colorful feathered costumes and sparkling clothes dancing happily, pastel colors, soft warm lighting, festive atmosphere, whimsical children's book style.",
+    "image_prompt": "A warm and bright pastel-style illustration of Petra, the ancient city carved into a giant red rock cliff. A narrow canyon path leads to the grand treasury building. Cute child explorers are looking at the structure with wonder under a blue sky.",
     "category_tag": "오늘의 세계와 사회"
   },
-  "activity_type": "emotion_guess",
+  "activity_type": "cartoon",
   "word_info": {
-    "word": "축제",
-    "definition": "많은 사람이 모여서 구경도 하고 즐겁게 노는 큰 행사예요."
+    "word": "조각",
+    "definition": "나무나 돌을 깎아서 멋진 모양을 만드는 것을 말해요."
   },
   "hidden_word": {
-    "word": "깃털",
-    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "보물",
+    "mission": "아주 소중하고 귀한 물건을 뜻해요. 기사 본문에서 이 단어를 찾아 동그라미를 쳐보세요!"
   },
-  "selected_topic": "브라질의 쌈바 축제는 왜 그렇게 화려할까요?",
+  "selected_topic": "커다란 바위산을 깎아 만든 신비로운 도시, 페트라",
   "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "웃으면 복이 와요",
-    "description": "하하 호호 즐겁게 웃으면 기분 좋은 행복이 우리 마음속으로 찾아온다는 뜻이에요.",
-    "message": "삼바 축제의 주인공들처럼 우리 친구도 활짝 웃으며 신나게 춤을 춰봐요! 친구의 예쁜 미소가 세상을 더 밝게 비춰줄 거예요."
+    "text": "우공이산 (愚公移山)",
+    "description": "쉬지 않고 꾸준히 흙을 나르면 큰 산도 옮길 수 있다는 뜻이에요. 아무리 어려운 일이라도 포기하지 않고 계속 노력하면 꼭 이룰 수 있다는 말이에요.",
+    "message": "망치로 단단한 바위산을 깎아 멋진 도시를 만든 사람들처럼, 우리 친구도 끈기를 가지고 매일 조금씩 노력하면 보물처럼 빛나는 꿈을 이룰 수 있어요!"
   },
   "activity_data": {
-    "scenario": "리우데자네이루의 카니발 현장, 수만 개의 시퀸과 보석이 박힌 의상을 입은 무용수가 화려한 조명 아래서 정열적으로 춤을 추고 있습니다. 의상의 반짝임이 주변의 공기마저 황금빛으로 물들입니다.",
-    "emotions": [
-      {
-        "type": "환희 (Joy)",
-        "prompt": "A vibrant Brazilian samba dancer wearing a costume covered in thousands of gold and silver sequins, dancing under bright stadium spotlights, joyful expression, sparkling glitter particles in the air, 8k resolution, cinematic lighting."
-      }
-    ]
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와! 이 좁은 붉은 바위 틈으로 들어가면 정말 보물 도시가 나올까?",
+    "image_prompt": "Black and white simple line art for kids, Petra theme, a cute little explorer wearing a safari hat and a backpack holding an old map, standing in front of a massive rock cliff with a narrow vertical crack entrance, looking excited and curious, desert landscape, thick lines, no shading, white background"
   }
 }

@@ -180,8 +180,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -199,33 +199,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-purple-50 p-6 rounded-2xl border border-purple-100">
-        <p class="text-xl font-bold text-gray-800 leading-relaxed">
-            🤔 리우데자네이루의 카니발 현장, 수만 개의 시퀸과 보석이 박힌 의상을 입은 무용수가 화려한 조명 아래서 정열적으로 춤을 추고 있습니다. 의상의 반짝임이 주변의 공기마저 황금빛으로 물들입니다. <br>
-            <span class="text-purple-600">주인공은 어떤 마음일까요? 그림을 보고 맞춰보세요!</span>
-        </p>
-    </div>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
 
-    <div class="grid grid-cols-3 gap-4">
-        
-        <div class="flex flex-col gap-3">
-            <div class="aspect-square bg-white rounded-2xl shadow-md border-2 border-gray-100 overflow-hidden">
-                <img src="emotion_0.png" class="w-full h-full object-cover">
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.png" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    우와! 이 좁은 붉은 바위 틈으로 들어가면 정말 보물 도시가 나올까?
+                </div>
             </div>
-            <div class="bg-white p-2 rounded-xl text-center border border-gray-200">
-                <p class="text-sm font-black text-gray-400">? ? ?</p>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
             </div>
         </div>
-        
     </div>
 
-    <div class="mt-4 p-6 bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200">
-        <p class="text-lg font-bold text-gray-400">우리 주원이는 이럴 때 어떤 마음이 들 것 같나요? 엄마, 아빠에게 말해주세요!</p>
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -237,8 +254,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">웃으면 복이 와요</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">하하 호호 즐겁게 웃으면 기분 좋은 행복이 우리 마음속으로 찾아온다는 뜻이에요.</p>
+                    <p class="text-3xl font-black text-slate-900">우공이산 (愚公移山)</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">쉬지 않고 꾸준히 흙을 나르면 큰 산도 옮길 수 있다는 뜻이에요. 아무리 어려운 일이라도 포기하지 않고 계속 노력하면 꼭 이룰 수 있다는 말이에요.</p>
                 </div>
             </div>
         </footer>

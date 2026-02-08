@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "바다의 꽃, 산호는 식물일까요?",
+    "article_body": [
+      "바닷속에는 알록달록 꽃을 닮은 산호가 살아요. 흔들리는 모습이 식물 같지만 사실 산호는 동물이에요. 예쁜 색깔 덕분에 바다의 꽃밭이라고도 불린답니다.",
+      "산호는 촉수로 아주 작은 먹이를 잡아먹으며 쑥쑥 자라요. 딱딱한 집을 지어 물고기 친구들에게 쉼터도 빌려줘요. 정말 신기하고 다정한 바다 동물이지요?",
+      "우리 친구들도 산호를 아끼고 사랑해 주기로 약속할까요? 아름다운 산호를 직접 본다면 어떤 기분이 들지 함께 상상해 보아요."
+    ],
+    "image_prompt": "A vibrant and warm pastel-style illustration of colorful coral reefs under the clear blue sea. Small, cute tropical fish are swimming peacefully around the friendly-looking corals. The scene is bright, magical, and soft, perfect for 7-year-olds.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "산호",
+    "definition": "바닷속에서 예쁜 색깔을 뽐내며 살고 있는 아주 작은 동물이에요."
+  },
+  "hidden_word": {
+    "word": "촉수",
+    "mission": "이 단어는 산호가 먹이를 잡을 때 쓰는 가느다란 팔이에요. 본문에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "바닷속 산호는 식물일까요, 아니면 동물일까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "외유내강 (外柔內剛)",
+    "description": "겉은 꽃처럼 살랑살랑 예쁘지만, 사실은 단단한 집을 짓고 친구를 돕는 씩씩한 힘을 가졌다는 뜻이에요.",
+    "message": "우리 친구도 산호처럼 상냥하고 예쁜 모습 속에, 남을 도와주는 튼튼하고 용감한 마음을 가진 어린이가 되어보아요!"
+  },
+  "activity_data": {
+    "scenario": "산호가 식물처럼 가만히 서 있지만 사실은 촉수를 이용해 먹이 활동을 하는 '동물'이라는 사실을 처음 알게 되었을 때",
+    "emotions": [
+      {
+        "type": "놀람",
+        "prompt": "A person with wide eyes and an open mouth looking at a 3D infographic of a coral polyp eating, underwater laboratory background, highly detailed, expressive facial expression."
+      },
+      {
+        "type": "호기심",
+        "prompt": "A young scientist leaning in close to an aquarium, observing coral tentacles moving with a magnifying glass, vibrant colors, bokeh underwater background."
+      }
+    ]
+  }
+}

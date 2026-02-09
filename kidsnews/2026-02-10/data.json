@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "지구는 왜 축구공처럼 동그란가요?",
+    "article_body": [
+      "우리가 사는 지구는 공처럼 동글동글해요. 아주 먼 옛날, 우주의 먼지들이 서로 끌어당기며 뭉쳤거든요. 모든 곳에서 가운데로 꾹 눌러 공이 됐어요.",
+      "지구가 둥근 이유는 중력이라는 힘 때문이에요. 이 힘은 찰흙을 굴려 동그랗게 만드는 손과 비슷해요. 사방에서 똑같이 당겨서 둥근 모습이 된 거죠.",
+      "지구가 네모였다면 끝에서 뚝 떨어졌을지도 몰라요. 둥근 덕분에 어디든 갈 수 있어 다행이지요? 우리 함께 동그란 지구를 소중히 아껴주기로 해요!"
+    ],
+    "image_prompt": "A friendly, smiling Earth character shaped like a round ball floating in space, surrounded by soft stars and colorful stardust, warm pastel colors, storybook illustration style, high quality.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "basic",
+  "word_info": {
+    "word": "중력",
+    "definition": "지구가 물건을 아래로 끌어당기는 힘이에요."
+  },
+  "hidden_word": {
+    "word": "우주",
+    "mission": "이 단어는 별과 행성들이 있는 아주 넓은 곳을 말해요. 기사 속에서 '우주'를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "지구는 왜 둥글까요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 먼지들이 하나둘씩 많이 모여서, 지구처럼 커다란 공이나 높은 산이 되었다는 뜻이에요.",
+    "message": "작은 먼지들이 모여 예쁜 지구가 된 것처럼, 우리 친구의 작은 정성들이 모이면 지구를 더 아름답게 지킬 수 있답니다!"
+  },
+  "activity_data": {
+    "instruction": "지구는 왜 축구공처럼 동그란가요? 주제의 그림 및 느낀 점 섹션 제목 제안",
+    "titles": [
+      "내가 그리는 둥글둥글 지구",
+      "축구공 닮은 지구, 나의 생각 쓰기",
+      "지구가 둥근 이유, 그림과 글로 표현하기",
+      "파란 구슬 지구 탐험 일지",
+      "중력이 빚어낸 동그란 세상",
+      "우주에서 본 우리 지구의 모습",
+      "동그란 지구 속 나의 상상력",
+      "지구의 비밀을 찾아서: 그림과 소감"
+    ]
+  }
+}

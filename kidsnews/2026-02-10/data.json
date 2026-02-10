@@ -1,41 +1,37 @@
 {
   "page1": {
-    "headline": "지구는 왜 축구공처럼 동그란가요?",
+    "headline": "둥글둥글 우리 지구, 왜 공 모양일까요?",
     "article_body": [
-      "우리가 사는 지구는 공처럼 동글동글해요. 아주 먼 옛날, 우주의 먼지들이 서로 끌어당기며 뭉쳤거든요. 모든 곳에서 가운데로 꾹 눌러 공이 됐어요.",
-      "지구가 둥근 이유는 중력이라는 힘 때문이에요. 이 힘은 찰흙을 굴려 동그랗게 만드는 손과 비슷해요. 사방에서 똑같이 당겨서 둥근 모습이 된 거죠.",
-      "지구가 네모였다면 끝에서 뚝 떨어졌을지도 몰라요. 둥근 덕분에 어디든 갈 수 있어 다행이지요? 우리 함께 동그란 지구를 소중히 아껴주기로 해요!"
+      "우리가 사는 지구는 커다란 공처럼 둥글어요. 지구가 아주 무겁고 힘이 세서 그래요. 가운데로 쑥 당기는 힘 때문에 예쁜 동그라미 모양이 되었답니다.",
+      "찰흙을 손바닥으로 굴려 본 적 있나요? 사방에서 누르면 공이 되지요. 우주에서도 지구가 모든 방향에서 똑같이 힘을 받아 둥글게 뭉쳐졌어요.",
+      "덕분에 우리는 굴러가지 않고 잘 지내요. 만약 지구가 네모나면 어땠을까요? 오늘 밤 달을 보며 지구 모양을 함께 그려 봐요!"
     ],
-    "image_prompt": "A friendly, smiling Earth character shaped like a round ball floating in space, surrounded by soft stars and colorful stardust, warm pastel colors, storybook illustration style, high quality.",
+    "image_prompt": "A friendly, round Earth character floating in a soft pastel space with twinkling stars and a smiling moon, digital art style for kids, warm and cozy lighting.",
     "category_tag": "오늘의 과학과 기술"
   },
-  "activity_type": "basic",
+  "activity_type": "hidden_objects",
   "word_info": {
-    "word": "중력",
-    "definition": "지구가 물건을 아래로 끌어당기는 힘이에요."
+    "word": "우주",
+    "definition": "별과 달이 떠 있는 아주 넓고 커다란 세상이에요."
   },
   "hidden_word": {
-    "word": "우주",
-    "mission": "이 단어는 별과 행성들이 있는 아주 넓은 곳을 말해요. 기사 속에서 '우주'를 찾아 동그라미를 쳐보세요!"
+    "word": "지구",
+    "mission": "우리가 살고 있는 예쁜 별이에요. 기사에서 이 글자를 찾아 동그라미를 쳐보세요!"
   },
   "selected_topic": "지구는 왜 둥글까요?",
   "selected_category": "오늘의 과학과 기술",
   "wisdom_pool_data": {
-    "text": "티끌 모아 태산",
-    "description": "아주 작은 먼지들이 하나둘씩 많이 모여서, 지구처럼 커다란 공이나 높은 산이 되었다는 뜻이에요.",
-    "message": "작은 먼지들이 모여 예쁜 지구가 된 것처럼, 우리 친구의 작은 정성들이 모이면 지구를 더 아름답게 지킬 수 있답니다!"
+    "text": "일심동체(一心同體)",
+    "description": "여러 조각이 마음을 하나로 똘똘 뭉쳐서 마치 한 몸처럼 된다는 뜻이에요.",
+    "message": "지구가 모든 방향에서 힘을 하나로 모아 예쁜 동그라미가 된 것처럼, 우리 친구도 가족, 친구들과 마음을 모아 사이좋게 지내기로 해요!"
   },
   "activity_data": {
-    "instruction": "지구는 왜 축구공처럼 동그란가요? 주제의 그림 및 느낀 점 섹션 제목 제안",
-    "titles": [
-      "내가 그리는 둥글둥글 지구",
-      "축구공 닮은 지구, 나의 생각 쓰기",
-      "지구가 둥근 이유, 그림과 글로 표현하기",
-      "파란 구슬 지구 탐험 일지",
-      "중력이 빚어낸 동그란 세상",
-      "우주에서 본 우리 지구의 모습",
-      "동그란 지구 속 나의 상상력",
-      "지구의 비밀을 찾아서: 그림과 소감"
-    ]
+    "instruction": "둥글둥글한 지구와 광활한 우주 배경 속에 숨어있는 세 가지 물건을 찾아보세요! 망원경, 우주복 장화, 그리고 자석이 곳곳에 하나씩 숨겨져 있습니다.",
+    "items": [
+      "망원경",
+      "우주복 장화",
+      "자석"
+    ],
+    "image_prompt": "A detailed black and white line art illustration for a 'hidden pictures' game. The scene features a large, round Earth in the center of space, surrounded by stars, swirling galaxies, and gravity waves. Hidden subtly within the cosmic scenery are exactly one telescope, one astronaut boot, and one horseshoe magnet. The style is clean, minimalist, with clear outlines suitable for coloring, and the hidden items are cleverly integrated into the patterns of the stars and clouds."
   }
 }

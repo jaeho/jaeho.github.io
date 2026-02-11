@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "진짜일까? 가짜일까? 똑똑한 뉴스 탐정!",
+    "article_body": [
+      "요즘 인터넷에는 가짜 뉴스가 아주 많아요. 남을 속이려고 지어낸 소식들을 말해요. 진짜처럼 보이지만 사실은 거짓말이라서 우리를 속상하게 해요.",
+      "뉴스를 볼 때는 정말 있었던 일인지 곰곰이 생각해야 해요. 누가 썼는지, 믿을 수 있는지 확인해요. 똑똑한 눈으로 자세히 살펴봐요.",
+      "이상한 소문은 엄마께 꼭 여쭤보세요. 내가 하는 말이 진짜인지 확인하기로 약속해요. 오늘부터 우리 모두 멋진 소식 탐정이 되어볼까요?"
+    ],
+    "image_prompt": "Bright pastel illustration of a curious 7-year-old child wearing a detective hat, looking at a digital tablet with a magnifying glass, surrounded by colorful question marks and sparkles, soft storybook style.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "가짜",
+    "definition": "진짜가 아니고 거짓으로 꾸며낸 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "탐정",
+    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "가짜 뉴스를 구별하는 똑똑한 눈을 가져요",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "돌다리도 두들겨 보고 건너라",
+    "description": "튼튼해 보이는 돌다리라도 혹시 모르니 톡톡 두드려 보며 조심해서 건너야 한다는 뜻이에요. 아주 잘 아는 일이라도 한 번 더 꼼꼼하게 확인하라는 말이에요.",
+    "message": "인터넷 소식을 볼 때도 이 다리가 튼튼한지 확인하는 마음으로, 진짜인지 가짜인지 엄마랑 함께 꼼꼼히 살펴보는 멋진 탐정이 되어봐요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸에서 뉴스 탐정이 된 주인공의 행동을 보고, 뒤에 이어질 세 칸의 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "와! '내일부터 학교에 사탕 괴물이 나타난다'고? 이게 정말 진짜 뉴스일까?",
+    "image_prompt": "Black and white simple line art for kids, coloring book style, a cute child wearing a detective hat and holding a magnifying glass, looking at a smartphone screen with a surprised expression, a news icon in the background, white background, thick lines, no shading, high contrast."
+  }
+}

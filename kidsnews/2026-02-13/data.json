@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "숲속 보물을 찾는 꼬마 곤충학자",
+    "article_body": [
+      "숲에는 작은 곤충 친구들이 많이 살아요. 곤충학자는 돋보기를 들고 이들을 관찰하는 선생님이죠. 개미와 나비의 모습을 꼼꼼히 종이에 그려요.",
+      "딱정벌레는 반짝이는 갑옷을 입고 있고, 장수풍뎅이는 커다란 뿔을 뽐내요. 곤충마다 생김새가 달라서 매일 보물을 찾는 것처럼 정말 신기해요.",
+      "우리 친구들도 작은 곤충을 찾아보는 건 어떨까요? 생명을 아끼는 마음을 가지면 멋진 꼬마 곤충학자가 된답니다. 여러분은 어떤 곤충이 좋나요?"
+    ],
+    "image_prompt": "A friendly child in a safari hat holding a magnifying glass, observing a shiny colorful beetle and a butterfly in a vibrant green sunny forest, pastel colors, soft lighting, children's book illustration style.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "곤충학자",
+    "definition": "곤충을 아주 사랑하고 꼼꼼하게 관찰하며 연구하는 사람을 말해요."
+  },
+  "hidden_word": {
+    "word": "돋보기",
+    "mission": "이 단어는 무엇일까요? 작은 것을 크게 보여주는 신비한 도구예요. 기사 본문에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "신기한 곤충들을 관찰하고 기록하는 곤충학자",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "티끌 모아 태산",
+    "description": "작은 먼지가 모여서 커다란 산이 된다는 뜻이에요. 아주 작은 곤충 하나하나를 소중히 여기고 관찰하는 마음이 모이면 멋진 곤충 박사님이 될 수 있답니다.",
+    "message": "우리 꼬마 곤충학자 친구! 숲속의 작은 친구들에게 다정한 인사를 건네보세요. 매일매일 곤충을 사랑하는 마음을 쌓아간다면, 세상에서 가장 멋진 보물을 찾게 될 거예요!"
+  },
+  "activity_data": {
+    "scenario": "꼬마 곤충학자가 돋보기를 들고 나뭇잎 뒤에 숨겨진 황금빛 딱정벌레를 마침내 찾아낸 순간입니다.",
+    "emotions": [
+      {
+        "type": "환희",
+        "prompt": "A young boy entomologist with a magnifying glass, eyes sparkling with joy, discovering a glowing golden beetle on a vibrant green leaf, sunlight filtering through the forest canopy, cinematic lighting, 8k resolution."
+      }
+    ]
+  }
+}

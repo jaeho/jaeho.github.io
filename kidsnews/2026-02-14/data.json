@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "\"할 수 있어!\" 마음의 마법을 부려요",
+    "article_body": [
+      "하늘을 날고 싶은 꼬마 새가 있었어요. 날갯짓이 서툴러 바닥에 쿵 넘어졌지만, 새는 \"난 할 수 있어!\"라고 매일매일 씩씩하게 다짐했지요.",
+      "할 수 있다는 믿음은 정말 신기한 마법 같아요. 마음속으로 믿으면 몸에 힘이 불끈 솟아나거든요. 어려운 일도 포기하지 않으면 멋지게 성공할 수 있어요.",
+      "우리 친구들도 거울을 보며 \"나는 무엇이든 잘할 수 있어!\"라고 크게 외쳐 볼까요? 오늘 여러분이 용기 있게 도전하고 싶은 일은 무엇인가요?"
+    ],
+    "image_prompt": "A cute small bird wearing a tiny superhero cape flying towards a bright rainbow, soft pastel colors, dreamy children's book illustration style, warm sunshine, high quality.",
+    "category_tag": "오늘의 마음과 감정"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "다짐",
+    "definition": "어떤 일을 꼭 하겠다고 마음을 굳게 먹는 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "마법",
+    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "할 수 있다는 믿음이 때로는 불가능을 가능하게 만들기도 해요",
+  "selected_category": "오늘의 마음과 감정",
+  "wisdom_pool_data": {
+    "text": "칠전팔기 (七顚八起)",
+    "description": "일곱 번 넘어져도 여덟 번 일어난다는 뜻이에요. 여러 번 실패해도 포기하지 않고 다시 도전하는 마음을 말해요.",
+    "message": "우리 친구도 넘어져도 괜찮아요! 기사 속 꼬마 새처럼 다시 일어나 '할 수 있어!'라고 씩씩하게 외치면, 정말로 멋지게 해낼 수 있는 마법 같은 힘이 생길 거예요."
+  },
+  "activity_data": {
+    "scenario": "처음으로 보조 바퀴가 없는 자전거를 타게 되었어요. 처음엔 무서웠지만 '할 수 있어!'라고 마음속으로 마법의 주문을 외치며 페달을 밟았더니 드디어 혼자서 씽씽 달리게 되었어요.",
+    "emotions": [
+      {
+        "type": "자신감",
+        "prompt": "A young child riding a bicycle without training wheels on a sunny park path, a magical golden aura of light surrounding the child, a bright and triumphant smile, cinematic lighting, vibrant colors, 8k resolution."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "page1": {
+    "headline": "인도 숲에서 온 용감한 꼬마 군인, '군대개미'!",
+    "article_body": [
+      "인도 숲속에서 용감한 꼬마 군인들을 새로 만났어요. 바로 '군대개미' 친구들이에요. 이들은 혼자 다니지 않고 친구들과 손을 잡고 씩씩하게 행진하며 숲을 누비는 아주 멋쟁이 곤충이랍니다.",
+      "군대개미는 이름처럼 서로를 잘 도와요. 무거운 먹이도 힘을 모아 영차영차 함께 옮기지요. 몸집은 작지만 마음을 합치면 큰 동물보다 더 센 힘을 낼 수 있는 똑똑하고 용기 있는 친구들이에요.",
+      "우리도 개미처럼 사이좋게 지내봐요. 서로 도와주면 어떤 일도 척척 해낼 수 있어요! 숲속의 작은 영웅, 군대개미의 소중한 협동심을 우리 마음속에 담아보며 반갑게 인사를 건네볼까요?"
+    ],
+    "image_prompt": "Warm and realistic children's book illustration style. A curious young child explorer with a magnifying glass and a khaki hat is observing a line of tiny ants in a lush Indian jungle. The ants are moving together in a coordinated line, carrying a small leaf. Sunbeams filter through the large green leaves. Soft textures, vibrant natural colors, friendly atmosphere.",
+    "category_tag": "숲속 소식",
+    "reference": "https://www.insightsonindia.com/2026/02/14/army-ant-species/"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "협동심",
+    "definition": "여러 사람이 힘을 합쳐서 함께 일을 하는 마음이에요."
+  },
+  "hidden_word": {
+    "word": "행진",
+    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_category": "숲속 소식",
+  "selected_topic": "인도 숲속에서 찾은 새로운 '군대개미' 친구들",
+  "wisdom_pool_data": {
+    "text": "백지장도 맞들면 낫다",
+    "description": "아주 가벼운 종이 한 장이라도 친구와 함께 힘을 합쳐서 들면 훨씬 더 쉽고 가볍게 느껴진다는 뜻이에요.",
+    "message": "작은 개미 친구들이 힘을 모아 커다란 먹이를 옮기는 것처럼, 우리 친구도 옆에 있는 친구와 서로 도와주면 어떤 어려운 일도 씩씩하게 해낼 수 있답니다!"
+  },
+  "activity_data": {
+    "scenario": "수천 마리의 군대개미 동료들과 발맞추어 울창한 인도 숲을 행진하고 있어요. 우리는 무엇이든 해낼 수 있다는 믿음으로 가득 차 있습니다.",
+    "emotions": [
+      {
+        "type": "협동심",
+        "prompt": "A long, organized line of army ants marching across the Indian jungle floor, tiny leaf helmets, teamwork atmosphere, macro photography, cinematic forest lighting."
+      },
+      {
+        "type": "자부심",
+        "prompt": "A close-up of a tiny army ant soldier standing tall on a mossy rock, looking back at its marching army with a confident expression, 3D Pixar style."
+      }
+    ]
+  }
+}

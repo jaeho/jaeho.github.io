@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "갈매기는 바닷물을 마시는 마법사예요!",
+    "article_body": [
+      "바닷가는 짭짤한 물로 가득해요. 사람은 바닷물을 마시면 안 되지만, 갈매기는 꿀꺽꿀꺽 잘 마신답니다. 갈매기 몸속에 특별한 마법 주머니가 있기 때문이에요.",
+      "이 주머니는 짠 소금만 쏙 골라내요. 골라낸 소금은 콧구멍을 통해 퉤 하고 밖으로 뱉어내지요. 갈매기는 몸속에 작은 정수기를 품고 사는 셈이에요.",
+      "우리 친구들도 신기한 능력을 가진 동물을 알고 있나요? 다음에 바다에 가면 갈매기가 소금을 뱉는지 함께 관찰해 보기로 약속해요!"
+    ],
+    "image_prompt": "A cute seagull on a sunny beach, drinking blue seawater and small sparkling white salt crystals coming out of its beak like a magic trick, soft pastel colors, storybook illustration style, bright and cheerful.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "정수기",
+    "definition": "짠물이나 더러운 물을 깨끗하고 맛있는 물로 바꿔 주는 기계예요."
+  },
+  "hidden_word": {
+    "word": "소금",
+    "mission": "짠맛이 나는 하얀 가루예요. 이 단어를 기사 본문 속에서 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "갈매기는 바닷물을 마시고 소금만 퉤 뱉어낸대요",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "각양각색 (각양각색)",
+    "description": "세상의 모든 동물과 사람들은 저마다 다른 모양과 특별한 능력을 하나씩 가지고 있다는 뜻이에요.",
+    "message": "갈매기가 바닷물을 깨끗하게 만드는 마법 주머니를 가진 것처럼, 우리 친구에게도 나만의 멋진 재능이 꼭 숨어있을 거예요! 내가 무엇을 잘하는지 함께 찾아보며 자신감을 가져봐요!"
+  },
+  "activity_data": {
+    "instruction": "갈매기가 바닷물을 시원하게 마시고 있어요! 이제 갈매기 몸속에서 어떤 마법이 일어날까요? 뒤의 3칸을 자유롭게 상상해서 그려보세요!",
+    "first_cut_dialogue": "목마른데 바닷물이나 마셔볼까? 꿀꺽꿀꺽!",
+    "image_prompt": "Black and white simple line art for kids, 'Seagulls are magicians who drink seawater!' theme, a cute seagull standing on a sandy beach and drinking seawater with a 'Gulp gulp' sound effect, a surprised child character watching from the side, thick outlines, coloring book style, white background, no shading"
+  }
+}

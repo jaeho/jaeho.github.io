@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "둥둥 떠서 쿨쿨! 우주에서 잠자는 법",
+    "article_body": [
+      "우주 정거장은 둥둥 떠다니는 신기한 곳이에요. 중력이 없어서 우리 몸도 풍선처럼 공중에 떠오르지요. 누워도 자꾸 몸이 위로 둥실 떠오른답니다.",
+      "그래서 우주비행사는 벽에 붙은 침낭 속으로 쏙 들어가요. 몸이 떠내려가지 않게 끈으로 고정하고 잠을 자요. 서서 자도 정말 편안하고 포근해요.",
+      "눈부신 햇빛을 막으려 안대도 꼭 쓰고 자야 해요. 캄캄한 우주에서 잠들면 어떤 기분일까요? 여러분도 오늘 꿈속에서 우주 여행을 떠나보세요!"
+    ],
+    "image_prompt": "A friendly astronaut sleeping inside a colorful sleeping bag strapped to the wall of a cozy spaceship cabin, floating stars visible through a small round window, bright and soft pastel colors, cute storybook illustration style.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "침낭",
+    "definition": "잠을 잘 때 몸을 쏙 집어넣어 따뜻하게 체온을 유지하는 커다란 주머니예요."
+  },
+  "hidden_word": {
+    "word": "중력",
+    "mission": "이 단어는 무엇일까요? 지구가 물체를 끌어당기는 힘을 뜻해요. 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "우주 정거장에서는 잠을 어떻게 잘까요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "잠이 보약이다",
+    "description": "잠을 푹 자는 것이 우리 몸을 튼튼하게 만들어 주는 가장 좋은 약이라는 뜻이에요.",
+    "message": "우주비행사들이 우주에서 쿨쿨 정성껏 잠을 자는 것처럼, 우리 친구도 오늘 밤 푹 자고 나면 꿈속에서 멋진 우주 여행을 떠날 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "몸이 둥둥 떠다니는 우주 정거장에서 잠을 자려면 어떻게 해야 할까요? 첫 번째 칸을 보고 다음 장면들을 상상해서 그려보세요!",
+    "first_cut_dialogue": "하암~ 이제 잘 시간이다! 어어? 그런데 왜 자꾸 몸이 천장으로 둥실 떠오르는 거지?",
+    "image_prompt": "Black and white simple line art for kids, 둥둥 떠서 쿨쿨! 우주에서 잠자는 법 theme, a cute little astronaut character in a spaceship cabin trying to lie down but floating up toward the ceiling with a surprised expression, floating pillows around, a small round window showing stars, white background, thick lines, no shading"
+  }
+}

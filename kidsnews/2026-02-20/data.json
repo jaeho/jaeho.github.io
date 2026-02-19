@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "우주에는 누가 살고 있을까? 외계인 찾는 과학자!",
+    "article_body": [
+      "우주 생물학자는 참 신기한 일을 해요. 먼 우주에 우리처럼 살아있는 생명체가 있는지 찾는 거예요. 별을 관찰하며 생물의 흔적을 꼼꼼히 조사한답니다.",
+      "화성 같은 행성에 물이 있는지 확인해요. 물이 있으면 작은 벌레나 식물이 살 수 있거든요. 로봇을 보내 흙을 파보기도 하고 우주 돌도 연구해요.",
+      "밤하늘에는 정말 외계인이 살고 있을까요? 외계 친구를 만나면 어떤 인사를 하고 싶은지 상상해 봐요. 우리 함께 멋진 우주 탐험을 꼭 약속해요!"
+    ],
+    "image_prompt": "A friendly astrobiologist looking through a large telescope at a colorful galaxy, a small cute green alien smiling and waving from a nearby red planet, bright warm pastel colors, soft digital art style for children's books.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "행성",
+    "definition": "지구처럼 태양 주위를 뱅글뱅글 도는 아주 커다란 별 친구들을 말해요."
+  },
+  "hidden_word": {
+    "word": "화성",
+    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+  },
+  "selected_topic": "우주 생물학자는 외계 생명체를 연구해요",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "천리 길도 한 걸음부터",
+    "description": "아무리 멀리 있는 우주라도, 오늘 밤하늘을 한 번 쳐다보는 작은 일부터 시작하면 언젠가 갈 수 있다는 뜻이에요.",
+    "message": "우리 친구도 나중에 멋진 우주 탐험가가 되고 싶다면, 오늘부터 별을 관찰하거나 책을 읽는 작은 일부터 차근차근 시작해 봐요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸에서 과학자가 발견한 '반짝이는 것'의 정체는 무엇일까요? 나머지 세 칸에 외계인 친구를 만나는 모험을 그려보세요!",
+    "first_cut_dialogue": "어라? 저기 화성 근처에서 아주 작고 반짝이는 게 보여! 혹시 외계인의 흔적일까?",
+    "image_prompt": "Black and white simple line art for kids, a cute little space biologist wearing a lab coat looking through a large telescope, a big round planet in the background with a tiny sparkle on it, white background, thick lines, no shading, minimalist coloring book style"
+  }
+}

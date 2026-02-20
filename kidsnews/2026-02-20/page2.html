@@ -180,8 +180,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-2">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
+    <div class="paper flex flex-col gap-6">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -199,50 +199,56 @@ body {
         </header>
 
         
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-2 h-full">
-    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
-        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸에서 과학자가 발견한 '반짝이는 것'의 정체는 무엇일까요? 나머지 세 칸에 외계인 친구를 만나는 모험을 그려보세요!</p>
-
-        <div class="cartoon-grid">
-            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">1</div>
-                <img src="activity_image.png" class="w-full h-full object-cover" alt="Cartoon Story Start">
-                <div class="cartoon-dialogue">
-                    어라? 저기 화성 근처에서 아주 작고 반짝이는 게 보여! 혹시 외계인의 흔적일까?
-                </div>
-            </div>
-
-            <!-- 2nd Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">2</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
-            </div>
-
-            <!-- 3rd Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">3</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
-            </div>
-
-            <!-- 4th Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">4</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
+            <div class="flex flex-col gap-6">
+    <p class="text-2xl font-bold text-gray-800 mb-2">✅ 제시된 글의 내용과 일치하면 O, 일치하지 않으면 X를 선택하는 퀴즈입니다.</p>
+    <div class="space-y-4">
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                1.
+                
+                
+                조경가는 나무와 꽃을 심기 전에 먼저 정원 그림을 그려서 계획을 세운다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
             </div>
         </div>
-    </div>
-
-    <div class="text-center italic text-slate-400 text-sm">
-        여러분만의 재미있는 이야기를 그려보세요!
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                2.
+                
+                
+                조경가는 벤치나 연못은 만들지 않고 오직 식물만 심는다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-2xl border-2 border-gray-100 flex justify-between items-center shadow-sm">
+            <p class="text-xl font-bold text-gray-700">
+                3.
+                
+                
+                조경가는 햇빛을 좋아하는 꽃과 그늘을 만드는 나무를 고려하여 심는다.
+                
+            </p>
+            <div class="flex gap-4">
+                <div class="w-12 h-12 rounded-full border-4 border-red-400 flex items-center justify-center text-2xl font-black text-red-500">O</div>
+                <div class="w-12 h-12 rounded-full border-4 border-blue-400 flex items-center justify-center text-2xl font-black text-blue-500">X</div>
+            </div>
+        </div>
+        
     </div>
 </div>
         </main>
@@ -255,7 +261,7 @@ body {
                 </div>
                 <div class="flex flex-col gap-1">
                     <p class="text-3xl font-black text-slate-900">천리 길도 한 걸음부터</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">아무리 멀리 있는 우주라도, 오늘 밤하늘을 한 번 쳐다보는 작은 일부터 시작하면 언젠가 갈 수 있다는 뜻이에요.</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">아무리 울창하고 큰 숲도 나무 한 그루, 꽃 한 송이를 심는 작은 일부터 시작된다는 뜻이에요.</p>
                 </div>
             </div>
         </footer>

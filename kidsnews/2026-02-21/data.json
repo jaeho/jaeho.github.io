@@ -1,40 +1,36 @@
 {
   "page1": {
-    "headline": "꾹 참고 기다리면 어떤 선물이 찾아올까요?",
+    "headline": "알록달록 퍼즐 조각이 모여 멋진 그림이 짠!",
     "article_body": [
-      "맛있는 쿠키가 구워질 때까지 기다려 본 적 있나요? 꾹 참고 기다리면 달콤한 쿠키를 먹을 수 있어요. 인내심은 기분 좋은 선물을 주는 마법의 힘이에요.",
-      "어려운 블록도 포기하지 않으면 멋진 성이 돼요. 인내심을 기르면 스스로 해내는 용기가 생겨요. 마음도 단단해져서 친구와 더 사이좋게 지내게 된답니다.",
-      "오늘부터 힘들 때는 속으로 숫자를 셋까지 세어봐요. 여러분은 무엇을 가장 꾹 참고 기다려보고 싶나요? 우리 함께 멋진 어린이가 되기로 약속해요!"
+      "뒤죽박죽 섞인 조각을 보면 처음엔 정말 막막해요. 하지만 조각을 요리조리 돌려가며 제자리를 찾아보세요. 조금씩 멋진 그림이 보인답니다.",
+      "마지막 조각을 딱! 맞추면 기분이 날아갈 듯 좋아요. 힘든 일을 끝내고 느끼는 이런 뿌듯한 마음을 바로 ‘성취감’이라고 부른답니다.",
+      "끝까지 해내면 마음속에 ‘성취감’이라는 보석이 반짝여요. 여러분도 오늘 저녁, 포기하지 않고 멋진 퍼즐 맞추기에 한번 도전해 볼까요?"
     ],
-    "image_prompt": "A bright, warm pastel illustration of a young child waiting patiently in front of an oven, imagining delicious cookies with stars and sparkles, whimsical and cozy storybook style.",
+    "image_prompt": "A happy 7-year-old Asian child placing the very last piece of a colorful jigsaw puzzle on a wooden table, smiling face with a sense of accomplishment, warm pastel colors, soft lighting, gentle illustration style.",
     "category_tag": "오늘의 마음과 감정"
   },
   "activity_type": "emotion_guess",
   "word_info": {
-    "word": "인내심",
-    "definition": "힘들거나 화가 나는 상황에서도 꾹 참고 견디는 마음이에요."
+    "word": "성취감",
+    "definition": "어려운 일을 포기하지 않고 끝까지 해냈을 때, 마음속에 생기는 뿌듯하고 자랑스러운 기분이에요."
   },
   "hidden_word": {
-    "word": "쿠키",
-    "mission": "이 단어는 무엇일까요? 단어의 뜻을 읽고 기사 본문 속에서 단어를 찾아 동그라미를 쳐보세요!"
+    "word": "보석",
+    "mission": "이 단어는 반짝반짝 빛나고 아주 소중해요. 기사 마지막 문단에서 찾아 동그라미를 쳐보세요!"
   },
-  "selected_topic": "인내심을 기르면 어떤 점이 좋을까요?",
+  "selected_topic": "어려운 퍼즐을 끝까지 맞췄을 때 느끼는 짜릿한 성취감",
   "selected_category": "오늘의 마음과 감정",
   "wisdom_pool_data": {
-    "text": "고진감래 (苦盡甘來)",
-    "description": "힘든 것을 꾹 참고 기다리면, 나중에 달콤하고 기분 좋은 일이 찾아온다는 뜻이에요.",
-    "message": "맛있는 쿠키가 구워지길 기다리는 것처럼, 지금 조금 힘들어도 꾹 참아내면 아주 멋진 선물이 우리 친구를 기다리고 있을 거예요! 우리 함께 숫자를 셋까지 세며 마음의 힘을 길러볼까요?"
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 먼지(티끌)라도 계속 모으면 커다란 산이 된다는 뜻이에요. 작은 퍼즐 조각이 하나씩 모여 멋진 그림이 되는 것처럼, 작은 노력이 모여 큰 결과를 만든다는 말이에요.",
+    "message": "처음엔 조각이 너무 많아서 막막해 보이지? 하지만 작은 조각을 하나씩 맞추다 보면 어느새 '성취감'이라는 커다란 산을 만날 수 있어. 우리 친구도 포기하지 말고 멋진 그림을 완성해 보자!"
   },
   "activity_data": {
-    "scenario": "작은 씨앗이 싹을 틔울 때까지 매일 물을 주며 정성껏 보살피고 기다립니다.",
+    "scenario": "어지럽게 흩어져 있던 알록달록한 퍼즐 조각들을 하나하나 맞추다가, 드디어 마지막 조각을 딱 끼워 넣었어요. 완성된 멋진 그림을 보니 가슴이 벅차올라요.",
     "emotions": [
       {
-        "type": "인내",
-        "prompt": "A young gardener patiently watering a small brown seed in a pot, soft morning sunlight, calm and focused expression, cinematic lighting."
-      },
-      {
-        "type": "환희",
-        "prompt": "A vibrant green sprout emerging from the soil, a child clapping hands with a bright smile of pure joy, macro shot, glowing nature background."
+        "type": "성취감",
+        "prompt": "A child placing the final piece of a colorful jigsaw puzzle, face glowing with pride and happiness, the completed puzzle reveals a beautiful landscape, bright warm lighting, magical atmosphere, high quality 3d render style"
       }
     ]
   }

@@ -1,0 +1,42 @@
+{
+  "page1": {
+    "headline": "안녕 달님! 우리가 만나러 가요",
+    "article_body": [
+      "여러분, 달나라 기차가 출발해요! 나사에서 네 명의 우주비행사와 로켓을 타고 달 여행을 준비 중이에요. 우리 인류가 아주 오랜만에 달님을 직접 만나러 가는 아주 특별한 길이지요.",
+      "이번 여행 이름은 '아르테미스'예요. 우주선을 타고 달 주변을 씽씽 돌며 구경하고 올 거예요. 먼 우주까지 날아가 달을 직접 보는 모습은 마치 신비로운 마법 영화의 한 장면 같아요.",
+      "밤하늘 달을 보며 비행사들을 응원해요. 나중엔 여러분도 달나라로 소풍을 갈 수 있어요! 큰 꿈을 꾸며 신나는 우주 탐험이 시작되길 설레는 마음으로 우리 다 함께 즐겁게 기다려 봐요."
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A young explorer child wearing a silver cardboard astronaut helmet looks through a telescope from a cozy bedroom window. Outside, a majestic NASA rocket is soaring toward a large, glowing, friendly-looking moon in a starry indigo sky. Soft lighting, whimsical and adventurous atmosphere.",
+    "category_tag": "달나라 탐험",
+    "reference": "https://www.theguardian.com/science/2026/feb/21/nasa-artemis-ii-rocket-launch-helium-flow"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "우주비행사",
+    "definition": "우주선을 타고 먼 우주를 여행하며 별과 행성을 연구하는 사람"
+  },
+  "hidden_word": {
+    "word": "로켓",
+    "mission": "엉덩이에서 뜨거운 불꽃을 슝 뿜으며 하늘 위로 아주 빠르게 날아가는 이것은 무엇일까요?"
+  },
+  "selected_category": "달나라 탐험",
+  "selected_topic": "다시 시작되는 달 여행, 아르테미스 2호 우주비행사 소식",
+  "wisdom_pool_data": {
+    "text": "천리 길도 한 걸음부터",
+    "description": "아무리 멀고 먼 달나라 여행이라도, 가장 먼저 용기를 내어 첫 발을 내딛는 것부터 시작한다는 뜻이에요.",
+    "message": "우리 친구도 우주비행사들처럼 큰 꿈을 향해 오늘 하루를 씩씩하게 시작해 봐요! 작은 용기들이 모이면 언젠가 정말로 달나라에서 신나게 뛰어놀 수 있는 날이 올 거예요."
+  },
+  "activity_data": {
+    "scenario": "우리가 직접 만든 반짝이는 로켓을 타고 드디어 달님을 만나러 출발하는 순간이에요.",
+    "emotions": [
+      {
+        "type": "설렘",
+        "prompt": "A group of children sitting in a whimsical, hand-made cardboard rocket ship flying towards a giant glowing moon in a starry night sky, expressions of pure excitement and joy, soft storybook illustration style."
+      },
+      {
+        "type": "기대감",
+        "prompt": "Close up of a child's face looking out a circular rocket window at a beautiful crescent moon, eyes wide with wonder and anticipation, glowing moonlight reflecting on their face, dreamy atmosphere."
+      }
+    ]
+  }
+}

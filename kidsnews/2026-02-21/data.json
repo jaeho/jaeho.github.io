@@ -1,36 +1,36 @@
 {
   "page1": {
-    "headline": "마음이 편안해지는 마법, 여유!",
+    "headline": "콩닥콩닥 놀란 마음, 풍선처럼 후~ 불어요",
     "article_body": [
-      "친구들은 빨리 하고 싶어서 발을 동동 구른 적 있나요? 마음이 급하면 실수하고 기분도 엉망이 돼요. 엉킨 실타래처럼 답답해지죠.",
-      "이럴 땐 ‘여유’라는 친구를 불러보세요. 숨을 크게 쉬고 잠시 멈추는 거예요. 그러면 못 봤던 꽃과 친구의 미소가 눈에 쏙 들어와요.",
-      "천천히 기다리는 마음은 더 멋진 나를 만들어요. 급할 때마다 “잠깐만!” 하고 마음속 쉼표를 찍어볼까요? 우리 함께 약속해요!"
+      "친구들 앞에서 꽈당 넘어지거나 실수를 하면 얼굴이 빨개지고 가슴이 콩닥콩닥 뛰나요? 당황하면 우리 몸이 깜짝 놀라 비상벨을 울리는 거예요.",
+      "그럴 땐 코로 숨을 깊게 들이마시고 입으로 천천히 내뱉어보세요. 뱃속에 커다란 풍선이 있다고 상상하며 부풀렸다가 바람을 슝 빼는 거예요.",
+      "이렇게 심호흡을 하면 마법처럼 마음이 차분해지고 긴장이 사르르 녹아요. 우리 친구들도 당황스러운 일이 생기면 크게 숨을 한번 쉬어볼까요?"
     ],
-    "image_prompt": "A cute 7-year-old child taking a deep breath with a calm smile, surrounded by blooming flowers and butterflies in a garden, soft pastel colors, peaceful atmosphere, watercolor style illustration, children's book art.",
+    "image_prompt": "A cute 7-year-old child closing their eyes and taking a deep breath with a peaceful smile, imagining a colorful balloon in their tummy, soft pastel colors, warm and cozy children's book illustration style.",
     "category_tag": "오늘의 마음과 감정"
   },
   "activity_type": "emotion_guess",
   "word_info": {
-    "word": "여유",
-    "definition": "급하게 서두르지 않고 느긋하게 기다리는 넉넉한 마음이에요."
+    "word": "심호흡",
+    "definition": "마음이 편안해지도록 숨을 아주 깊게 들이마시고 천천히 내뱉는 운동이에요."
   },
   "hidden_word": {
-    "word": "미소",
-    "mission": "기분이 좋을 때 우리 입가에 피어나는 예쁜 꽃은 무엇일까요?"
+    "word": "풍선",
+    "mission": "알록달록 예쁜 색깔을 가졌고, 입으로 후~ 하고 불면 동그랗게 커지는 것은 무엇일까요?"
   },
-  "selected_topic": "여유로운 마음을 가져볼까요?",
+  "selected_topic": "당황스러운 일이 생겨도 심호흡을 하면 마음이 가라앉아요",
   "selected_category": "오늘의 마음과 감정",
   "wisdom_pool_data": {
-    "text": "급할수록 돌아가라",
-    "description": "너무 빨리 하려고 서두르면 오히려 엉망이 될 수 있어요. 그럴 때는 차라리 천천히 꼼꼼하게 하는 게 더 좋다는 뜻이에요.",
-    "message": "빨리 하고 싶어서 마음이 급해질 때, 크게 숨을 한 번 쉬어볼까요? 천천히 해도 괜찮아요. 여유를 가지면 훨씬 더 멋지게 해낼 수 있답니다!"
+    "text": "호랑이 굴에 들어가도 정신만 차리면 산다",
+    "description": "무서운 호랑이를 만난 것처럼 깜짝 놀라고 당황스러운 일이 생겨도, 침착하게 마음을 가라앉히면 아무 문제 없이 이겨낼 수 있다는 뜻이에요.",
+    "message": "얼굴이 빨개지고 가슴이 콩닥거릴 때, 이 속담을 떠올려 봐! 호랑이 굴에서도 살 수 있는데, 실수쯤은 '후~' 하고 심호흡하면 금방 괜찮아질 거야."
   },
   "activity_data": {
-    "scenario": "주말 오후, 따스한 햇살이 비치는 창가에 앉아 좋아하는 책을 읽으며 따뜻한 차 한 잔을 마시는 시간입니다. 시계 초침 소리만 들리는 조용한 공간에서 느껴지는 기분은 무엇일까요?",
+    "scenario": "발표 시간, 친구들 앞에 서자마자 심장이 콩닥콩닥 뛰고 얼굴이 화끈거려요.",
     "emotions": [
       {
-        "type": "평온함",
-        "prompt": "Sunlight streaming through a white sheer curtain, a wooden table with an open book and a steaming white teacup, cozy and warm atmosphere, soft lighting, photorealistic, 8k resolution, serene mood"
+        "type": "긴장",
+        "prompt": "A nervous child standing in front of a classroom blackboard, holding a paper with trembling hands, blushing cheeks, sweat drops, wide anxious eyes, cute cartoon style"
       }
     ]
   }

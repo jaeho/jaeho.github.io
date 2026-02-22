@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "멀리멀리 척척! 독수리의 망원경 눈",
+    "article_body": [
+      "하늘 높이 나는 독수리는 아주 먼 곳까지 봐요. 우리보다 8배나 더 멀리 있는 물건도 척척 찾아내지요. 정말 대단한 보물 눈을 가졌답니다.",
+      "독수리는 높은 산에서도 땅 위 작은 벌레를 잘 봐요. 눈동자가 커서 작은 움직임도 금방 알아차려요. 눈 속에 망원경을 쏙 넣은 것만 같아요.",
+      "우리도 눈을 소중히 아끼고 예쁜 세상을 마음껏 담아볼까요? 오늘부터 스마트폰 대신 초록 숲을 자주 보기로 약속해요. 어떤 풍경이 보고 싶나요?"
+    ],
+    "image_prompt": "A cute eagle with large sparkling eyes soaring high in a bright blue sky, soft pastel colors, storybook illustration style, warm sunlight, green mountains far below.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "망원경",
+    "definition": "멀리 있는 물건을 아주 크고 가깝게 볼 수 있도록 도와주는 도구예요."
+  },
+  "hidden_word": {
+    "word": "벌레",
+    "mission": "다리가 여러 개 있고 몸집이 아주 작아요. 독수리가 하늘 위에서도 금방 찾아내는 이것은 무엇일까요?"
+  },
+  "selected_topic": "독수리의 눈은 얼마나 멀리 볼 수 있을까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "천리안 (千里眼)",
+    "description": "아주 멀리 있는 것도 척척 다 볼 수 있는 마법 같은 대단한 눈을 말해요.",
+    "message": "우리 친구도 독수리처럼 반짝이는 멋진 눈을 가졌어요! 스마트폰 대신 초록색 숲과 예쁜 꽃들을 자주 보면서 소중한 눈을 건강하게 지켜주기로 약속해요."
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "히익! 저기 아주 멀리 산 아래에서 꼬마 벌레가 나뭇잎 뒤에 몰래 숨어있어! 내 눈엔 다 보인다구!",
+    "image_prompt": "Black and white simple line art for kids, 멀리멀리 척척! 독수리의 망원경 눈 theme, the first scene of a story, a cute eagle character with big sparkling eyes standing on a high mountain peak and pointing down at the distant ground, white background, thick lines, no shading"
+  }
+}

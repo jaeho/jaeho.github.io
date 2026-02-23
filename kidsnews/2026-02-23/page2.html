@@ -180,8 +180,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-2">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
+    <div class="paper flex flex-col gap-6">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -199,50 +199,31 @@ body {
         </header>
 
         
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-2 h-full">
-    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
-        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
-
-        <div class="cartoon-grid">
-            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">1</div>
-                <img src="activity_image.png" class="w-full h-full object-cover" alt="Cartoon Story Start">
-                <div class="cartoon-dialogue">
-                    히익! 저기 아주 멀리 산 아래에서 꼬마 벌레가 나뭇잎 뒤에 몰래 숨어있어! 내 눈엔 다 보인다구!
-                </div>
-            </div>
-
-            <!-- 2nd Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">2</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
-            </div>
-
-            <!-- 3rd Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">3</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
-            </div>
-
-            <!-- 4th Cut: Empty for child to draw -->
-            <div class="cartoon-panel">
-                <div class="cartoon-number">4</div>
-                <div class="w-full h-full flex items-center justify-center opacity-5">
-                    <span class="material-symbols-rounded text-6xl">draw</span>
-                </div>
-            </div>
+            <div class="flex flex-col gap-6">
+    <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100 shadow-sm text-center">
+        <p class="text-xl font-bold text-gray-800">구름 위를 나는 용맹한 독수리의 모습 속에 숨겨진 사물 3개를 찾아보세요.</p>
+        <div class="flex justify-center gap-4 mt-3">
+            
+            <span class="px-3 py-1 bg-white rounded-full border border-blue-200 text-sm font-bold text-blue-600">
+                🔍 깃털
+            </span>
+            
+            <span class="px-3 py-1 bg-white rounded-full border border-blue-200 text-sm font-bold text-blue-600">
+                🔍 쌍안경
+            </span>
+            
+            <span class="px-3 py-1 bg-white rounded-full border border-blue-200 text-sm font-bold text-blue-600">
+                🔍 생쥐
+            </span>
+            
         </div>
     </div>
-
-    <div class="text-center italic text-slate-400 text-sm">
-        여러분만의 재미있는 이야기를 그려보세요!
+    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
+        <img src="activity_image.png" class="w-full">
     </div>
 </div>
         </main>
@@ -255,7 +236,7 @@ body {
                 </div>
                 <div class="flex flex-col gap-1">
                     <p class="text-3xl font-black text-slate-900">천리안 (千里眼)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">아주 멀리 있는 것도 척척 다 볼 수 있는 마법 같은 대단한 눈을 말해요.</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">아주 멀리 떨어져 있는 곳도 바로 앞에 있는 것처럼 훤히 잘 보는 눈을 뜻해요.</p>
                 </div>
             </div>
         </footer>

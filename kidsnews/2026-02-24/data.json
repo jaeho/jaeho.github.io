@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "마법 안경을 쓰고 새로운 세상으로 떠나요!",
+    "article_body": [
+      "가상현실 안경을 쓰면 눈앞에 신기한 세상이 펼쳐져요. 몸은 방에 있지만, 깊은 바닷속이나 넓은 우주에 있는 것처럼 느껴지지요.",
+      "안경 안의 작은 화면이 우리 눈을 속여서 진짜라고 믿게 만들어요. 고개를 돌리면 풍경도 함께 움직여서 정말 그곳에 있는 것 같아요.",
+      "하지만 너무 오래 쓰면 눈이 아플 수 있으니 조심해야 해요. 여러분은 안경을 쓰고 어떤 곳에 가장 먼저 가보고 싶나요?"
+    ],
+    "image_prompt": "A young child wearing white VR goggles, smiling with wonder, surrounded by a magical pastel fantasy world with floating planets, colorful fish, and soft clouds, warm storybook illustration style, bright and cozy colors.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "가상현실",
+    "definition": "실제는 아니지만 진짜처럼 느껴지게 만든 세상이에요."
+  },
+  "hidden_word": {
+    "word": "우주",
+    "mission": "밤하늘에 반짝이는 별들이 가득하고 아주아주 넓은 곳은 어디일까요?"
+  },
+  "selected_topic": "가상현실 안경을 쓰면 진짜 다른 세상에 가나요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "앉아서 천 리를 본다",
+    "description": "방에 가만히 앉아 있어도 아주 멀리 있는 곳까지 다 볼 수 있다는 뜻이에요.",
+    "message": "마법 안경을 쓰면 어디든 갈 수 있어서 정말 신기하지요? 하지만 우리 소중한 눈을 위해 약속한 시간만큼만 즐겁게 탐험하기로 해요!"
+  },
+  "activity_data": {
+    "scenario": "마법 안경을 처음 쓰고 창밖을 보니, 평범했던 우리 동네가 공중에 떠 있는 화려한 섬들과 비행 고래들이 다니는 세상으로 변해 있습니다.",
+    "emotions": [
+      {
+        "type": "경이로움",
+        "prompt": "A person wearing glowing golden magic glasses, looking at a floating island city with flying whales in the sky, cinematic lighting, vibrant fantasy world, highly detailed, 8k."
+      }
+    ]
+  }
+}

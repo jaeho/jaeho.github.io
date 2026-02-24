@@ -1,36 +1,55 @@
 {
   "page1": {
-    "headline": "마법 안경을 쓰고 새로운 세상으로 떠나요!",
+    "headline": "윙윙! 3D 프린터가 맛있는 피자를 요리해요!",
     "article_body": [
-      "가상현실 안경을 쓰면 눈앞에 신기한 세상이 펼쳐져요. 몸은 방에 있지만, 깊은 바닷속이나 넓은 우주에 있는 것처럼 느껴지지요.",
-      "안경 안의 작은 화면이 우리 눈을 속여서 진짜라고 믿게 만들어요. 고개를 돌리면 풍경도 함께 움직여서 정말 그곳에 있는 것 같아요.",
-      "하지만 너무 오래 쓰면 눈이 아플 수 있으니 조심해야 해요. 여러분은 안경을 쓰고 어떤 곳에 가장 먼저 가보고 싶나요?"
+      "종이에 글자를 뽑는 프린터를 본 적 있나요? 그런데 잉크 대신 맛있는 초콜릿이나 치즈가 나오는 신기한 기계가 생겼대요.",
+      "컴퓨터에 음식 그림을 그리면 프린터가 재료를 층층이 쌓아 올려요. 복잡한 모양의 사탕이나 예쁜 꽃무늬 쿠키도 뚝딱 만들어낼 수 있답니다.",
+      "미래에는 버튼 하나만 누르면 따끈한 저녁밥이 완성될지도 몰라요. 우리 친구들은 이 요리사 프린터로 어떤 간식을 만들어 보고 싶나요?"
     ],
-    "image_prompt": "A young child wearing white VR goggles, smiling with wonder, surrounded by a magical pastel fantasy world with floating planets, colorful fish, and soft clouds, warm storybook illustration style, bright and cozy colors.",
+    "image_prompt": "A whimsical illustration of a 3D printer creating a star-shaped cookie with layers of chocolate, happy 7-year-old Asian children watching with excitement in a sunny kitchen, pastel colors, soft lighting, storybook style.",
     "category_tag": "오늘의 과학과 기술"
   },
-  "activity_type": "emotion_guess",
+  "activity_type": "initial_quiz",
   "word_info": {
-    "word": "가상현실",
-    "definition": "실제는 아니지만 진짜처럼 느껴지게 만든 세상이에요."
+    "word": "재료",
+    "definition": "음식을 만들 때 들어가는 밀가루, 설탕, 달걀 같은 것들을 말해요."
   },
   "hidden_word": {
-    "word": "우주",
-    "mission": "밤하늘에 반짝이는 별들이 가득하고 아주아주 넓은 곳은 어디일까요?"
+    "word": "쿠키",
+    "mission": "본문에서 찾아보세요! 우유랑 먹으면 바삭바삭하고 달콤한 둥근 과자는 무엇일까요?"
   },
-  "selected_topic": "가상현실 안경을 쓰면 진짜 다른 세상에 가나요?",
+  "selected_topic": "3D 프린터로 진짜 음식을 만들 수 있대요!",
   "selected_category": "오늘의 과학과 기술",
   "wisdom_pool_data": {
-    "text": "앉아서 천 리를 본다",
-    "description": "방에 가만히 앉아 있어도 아주 멀리 있는 곳까지 다 볼 수 있다는 뜻이에요.",
-    "message": "마법 안경을 쓰면 어디든 갈 수 있어서 정말 신기하지요? 하지만 우리 소중한 눈을 위해 약속한 시간만큼만 즐겁게 탐험하기로 해요!"
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 흙먼지(티끌)라도 계속 모으면 큰 산이 된다는 뜻이에요. 3D 프린터가 아주 얇은 재료를 한 층, 두 층 차곡차곡 쌓아서 커다랗고 맛있는 피자를 완성하는 모습과 꼭 닮았죠?",
+    "message": "우리 친구들도 3D 프린터처럼 매일 조금씩 노력을 쌓아보세요. 차근차근 하다 보면 나중에는 상상했던 멋진 꿈을 뚝딱 만들어낼 수 있을 거예요!"
   },
   "activity_data": {
-    "scenario": "마법 안경을 처음 쓰고 창밖을 보니, 평범했던 우리 동네가 공중에 떠 있는 화려한 섬들과 비행 고래들이 다니는 세상으로 변해 있습니다.",
-    "emotions": [
+    "instruction": "다음 기사의 내용을 바탕으로 설명에 해당하는 단어의 초성을 맞혀보세요.",
+    "items": [
       {
-        "type": "경이로움",
-        "prompt": "A person wearing glowing golden magic glasses, looking at a floating island city with flying whales in the sky, cinematic lighting, vibrant fantasy world, highly detailed, 8k."
+        "clue": "종이에 글자를 뽑거나, 글 속에서 잉크 대신 음식을 만들어 내는 기계는 무엇인가요?",
+        "initials": [
+          "ㅍ",
+          "ㄹ",
+          "ㅌ"
+        ]
+      },
+      {
+        "clue": "기계에서 잉크 대신 나오는 재료 중 하나로, 달콤한 맛이 나는 이것은 무엇인가요?",
+        "initials": [
+          "ㅊ",
+          "ㅋ",
+          "ㄹ"
+        ]
+      },
+      {
+        "clue": "이 기계로 뚝딱 만들어낼 수 있는 예쁜 꽃무늬 간식은 무엇인가요?",
+        "initials": [
+          "ㅋ",
+          "ㅋ"
+        ]
       }
     ]
   }

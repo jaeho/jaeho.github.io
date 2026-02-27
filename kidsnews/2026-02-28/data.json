@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "내 마음의 불청객, 질투를 다정하게 토닥여요!",
+    "article_body": [
+      "친구가 새 장난감을 가졌을 때 마음이 콕콕 쑤시나요? 이런 기분을 ‘질투’라고 불러요. 질투는 누구나 느끼는 자연스러운 마음의 신호랍니다.",
+      "속상한 마음이 들 때는 숨을 크게 들이마셔 보세요. 그리고 ‘나도 나만의 멋진 점이 있어!’라고 스스로에게 다정한 말을 건네주는 거예요.",
+      "질투를 예쁜 용기로 바꾸면 우리는 더 멋지게 자랄 수 있어요. 오늘 친구를 진심으로 축하해 주기로 약속할 수 있나요? 함께 실천해 봐요!"
+    ],
+    "image_prompt": "A warm pastel illustration of a young child hugging a big heart-shaped pillow, soft sunlight coming through a window, gentle and comforting atmosphere, storybook style.",
+    "category_tag": "오늘의 마음과 감정"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "질투",
+    "definition": "다른 사람이 가진 것이 부러워서 마음이 샘나는 기분이에요."
+  },
+  "hidden_word": {
+    "word": "용기",
+    "mission": "무섭거나 힘들어도 씩씩하게 도전하는 마음을 무엇이라고 할까요?"
+  },
+  "selected_topic": "질투가 날 때는 내 마음을 어떻게 돌봐야 할까요?",
+  "selected_category": "오늘의 마음과 감정",
+  "wisdom_pool_data": {
+    "text": "남의 떡이 더 커 보인다",
+    "description": "다른 친구가 가진 것이 내 것보다 더 좋아 보이고 부러울 때가 있다는 뜻이에요.",
+    "message": "친구가 부러울 때는 숨을 크게 쉬고 '나도 정말 멋진 아이야!'라고 말해 보세요. 친구를 축하해 주는 예쁜 마음이 우리 친구를 더 멋지게 만들어 줄 거예요!"
+  },
+  "activity_data": {
+    "scenario": "나와 비슷한 시기에 입사한 동료가 먼저 승진했다는 소식을 들었을 때, 진심으로 축하해주고 싶지만 자꾸만 마음 한구석이 찌릿하고 작아지는 기분이 들어요.",
+    "emotions": [
+      {
+        "type": "질투",
+        "prompt": "A person looking at a colleague's celebration from afar, a tiny green spark flickering in their chest, moody lighting, cinematic atmosphere, digital painting."
+      },
+      {
+        "type": "부러움",
+        "prompt": "A person staring at a bright gold trophy held by someone else, eyes reflecting the shine, soft focus background, emotional and expressive art style."
+      }
+    ]
+  }
+}

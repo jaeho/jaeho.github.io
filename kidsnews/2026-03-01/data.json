@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "숲속의 꼬마 대장, 아기 침팬지는 용감해!",
+    "article_body": [
+      "아기 침팬지는 우리 친구들처럼 정말 용감해요. 과학자들이 보니 아기 침팬지들은 새로운 숲을 구경하는 걸 아주 좋아한대요. 무서워하지 않고 씩씩하게 앞장서는 모습이 정말로 멋지답니다.",
+      "어른들보다 아기 침팬지가 더 모험을 즐긴다니 신기하죠? 위험해 보이는 곳도 궁금해서 엉금엉금 다가가 살펴본대요. 마치 호기심 많은 꼬마 탐험가처럼 무엇이든 직접 해보고 싶어 해요.",
+      "우리 아이들도 새로운 곳에 가면 신이 나죠? 아기 침팬지도 똑같은 마음이에요. 여러분도 침팬지처럼 세상을 향해 용기 있게 나아가는 멋진 탐험가가 되어보길 바랄게요. 안녕!"
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A baby chimpanzee with a tiny backpack and a human child wearing a safari hat are exploring a lush green forest together, looking at a colorful butterfly with curiosity. Soft sunlight filtering through green leaves, magical atmosphere.",
+    "category_tag": "동물 친구들",
+    "reference": "https://www.snexplores.org/article/chimpanzee-toddlers-risk-takers"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "탐험",
+    "definition": "새로운 곳에 가서 어떤 것이 있는지 직접 보고 배우는 일이에요."
+  },
+  "hidden_word": {
+    "word": "용기",
+    "mission": "무서운 마음이 들어도 씩씩하게 도전하는 이 마음은 무엇일까요?"
+  },
+  "selected_category": "동물 친구들",
+  "selected_topic": "아기 침팬지는 우리처럼 용감한 모험가예요!",
+  "wisdom_pool_data": {
+    "text": "호랑이 굴에 들어가야 호랑이를 잡는다",
+    "description": "용기를 내서 직접 가보고 도전해야 멋진 결과를 얻을 수 있다는 뜻이에요.",
+    "message": "아기 침팬지처럼 무서워하지 말고, 궁금한 것이 있다면 씩씩하게 다가가 보세요. 너의 용기 있는 도전을 선생님도 함께 응원할게!"
+  },
+  "activity_data": {
+    "scenario": "아기 침팬지가 앞장서서 친구들을 이끌고 아슬아슬한 통나무 다리를 씩씩하게 건너가고 있어요.",
+    "emotions": [
+      {
+        "type": "용기",
+        "prompt": "A brave baby chimpanzee leading small forest animals across a narrow log bridge, heroic posture, lush jungle background, cinematic lighting, 8k resolution, highly detailed."
+      }
+    ]
+  }
+}

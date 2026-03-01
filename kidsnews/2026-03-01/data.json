@@ -1,38 +1,38 @@
 {
   "page1": {
-    "headline": "숲속의 꼬마 대장, 아기 침팬지는 용감해!",
+    "headline": "강아지보다 가벼운 꼬마 공룡이 나타났어요!",
     "article_body": [
-      "아기 침팬지는 우리 친구들처럼 정말 용감해요. 과학자들이 보니 아기 침팬지들은 새로운 숲을 구경하는 걸 아주 좋아한대요. 무서워하지 않고 씩씩하게 앞장서는 모습이 정말로 멋지답니다.",
-      "어른들보다 아기 침팬지가 더 모험을 즐긴다니 신기하죠? 위험해 보이는 곳도 궁금해서 엉금엉금 다가가 살펴본대요. 마치 호기심 많은 꼬마 탐험가처럼 무엇이든 직접 해보고 싶어 해요.",
-      "우리 아이들도 새로운 곳에 가면 신이 나죠? 아기 침팬지도 똑같은 마음이에요. 여러분도 침팬지처럼 세상을 향해 용기 있게 나아가는 멋진 탐험가가 되어보길 바랄게요. 안녕!"
+      "친구들, 아르헨티나에서 아주 특별한 공룡 화석이 발견됐어요. 무려 9천만 년 전에 살았던 공룡인데, 우리가 책에서 보던 쿵쾅거리는 거대한 공룡과는 완전히 다른 모습이래요.",
+      "이 공룡은 몸무게가 1kg도 안 돼서 우리가 키우는 강아지보다 훨씬 가볍대요. 무시무시한 이빨 대신 귀여운 부리를 가지고 숲속을 아장아장 뛰어다녔을 것 같지 않나요?",
+      "작은 몸으로 덤불 속에 쏙 숨어 곤충을 잡아먹으며 살았을 거예요. 커다란 공룡들 사이에서 마치 요정처럼 작고 귀여웠을 이 친구를 머릿속으로 한번 상상해 볼까요?"
     ],
-    "image_prompt": "Warm and realistic picture book illustration style. A baby chimpanzee with a tiny backpack and a human child wearing a safari hat are exploring a lush green forest together, looking at a colorful butterfly with curiosity. Soft sunlight filtering through green leaves, magical atmosphere.",
-    "category_tag": "동물 친구들",
-    "reference": "https://www.snexplores.org/article/chimpanzee-toddlers-risk-takers"
+    "image_prompt": "A warm, realistic picture book style illustration showing a cute child explorer wearing a safari hat, looking with wonder at a very small dinosaur (smaller than a cat) in a prehistoric fern forest. The dinosaur looks harmless and cute. Soft sunlight, pastel and earth tones.",
+    "category_tag": "공룡의 비밀",
+    "reference": "https://kids.donga.com"
   },
-  "activity_type": "emotion_guess",
+  "activity_type": "hidden_objects",
   "word_info": {
-    "word": "탐험",
-    "definition": "새로운 곳에 가서 어떤 것이 있는지 직접 보고 배우는 일이에요."
+    "word": "화석",
+    "definition": "아주 오랜 옛날에 살았던 동물이나 식물의 흔적이 돌처럼 딱딱하게 남은 것을 말해요."
   },
   "hidden_word": {
-    "word": "용기",
-    "mission": "무서운 마음이 들어도 씩씩하게 도전하는 이 마음은 무엇일까요?"
+    "word": "강아지",
+    "mission": "멍멍! 꼬리를 살랑살랑 흔드는 귀여운 동물이에요. 이 공룡은 이 동물보다 가볍대요."
   },
-  "selected_category": "동물 친구들",
-  "selected_topic": "아기 침팬지는 우리처럼 용감한 모험가예요!",
+  "selected_category": "공룡의 비밀",
+  "selected_topic": "몸무게가 1kg도 안 되는 귀여운 미니 공룡",
   "wisdom_pool_data": {
-    "text": "호랑이 굴에 들어가야 호랑이를 잡는다",
-    "description": "용기를 내서 직접 가보고 도전해야 멋진 결과를 얻을 수 있다는 뜻이에요.",
-    "message": "아기 침팬지처럼 무서워하지 말고, 궁금한 것이 있다면 씩씩하게 다가가 보세요. 너의 용기 있는 도전을 선생님도 함께 응원할게!"
+    "text": "작은 고추가 맵다",
+    "description": "고추는 크기가 아주 작아도 입안이 얼얼할 만큼 매운 맛을 내요. 이 속담은 몸집은 작아 보이지만, 실제로는 아주 야무지고 대단한 능력을 가졌다는 뜻이에요.",
+    "message": "커다란 공룡들 사이에서 씩씩하게 살아간 꼬마 공룡처럼, 우리 친구들도 몸집은 작지만 무엇이든 스스로 잘해내는 멋진 어린이가 될 수 있어요!"
   },
   "activity_data": {
-    "scenario": "아기 침팬지가 앞장서서 친구들을 이끌고 아슬아슬한 통나무 다리를 씩씩하게 건너가고 있어요.",
-    "emotions": [
-      {
-        "type": "용기",
-        "prompt": "A brave baby chimpanzee leading small forest animals across a narrow log bridge, heroic posture, lush jungle background, cinematic lighting, 8k resolution, highly detailed."
-      }
-    ]
+    "instruction": "강아지와 꼬마 공룡이 놀고 있는 그림 속에 숨겨진 뼈다귀, 공룡 알, 돋보기를 찾아보세요.",
+    "items": [
+      "뼈다귀",
+      "공룡 알",
+      "돋보기"
+    ],
+    "image_prompt": "A black and white line art illustration for a hidden object game. A scene showing a cute fluffy puppy playing with a extremely tiny dinosaur that is smaller and lighter than the puppy, perhaps on a seesaw or jumping in the grass. The background is a park with bushes and clouds. Hidden cleverly within the intricate details of the drawing are exactly one bone, one spotted dinosaur egg, and one magnifying glass. Clean lines, coloring page style, white background, high contrast."
   }
 }

@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "가을 나무는 왜 알록달록 변신할까요?",
+    "article_body": [
+      "가을바람이 불면 초록색 나뭇잎이 알록달록 예쁜 옷으로 갈아입어요. 빨간색과 노란색 잎들이 참 아름답지요? 나무는 왜 이렇게 멋지게 변신을 하는 걸까요?",
+      "여름엔 해님이 쨍쨍해서 초록색이 씩씩하게 일해요. 하지만 가을이 오면 나무는 겨울잠을 준비하며 초록색을 숨겨요. 이때 숨어있던 고운 색깔들이 짠하고 나타나요.",
+      "이제 나무는 잎을 떨어뜨리고 쉴 준비를 해요. 여러분은 어떤 색깔 잎을 좋아하나요? 내일은 엄마와 함께 길가에 떨어진 알록달록한 낙엽을 찾아보기로 약속해요!"
+    ],
+    "image_prompt": "A friendly, smiling tree in autumn with colorful red, orange, and yellow leaves, warm pastel colors, soft sunlight filtering through branches, children playing with fallen leaves below, cute storybook illustration style, bright and cozy atmosphere.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "낙엽",
+    "definition": "나무에서 떨어져 땅에 굴러다니는 마른 나뭇잎이에요."
+  },
+  "hidden_word": {
+    "word": "가을",
+    "mission": "선선한 바람이 불고 나뭇잎이 예쁘게 물드는 계절은 무엇일까요?"
+  },
+  "selected_topic": "가을이 되면 나뭇잎 색깔이 변하는 이유",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "형형색색 (形形色色)",
+    "description": "모양과 색깔이 아주 다양하고 여러 가지라는 뜻이에요. 가을 나무들이 빨강, 노랑 예쁜 옷을 입은 모습과 똑같아요!",
+    "message": "가을 나무가 예쁘게 변신하듯이, 우리 친구도 매일매일 더 멋지고 예쁘게 자라고 있어요. 내일은 엄마랑 알록달록 낙엽을 찾으며 가을의 아름다움을 마음껏 느껴보세요!"
+  },
+  "activity_data": {
+    "scenario": "평소 초록색이던 나뭇잎들이 어느 날 갑자기 알록달록한 빨간색과 노란색으로 변해있는 것을 처음 발견했을 때의 느낌은 무엇일까요?",
+    "emotions": [
+      {
+        "type": "호기심",
+        "prompt": "A young child looking at a vibrant maple tree with a surprised expression, holding a magnifying glass, autumn forest background, high detail, warm lighting."
+      }
+    ]
+  }
+}

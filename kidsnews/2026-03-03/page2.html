@@ -180,8 +180,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -199,23 +199,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-accent-yellow p-8 rounded-[32px] border-2 border-yellow-100 shadow-inner">
-        <p class="text-2xl font-bold text-slate-800 mb-6 text-center">✍️ </p>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
 
-        <div class="w-full h-80 bg-white rounded-2xl border-4 border-dashed border-slate-200 relative">
-            <div class="absolute inset-0 flex items-center justify-center opacity-10">
-                <span class="material-symbols-rounded text-6xl">draw</span>
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.png" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    우와! 하늘에 아무것도 안 보이는데, 핸드폰은 내가 여기 있는 걸 어떻게 딱 알지?
+                </div>
+            </div>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="text-center italic text-slate-400 text-sm">
-        생각을 엄마, 아빠에게도 들려주세요!
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -227,8 +254,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">천리안 (千里眼)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">아주 멀리 있는 것도 척척 다 볼 수 있는 아주 특별하고 똑똑한 눈이라는 뜻이에요.</p>
+                    <p class="text-3xl font-black text-slate-900">손바닥 보듯 훤하다</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">우리가 내 손바닥을 들여다보면 아주 잘 보이는 것처럼, 무엇이 어디에 있는지 아주 정확하고 자세하게 알고 있다는 뜻이에요.</p>
                 </div>
             </div>
         </footer>

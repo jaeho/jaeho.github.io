@@ -1,48 +1,33 @@
 {
   "page1": {
-    "headline": "하늘 위 인공위성이 알려주는 우리 위치!",
+    "headline": "우주에서 나를 찾는 똑똑한 눈, 지피에스!",
     "article_body": [
-      "길을 찾을 때 엄마 스마트폰을 보면 우리 위치가 나와요. 하늘 높이 떠 있는 인공위성 덕분이에요. 인공위성은 우주에서 지구를 뚫어지게 바라보고 있답니다.",
-      "인공위성 여러 대가 신호를 보내서 우리가 어디 있는지 계산해요. \"너는 지금 여기에 있구나!\"라고 정확하게 알려주는 거예요. 정말 똑똑한 우주의 눈이지요?",
-      "모르는 길도 척척 알려주는 지피에스 덕분에 여행이 즐거워요. 우리 친구들도 나중에 길을 잃은 사람을 도와주는 친절한 대장이 되어볼까요? 함께 약속해요!"
+      "스마트폰 지도는 내가 어디 있는지 정확하게 알려줘요. 참 신기하죠? 이건 하늘 높이 떠 있는 인공위성 덕분인데, 바로 '지피에스'라고 불러요.",
+      "우주에는 수많은 인공위성이 지구를 뱅글뱅글 돌고 있어요. 위성들이 보내는 신호를 핸드폰이 받으면, 거리를 계산해 내가 서 있는 곳을 콕 찾아내지요.",
+      "위성 친구 세 명이 모이면 길을 잃을 걱정이 없답니다. 보이지 않는 곳에서 우리를 돕는 지피에스처럼, 친구들에게 도움을 주는 어린이가 되어볼까요?"
     ],
-    "image_prompt": "A friendly, glowing satellite in space sending a soft beam of light down to a smiling child holding a map on Earth, pastel colors, simple 2D vector illustration style, warm and bright atmosphere.",
+    "image_prompt": "A cute illustration of a child looking at a smartphone map in a green park. High above in the dark blue space background, three friendly satellites are beaming soft, glowing signals down to the phone. Pastel colors, warm and educational atmosphere, suitable for children's book style.",
     "category_tag": "오늘의 과학과 기술"
   },
-  "activity_type": "basic",
+  "activity_type": "cartoon",
   "word_info": {
     "word": "인공위성",
-    "definition": "우주에서 지구 주변을 뱅글뱅글 돌며 우리에게 정보를 전해주는 똑똑한 기계예요."
+    "definition": "사람들이 만들어서 우주로 쏘아 올린 기계 별이에요. 지구 주위를 돌며 사진도 찍고 위치도 알려줘요."
   },
   "hidden_word": {
-    "word": "지구",
-    "mission": "우리가 발을 딛고 살고 있는 아주 커다란 공 모양의 푸른 별은 무엇일까요?"
+    "word": "신호",
+    "mission": "인공위성이 내 핸드폰에게 '찌릿찌릿' 보내는, 눈에 보이지 않는 편지는 무엇일까요?"
   },
   "selected_topic": "지피에스(GPS)는 어떻게 제 위치를 알까요?",
   "selected_category": "오늘의 과학과 기술",
   "wisdom_pool_data": {
-    "text": "천리안 (千里眼)",
-    "description": "아주 멀리 있는 것도 척척 다 볼 수 있는 아주 특별하고 똑똑한 눈이라는 뜻이에요.",
-    "message": "우리 친구도 인공위성처럼 주변을 잘 살펴보고, 도움이 필요한 친구에게 길을 알려주는 친절하고 멋진 대장이 되어보세요!"
+    "text": "손바닥 보듯 훤하다",
+    "description": "우리가 내 손바닥을 들여다보면 아주 잘 보이는 것처럼, 무엇이 어디에 있는지 아주 정확하고 자세하게 알고 있다는 뜻이에요.",
+    "message": "하늘의 인공위성이 우리가 어디 있는지 콕 찾아내는 것처럼, 우리도 친구에게 무슨 일이 생겼는지 잘 살펴보고 도와주는 어린이가 되어볼까요?"
   },
   "activity_data": {
-    "drawing_titles": [
-      "하늘 위 나만의 인공위성 그리기",
-      "우주에서 바라본 우리 동네 모습",
-      "반짝반짝 위치 도우미, GPS 친구",
-      "내가 상상한 인공위성 눈"
-    ],
-    "writing_titles": [
-      "나를 찾아준 고마운 인공위성",
-      "우주에서 보내온 특별한 신호",
-      "하늘 위 길잡이에게 전하는 마음",
-      "인공위성이 알려준 나의 소중한 위치"
-    ],
-    "integrated_titles": [
-      "찾았다! 인공위성이 본 우리 세상",
-      "지구 밖에서 바라본 나의 하루",
-      "하늘 위 비밀 눈과의 만남",
-      "위성과 함께 떠나는 위치 탐험"
-    ]
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와! 하늘에 아무것도 안 보이는데, 핸드폰은 내가 여기 있는 걸 어떻게 딱 알지?",
+    "image_prompt": "Black and white simple line art for kids, coloring page style, a cute child holding a smartphone and looking up at the empty sky with a curious and amazed expression, a map pin icon floating above the phone, white background, thick lines, no shading, minimal details"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "우리 반의 대장은 바로 우리! 투표로 규칙을 만들어요",
+    "article_body": [
+      "투표는 어른들만 하는 걸까요? 아니에요. 우리 반 규칙을 정할 때도 투표를 해요. 친구들의 생각을 모아 우리만의 소중한 약속을 만드는 시간이지요.",
+      "손을 번쩍 들거나 종이에 적어 내 마음을 전해요. 어떤 규칙이 좋을지 고민하는 모습이 정말 의젓해요. 우리가 정한 규칙은 모두 함께 꼭 지키기로 해요.",
+      "많은 친구가 고른 의견이 결정되면 내 생각과 달라도 웃으며 약속을 지켜요. 서로 배려하며 행복한 교실을 만들까요? 여러분은 어떤 규칙을 정하고 싶나요?"
+    ],
+    "image_prompt": "A warm and bright pastel-colored illustration of seven-year-old children in a cozy classroom, smiling and raising their hands to vote together, flat vector style, cheerful atmosphere.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "투표",
+    "definition": "여러 사람이 모여서 하나를 결정할 때, 각자의 의견을 나타내는 일이에요."
+  },
+  "hidden_word": {
+    "word": "약속",
+    "mission": "새끼손가락을 걸고 친구와 꼭꼭 지키기로 마음먹는 이것은 무엇일까요?"
+  },
+  "selected_topic": "투표는 어른들만 하지만, 우리 반의 규칙은 우리가 정해요!",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "백지장도 맞들면 낫다",
+    "description": "아무리 가벼운 종이 한 장이라도 함께 들면 훨씬 쉽다는 말로, 친구들과 힘을 합치면 어떤 일이든 더 즐겁고 멋지게 할 수 있다는 뜻이에요.",
+    "message": "우리 반 친구들이 머리를 맞대고 함께 규칙을 정하는 모습이 정말 대견해요! 서로의 생각을 모아 만든 소중한 약속을 기쁜 마음으로 함께 지키며 행복한 교실을 만들어 봐요."
+  },
+  "activity_data": {
+    "scenario": "우리 반을 위한 멋진 규칙을 제안하기 위해 친구들 앞에서 손을 번쩍 들고 발표할 때의 기분은 어떨까요?",
+    "emotions": [
+      {
+        "type": "설렘",
+        "prompt": "A bright classroom, a cheerful elementary school student raising their hand high with sparkling eyes and a big smile, vibrant colors, anime style, soft lighting."
+      }
+    ]
+  }
+}

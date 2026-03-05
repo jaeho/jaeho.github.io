@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "말랑말랑 흙으로 만드는 마법의 그릇",
+    "article_body": [
+      "말랑말랑하고 부드러운 흙이 마법처럼 멋진 그릇으로 변신해요. 도예가 선생님은 찰흙을 조물조물 정성껏 만져서 예쁜 모양을 빚지요.",
+      "빙글빙글 빠르게 돌아가는 물레 위에 흙을 올리면 신기하게도 컵이나 접시가 태어나요. 뜨거운 가마 속에서 굽고 나면 아주 단단해진답니다.",
+      "반짝반짝 고운 무지개 색깔까지 입히면 세상에 하나뿐인 나만의 보물이 완성돼요. 우리 함께 멋진 흙 놀이를 하러 떠나볼까요?"
+    ],
+    "image_prompt": "A friendly potter with a warm smile shaping a clay pot on a spinning pottery wheel, soft pastel colors, children's book illustration style, bright and cozy workshop atmosphere.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "도예가",
+    "definition": "찰흙을 조물조물 만져서 멋진 그릇이나 인형을 만드는 선생님이에요."
+  },
+  "hidden_word": {
+    "word": "물레",
+    "mission": "흙을 올려놓고 빙글빙글 돌려서 동그란 그릇 모양을 만드는 기계는 무엇일까요?"
+  },
+  "selected_topic": "도예가는 흙으로 어떻게 예쁜 그릇을 빚을까요?",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "공든 탑이 무너지랴",
+    "description": "정성을 듬뿍 들여서 차곡차곡 쌓은 탑은 쉽게 무너지지 않듯이, 마음을 다해 만든 것은 아주 멋지게 완성된다는 뜻이에요.",
+    "message": "우리 친구도 찰흙을 조물조물 만질 때 예쁜 마음과 정성을 듬뿍 담아보세요. 정성껏 만든 그릇은 세상에서 가장 소중한 나만의 보물이 될 거예요!"
+  },
+  "activity_data": {
+    "scenario": "말랑말랑한 마법 흙을 처음 손에 쥐었을 때, 그 부드럽고 따뜻한 감촉이 손가락 사이로 느껴집니다.",
+    "emotions": [
+      {
+        "type": "설렘",
+        "prompt": "A child's hands holding glowing, soft magical clay, sparkling particles, warm and inviting atmosphere, soft focus background, digital art style."
+      }
+    ]
+  }
+}

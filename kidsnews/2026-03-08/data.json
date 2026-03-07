@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "달콤한 초콜릿은 어디에서 왔을까요?",
+    "article_body": [
+      "우리가 즐겨 먹는 초콜릿은 사실 숲속 커다란 나무에서 온답니다. 카카오 나무에 달린 울퉁불퉁하고 신비한 열매가 맛있는 간식으로 멋지게 변신해요.",
+      "농부 아저씨가 열매를 정성껏 따서 햇볕에 말리면 고소한 갈색 가루가 돼요. 여기에 하얀 우유와 달콤한 설탕을 섞으면 입안에서 사르르 녹는 초콜릿이 완성되지요.",
+      "하지만 초콜릿을 너무 많이 먹으면 충치 벌레가 찾아와 이를 아프게 할 수 있어요. 오늘부터 맛있는 간식을 먹은 뒤에는 꼭 깨끗하게 양치질하기로 약속할까요?"
+    ],
+    "image_prompt": "A bright and warm pastel-colored illustration of a cacao tree with colorful pods in a magical forest, a friendly farmer, and a bowl of delicious chocolate, 2D art style for children's books.",
+    "category_tag": "오늘의 지혜"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "열매",
+    "definition": "나무나 풀에서 씨가 들어있고 맺히는 맛있는 덩어리에요."
+  },
+  "hidden_word": {
+    "word": "양치질",
+    "mission": "밥을 먹고 나서 치카치카 이를 닦는 행동은 무엇일까요?"
+  },
+  "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
+  "selected_category": "오늘의 지혜",
+  "wisdom_pool_data": {
+    "text": "과유불급(過猶不及)",
+    "description": "아무리 좋은 것이라도 너무 욕심을 내서 많이 가지거나 먹으면 오히려 해로울 수 있다는 뜻이에요.",
+    "message": "달콤하고 맛있는 초콜릿이지만, 우리 어린이의 건강한 치아를 위해서 적당히 먹고 꼭 깨끗하게 양치질하기로 약속해요!"
+  },
+  "activity_data": {
+    "scenario": "고대 마야인들이 카카오 열매를 따서 쓴맛이 나는 음료를 만드는 신비로운 과정을 처음으로 보게 되었습니다. 초콜릿의 시작이 우리가 아는 달콤한 맛이 아니었다는 사실을 알았을 때 어떤 기분이 들까요?",
+    "emotions": [
+      {
+        "type": "놀람",
+        "prompt": "A modern child standing in a lush ancient jungle, looking at Maya people grinding cacao beans, expression of great shock and wide eyes, cinematic lighting, 8k resolution."
+      },
+      {
+        "type": "호기심",
+        "prompt": "Close-up of a young girl's face with sparkling eyes, curiously peering at a large raw cacao pod being sliced open, vibrant jungle background, highly detailed."
+      }
+    ]
+  }
+}

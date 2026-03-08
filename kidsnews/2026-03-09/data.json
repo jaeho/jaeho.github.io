@@ -1,33 +1,33 @@
 {
   "page1": {
-    "headline": "바닷속 부지런한 상어는 왜 쉬지 않을까요?",
+    "headline": "상어는 왜 쉬지 않고 씽씽 헤엄칠까요?",
     "article_body": [
-      "상어는 바닷속에서 잠시도 멈추지 않고 계속 헤엄을 쳐요. 그래야 아가미로 시원한 물이 들어와 숨을 쉴 수 있기 때문이지요.",
-      "헤엄을 멈추면 숨을 쉬기 어렵고 몸이 바닥으로 가라앉아요. 그래서 잠을 잘 때도 꼬리를 살랑살랑 흔들며 조금씩 계속 움직여야 한답니다.",
-      "상어는 튼튼한 몸을 위해 매일 노력하는 부지런한 대장이에요. 우리 친구들도 오늘 상어처럼 씩씩하게 움직여 보기로 약속해요!"
+      "바닷속 멋쟁이 상어는 잠잘 때도 멈추지 않고 계속 헤엄을 쳐요. 다른 물고기와 달리 상어는 지느러미를 흔들며 움직여야 숨을 쉴 수 있거든요.",
+      "상어의 아가미는 물이 계속 지나가야 산소를 마실 수 있어요. 그래서 멈추면 숨이 가빠지기 때문에 꿈속에서도 부지런히 바다를 누빈답니다.",
+      "만약 여러분이 바닷속 상어라면 어디까지 신나게 헤엄쳐 보고 싶나요? 우리 함께 멋진 바다 여행을 떠나는 상상을 해보기로 약속해요!"
     ],
-    "image_prompt": "A friendly, smiling bright blue shark swimming in a sunny turquoise ocean. Soft underwater light, colorful coral reefs, cute children's book illustration style, warm and bright pastel tones.",
+    "image_prompt": "A friendly smiling shark swimming in a bright blue ocean with colorful corals, small bubbles, warm pastel colors, storybook illustration style, soft lighting",
     "category_tag": "오늘의 동물과 자연"
   },
   "activity_type": "cartoon",
   "word_info": {
     "word": "아가미",
-    "definition": "물고기가 물속에서 숨을 쉴 수 있도록 도와주는 숨구멍이에요."
+    "definition": "물고기가 물속에서 숨을 쉴 때 사용하는 코와 같은 곳이에요."
   },
   "hidden_word": {
-    "word": "꼬리",
-    "mission": "상어가 잠을 자면서도 살랑살랑 흔들고 있는 몸의 뒷부분은 무엇일까요?"
+    "word": "산소",
+    "mission": "우리가 숨을 쉴 때 꼭 필요한 공기 속의 소중한 선물은 무엇일까요?"
   },
   "selected_topic": "상어는 왜 계속 헤엄을 쳐야만 할까요?",
   "selected_category": "오늘의 동물과 자연",
   "wisdom_pool_data": {
-    "text": "구르는 돌에는 이끼가 끼지 않는다",
-    "description": "계속해서 움직이는 돌은 깨끗하고 반짝거리는 것처럼, 우리 친구도 부지런히 움직이면 몸도 마음도 아주 건강해진다는 뜻이에요.",
-    "message": "잠을 잘 때도 쉬지 않고 움직이는 상어 대장님처럼, 우리 친구도 오늘 하루를 씩씩하고 활기차게 보내기로 해요! 선생님이 항상 응원할게요!"
+    "text": "부지런한 새가 벌레를 잡는다",
+    "description": "잠잘 때도 쉬지 않고 헤엄치는 상어처럼, 부지런하게 움직이고 노력하는 사람이 원하는 것을 얻을 수 있다는 뜻이에요.",
+    "message": "상어가 멋진 바다 여행을 위해 쉼 없이 헤엄치듯, 우리 친구도 매일매일 즐겁고 부지런하게 생활해 봐요! 상어처럼 씩씩한 어린이가 될 수 있을 거예요."
   },
   "activity_data": {
-    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
-    "first_cut_dialogue": "휴~ 오늘도 쉴 틈이 없네! 꼬리를 영차영차!",
-    "image_prompt": "Black and white simple line art for kids, 바닷속 부지런한 상어는 왜 쉬지 않을까요? theme, the first scene of a story, a cute small shark with big eyes swimming energetically while blowing bubbles, a sleeping crab on the sandy floor in the background, white background, thick lines, no shading"
+    "instruction": "꿈속에서도 멈추지 않고 씽씽 헤엄치는 아기 상어에게 어떤 신나는 모험이 펼쳐질까요? 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "하암~ 졸려라. 하지만 멋쟁이 상어인 나는 잠잘 때도 꼬리를 휘적휘적! 멈추지 않을 거야!",
+    "image_prompt": "Black and white simple line art for kids, a cute baby shark wearing a nightcap and pajamas swimming fast through the water with bubbles and speed lines, the shark has its eyes half-closed looking sleepy but determined, white background, thick lines, no shading, coloring book style"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "우주의 대왕 청소기, 블랙홀의 비밀!",
+    "article_body": [
+      "우주에는 블랙홀이라는 신비한 구멍이 있어요. 힘이 센 청소기처럼 주변의 모든 것을 꿀꺽 삼켜요. 빛조차 도망가지 못할 만큼 끌어당기는 힘이 정말 대단하답니다.",
+      "하지만 블랙홀이 모든 별을 다 먹지는 않아요. 멀리 있으면 안전해요. 우리 지구도 블랙홀과 아주 멀리 있어서 아무런 걱정 없이 평화롭게 지낼 수 있어요.",
+      "우주는 정말 넓고 신기한 곳이에요. 블랙홀은 무서운 괴물이 아니라 우주의 비밀 주머니 같아요. 우리 나중에 우주선을 타고 블랙홀을 구경하러 가볼까요?"
+    ],
+    "image_prompt": "A cute and friendly black hole with a smiling face in a vast purple and blue galaxy, surrounded by colorful stars and small planets at a safe distance, soft pastel tones, whimsical storybook illustration style.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "블랙홀",
+    "definition": "빛조차 빠져나오지 못할 만큼 끌어당기는 힘이 아주 아주 강한 우주의 구멍이에요."
+  },
+  "hidden_word": {
+    "word": "지구",
+    "mission": "우리가 가족들과 함께 오순도순 살고 있는 푸른 별의 이름은 무엇일까요?"
+  },
+  "selected_topic": "블랙홀은 무엇이든 다 빨아들일까요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "무궁무진(無窮無盡)",
+    "description": "끝이 없어서 아무리 찾아도 끝이 없을 만큼 아주아주 많다는 뜻이에요.",
+    "message": "넓고 넓은 우주에는 블랙홀처럼 신기한 비밀이 정말 많이 숨어 있어요. 우리 친구도 호기심 가득한 눈으로 우주의 비밀을 하나씩 알아가는 멋진 탐험가가 되어보세요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와! 저기 우주의 대왕 청소기, 블랙홀이 나타났어! 우리 같이 가까이 가볼까?",
+    "image_prompt": "Black and white simple line art for kids, 우주의 대왕 청소기, 블랙홀의 비밀! theme, the first scene of a story, a cute little astronaut in a small round spaceship pointing at a friendly-looking swirling black hole in the distance, stars and planets scattered around, white background, thick lines, no shading"
+  }
+}

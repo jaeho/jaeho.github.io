@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "데굴데굴 동그란 바퀴의 마법!",
+    "article_body": [
+      "옛날 사람들은 무거운 짐을 옮길 때 땀을 뻘뻘 흘렸어요. 그러다 구르는 통나무를 보고 동그란 바퀴를 만들었답니다. 정말 대단한 발견이지요?",
+      "바퀴가 생기자 무거운 물건도 수레에 싣고 슝슝 옮기게 되었어요. 먼 길도 이제는 힘들지 않아요. 바퀴 덕분에 세상은 아주 빠르고 편해졌답니다.",
+      "주변에서 바퀴를 찾아보세요. 자동차나 장난감에도 바퀴가 숨어 있나요? 오늘 엄마와 함께 동그란 바퀴를 세 개 찾아보기로 손가락 걸고 약속해요!"
+    ],
+    "image_prompt": "A bright and warm pastel illustration showing ancient people happily rolling a wooden cart with round wheels, sunny background, friendly characters, children's book style.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "발명",
+    "definition": "세상에 없던 새로운 것을 처음으로 생각해서 만들어 내는 거예요."
+  },
+  "hidden_word": {
+    "word": "통나무",
+    "mission": "숲속 커다란 나무를 베어서 가지를 모두 치고 남은 동그랗고 긴 나무는 무엇일까요?"
+  },
+  "selected_topic": "바퀴가 발명되어 물건을 옮기기 쉬워진 사건",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "천리 길도 한 걸음부터",
+    "description": "아무리 먼 길이라도 첫 번째 발걸음이 있어야 갈 수 있다는 뜻이에요. 옛날 사람들이 바퀴를 만든 것처럼, 아주 작은 생각 하나가 세상을 아주 편하게 만들었답니다.",
+    "message": "우리 친구, 오늘 엄마랑 바퀴 3개를 찾아보기로 한 약속 기억하나요? 작은 바퀴를 하나씩 찾다 보면 세상의 멋진 보물들을 모두 발견하는 똑똑한 어린이가 될 거예요!"
+  },
+  "activity_data": {
+    "instruction": "끙끙! 무거운 짐을 옮기던 주인공이 무엇을 발견했을까요? 다음 칸에는 통나무를 보고 바퀴를 발명해서 멋진 수레를 만드는 장면을 상상해서 그려보세요!",
+    "first_cut_dialogue": "에구구, 너무 무거워서 도저히 못 옮기겠어! 어라? 저 통나무는 어떻게 저렇게 잘 굴러가는 거지?",
+    "image_prompt": "Black and white simple line art for kids, a cute little bear character sweating and pushing a giant square stone block, in the background a round log is rolling down a small grassy hill, '데굴데굴 동그란 바퀴의 마법!' theme, white background, thick lines, no shading, minimalist doodle style"
+  }
+}

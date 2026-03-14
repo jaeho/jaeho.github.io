@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "마법사 카멜레온의 알록달록 비밀 옷장",
+    "article_body": [
+      "숲속 카멜레온은 마법사처럼 옷을 갈아입어요. 나뭇잎 뒤에 숨으면 초록색이 되고, 햇볕 아래선 노란색으로 변해요. 정말 신기한 재주를 가졌지요?",
+      "기분에 따라서도 색을 바꿔요. 화가 나면 진해지고, 기쁘면 예쁘게 반짝여요. 몸속 아주 작은 알갱이들이 움직이며 멋진 색깔을 만든답니다.",
+      "친구들도 변신하고 싶은 색이 있나요? 오늘은 좋아하는 색깔 옷을 입고 동물 친구에게 인사를 건네봐요. 여러분은 어떤 색이 되고 싶나요?"
+    ],
+    "image_prompt": "A cute, friendly rainbow-colored chameleon standing on a green leaf in a lush, bright jungle. Soft pastel colors, watercolor style, whimsical and magical atmosphere, sunbeams shining through leaves.",
+    "category_tag": "오늘의 지혜"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "카멜레온",
+    "definition": "주변 환경이나 기분에 따라 몸의 색깔을 마음대로 바꾸는 파충류 친구예요."
+  },
+  "hidden_word": {
+    "word": "마법사",
+    "mission": "신기한 요술을 부려 어려운 일도 척척 해내는 사람을 무엇이라고 부를까요?"
+  },
+  "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
+  "selected_category": "오늘의 지혜",
+  "wisdom_pool_data": {
+    "text": "천변만화 (千變萬化)",
+    "description": "마법사가 요술을 부리는 것처럼 모습이나 색깔이 아주 많이, 신기하게 바뀌는 것을 말해요.",
+    "message": "카멜레온처럼 우리 친구도 상황에 따라 멋진 색깔을 낼 수 있는 특별한 능력이 있어요. 오늘은 가장 좋아하는 색깔 옷을 입고, 카멜레온처럼 밝고 멋진 모습으로 친구들에게 먼저 인사해 볼까요?"
+  },
+  "activity_data": {
+    "scenario": "카멜레온 마법사가 신비로운 옷장의 문을 열자, 그 안에서 무지개색으로 빛나는 옷들이 스스로 춤을 추며 공중으로 튀어나옵니다.",
+    "emotions": [
+      {
+        "type": "경이로움",
+        "prompt": "A wizard chameleon opening a glowing magical wooden closet, vibrant rainbow-colored robes floating and dancing in the air, magical sparkles, whimsical fantasy style, cinematic lighting, 8k."
+      }
+    ]
+  }
+}

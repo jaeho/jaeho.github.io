@@ -1,41 +1,33 @@
 {
   "page1": {
-    "headline": "엄마 바다거북은 왜 모래사장으로 올까요?",
+    "headline": "바다거북은 왜 모래밭으로 올까요?",
     "article_body": [
-      "바다거북은 평소 바다에서 헤엄치며 살아요. 하지만 아기 거북을 낳을 때는 육지로 올라온답니다. 엄마 거북은 밤이 되면 모래사장으로 살금살금 걸어 나와요.",
-      "모래 속에 구멍을 파고 알을 낳으면 아기들이 따뜻하게 자랄 수 있어요. 바닷속보다 안전하고 포근한 집이 되거든요. 엄마는 정성껏 모래를 덮어 알을 숨겨요.",
-      "시간이 흐르면 아기 거북들이 알을 깨고 나와요. 아기들은 다시 푸른 바다를 향해 엉금엉금 달려간답니다. 우리 멋진 아기 거북을 함께 응원해 줄까요?"
+      "깊고 푸른 바다에 사는 거북이가 밤이 되면 엉금엉금 해변으로 올라와요. 왜 모래사장으로 올까요? 그건 바로 소중한 알을 안전하게 낳기 위해서랍니다.",
+      "바닷속은 물고기가 많아 위험하지만, 따뜻한 모래는 알을 지켜주는 포근한 침대가 돼요. 아기 거북들은 모래 속에서 무럭무럭 건강하게 자라난답니다.",
+      "아기 거북들은 이제 바다로 돌아가요. 거북이 가족의 여행을 우리 함께 만화로 그려보며 씩씩하게 응원해 볼까요?"
     ],
-    "image_prompt": "A cute mother sea turtle laying eggs in a soft sandy hole on a moonlit beach, warm pastel colors, soft lighting, friendly children's book illustration style, starry night sky.",
+    "image_prompt": "A friendly mother sea turtle laying eggs in the soft golden sand under a starry night sky, calm blue ocean in the background, warm and bright pastel color style, cute children's book illustration.",
     "category_tag": "오늘의 동물과 자연"
   },
-  "activity_type": "emotion_guess",
+  "activity_type": "cartoon",
   "word_info": {
-    "word": "모래사장",
-    "definition": "바닷가에 모래가 아주 많이 모여 있는 넓은 곳이에요."
+    "word": "해변",
+    "definition": "바다와 땅이 만나는 모래가 있는 곳이에요."
   },
   "hidden_word": {
-    "word": "엉금엉금",
-    "mission": "거북이나 아기가 느릿느릿 기어가는 모양을 나타내는 말은 무엇일까요?"
+    "word": "거북이",
+    "mission": "딱딱한 등껍질을 가지고 엉금엉금 느리게 걷는 동물은 누구일까요?"
   },
   "selected_topic": "바다거북이 알을 낳으러 해변으로 오는 이유",
   "selected_category": "오늘의 동물과 자연",
   "wisdom_pool_data": {
-    "text": "천리 길도 한 걸음부터",
-    "description": "아무리 멀고 큰 일이라도 처음 시작하는 한 걸음이 가장 중요하다는 뜻이에요.",
-    "message": "넓은 바다를 향해 엉금엉금 나아가는 아기 거북이처럼, 우리 친구도 용기를 가지고 첫걸음을 내디뎌 봐요! 한 걸음씩 천천히 가다 보면 무엇이든 해낼 수 있답니다."
+    "text": "사랑으로 감싸기",
+    "description": "엄마 거북이가 알을 위해 따뜻한 모래 침대를 찾아주는 것처럼, 소중한 것을 따뜻하고 예쁜 마음으로 아껴주는 것을 말해요.",
+    "message": "아기 거북이들이 모래 속에서 건강하게 자라 바다로 나갈 수 있도록, 우리 친구의 따뜻한 마음을 담아 씩씩하게 응원해 주세요!"
   },
   "activity_data": {
-    "scenario": "어두운 밤, 엄마 바다거북이 무거운 몸을 이끌고 모래사장 위로 올라와 아기들이 태어날 깊은 구덩이를 정성껏 파고 있습니다.",
-    "emotions": [
-      {
-        "type": "정성",
-        "prompt": "A mother sea turtle carefully digging a hole in the sand on a moonlit beach at night, cinematic lighting, realistic textures, 8k resolution"
-      },
-      {
-        "type": "피로",
-        "prompt": "An exhausted sea turtle moving slowly on the sandy beach under the stars, sand grains on its shell, high detail, emotional atmosphere"
-      }
-    ]
+    "instruction": "밤이 되어 해변으로 올라온 엄마 거북이에게 어떤 일이 일어날까요? 뒤에 이어질 이야기를 상상해서 멋지게 완성해 보세요!",
+    "first_cut_dialogue": "영차, 영차! 우리 아기들이 포근하게 잠들 세상에서 가장 안전한 모래 침대를 찾을 거야!",
+    "image_prompt": "Black and white simple line art for kids, a cute mother sea turtle with big friendly eyes crawling from the ocean waves onto a sandy beach under a large crescent moon and stars, 'Why do sea turtles come to the sandy beach?' theme, the first scene of a story, white background, thick lines, no shading, coloring book style"
   }
 }

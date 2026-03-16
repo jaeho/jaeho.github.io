@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "둥둥 떠다니는 우주 쓰레기, 왜 안 떨어질까요?",
+    "article_body": [
+      "우주에도 쓰레기가 있다는 사실을 아나요? 수명이 다한 인공위성이나 부서진 로켓 조각들이 지구 주변을 아주 빠르게 쌩쌩 돌고 있답니다.",
+      "이 쓰레기들은 엄청 빨라서 지구로 쉽게 떨어지지 않고 계속 떠 있어요. 지구가 당기는 힘과 밖으로 나가려는 힘이 딱 맞기 때문이지요.",
+      "우리 함께 우주 청소부가 되어 쓰레기를 치우는 멋진 상상을 해볼까요? 이제 예쁜 우주선과 반짝이는 별들을 색칠하며 우주를 지켜주기로 약속해요!"
+    ],
+    "image_prompt": "A cute, friendly space shuttle with a smiling face, surrounded by small floating metallic pieces and twinkling stars in a soft pastel-colored galaxy, 2D illustration style for kids, bright and warm colors.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "인공위성",
+    "definition": "지구 주변을 돌며 방송이나 날씨 정보를 전해주는 기계예요."
+  },
+  "hidden_word": {
+    "word": "우주선",
+    "mission": "밤하늘 별나라로 여행을 떠날 때 타는 아주 빠른 탈것은 무엇일까요?"
+  },
+  "selected_topic": "우주 쓰레기가 지구로 떨어지지 않는 이유",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "뜻이 있는 곳에 길이 있다",
+    "description": "무언가를 꼭 하고 싶다는 마음을 가지면, 아주 어려운 일도 해결할 수 있는 방법이 생긴다는 뜻이에요.",
+    "message": "우주 쓰레기를 치우는 멋진 상상을 하는 우리 친구! 우주를 사랑하고 지키고 싶다는 그 마음이 나중에 정말로 우주를 깨끗하게 만드는 큰 힘이 될 거예요."
+  },
+  "activity_data": {
+    "instruction": "지구 주변을 둥둥 떠다니는 인공위성과 우주 쓰레기들을 예쁜 색으로 색칠해 보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, floating space junk and broken satellites orbiting around planet Earth, simple outlines of nuts, bolts, and scrap metal in space, friendly style, white background, thick lines, no shading, no gray, high contrast, minimalist design."
+  }
+}

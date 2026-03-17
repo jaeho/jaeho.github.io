@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "뜨거워진 지구를 위해 전 세계가 약속했어요!",
+    "article_body": [
+      "지구가 뜨거워져서 아파하고 있어요. 그래서 전 세계 어른들이 한자리에 모였지요. 우리 지구가 더 이상 아프지 않게 소중히 지켜주기로 약속했답니다.",
+      "이 약속의 이름은 파리 기후 협정이에요. 시원한 바람과 맑은 하늘을 선물하기 위해 모두가 힘을 합치기로 했어요. 나무를 심고 전기를 아끼는 것도 좋은 방법이죠.",
+      "아픈 지구를 보면 우리 마음은 어떨까요? 슬픈 지구를 웃게 만들고 싶다면 함께 노력해요. 지금 지구는 어떤 기분일지 친구의 마음으로 상상해볼까요?"
+    ],
+    "image_prompt": "Bright and warm pastel illustration of diverse children around the globe holding hands around a smiling, lush green and blue Earth, soft lighting, storybook style, high quality.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "약속",
+    "definition": "앞으로 어떻게 할지 미리 정하고 꼭 지키기로 마음먹는 것이에요."
+  },
+  "hidden_word": {
+    "word": "지구",
+    "mission": "우리가 발을 딛고 살고 있는 커다랗고 푸른 공 모양의 예쁜 집은 어디일까요?"
+  },
+  "selected_topic": "지구를 살리기 위해 전 세계가 파리 기후 협정을 맺은 날",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "수적천석(水滴穿石)",
+    "description": "작은 물방울이 똑똑 떨어져서 커다란 바위에 구멍을 낸다는 뜻이에요. 아주 작은 노력도 꾸준히 하면 나중에 아주 큰 힘이 된다는 것을 말해요.",
+    "message": "지구를 위해 전기를 끄고 나무를 사랑하는 우리 친구의 작은 행동들이 모이면, 뜨거운 지구를 다시 시원하게 웃게 만들 수 있어요. 우리 함께 지구를 지키는 영웅이 되어볼까요?"
+  },
+  "activity_data": {
+    "scenario": "전 세계 사람들이 뜨거워진 지구를 식히기 위해 다 함께 나무를 심기로 했어요. 어린 묘목들이 무럭무럭 자라나 울창한 숲을 이루는 미래를 상상해 보세요.",
+    "emotions": [
+      {
+        "type": "희망",
+        "prompt": "A diverse group of people from different cultures planting saplings in a vast field, soft golden sunlight, lush green background, hopeful and bright atmosphere, cinematic lighting, 8k resolution."
+      }
+    ]
+  }
+}

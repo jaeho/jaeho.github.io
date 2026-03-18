@@ -1,0 +1,39 @@
+{
+  "page1": {
+    "headline": "인도에서 온 반짝반짝 빛의 축제, 디왈리!",
+    "article_body": [
+      "인도에는 ‘디왈리’라는 아주 큰 축제가 있어요. 어둠을 몰아내고 밝은 빛을 축하하는 날이지요. 집집마다 예쁜 등불을 켜고 반짝이는 세상을 만들어요.",
+      "사람들은 바닥에 알록달록한 가루로 예쁜 그림인 ‘랑골리’를 그려요. 맛있는 사탕을 나누어 먹으며 이웃과 웃음꽃을 피우지요. 폭죽도 팡팡 터뜨린답니다.",
+      "우리도 마음속에 작은 등불을 켜 볼까요? 밝은 마음으로 오늘 공부를 시작하기로 약속해요. 아래 활동지에서 예쁜 등불을 함께 찾아보며 놀아 볼까요?"
+    ],
+    "image_prompt": "A bright and warm pastel-style illustration of a smiling Indian family lighting traditional clay oil lamps in front of their home, colorful Rangoli patterns on the floor, vibrant and festive atmosphere.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "basic",
+  "word_info": {
+    "word": "등불",
+    "definition": "어두운 곳을 밝게 비추려고 불을 켜는 도구예요."
+  },
+  "hidden_word": {
+    "word": "축제",
+    "mission": "여러 사람이 모여서 즐겁게 노는 특별한 행사를 무엇이라고 할까요?"
+  },
+  "selected_topic": "인도의 빛의 축제 '디왈리'에서는 무엇을 할까요?",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "나누면 기쁨이 두 배가 되고, 슬픔은 반으로 줄어든다.",
+    "description": "맛있는 사탕이나 즐거운 마음을 친구들과 함께 나누면 행복이 훨씬 더 커진다는 뜻이에요.",
+    "message": "인도의 디왈리 축제처럼 우리 어린이도 이웃들과 웃음을 나누며 세상을 환하게 밝히는 따뜻한 마음을 가진 사람이 되길 바랄게요!"
+  },
+  "activity_data": {
+    "subject": "인도에서 온 반짝반짝 빛의 축제, 디왈리!",
+    "suggested_titles": [
+      "반짝반짝 빛의 축제, 내가 표현하는 디왈리",
+      "디왈리의 빛을 담은 그림과 나의 이야기",
+      "어둠을 밝히는 등불, 디왈리 추억 상자",
+      "인도의 빛, 디왈리에서 찾은 소중한 마음",
+      "색색의 빛으로 물든 나만의 디왈리 축제",
+      "희망을 그리는 디왈리, 빛의 축제 속으로"
+    ]
+  }
+}

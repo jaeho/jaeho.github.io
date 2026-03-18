@@ -1,39 +1,37 @@
 {
   "page1": {
-    "headline": "인도에서 온 반짝반짝 빛의 축제, 디왈리!",
+    "headline": "반짝반짝 인도 축제, 디왈리로 놀러 가요!",
     "article_body": [
-      "인도에는 ‘디왈리’라는 아주 큰 축제가 있어요. 어둠을 몰아내고 밝은 빛을 축하하는 날이지요. 집집마다 예쁜 등불을 켜고 반짝이는 세상을 만들어요.",
-      "사람들은 바닥에 알록달록한 가루로 예쁜 그림인 ‘랑골리’를 그려요. 맛있는 사탕을 나누어 먹으며 이웃과 웃음꽃을 피우지요. 폭죽도 팡팡 터뜨린답니다.",
-      "우리도 마음속에 작은 등불을 켜 볼까요? 밝은 마음으로 오늘 공부를 시작하기로 약속해요. 아래 활동지에서 예쁜 등불을 함께 찾아보며 놀아 볼까요?"
+      "인도에는 '디왈리'라는 밝은 축제가 있어요. 어둠을 쫓기 위해 집집마다 작은 등불을 켜고 꽃그림을 그려요. 온 마을이 반짝반짝 빛나서 정말 아름다워요.",
+      "가족들은 달콤한 사탕을 나누어 먹으며 웃음꽃을 피워요. 밤하늘에 화려한 불꽃이 터지면 모두의 눈이 보석처럼 빛나요. 친구들과 춤을 추면 참 즐겁지요.",
+      "환한 등불을 보면 어떤 기분이 드나요? 축제를 즐기는 친구들의 행복한 얼굴을 찾아보아요. 함께 표정을 맞히며 따뜻한 마음을 나누기로 약속해요."
     ],
-    "image_prompt": "A bright and warm pastel-style illustration of a smiling Indian family lighting traditional clay oil lamps in front of their home, colorful Rangoli patterns on the floor, vibrant and festive atmosphere.",
+    "image_prompt": "A vibrant and warm pastel illustration of Indian children celebrating Diwali, holding small oil lamps called diyas, colorful flower patterns on the ground, glowing fireworks in the night sky, soft and friendly art style for 7-year-olds.",
     "category_tag": "오늘의 세계와 사회"
   },
-  "activity_type": "basic",
+  "activity_type": "emotion_guess",
   "word_info": {
     "word": "등불",
-    "definition": "어두운 곳을 밝게 비추려고 불을 켜는 도구예요."
+    "definition": "어둠을 환하게 밝히기 위해 불을 붙여서 매달거나 세워두는 물건이에요."
   },
   "hidden_word": {
-    "word": "축제",
-    "mission": "여러 사람이 모여서 즐겁게 노는 특별한 행사를 무엇이라고 할까요?"
+    "word": "사탕",
+    "mission": "입안에 쏙 넣으면 사르르 녹고 달콤한 맛이 나는 간식은 무엇일까요?"
   },
   "selected_topic": "인도의 빛의 축제 '디왈리'에서는 무엇을 할까요?",
   "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "나누면 기쁨이 두 배가 되고, 슬픔은 반으로 줄어든다.",
-    "description": "맛있는 사탕이나 즐거운 마음을 친구들과 함께 나누면 행복이 훨씬 더 커진다는 뜻이에요.",
-    "message": "인도의 디왈리 축제처럼 우리 어린이도 이웃들과 웃음을 나누며 세상을 환하게 밝히는 따뜻한 마음을 가진 사람이 되길 바랄게요!"
+    "text": "동고동락(同苦同樂)",
+    "description": "기쁜 일이나 슬픈 일이 있을 때 가족, 친구들과 항상 함께하며 마음을 나누는 것을 말해요.",
+    "message": "인도의 디왈리 축제처럼 주변 사람들과 맛있는 것을 나누고 함께 웃어보세요. 친구들과 마음을 모아 함께할 때 우리 마음의 등불은 더 밝게 빛난답니다!"
   },
   "activity_data": {
-    "subject": "인도에서 온 반짝반짝 빛의 축제, 디왈리!",
-    "suggested_titles": [
-      "반짝반짝 빛의 축제, 내가 표현하는 디왈리",
-      "디왈리의 빛을 담은 그림과 나의 이야기",
-      "어둠을 밝히는 등불, 디왈리 추억 상자",
-      "인도의 빛, 디왈리에서 찾은 소중한 마음",
-      "색색의 빛으로 물든 나만의 디왈리 축제",
-      "희망을 그리는 디왈리, 빛의 축제 속으로"
+    "scenario": "디왈리 축제를 앞두고 온 가족이 모여 집 안팎을 수많은 진흙 등잔(디야)과 알록달록한 꽃으로 장식하며 축제가 시작되기를 손꼽아 기다리고 있어요.",
+    "emotions": [
+      {
+        "type": "설렘",
+        "prompt": "A happy Indian family decorating their house with orange marigold flowers and small clay lamps, bright festive colors, anticipation on their faces, warm natural lighting, 8k resolution."
+      }
     ]
   }
 }

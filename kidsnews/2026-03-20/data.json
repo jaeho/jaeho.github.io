@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "우리 동네를 지키는 든든한 영웅, 경찰관 아주머니!",
+    "article_body": [
+      "우리 동네에는 멋진 경찰관 아주머니가 계세요. 반짝이는 배지를 달고 매일 길을 살펴봐요. 우리가 안전하게 길을 건너도록 도와주시고 언제나 환하게 웃어주신답니다.",
+      "길을 잃은 아이를 찾아주거나 위험한 곳이 없는지 확인해요. 순찰차를 타고 동네를 돌며 나쁜 사고가 생기지 않도록 지켜주시는 우리 동네의 든든한 영웅이랍니다.",
+      "이제 우리를 지켜주는 아주머니를 예쁘게 색칠해 볼까요? 어떤 색 옷을 입고 계실지 상상하며 색칠해 보세요. 여러분도 아주머니처럼 씩씩하게 자라기로 약속해요!"
+    ],
+    "image_prompt": "A friendly female police officer smiling, wearing a blue uniform with a gold badge, standing next to a cute police car in a colorful neighborhood, soft pastel illustration style, warm lighting, child-friendly.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "순찰차",
+    "definition": "경찰관이 동네에 나쁜 일이 생기지 않았는지 살피러 다닐 때 타는 자동차예요."
+  },
+  "hidden_word": {
+    "word": "배지",
+    "mission": "경찰관의 가슴에서 반짝반짝 빛나며 누구인지 알려주는 예쁜 장식은 무엇일까요?"
+  },
+  "selected_topic": "경찰관 아주머니가 우리 동네를 지키는 방법",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "용감무쌍(勇敢無雙)",
+    "description": "세상에서 제일 용기 있고 씩씩해서 아무도 따라올 수 없다는 뜻이에요.",
+    "message": "우리 동네를 든든하게 지켜주시는 경찰관 아주머니처럼, 여러분도 어려운 친구를 도와주는 용감무쌍하고 멋진 어린이가 되어보아요!"
+  },
+  "activity_data": {
+    "instruction": "우리 동네를 안전하게 지켜주시는 친절한 경찰관 아주머니를 예쁜 색깔로 색칠해 보세요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a friendly female police officer smiling and standing in a neighborhood, wearing a police uniform and hat, white background, thick lines, no shading, clean outlines, cartoon style."
+  }
+}

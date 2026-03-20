@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "마음이 따뜻해지는 마법, 서로서로 도와요!",
+    "article_body": [
+      "친구가 넘어져 울고 있으면 \"괜찮니?\"라고 물어봐 주세요. 여러분의 따뜻한 말은 힘이 센 마법 같아요. 곤란한 사람을 돕는 예쁜 마음은 정말 소중해요.",
+      "작은 도움도 큰 기쁨이 돼요. 친구의 물건을 줍거나 문을 열어 줄 수 있죠. 남을 도와주고 웃는 얼굴을 보면 우리 마음도 몽글몽글 행복해진답니다.",
+      "우리도 멋진 영웅이 되어 볼까요? 주변을 잘 살펴서 도움을 줄 방법을 찾아봐요. 이제 활동지를 풀며 친절한 어린이가 되겠다고 꼭 약속해요!"
+    ],
+    "image_prompt": "A warm, pastel-colored illustration of a young child kindly helping a friend who dropped crayons, soft sunlight filtering through, whimsical and cozy storybook style.",
+    "category_tag": "오늘의 마음과 감정"
+  },
+  "activity_type": "basic",
+  "word_info": {
+    "word": "보람",
+    "definition": "착한 일을 한 뒤에 느끼는 아주 뿌듯하고 기쁜 마음"
+  },
+  "hidden_word": {
+    "word": "마법",
+    "mission": "아무도 못 하는 신기한 일을 척척 해내는 신비로운 힘은 무엇일까요?"
+  },
+  "selected_topic": "곤란한 상황에 처한 사람을 돕는 것은 정말 멋지고 보람찬 일이에요",
+  "selected_category": "오늘의 마음과 감정",
+  "wisdom_pool_data": {
+    "text": "말 한마디에 천 냥 빚도 갚는다",
+    "description": "예쁜 말 한마디가 아주 큰 어려움도 해결할 수 있는 마법 같은 힘을 가졌다는 뜻이에요.",
+    "message": "친구가 힘들 때 건네는 '괜찮니?'라는 따뜻한 말 한마디는 마법처럼 큰 힘이 된단다. 우리도 주변 친구들에게 예쁜 말을 선물하는 멋진 영웅이 되어볼까?"
+  },
+  "activity_data": {
+    "instruction": "마음이 따뜻해지는 마법, 서로서로 도와요!",
+    "suggested_titles": [
+      "따뜻한 마음을 담은 무지개 도화지",
+      "나눔으로 피어나는 마법 같은 이야기",
+      "함께라서 행복해요! 우리들의 도움 기록장",
+      "서로서로 도와요! 마음 온도 올리기",
+      "내 마음속에 저장한 따뜻한 마법",
+      "고마운 마음을 전하는 글과 그림",
+      "함께 돕는 우리, 더 밝은 세상 그리기",
+      "나누는 기쁨, 그려보는 따뜻한 마법"
+    ]
+  }
+}

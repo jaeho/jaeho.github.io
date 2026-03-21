@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "펭귄이 입은 마법의 턱시도 비밀",
+    "article_body": [
+      "뒤뚱뒤뚱 귀여운 펭귄은 왜 검정색과 하얀색 옷을 입고 있을까요? 멋진 턱시도를 입은 신사 같지요? 여기에는 아주 특별한 비밀이 숨어 있답니다.",
+      "바다 위에서 보면 검은 등은 어두운 바다색과 비슷해서 잘 안 보여요. 아래에서 보면 하얀 배가 밝은 하늘과 섞여서 몸을 감쪽같이 숨겨 줘요.",
+      "펭귄은 멋진 옷으로 무서운 적을 피하며 바다를 신나게 누벼요. 이제 아래의 문제를 풀고 핵심 단어를 찾아보는 연습을 우리 함께 시작해 볼까요?"
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A curious young child explorer wearing a khaki safari hat and holding binoculars is observing a group of penguins in Antarctica. The penguins have distinct black backs and white bellies. Soft sun lighting, gentle snowy textures, and a calm blue ocean in the background.",
+    "category_tag": "펭귄의 비밀",
+    "reference": "https://www.newspenguin.com"
+  },
+  "activity_type": "basic",
+  "word_info": {
+    "word": "위장술",
+    "definition": "주변 환경과 비슷한 색깔이나 모양으로 바꾸어 몸을 숨기는 아주 특별한 방법이에요."
+  },
+  "hidden_word": {
+    "word": "턱시도",
+    "mission": "결혼식이나 멋진 파티에 갈 때 신사들이 입는 까만색 정장 옷의 이름은 무엇일까요?"
+  },
+  "selected_category": "펭귄의 비밀",
+  "selected_topic": "펭귄은 왜 검정색과 흰색일까요? 바다 속 '위장술'의 비밀",
+  "wisdom_pool_data": {
+    "text": "안성맞춤",
+    "description": "펭귄의 검은 등과 하얀 배가 바다와 하늘색에 딱 어울려 몸을 숨겨주는 것처럼, 어떤 상황이나 물건이 아주 잘 어울리는 것을 말해요.",
+    "message": "펭귄이 자신에게 딱 맞는 멋진 턱시도로 자신을 지키는 것처럼, 우리 친구도 친구만의 특별하고 멋진 장점을 잘 찾아내어 마음껏 뽐낼 수 있기를 응원할게요!"
+  },
+  "activity_data": {
+    "category": "drawing",
+    "title": "나만의 마법 턱시도 디자인하기"
+  }
+}

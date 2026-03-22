@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "바다를 씽씽 날아다니는 펭귄의 비밀",
+    "article_body": [
+      "펭귄은 새지만 하늘을 날지 못해요. 대신 짧고 단단한 날개를 가지고 있지요. 이 날개는 바닷속에서 아주 특별한 힘을 발휘한답니다.",
+      "물속에 들어간 펭귄은 날개를 지느러미처럼 파닥거려요. 마치 파란 바다 하늘을 나는 것처럼 아주 빠르게 헤엄친답니다. 정말 신기한 날개죠?",
+      "이제 바다를 멋지게 여행하는 펭귄 친구를 예쁘게 색칠해 볼까요? 우리도 펭귄처럼 씩씩하게 헤엄치는 꿈을 꾸며 색연필을 잡아 보아요."
+    ],
+    "image_prompt": "A cute, chubby baby penguin swimming underwater in a bright blue ocean, using its wings like flippers. Sunlight rays streaming through the water surface. Warm pastel colors, soft illustration style for children, friendly and magical atmosphere.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "펭귄",
+    "definition": "추운 곳에 살며 수영을 아주 잘하는 새예요."
+  },
+  "hidden_word": {
+    "word": "날개",
+    "mission": "새들이 하늘을 날거나 펭귄이 수영할 때 꼭 필요한 이것은 무엇일까요?"
+  },
+  "selected_topic": "펭귄의 날개는 하늘 대신 바다를 날기 위해 있대요",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "구슬이 서 말이라도 꿰어야 보배",
+    "description": "아무리 좋은 날개가 있어도 펭귄처럼 물속에서 열심히 움직여야 진짜 보물이 된다는 뜻이에요. 내가 가진 장점을 잘 사용하고 노력하는 것이 중요해요.",
+    "message": "하늘을 날지 못해도 바다를 멋지게 누비는 펭귄처럼, 우리 친구도 자신이 가진 멋진 능력을 찾아보아요! 펭귄을 예쁘게 색칠하며 친구의 꿈도 보석처럼 반짝반짝 빛나길 응원할게요."
+  },
+  "activity_data": {
+    "instruction": "바다 속을 씽씽 날아다니듯 헤엄치는 귀여운 펭귄을 알록달록하게 색칠해 보세요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute penguin swimming very fast underwater as if flying, simple bubbles and small waves to show speed, white background, thick outlines, no shading, minimalist style, clear edges"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "컴퓨터는 숫자 두 개로 말해요!",
+    "article_body": [
+      "컴퓨터 친구는 전기가 들어오면 1, 나가면 0이라고 기억해요. 전등 스위치를 딸깍 껐다 켰다 하는 것과 아주 비슷하답니다. 정말 신기하죠?",
+      "0과 1이라는 작은 숫자들이 아주 많이 모이면 우리가 보는 예쁜 그림과 글자가 돼요. 컴퓨터만의 특별한 말하기 방법이라서 더욱 소중해요.",
+      "컴퓨터가 보낸 비밀 신호를 읽으면 여러분은 오늘 어떤 기분이 드나요? 기사 속 그림을 보며 컴퓨터의 신나는 마음을 꼭 맞춰 보세요!"
+    ],
+    "image_prompt": "A cute computer character smiling with sparkling eyes, surrounded by floating glowing numbers 0 and 1, bright pastel colors, soft lighting, 3D clay animation style, friendly atmosphere for 7-year-old children.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "신호",
+    "definition": "약속한 내용을 전달하기 위해 보내는 특별한 표시나 소리예요."
+  },
+  "hidden_word": {
+    "word": "전기",
+    "mission": "반짝반짝 전등의 불을 켜거나 기계를 움직이게 만드는 아주 힘센 에너지는 무엇일까요?"
+  },
+  "selected_topic": "컴퓨터는 어떻게 0과 1로만 생각할까요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 것들이 하나둘씩 많이 모이면, 나중에는 아주 커다란 산처럼 커질 수 있다는 뜻이에요.",
+    "message": "컴퓨터 속 0과 1이라는 작은 숫자들이 모여서 예쁜 그림을 만드는 것처럼, 우리 친구의 작은 노력들이 차곡차곡 모이면 무엇이든 멋지게 해낼 수 있을 거예요!"
+  },
+  "activity_data": {
+    "scenario": "민수는 컴퓨터가 오직 0과 1, 두 개의 숫자로만 모든 정보를 주고받는다는 사실을 처음 배우게 되었어요. 복잡한 사진과 글자들이 숫자로 변하는 과정이 정말 놀라워요.",
+    "emotions": [
+      {
+        "type": "신기함",
+        "prompt": "A young boy looking at a computer screen displaying glowing binary codes 0 and 1, eyes wide with wonder, magical digital particles, cinematic lighting, high quality 3D style."
+      },
+      {
+        "type": "호기심",
+        "prompt": "A curious child leaning close to a monitor filled with zeros and ones, holding a magnifying glass, vibrant digital atmosphere, futuristic tech art."
+      }
+    ]
+  }
+}

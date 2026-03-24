@@ -1,0 +1,41 @@
+{
+  "page1": {
+    "headline": "바람 없이도 씽씽! 마법의 배 증기선",
+    "article_body": [
+      "옛날에는 바람이 불어야 배가 움직였어요. 하지만 엔진을 단 증기선이 처음으로 물 위를 달렸답니다. 바람 없이도 씩씩하게 나아가는 멋진 배였지요.",
+      "뜨거운 김이 나오면 커다란 바퀴가 뱅글뱅글 돌아가요. 물살을 가르며 빠르게 달리는 배를 보고 사람들은 깜짝 놀라며 박수를 쳤답니다.",
+      "배를 운전한 선장님은 어떤 기분이었을까요? 정말 가슴이 벅차고 행복했을 거예요. 선장님의 멋진 표정을 상상하며 함께 맞춰보아요."
+    ],
+    "image_prompt": "A bright, pastel-colored illustration of a classic steamboat with large wooden paddle wheels, moving through a calm river. Friendly people waving from the shore, soft sunshine, whimsical and warm atmosphere for children.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "증기선",
+    "definition": "뜨거운 김의 힘으로 엔진을 돌려 물 위를 움직이는 아주 큰 배예요."
+  },
+  "hidden_word": {
+    "word": "바람",
+    "mission": "눈에 보이지 않지만 우리 얼굴을 시원하게 해주고 돛단배를 움직이게 하는 이것은 무엇일까요?"
+  },
+  "selected_topic": "증기선이 물살을 가르며 처음으로 항해에 성공한 날",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "박학다식(博學多識)",
+    "description": "세상의 신기하고 놀라운 일들을 많이 배워서 아는 것이 아주 많다는 뜻이에요.",
+    "message": "바람 없이도 씽씽 달리는 증기선처럼, 우리 친구도 세상의 재미있는 비밀들을 하나씩 알아가며 지혜롭고 멋진 박학다식 어린이가 되어보아요!"
+  },
+  "activity_data": {
+    "scenario": "바람 한 점 없는 고요한 바다에서 돛도 없는 거대한 배가 검은 연기를 내뿜으며 엄청난 속도로 다가오는 것을 처음 목격했을 때의 기분은 어떨까요?",
+    "emotions": [
+      {
+        "type": "경이로움",
+        "prompt": "A massive 19th-century steamboat cutting through calm water without sails, thick black smoke against a sunset sky, onlookers on the shore with expressions of awe and amazement, cinematic lighting, highly detailed."
+      },
+      {
+        "type": "두려움",
+        "prompt": "A giant mechanical boat looking like a sea monster with fire and smoke, dark misty ocean, a small wooden rowboat nearby looking tiny, dramatic shadows, mysterious and slightly terrifying atmosphere."
+      }
+    ]
+  }
+}

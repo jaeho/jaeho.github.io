@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "커다란 고래와 조련사는 어떻게 단짝 친구가 될까요?",
+    "article_body": [
+      "바다의 왕 고래와 조련사는 어떻게 친해질까요? 처음에는 물을 튀기며 반갑게 인사해요. 고래의 등을 부드럽게 쓰다듬어 주며 사랑하는 마음을 따뜻하게 전한답니다.",
+      "조련사가 손을 흔들면 고래는 멋지게 점프해요. 맛있는 생선을 나눠 먹으며 서로의 마음을 이해하게 되지요. 고래는 조련사의 눈빛만 봐도 기분을 알 수 있대요.",
+      "여러분도 고래와 친구가 된다면 어떤 이야기를 나누고 싶나요? 아래 칸에 고래와 즐겁게 노는 모습을 직접 그려 보아요. 우리 함께 멋진 만화 그림을 완성해 볼까요?"
+    ],
+    "image_prompt": "A friendly big blue whale and a kind trainer smiling at each other in the sparkling ocean, bright and warm pastel watercolor illustration, soft lighting, cute child-friendly style.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "조련사",
+    "definition": "동물 친구들이 건강하게 지내도록 돕고 여러 가지를 가르쳐 주는 선생님이에요."
+  },
+  "hidden_word": {
+    "word": "인사",
+    "mission": "친구를 처음 만났을 때 웃으며 '안녕'이라고 예쁘게 말하는 것을 무엇이라고 할까요?"
+  },
+  "selected_topic": "조련사는 고래랑 어떻게 친구가 될까요?",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "작은 친절이 큰 기쁨",
+    "description": "작은 다정함이 모여서 아주 큰 행복과 단짝 친구를 만들어준다는 뜻이에요.",
+    "message": "고래 조련사가 고래를 아껴준 것처럼, 우리 친구도 주변 사람들에게 먼저 따뜻한 인사를 건네볼까요? 너의 예쁜 마음이 커다란 우정을 만들어줄 거야!"
+  },
+  "activity_data": {
+    "instruction": "조련사가 커다란 고래에게 처음 인사를 건넸어요! 둘이 어떻게 단짝 친구가 될지 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "와아, 정말 크다! 안녕 고래야? 우리 오늘부터 단짝 친구 하자!",
+    "image_prompt": "Black and white simple line art for kids, a cute little whale trainer standing on a pier waving at a huge friendly whale popping its head out of the sea, the whale is smiling, simple bubbles and water splashes, thick outlines, white background, no shading, coloring book style."
+  }
+}

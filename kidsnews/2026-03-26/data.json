@@ -1,32 +1,33 @@
 {
   "page1": {
-    "headline": "우리 모두가 대장! 행복한 민주주의 나라",
+    "headline": "지구는 커다란 한 가족, 우린 모두 연결돼요!",
     "article_body": [
-      "민주주의는 우리 모두가 주인인 세상이에요. 유치원에서 놀이를 정할 때 친구들의 생각을 듣지요? 이것이 바로 민주주의의 시작이랍니다.",
-      "키가 작거나 어려도 괜찮아요. 모든 사람은 소중한 한 표를 가졌거든요. 함께 결정하면 우리 모두 행복한 세상을 만들 수 있어요.",
-      "이제 우리 손으로 멋진 나라를 꾸며요. 아래 그림을 색칠하며 우리가 꿈꾸는 세상을 약속해요. 여러분은 어떤 색으로 채우고 싶나요?"
+      "지구는 아주 큰 집과 같아요. 우리가 먹는 과일도 먼 나라 친구들이 보내준 선물이지요. 우린 보이지 않는 끈으로 연결된 한 가족이랍니다.",
+      "맑은 공기는 모두 함께 나눠요. 한 곳이 아프면 다른 곳도 슬퍼져요. 그래서 먼 나라 친구를 아끼고 도와주는 따뜻한 마음이 꼭 필요해요.",
+      "이제 지구촌 친구들을 위해 네 컷 만화를 그려볼까요? 우리 모두가 함께 웃으며 행복하게 지내는 방법을 그림으로 멋지게 약속해요!"
     ],
-    "image_prompt": "A bright, pastel-toned illustration of diverse children holding hands around a large, smiling earth. Warm sunlight, soft colors, friendly atmosphere, storybook style.",
+    "image_prompt": "A bright and warm pastel-colored illustration showing diverse children from different countries holding hands around a smiling planet Earth, soft lighting, watercolor style, friendly and joyful atmosphere.",
     "category_tag": "오늘의 세계와 사회"
   },
-  "activity_type": "coloring",
+  "activity_type": "cartoon",
   "word_info": {
-    "word": "민주주의",
-    "definition": "모두가 함께 의논해서 결정하는 공평하고 행복한 방법이에요."
+    "word": "지구촌",
+    "definition": "지구 전체를 하나의 마을처럼 가깝게 부르는 말이에요."
   },
   "hidden_word": {
-    "word": "생각",
-    "mission": "내 마음속에서 퐁퐁 솟아나는 기발한 느낌이나 의견을 무엇이라고 할까요?"
+    "word": "선물",
+    "mission": "다른 사람을 기쁘게 하려고 아무 대가 없이 주는 물건을 무엇이라고 할까요?"
   },
-  "selected_topic": "민주주의는 우리 모두가 주인인 세상이에요",
+  "selected_topic": "지구촌 한 가족, 우리는 모두 연결되어 있어요",
   "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "백지장도 맞들면 낫다",
-    "description": "아주 가벼운 종이 한 장이라도, 혼자 드는 것보다 여러 친구가 힘을 합쳐서 같이 들면 훨씬 쉽고 기쁘다는 뜻이에요.",
-    "message": "우리 친구의 소중한 생각들이 하나둘씩 모이면 우리 모두가 행복한 세상을 만들 수 있어요. 친구들과 사이좋게 의견을 나누며 멋진 나라를 함께 꾸며보아요!"
+    "text": "공감소통",
+    "description": "멀리 사는 친구의 슬픈 마음과 기쁜 마음을 내 것처럼 느끼고, 서로의 생각을 나누는 거예요.",
+    "message": "지구에 사는 모든 친구는 보이지 않는 끈으로 연결된 우리 가족이에요! 친구를 아끼는 따뜻한 마음을 담아 멋진 그림 약속을 만들어봐요."
   },
   "activity_data": {
-    "instruction": "우리 모두가 주인공이 되어 왕관을 쓰고, 사이좋게 손을 잡고 있는 행복한 모습을 예쁘게 색칠해 보아요!",
-    "image_prompt": "Black and white simple line art for kids coloring book, a group of diverse happy children each wearing a small crown and holding hands together in a circle, representing 'Everyone is a leader' in a happy democracy, clean thick outlines, white background, no shading, no colors, minimal details, simple cartoon style"
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "와! 바다 너머 친구가 보낸 선물이 도착했어! 우리 어떻게 보답하면 좋을까?",
+    "image_prompt": "Black and white simple line art for kids, a cute child opening a large gift box filled with various fruits like bananas and apples, a small tag on the box says 'To my friend', the child looks very happy, a globe is visible on the desk, white background, thick lines, no shading"
   }
 }

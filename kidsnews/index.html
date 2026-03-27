@@ -4,8 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="0; url=2026-03-27/page1.html">
     <title>하루 한 장 어린이 신문 - 이동 중...</title>
+    <script>
+        (function() {
+            var d = new Date();
+            var year = d.getFullYear();
+            var month = ('0' + (d.getMonth() + 1)).slice(-2);
+            var day = ('0' + d.getDate()).slice(-2);
+            var today = year + '-' + month + '-' + day;
+            window.location.href = today + '/page1.html';
+        })();
+    </script>
 </head>
 <body>
-    <p>신문으로 이동하고 있습니다. 이동하지 않으면 <a href="2026-03-27/page1.html">여기</a>를 눌러주세요.</p>
+    <p>신문으로 이동하고 있습니다. 이동하지 않으면 <a id="redirect-link" href="2026-03-27/page1.html">여기</a>를 눌러주세요.</p>
+    <script>
+        (function() {
+            var d = new Date();
+            var year = d.getFullYear();
+            var month = ('0' + (d.getMonth() + 1)).slice(-2);
+            var day = ('0' + d.getDate()).slice(-2);
+            var today = year + '-' + month + '-' + day;
+            document.getElementById('redirect-link').href = today + '/page1.html';
+        })();
+    </script>
 </body>
 </html>

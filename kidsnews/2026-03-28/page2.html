@@ -177,6 +177,16 @@ body {
     text-align: center;
     border-top: 2px solid #1e293b;
 }</style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID ');
+    </script>
+    
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -204,28 +214,13 @@ body {
 
         <main class="flex-1 overflow-hidden">
             <div class="flex flex-col gap-6">
-    <div class="bg-purple-50 p-6 rounded-2xl border border-purple-100">
-        <p class="text-xl font-bold text-gray-800 leading-relaxed">
-            🤔 깜깜한 밤, 꿈속에서 커다란 그림자 괴물이 나타나 나를 쫓아오고 있어요. 너무 놀라 잠에서 깼는데 심장이 콩닥콩닥 뛰어요. <br>
-            <span class="text-purple-600">주인공은 어떤 마음일까요? 그림을 보고 맞춰보세요!</span>
-        </p>
+    <div class="bg-green-50 p-6 rounded-2xl border border-green-100 shadow-sm text-center">
+        <p class="text-xl font-bold text-gray-800">서로의 마음을 찌릿찌릿 알아채는 귀여운 공감 요정들을 알록달록 예쁘게 색칠해보아요!</p>
+        <p class="text-sm text-green-600 font-bold mt-2">✨ 선을 따라 예쁘게 색칠해볼까요? ✨</p>
     </div>
 
-    <div class="grid grid-cols-3 gap-4">
-        
-        <div class="flex flex-col gap-3">
-            <div class="aspect-square bg-white rounded-2xl shadow-md border-2 border-gray-100 overflow-hidden">
-                <img src="emotion_0.webp" class="w-full h-full object-cover">
-            </div>
-            <div class="bg-white p-2 rounded-xl text-center border border-gray-200">
-                <p class="text-sm font-black text-gray-400">? ? ?</p>
-            </div>
-        </div>
-        
-    </div>
-
-    <div class="mt-4 p-6 bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200">
-        <p class="text-lg font-bold text-gray-400">우리 친구는 이럴 때 어떤 마음이 들 것 같나요? 엄마, 아빠에게 말해주세요!</p>
+    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
+        <img src="activity_image.webp" class="w-full">
     </div>
 </div>
         </main>
@@ -237,8 +232,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">비 온 뒤에 땅이 굳는다</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">비가 내려서 축축했던 땅이 마르고 나면 전보다 더 단단해지는 것처럼, 무서운 꿈을 꾸고 나서 용기를 내고 나면 마음이 더 튼튼하고 씩씩해진다는 뜻이에요.</p>
+                    <p class="text-3xl font-black text-slate-900">이심전심(以心傳心)</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">굳이 말로 하지 않아도 마음과 마음이 찌릿찌릿 통한다는 뜻이에요. 친구가 기쁠 때 나도 기분이 좋아지고, 슬플 때 내 마음도 아픈 것처럼 서로의 마음을 똑같이 느끼는 마법이지요.</p>
                 </div>
             </div>
         </footer>

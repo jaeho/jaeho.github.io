@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "밤하늘 별 친구들의 비밀 외출",
+    "article_body": [
+      "밤하늘에 반짝이는 별들은 사실 지구로 놀러 오고 싶어 해요. 모두가 잠든 밤, 별들은 미끄럼틀을 타고 내려와 마당에서 소곤소곤 비밀 이야기를 나눈답니다.",
+      "별들은 아이들이 남긴 예쁜 돌멩이를 선물로 받아 가기도 해요. 반짝이는 가루를 뿌려 우리 꿈속을 환하게 비춰 주니 정말 고마운 단짝 친구랍니다.",
+      "오늘 밤 여러분을 찾아올 별 친구는 어떤 모습일까요? 아래 칸에 별과 함께 노는 모습을 네 칸 만화로 멋지게 그려 보기로 약속해요!"
+    ],
+    "image_prompt": "A whimsical illustration of small, smiling yellow stars sliding down a rainbow slide into a cozy backyard with a small tent. Soft pastel colors, warm moonlight, storybook style.",
+    "category_tag": "오늘의 지혜"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "단짝",
+    "definition": "서로 아주 친해서 늘 붙어 다니는 가장 친한 친구를 말해요."
+  },
+  "hidden_word": {
+    "word": "비밀",
+    "mission": "다른 사람에게는 말하지 않고 나만 소중하게 알고 있는 이야기는 무엇일까요?"
+  },
+  "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
+  "selected_category": "오늘의 지혜",
+  "wisdom_pool_data": {
+    "text": "나누면 기쁨이 두 배가 돼요.",
+    "description": "내가 가진 좋은 것을 친구와 함께 나누면, 행복한 마음이 훨씬 더 커진다는 뜻이에요.",
+    "message": "별 친구들이 우리에게 예쁜 꿈을 선물하는 것처럼, 우리도 별 친구들에게 소중한 마음을 나눠주기로 해요. 서로 선물을 주고받는 다정한 친구가 되면 매일 밤이 더욱 행복해질 거예요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸의 별 친구가 지구에 도착했어요! 별 친구와 어떤 선물을 주고받고 어떤 비밀 이야기를 나눌지 상상하며 나머지 세 칸을 자유롭게 그려보세요.",
+    "first_cut_dialogue": "와아, 드디어 지구에 도착했다! 친구가 잠든 사이에 몰래 선물을 두고 가야지!",
+    "image_prompt": "Black and white simple line art for kids, 밤하늘 별 친구들의 비밀 외출 theme, the first scene: A cute personified star character with a smiling face sliding down a long slide made of light from the moon down to a backyard of a house. A small child is sleeping in a bed visible through a window. White background, thick lines, no shading, clear outlines for coloring."
+  }
+}

@@ -1,32 +1,33 @@
 {
   "page1": {
-    "headline": "내 마음이 네 마음 찌릿찌릿, 우리는 공감 요정!",
+    "headline": "50년 만에 출발하는 달나라 우주선",
     "article_body": [
-      "친구가 넘어져서 엉엉 울면 내 마음도 같이 아팠던 적이 있나요? 반대로 친구가 기뻐서 활짝 웃으면 나도 모르게 기분이 좋아지지요.",
-      "이렇게 친구의 마음을 내 마음처럼 똑같이 느끼는 마법을 바로 '공감'이라고 불러요. 공감은 보이지 않는 따뜻한 실로 우리 마음을 묶어준답니다.",
-      "내 주변에 마음을 알아주길 바라는 친구는 없을까요? 다 함께 공감 요정이 되어 친구의 예쁜 마음을 알록달록 색칠해 볼까요?"
+      "친구들, 무려 50년 만에 사람을 태운 우주선 '아르테미스 2호'가 달나라로 떠나요. 커다란 새처럼 우주를 훨훨 날아갈 준비를 모두 마쳤답니다.",
+      "이번 여행에는 처음으로 멋진 여자 우주비행사도 함께 달 주변을 여행해요. 반짝이는 별처럼 정말 멋지고 가슴 뛰는 도전이지요?",
+      "친구들도 멋진 우주비행사가 되어 달나라로 떠나는 상상을 해보아요. 자, 이제 알록달록 우주선과 달나라 풍경을 예쁘게 색칠해 볼까요?"
     ],
-    "image_prompt": "A bright and warm pastel-toned illustration of two cute 7-year-old kids holding hands with a glowing magical thread connecting their smiling hearts, surrounded by sparkling fairy lights, very cute and whimsical, kids newspaper style",
-    "category_tag": "오늘의 마음과 감정"
+    "image_prompt": "Warm and realistic picture book illustration style, a cute child explorer wearing an astronaut helmet looking up at a glowing moon and a rocket ship in a starry night sky, soft pastel colors, cozy atmosphere",
+    "category_tag": "우주탐험",
+    "reference": "https://www.yonhapnewstv.co.kr"
   },
   "activity_type": "coloring",
   "word_info": {
-    "word": "공감",
-    "definition": "친구의 슬픔이나 기쁨을 마치 내 것처럼 똑같이 느끼고 다정하게 이해해 주는 따뜻한 마음이에요."
+    "word": "우주비행사",
+    "definition": "우주선을 타고 우주로 나가서 여러 가지 임무를 수행하는 사람을 말해요."
   },
   "hidden_word": {
-    "word": "마법",
-    "mission": "수리수리 마수리 얍! 신비로운 주문을 외워서 아주 놀랍고 신기한 일을 만들어내는 것을 두 글자로 무엇이라고 할까요?"
+    "word": "우주선",
+    "mission": "커다란 새처럼 우주를 훨훨 날아다니며 사람을 달나라로 데려다주는 이 탈것은 무엇일까요?"
   },
-  "selected_topic": "공감은 친구의 마음을 같이 느끼는 거예요",
-  "selected_category": "오늘의 마음과 감정",
+  "selected_category": "달나라여행",
+  "selected_topic": "50년 만에 달로…NASA '아르테미스 Ⅱ' 발사 D-5",
   "wisdom_pool_data": {
-    "text": "이심전심(以心傳心)",
-    "description": "굳이 말로 하지 않아도 마음과 마음이 찌릿찌릿 통한다는 뜻이에요. 친구가 기쁠 때 나도 기분이 좋아지고, 슬플 때 내 마음도 아픈 것처럼 서로의 마음을 똑같이 느끼는 마법이지요.",
-    "message": "친구가 힘들 때 다가가서 따뜻하게 안아주며 '토닥토닥 괜찮아'라고 말해 볼까요? 서로의 마음을 나누는 멋진 공감 요정이 되어 보아요!"
+    "text": "천리 길도 한 걸음부터",
+    "description": "아무리 멀고 대단한 일이라도 처음 시작하는 작은 한 걸음이 가장 중요하다는 뜻이에요.",
+    "message": "달나라로 가는 멋진 우주여행도 작은 상상과 준비에서 시작되었어요. 우리 친구들도 우주비행사처럼 이루고 싶은 꿈이 있다면 두려워하지 말고 용기 내어 첫걸음을 떼어보아요!"
   },
   "activity_data": {
-    "instruction": "서로의 마음을 찌릿찌릿 알아채는 귀여운 공감 요정들을 알록달록 예쁘게 색칠해보아요!",
-    "image_prompt": "Black and white simple line art for kids coloring book, two cute little fairies holding hands and smiling warmly at each other, a glowing heart floating between them with tiny magical lightning bolts connecting their antennae, empathy fairy concept, very simple and cute cartoon style, white background, thick clean lines, no shading, monochrome"
+    "instruction": "50년 만에 다시 달나라로 떠나는 멋진 우주선을 알록달록 예쁘게 색칠해보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute lunar spaceship launching into space, moon and stars in the background, white background, thick lines, no shading, extremely simple, flat drawing, easy to color"
   }
 }

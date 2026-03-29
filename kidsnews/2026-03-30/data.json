@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "해바라기는 하루 종일 해님만 바라볼까요?",
+    "article_body": [
+      "노란 해바라기는 정말 해님만 좋아할까요? 어린 해바라기는 햇빛을 따라 고개를 돌려요. 아침에는 동쪽, 저녁에는 서쪽을 보며 쑥쑥 자라지요.",
+      "하지만 어른이 되면 동쪽만 바라봐요. 벌과 나비가 찾아오기 좋게 햇볕을 듬뿍 받으려는 거예요. 그래야 맛있는 씨앗이 단단하게 익는답니다.",
+      "해바라기는 해님의 따뜻한 사랑을 먹고 자라요. 이제 우리도 예쁜 해바라기를 색칠해볼까요? 멋진 색을 입히며 해님과 친해지기로 약속해요!"
+    ],
+    "image_prompt": "A bright, warm pastel illustration of a tall yellow sunflower smiling at the golden morning sun, with a small bee flying nearby, cute children's book style.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "해바라기",
+    "definition": "해님을 무척 좋아해서 해를 바라보며 자라는 키가 큰 노란 꽃이에요."
+  },
+  "hidden_word": {
+    "word": "나비",
+    "mission": "팔랑팔랑 예쁜 날개짓을 하며 꽃을 찾아다니는 곤충은 누구일까요?"
+  },
+  "selected_topic": "해바라기는 정말 하루 종일 해만 바라볼까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "천 리 길도 한 걸음부터",
+    "description": "아무리 크고 멋진 해바라기도 처음에는 아주 작은 씨앗이었고, 매일매일 조금씩 햇볕을 받으며 자라나서 꽃을 피운다는 뜻이에요.",
+    "message": "해바라기가 매일 햇님을 따라 고개를 돌리며 쑥쑥 자라는 것처럼, 우리 친구도 매일 조금씩 노력하다 보면 어느새 멋진 꿈을 이룰 수 있을 거야. 해바라기처럼 밝게 웃으며 힘내자!"
+  },
+  "activity_data": {
+    "instruction": "해바라기가 해님을 보며 활짝 웃고 있어요. 좋아하는 색으로 알록달록하게 색칠해 보세요!",
+    "image_prompt": "Simple black and white line art for a kids coloring book, a cute sunflower with a smiling face looking up at a friendly sun, minimalist design, thick black outlines, clear white background, no shading, no colors, high contrast."
+  }
+}

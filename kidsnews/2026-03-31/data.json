@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "눈앞에 짠! 빛으로 만든 마법 친구",
+    "article_body": [
+      "멀리 있는 친구가 내 눈앞에 짠 하고 나타나면 어떨까요? 홀로그램은 빛으로 만든 입체 영상이에요. 진짜 사람처럼 보여서 아주 신기하답니다.",
+      "할머니가 보고 싶을 때 홀로그램으로 인사할 수 있어요. 만질 수는 없지만 바로 앞에서 이야기를 나누는 것 같아 마음이 정말 따뜻해져요.",
+      "여러분은 누구를 만나고 싶나요? 상상만 해도 즐겁지요? 이제 만나고 싶은 사람을 예쁘게 색칠하며 빛의 요술을 함께 준비해 봐요."
+    ],
+    "image_prompt": "A bright and warm pastel-colored illustration of a young child interacting with a glowing 3D hologram of a smiling grandmother in a cozy living room, magical light particles, soft art style.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "홀로그램",
+    "definition": "빛을 모아서 진짜 물건이나 사람처럼 입체적으로 보이게 만든 영상이에요."
+  },
+  "hidden_word": {
+    "word": "요술",
+    "mission": "마법사처럼 신기한 일을 부리는 것을 무엇이라고 할까요?"
+  },
+  "selected_topic": "홀로그램 기술로 눈앞에 없는 사람을 만날 수 있어요",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "창의지성(創意知性)",
+    "description": "새로운 생각을 반짝반짝 떠올리고, 신기한 마법 같은 일을 만들어내는 똑똑하고 멋진 힘이에요.",
+    "message": "빛으로 만든 마법 친구처럼, 우리 친구의 멋진 상상력이 세상을 더 즐겁고 따뜻하게 만들어줄 거예요! 앞으로도 재미있는 생각을 마음껏 펼치는 어린이가 되길 바랄게요!"
+  },
+  "activity_data": {
+    "instruction": "반짝반짝 빛나는 마법 친구를 예쁜 색으로 알록달록하게 칠해보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute and friendly magical creature made of light appearing with stars and sparkles, thick outlines, white background, no shading, minimal detail, high contrast."
+  }
+}

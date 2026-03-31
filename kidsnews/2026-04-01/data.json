@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "바람을 다스려 승리한 영웅, 강감찬 장군님!",
+    "article_body": [
+      "옛날 고려 시대에 나라를 지킨 아주 용감하고 똑똑한 강감찬 장군님이 있었어요. 적군이 쳐들어왔을 때 장군님은 겁내지 않고 당당하게 나라를 지켜냈답니다.",
+      "귀주에서 장군님은 바람을 이용해 멋진 작전을 세웠어요. 갑자기 비바람이 불자 고려군은 힘차게 공격해 승리를 거두었죠. 정말 지혜롭고 멋진 모습이었답니다.",
+      "덕분에 평화가 찾아왔고 장군님은 영웅이 되었어요. 이제 아래 그림을 예쁜 색으로 칠하며 장군님을 만나볼까요? 우리 함께 멋지게 색칠하며 약속해요."
+    ],
+    "image_prompt": "A friendly and brave historical Korean general Kang Gam-chan standing heroically in front of a traditional fortress, pastel colors, soft illustration style for children, bright and warm lighting, clear outlines.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "장군",
+    "definition": "군대를 이끄는 아주 높고 용감한 대장님을 말해요."
+  },
+  "hidden_word": {
+    "word": "바람",
+    "mission": "눈에 보이지 않지만 쌩쌩 소리를 내며 나뭇잎을 흔드는 것은 무엇일까요?"
+  },
+  "selected_topic": "강감찬 장군이 귀주대첩에서 큰 승리를 거둔 사건",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "지용겸비(智勇兼備)",
+    "description": "똑똑한 지혜와 용감한 마음을 모두 가졌다는 뜻이에요. 지혜를 짜내어 바람을 이용하고, 겁내지 않고 나라를 지킨 강감찬 장군님께 딱 어울리는 말이지요.",
+    "message": "우리 친구도 장군님처럼 지혜롭고 용기 있는 어린이가 되어 보세요! 어떤 어려운 일이 생겨도 똑똑한 생각과 씩씩한 마음만 있다면 멋지게 해결할 수 있을 거예요."
+  },
+  "activity_data": {
+    "instruction": "바람을 자유자재로 다스려 승리를 이끈 용감한 강감찬 장군님을 멋지게 색칠해 보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, General Gang Gam-chan of Goryeo Dynasty standing heroically, wind patterns swirling around him, wearing traditional Korean general armor and a helmet, thick bold outlines, minimalist style, no shading, white background, high contrast, easy to color"
+  }
+}

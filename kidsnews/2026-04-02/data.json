@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "하늘을 둥둥! 터키의 신기한 바위 마을",
+    "article_body": [
+      "터키에는 마법 같은 마을 카파도키아가 있어요. 버섯을 닮은 큰 바위들이 가득해요. 비바람이 아주 오랜 시간 멋진 모양을 만들었지요.",
+      "해가 뜰 때 하늘을 보면 예쁜 열기구가 둥둥 떠 있어요. 바구니를 타고 보면 요정 굴뚝 같은 바위가 다 보여요. 정말 신비로운 풍경이죠.",
+      "여러분도 열기구 타는 상상을 해볼까요? 아래 칸에 내가 타고 싶은 열기구를 만화로 그려봐요. 우리 함께 멋진 그림을 완성해볼까요?"
+    ],
+    "image_prompt": "A bright and warm pastel-colored illustration of Cappadocia, Turkey, featuring colorful hot air balloons floating over unique mushroom-shaped fairy chimney rock formations under a soft sunrise sky, whimsical and child-friendly style.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "열기구",
+    "definition": "커다란 주머니에 뜨거운 공기를 채워 하늘을 둥둥 떠다니는 풍선 배예요."
+  },
+  "hidden_word": {
+    "word": "바위",
+    "mission": "딱딱하고 단단해요. 산이나 길가에서 흔히 볼 수 있는 커다란 돌덩이는 무엇일까요?"
+  },
+  "selected_topic": "터키의 신비로운 열기구 여행, 카파도키아의 기암괴석",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "꾸준한 노력",
+    "description": "비바람이 아주 오랜 시간 동안 바위를 멋지게 만든 것처럼, 포기하지 않고 계속해서 힘쓰는 것을 말해요.",
+    "message": "카파도키아의 신기한 바위 마을은 비와 바람이 아주 오랫동안 정성을 들여 만든 거래요. 우리 친구도 포기하지 않고 매일매일 조금씩 노력한다면, 저 하늘을 나는 열기구처럼 멋진 꿈을 꼭 이룰 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와! 저 바위들은 정말 요정이 사는 굴뚝처럼 생겼어! 우리 같이 열기구를 타고 모험을 떠나볼까?",
+    "image_prompt": "Black and white simple line art for kids, Turkey Cappadocia theme, a cute child explorer wearing a hat and backpack, pointing at tall mushroom-shaped rocks known as fairy chimneys, a large hot air balloon basket is next to the character, thick outlines, minimal detail, white background, no shading, cartoon style"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "안녕, 푸른 지구! 달로 가는 우주선 편지",
+    "article_body": [
+      "안녕! 지금 우주에서는 멋진 탐험이 열리고 있어요. 아르테미스 우주선이 네 명의 비행사를 태우고 달로 씽씽 달려가고 있답니다. 벌써 지구와 달 사이를 절반 넘게 지나왔대요!",
+      "우주선 창밖에는 무엇이 보일까요? 우리가 사는 푸른 지구가 보여요. 우주에서 본 지구는 구슬처럼 반짝이며 정말 아름답답니다. 지구가 \"조심히 다녀와!\" 인사하는 것 같아요.",
+      "우리도 탐험가 친구와 함께 우주 풍경을 상상해 봐요. 푸른 지구를 예쁘게 색칠하며 우주 여행을 떠나볼까요? 아래 그림을 멋진 색으로 칠해서 나만의 아름다운 우주를 완성해요!"
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A curious young child explorer wearing a simple space suit, looking through a round spaceship window at a beautiful, glowing blue Earth in the distance. Twinkling stars in the dark velvet sky, soft lighting, cozy and magical atmosphere.",
+    "category_tag": "오늘의 우주",
+    "reference": "https://www.nasa.gov/missions/artemis/artemis-ii-flight-day-3-crew-prepares-cabin-for-lunar-flyby/"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "우주선",
+    "definition": "사람을 태우고 우주를 날아다니는 아주 커다란 비행기예요."
+  },
+  "hidden_word": {
+    "word": "지구",
+    "mission": "우리가 살고 있는 곳이에요. 우주에서 보면 푸른색 구슬처럼 보여요. 이것은 무엇일까요?"
+  },
+  "selected_category": "오늘의 우주",
+  "selected_topic": "안녕 지구! 달로 향하는 아르테미스 우주선에서 온 사진",
+  "wisdom_pool_data": {
+    "text": "꿈을 크게 가져라. 깨져도 조각이 크다.",
+    "description": "아주 멀리 있는 달나라까지 가는 우주선처럼, 우리 친구도 아주 큰 꿈을 꾸어보라는 뜻이에요. 큰 꿈을 향해 도전하면 실패하더라도 얻는 것이 아주 많거든요!",
+    "message": "언젠가 우리 친구도 우주선 비행사들처럼 멋진 우주 여행을 떠날 수 있을 거야! 너의 커다란 꿈을 항상 응원할게. 반짝이는 지구처럼 아름다운 꿈을 쑥쑥 키워보자!"
+  },
+  "activity_data": {
+    "instruction": "우주선이 지구의 편지를 달님에게 전달하러 가요! 알록달록 예쁜 색으로 우주 여행을 완성해볼까요?",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute cartoon rocket ship flying from a smiling Earth towards a happy Moon, the rocket is carrying a large letter envelope, stars and small planets in the background, white background, thick lines, no shading, very simple outlines"
+  }
+}

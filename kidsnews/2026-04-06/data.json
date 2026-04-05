@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "문어는 심장이 세 개? 바닷속 신기한 비밀!",
+    "article_body": [
+      "바닷속 문어는 아주 신기한 친구예요. 우리와 다르게 심장이 세 개나 있답니다. 문어가 힘차게 헤엄칠 때 세 개의 심장이 콩닥콩닥 박자를 맞추어 열심히 뛰어요.",
+      "두 개는 아가미로 피를 보내고, 하나는 온몸에 영양분을 전달해요. 그래서 문어는 바다를 씽씽 누빌 수 있지요. 파란색 피가 흐르는 것도 문어만의 특별한 비밀이에요.",
+      "심장이 세 개면 어떤 기분일까요? 우리보다 세 배 더 용감할지도 몰라요. 이제 아래 칸에 세 개의 심장을 가진 문어의 모습을 상상해서 만화로 그려 볼까요?"
+    ],
+    "image_prompt": "A cute, smiling octopus in the blue ocean with three small glowing red hearts visible inside its body, bright and warm pastel colors, high quality digital illustration, friendly character design for kids.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "아가미",
+    "definition": "물고기나 문어가 물속에서도 숨을 쉴 수 있게 도와주는 몸의 부분이에요."
+  },
+  "hidden_word": {
+    "word": "바다",
+    "mission": "짠물이 출렁거리고 물고기와 문어가 행복하게 헤엄치며 사는 아주 넓은 곳은 어디일까요?"
+  },
+  "selected_topic": "문어는 심장이 세 개나 있대요!",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "용기백배(勇氣百倍)",
+    "description": "용기가 평소보다 훨씬 더 많이 생겨서 아주아주 씩씩해지는 것을 말해요.",
+    "message": "심장이 세 개나 있는 문어처럼, 우리 친구도 마음속에 용기를 세 배로 가득 채워서 무엇이든 씩씩하게 도전하는 멋진 어린이가 되길 바랄게요!"
+  },
+  "activity_data": {
+    "instruction": "심장이 세 개인 주인공 문어에게 어떤 신나는 일이 생길까요? 첫 번째 칸을 보고 나머지 이야기를 상상해서 멋진 만화를 완성해 보세요!",
+    "first_cut_dialogue": "자, 이제 달리기 시합 준비 완료! 세 개의 심장아, 힘차게 뛰어라! 콩닥, 콩닥, 콩닥!",
+    "image_prompt": "Black and white simple line art for kids, a cute octopus wearing a small sports headband and a cape, pointing to three small heart shapes on its chest, underwater scene with bubbles and small sea plants, white background, thick lines, no shading"
+  }
+}

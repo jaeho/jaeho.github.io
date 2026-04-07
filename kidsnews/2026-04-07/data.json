@@ -1,33 +1,36 @@
 {
   "page1": {
-    "headline": "반짝반짝 거울아, 내 얼굴을 어떻게 보여 주니?",
+    "headline": "찰싹 달라붙는 자석 친구들, N극과 S극의 비밀!",
     "article_body": [
-      "매일 아침 보는 거울 속에는 누가 있나요? 바로 귀여운 내 얼굴이 똑똑히 보여요. 거울은 투명한 유리 뒤에 매끄러운 은색 칠을 해서 만들었지요.",
-      "빛이 거울 표면에 닿으면 공처럼 팅 하고 다시 튕겨 나와요. 이 빛이 우리 눈으로 들어와서 예쁜 모습을 비춰 주는 거예요. 정말 마법 같지요?",
-      "거울 속 내 모습이 나를 따라 하며 장난을 친다면 어떨까요? 아래 칸에 재미있는 만화를 그려서 멋진 이야기를 완성해 봐요. 꼭 약속해요!"
+      "친구들, 냉장고에 찰칵 붙는 자석을 본 적 있나요? 자석에는 빨간색 엔(N)극과 파란색 에스(S)극이 있어요. 이 두 친구는 아주 특별한 힘을 숨기고 있답니다.",
+      "자석 주변에는 눈에 보이지 않는 신기한 마법의 선이 흐르고 있어요. 이 선은 항상 엔극에서 출발해 에스극으로 쏙 들어가려고 해요. 그래서 서로 다른 극이 만나면 반갑게 손을 꽉 잡고 찰싹 달라붙는 거랍니다.",
+      "반대로 같은 극끼리 만나면 부끄러워서 휙 밀어내요. 정말 재미있는 자석의 세계죠? 우리 집에는 어떤 물건이 자석과 찰칵하고 뽀뽀할 수 있을지 함께 찾아볼까요?"
     ],
-    "image_prompt": "A warm, bright pastel-colored illustration of a curious child looking into a shiny mirror. Light rays are depicted as small bouncing balls, reflecting a smiling reflection. Soft and friendly art style for 7-year-olds.",
+    "image_prompt": "A bright and warm pastel-toned illustration of two cute magnet characters, one red (N) and one blue (S), happily holding hands, with glowing magical lines flowing between them, kid-friendly style, newspaper illustration.",
     "category_tag": "오늘의 과학과 기술"
   },
-  "activity_type": "cartoon",
+  "activity_type": "ox_quiz",
   "word_info": {
-    "word": "거울",
-    "definition": "내 얼굴이나 물건의 모습을 비추어 볼 수 있는 물건이에요."
+    "word": "자석",
+    "definition": "쇠로 만든 물건을 찰싹 끌어당기는 신기한 힘을 가진 물건이에요."
   },
   "hidden_word": {
-    "word": "만화",
-    "mission": "재미있는 그림과 글이 들어있어서 읽으면 즐거워지는 것은 무엇일까요?"
+    "word": "냉장고",
+    "mission": "맛있는 음식과 시원한 물을 상하지 않게 차갑게 보관해 주는 커다란 네모 상자는 무엇일까요?"
   },
-  "selected_topic": "거울은 어떻게 우리 모습을 비출까요?",
+  "selected_topic": "자석은 왜 N극과 S극이 서로 끌어당길까요?",
   "selected_category": "오늘의 과학과 기술",
   "wisdom_pool_data": {
-    "text": "가는 말이 고와야 오는 말이 곱다",
-    "description": "내가 예쁜 말을 해야 상대방도 나에게 예쁜 말을 해준다는 뜻이에요. 거울에 빛이 닿으면 그대로 튕겨 나오는 것처럼, 우리의 말과 행동도 내가 한 대로 돌아온답니다.",
-    "message": "거울을 보며 나 자신에게 '사랑해'라고 말해볼까요? 네가 전하는 예쁜 마음이 거울 속 빛처럼 반사되어 너를 더 행복하게 만들어줄 거야!"
+    "text": "등잔 밑이 어둡다",
+    "description": "가까이 있는 것을 오히려 잘 모를 수 있다는 뜻이에요. 무심코 지나쳤던 우리 주변의 평범하고 가까운 물건들 중에도 자석이 찰싹 붙는 신기한 비밀이 숨겨져 있을 수 있답니다.",
+    "message": "자석을 들고 집 안 곳곳을 탐험해 볼까요? '등잔 밑이 어둡다'는 말처럼, 우리가 매일 사용하는 아주 가까운 물건들 중에서 자석과 찰칵 뽀뽀하는 숨은 친구를 찾아보세요!"
   },
   "activity_data": {
-    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
-    "first_cut_dialogue": "어라? 거울 속의 내가 나보다 먼저 메롱을 하고 있잖아!",
-    "image_prompt": "Black and white simple line art for kids, '반짝반짝 거울아, 내 얼굴을 어떻게 보여 주니?' theme, a cute child standing in front of a large mirror, the child is looking surprised with a wide-open mouth, while the reflection in the mirror is sticking out its tongue and winking, white background, thick lines, no shading, coloring book style"
+    "instruction": "다음 기사를 읽고 문장의 내용이 맞으면 O, 틀리면 X를 고르세요.",
+    "items": [
+      "자석에는 빨간색 엔(N)극과 파란색 에스(S)극이 있다. (O/X)",
+      "자석 주변에 흐르는 보이지 않는 선은 항상 에스(S)극에서 출발해 엔(N)극으로 들어간다. (O/X)",
+      "자석은 서로 같은 극끼리 만나면 부끄러워서 서로 밀어낸다. (O/X)"
+    ]
   }
 }

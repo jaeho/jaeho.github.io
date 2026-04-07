@@ -1,34 +1,52 @@
 {
   "page1": {
-    "headline": "우리나라에서 발견된 꼬마 공룡, 둘리사우루스!",
+    "headline": "온조와 비류 형제, 새로운 나라를 세워요!",
     "article_body": [
-      "친구들, 우리나라 땅속 깊은 곳에서 아주 놀라운 보물이 짠하고 나타났어요. 바로 칠면조라는 커다랗고 통통한 새만큼 작은 크기의 진짜 아기 공룡 뼈 화석이 드디어 발견되었답니다.",
-      "이 귀여운 꼬마 공룡에게는 우리나라의 유명한 만화 주인공 이름을 따서 '둘리사우루스'라는 정말 멋진 이름이 생겼어요. 이름만 들어도 너무 친근하고 신기하게 느껴지지 않나요?",
-      "아주 먼 옛날, 우리가 사는 이곳을 쿵쿵 뛰어다녔을 꼬마 공룡의 모습을 상상해 보아요. 우리 친구들도 씩씩한 탐험가가 되어 숨겨진 옛날이야기를 찾아 상상의 날개를 펼쳐보세요!"
+      "옛날 고구려에 온조와 비류 형제가 살았어요. 형제는 새 나라를 세우러 남쪽으로 길을 떠났지요. 강이 흐르고 땅이 넓은 곳을 찾아 한참을 걸어갔답니다. 이곳은 따뜻한 햇볕이 내리쬐는 참 아름다운 땅이었어요.",
+      "형 비류는 바닷가 미추홀에 자리를 잡았어요. 동생 온조는 한강 옆 위례성에 성을 튼튼하게 쌓았지요. 온조의 땅은 농사짓기 좋아 많은 사람이 모였어요. 형제는 각자의 땅에서 꿈을 키우며 열심히 노력했답니다.",
+      "온조가 세운 백제는 점점 커져 아주 훌륭한 나라가 되었어요. 형제의 용기가 우리 역사의 멋진 시작을 만든 거예요. 여러분이 왕이라면 시원한 강과 푸른 바다 중 어디에 성을 짓고 싶나요?"
     ],
-    "image_prompt": "Warm and realistic picture book illustration style. A curious child dressed as an explorer happily discovering a cute tiny baby dinosaur fossil in the dirt. Soft lighting, earthy tones, heartwarming and magical atmosphere.",
-    "category_tag": "아기 공룡",
-    "reference": "https://www.knn.co.kr/"
+    "image_prompt": "A bright, warm pastel illustration showing two young princes in ancient Korean clothing standing on a hill, looking over a scenic river valley and a distant sea, soft sunlight, friendly storybook style.",
+    "category_tag": "오늘의 역사와 인물"
   },
-  "activity_type": "cartoon",
+  "activity_type": "basic",
   "word_info": {
-    "word": "화석",
-    "definition": "아주 오랜 옛날에 살았던 동물이나 식물의 뼈, 발자국 등이 흙 속에 묻혀 돌처럼 단단하게 굳어진 것을 말해요."
+    "word": "백제",
+    "definition": "옛날 우리나라에 있었던 아주 멋지고 훌륭한 나라 이름이에요."
   },
   "hidden_word": {
-    "word": "탐험가",
-    "mission": "호기심을 가득 안고 숨겨진 보물이나 낯선 장소를 찾아 용감하게 길을 떠나는 사람을 부르는 이 말은 무엇일까요?"
+    "word": "한강",
+    "mission": "서울을 가로질러 흐르는 아주 크고 넓은 강은 무엇일까요?"
   },
-  "selected_category": "아기 공룡",
-  "selected_topic": "우리나라에서 발견된 아기 공룡 '둘리사우루스'",
+  "selected_topic": "온조와 비류 형제가 나라를 세운 곳",
+  "selected_category": "오늘의 역사와 인물",
   "wisdom_pool_data": {
-    "text": "온고지신(溫故知新)",
-    "description": "옛날 것을 잘 배우면 새로운 것을 알게 된다는 뜻이에요. 아주아주 먼 옛날에 살았던 꼬마 공룡 뼈를 발견해서 오늘날 우리가 새롭고 신기한 상상을 할 수 있는 것과 같답니다!",
-    "message": "우리 친구도 꼬마 탐험가가 되어서 옛날이야기 속에 숨겨진 멋진 비밀들을 찾아보세요. 상상의 날개를 활짝 펴고 새로운 꿈을 찾아내는 멋진 어린이가 되길 응원해요!"
+    "text": "천 리 길도 한 걸음부터",
+    "description": "아무리 먼 길이라도 첫 번째 발자국을 떼는 것부터 시작한다는 뜻이에요. 온조와 비류 형제가 새로운 땅을 찾아 긴 여행을 시작해 멋진 나라를 세운 것처럼 말이에요.",
+    "message": "우리 친구도 온조와 비류 형제처럼 새로운 꿈을 향해 용기 있게 첫걸음을 내디뎌 보세요! 차근차근 노력하다 보면 언젠가 아주 멋진 꿈을 이룰 수 있을 거예요."
   },
   "activity_data": {
-    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
-    "first_cut_dialogue": "우와! 땅속에서 칠면조만큼 작은 공룡 화석을 발견했어! 네가 바로 우리나라의 꼬마 공룡 '둘리사우루스'구나!",
-    "image_prompt": "Black and white simple line art for kids, 우리나라에서 발견된 꼬마 공룡, 둘리사우루스! theme, the first scene of a story, a cute child explorer holding a magnifying glass looking surprised at a small dinosaur fossil in the ground, a cute small turkey-sized baby dinosaur spirit popping out with a friendly smile, white background, thick lines, no shading"
+    "instruction": "온조와 비류 형제, 새로운 나라를 세워요!",
+    "drawing_titles": [
+      "내가 그리는 백제의 탄생",
+      "온조와 비류, 새로운 땅을 찾아서",
+      "상상 속의 건국 장면 그리기",
+      "형제의 여정, 그림으로 표현해요",
+      "도읍을 정하는 온조와 비류"
+    ],
+    "writing_titles": [
+      "이야기를 읽고 난 뒤 나의 생각",
+      "온조와 비류 형제에게 보내는 편지",
+      "내가 만약 새로운 나라를 세운다면?",
+      "백제의 시작, 그 감동을 글로 써요",
+      "두 형제의 선택, 그리고 나의 느낌"
+    ],
+    "creative_titles": [
+      "생각 쑥쑥! 백제 건국 이야기",
+      "나만의 역사 갈피 만들기",
+      "온조와 비류의 발자취를 따라서",
+      "새로운 나라, 새로운 꿈",
+      "역사 속으로 풍덩! 건국 일기"
+    ]
   }
 }

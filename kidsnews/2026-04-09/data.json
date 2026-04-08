@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "손끝으로 읽는 마법, 점자 이야기",
+    "article_body": [
+      "우리 주변에는 눈이 보이지 않아도 손가락 끝으로 책을 읽는 친구들이 있어요. 종이 위에 톡 튀어나온 작은 점들이 바로 '점자'라는 글자예요. 눈 대신 손가락으로 만져서 소중한 마음을 전하는 아주 특별한 약속이랍니다.",
+      "점자는 여섯 개의 작은 점이 모여서 가나다 같은 예쁜 글자를 만들어요. 엘리베이터 버튼이나 음료수 캔 위에서도 동그란 점들을 쉽게 찾을 수 있지요. 보이지 않는 세상을 손으로 느끼게 해주는 아주 신비로운 방법이에요.",
+      "점자는 서로의 따뜻한 마음을 이어주는 아주 튼튼한 다리와 같아요. 오늘 우리 주변을 돌아보며 숨어 있는 점자를 찾아보는 건 어떨까요? 여러분은 손끝에서 어떤 신기하고 재미있는 이야기가 들릴지 정말 궁금해요."
+    ],
+    "image_prompt": "A warm pastel illustration of a young child's hand gently touching raised braille dots on a colorful book, soft glowing light, friendly and educational atmosphere, storybook style, soft dreamy colors.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "점자",
+    "definition": "눈이 보이지 않는 사람들이 손가락으로 만져서 읽을 수 있게 만든 볼록한 글자예요."
+  },
+  "hidden_word": {
+    "word": "손가락",
+    "mission": "우리 몸의 팔 끝에 다섯 개씩 달려 있고, 물건을 잡거나 글씨를 쓸 때 꼭 필요해요. 이것은 무엇일까요?"
+  },
+  "selected_topic": "점자는 눈이 보이지 않는 친구들의 글자예요",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "다름을 인정하기",
+    "description": "사람마다 책을 읽거나 세상을 느끼는 방법이 서로 다를 수 있다는 것을 이해하고 존중하는 마음이에요.",
+    "message": "눈이 아닌 손끝으로 세상을 만나는 친구들이 있다는 건 참 신비로운 일이야. 우리와 조금 다른 방법을 사용하는 친구들을 있는 그대로 소중하게 생각하는 마음 넓은 어린이가 되길 바랄게!"
+  },
+  "activity_data": {
+    "instruction": "손가락 끝으로 올록볼록한 점자를 따라가며 마법 같은 이야기를 읽어보아요.",
+    "image_prompt": "Black and white simple line art for kids coloring book, a child's hand gently touching raised Braille dots on an open book, magical stars and sparkles floating from the pages, white background, thick lines, no shading, minimal detail."
+  }
+}

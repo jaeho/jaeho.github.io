@@ -1,32 +1,32 @@
 {
   "page1": {
-    "headline": "풍선을 타고 하늘을 나는 장난감 인형",
+    "headline": "우리 마을의 영웅, 용감한 소방관 아저씨!",
     "article_body": [
-      "친구들, 우리가 매일 안고 자는 곰 인형이 저 하늘을 둥둥 난다면 기분이 어떨까요? 최근 커다란 헬륨 풍선을 매단 작은 장난감 인형이 아주 높이 날아가는 엄청 신기한 일이 있었어요.",
-      "귀여운 꼬마 인형은 뭉게구름을 지나서 커다란 비행기가 다니는 높은 하늘까지 쑥쑥 올라갔답니다. 짹짹 새들보다 훨씬 높고 추운 곳인데도 풍선을 꼭 잡고 용감하게 멋진 우주 여행을 한 거예요.",
-      "저 높은 하늘 위에서 내려다본 우리 동네는 얼마나 작고 귀여웠을까요? 친구들의 소중한 장난감에게도 마법의 풍선이 생겨서 반짝이는 밤하늘 별을 구경하고 돌아오는 즐거운 상상을 해보세요."
+      "삐뽀삐뽀! 소방차 소리가 들리면 소방관 아저씨들이 출동해요. 뜨거운 불길 속에서도 몸을 지켜주는 두꺼운 옷과 헬멧을 입지요. 산소통을 메면 매운 연기 속에서도 씩씩하게 숨을 쉴 수 있어요.",
+      "소방차 호스에서는 시원한 물줄기가 쏴아아 뿜어져 나와요. 아저씨들이 힘을 모아 호스를 잡으면 큰 불꽃도 금방 작아져요. 뜨거운 불을 물리치기 위해 아저씨들은 매일 열심히 훈련하며 준비해요.",
+      "소방관 아저씨들은 우리 마을을 안전하게 지켜주는 멋진 영웅이에요. 이웃을 사랑하는 마음이 무서운 불을 이기는 가장 큰 힘이지요. 여러분도 소방관 아저씨처럼 용감한 마음을 가져볼까요?"
     ],
-    "image_prompt": "Warm and realistic picture book illustration style. A cute toy doll floating high up in the sky attached to a large colorful balloon, among fluffy clouds. An airplane can be seen far away. A 7-year-old explorer child with a telescope is looking up at the doll from a small green hill. Bright and friendly atmosphere.",
-    "category_tag": "신기한 하늘",
-    "reference": "https://kid.chosun.com"
+    "image_prompt": "A friendly firefighter wearing a yellow protective suit and a red helmet, holding a large fire hose spraying bright blue water, warm and bright pastel tone illustration, cute character style for kids, cozy and safe atmosphere.",
+    "category_tag": "오늘의 직업과 미래"
   },
-  "activity_type": "basic",
+  "activity_type": "coloring",
   "word_info": {
-    "word": "뭉게구름",
-    "definition": "파란 하늘에 솜사탕처럼 둥글고 뭉글뭉글하게 피어오르는 예쁜 구름이에요."
+    "word": "산소통",
+    "definition": "매운 연기가 가득한 곳에서도 깨끗한 공기로 숨을 쉴 수 있게 도와주는 공기 통이에요."
   },
   "hidden_word": {
-    "word": "비행기",
-    "mission": "하늘을 나는 커다란 새처럼, 사람들과 짐을 싣고 멀리까지 왱왱 날아가는 이것은 무엇일까요?"
+    "word": "호스",
+    "mission": "길쭉한 뱀처럼 생겼고, 불을 끌 때 시원한 물이 뿜어져 나오는 이것은 무엇일까요?"
   },
-  "selected_category": "신기한 하늘",
-  "selected_topic": "비행기 떠다니는 하늘까지 올라간 인형!",
+  "selected_topic": "소방관 아저씨는 무서운 불과 어떻게 싸울까요?",
+  "selected_category": "오늘의 직업과 미래",
   "wisdom_pool_data": {
-    "text": "하늘을 보아야 별을 딴다",
-    "description": "밤하늘의 반짝이는 별을 따려면 먼저 고개를 들어 하늘을 쳐다보아야 한다는 뜻이에요. 우리가 어떤 멋진 일을 해내거나 꿈을 이루려면, 먼저 용기를 내어 시도하고 행동해야 한다는 의미랍니다.",
-    "message": "풍선을 꼭 잡고 높이 날아올라 별을 구경한 곰 인형처럼, 우리 친구들도 재미있는 상상을 하고 용기 있게 도전해 보세요! 하늘을 바라보며 큰 꿈을 키우다 보면 어느새 반짝이는 별처럼 멋진 일들이 생길 거예요."
+    "text": "십시일반(十匙一飯)",
+    "description": "여러 사람이 조금씩 힘을 모으면, 혼자서는 하기 힘든 아주 큰 일도 멋지게 해낼 수 있다는 뜻이에요.",
+    "message": "용감한 소방관 아저씨들이 힘을 모아 불을 끄는 것처럼, 우리 친구도 친구들과 서로 도와보세요. 작은 마음들이 모이면 세상을 지키는 멋진 영웅이 될 수 있답니다!"
   },
   "activity_data": {
-    "instruction": "두둥실 하늘 여행: 풍선을 탄 장난감 인형 (그림과 이야기)"
+    "instruction": "우리 마을을 지켜주는 용감한 소방관 아저씨와 멋진 소방차를 예쁘게 색칠해보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a friendly and brave firefighter standing next to a cute fire truck, village background, thick outlines, white background, no shading, vector style, easy to color."
   }
 }

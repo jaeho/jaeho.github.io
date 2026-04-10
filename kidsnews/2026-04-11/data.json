@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "내 몸속 용감한 군대를 튼튼하게 만들어요!",
+    "article_body": [
+      "우리 몸속에는 나쁜 세균을 물리치는 용감한 군대들이 살고 있어요. 이 친구들은 우리가 씩씩하게 뛰어놀 수 있게 매일 성을 지킨답니다. 군인들이 힘을 내려면 알록달록한 음식이 주는 에너지가 꼭 필요해요.",
+      "초록 채소는 몸을 지키는 방패가 되고 고기는 근육을 만드는 칼이 돼요. 달콤한 과일은 지치지 않게 도와주는 마법의 물약과 같아요. 반찬을 가리지 않고 먹어야 우리 몸속 군대가 아주 강력해진답니다.",
+      "오늘 식탁에는 어떤 멋진 반찬들이 여러분을 기다리고 있나요? 여러 가지 색깔의 음식을 맛있게 먹으면 몸속 군대들이 신나서 춤을 출 거예요. 편식하지 않고 골고루 먹어서 튼튼한 대장이 되어볼까요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration showing a group of tiny, cute soldier characters inside a child's body holding vegetable shields and fruit swords, surrounded by colorful foods like broccoli, carrots, and apples, in a friendly and imaginative style.",
+    "category_tag": "오늘의 마음과 감정"
+  },
+  "activity_type": "hidden_objects",
+  "word_info": {
+    "word": "편식",
+    "definition": "좋아하는 음식만 골라서 먹고 싫어하는 음식은 먹지 않는 습관이에요."
+  },
+  "hidden_word": {
+    "word": "방패",
+    "mission": "나쁜 세균의 공격을 막아주는 든든한 물건이에요. 채소를 먹으면 우리 몸에 생기는 이것은 무엇일까요?"
+  },
+  "selected_topic": "편식하지 않고 골고루 먹으면 내 몸속 군대들이 튼튼해져요",
+  "selected_category": "오늘의 마음과 감정",
+  "wisdom_pool_data": {
+    "text": "밥이 보약이다",
+    "description": "맛있는 음식을 골고루 잘 먹는 것이 아플 때 먹는 약보다 우리 몸을 훨씬 더 튼튼하게 만들어준다는 뜻이에요.",
+    "message": "우리 몸속 군대들이 힘을 낼 수 있게 알록달록한 반찬들을 가리지 않고 맛있게 먹어볼까요? 골고루 먹으면 우리 친구도 아주 튼튼한 대장이 될 수 있어요!"
+  },
+  "activity_data": {
+    "instruction": "우리 몸을 지키는 용감한 면역 군대를 더 튼튼하게 만들어줄 숨은 물건 3개를 찾아보세요!",
+    "items": [
+      "비타민 병",
+      "비누",
+      "방패"
+    ],
+    "image_prompt": "Black and white line art style for a hidden objects game. The scene features brave white blood cell soldiers guarding a fortress inside the human body against cartoonish germs. The drawing includes intricate details of cells and vessels. Hidden discreetly in the background are exactly one vitamin bottle, one bar of soap, and one small shield. High contrast, clean outlines, coloring book style, no shading."
+  }
+}

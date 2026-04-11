@@ -1,0 +1,56 @@
+{
+  "page1": {
+    "headline": "알록달록 변신 천재! 동물들의 비밀 옷장",
+    "article_body": [
+      "겨울이 다가오면 숲속 친구들은 아주 특별한 옷으로 갈아입어요. 산토끼는 원래 갈색이었던 털을 벗고 하얀 눈처럼 뽀얗게 변신하지요. 몸 색깔을 하얗게 바꾸면 무서운 적들로부터 소중한 몸을 안전하게 숨길 수 있거든요.",
+      "바닷속 카멜레온이라 불리는 문어도 정말 똑똑한 변신쟁이예요. 주변에 있는 바위나 미역의 색깔과 똑같이 피부색을 순식간에 바꾼답니다. 울퉁불퉁한 모양까지 흉내 내는 모습을 보면 정말 마술사 같아서 깜짝 놀라게 돼요.",
+      "이렇게 동물들은 자신을 보호하기 위해 멋진 변신 천재가 된답니다. 주변 환경과 닮아가는 동물들의 지혜로운 모습은 언제 보아도 정말 신비로워요. 여러분은 만약 몸의 색깔을 자유롭게 바꿀 수 있다면 어떤 색으로 변하고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel-colored illustration for children. On the left, a cute white rabbit is blending into a snowy forest. On the right, a friendly octopus is changing its color to match the coral reefs and seaweed underwater. The overall mood is whimsical and educational.",
+    "category_tag": "오늘의 지혜"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "피부",
+    "definition": "사람이나 동물의 몸을 겉에서 감싸고 있는 부드러운 살이에요."
+  },
+  "hidden_word": {
+    "word": "산토끼",
+    "mission": "산에 살며 귀가 길고 깡충깡충 뛰어다니는 귀여운 동물은 누구일까요?"
+  },
+  "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
+  "selected_category": "오늘의 지혜",
+  "wisdom_pool_data": {
+    "text": "임기응변(臨機應變)",
+    "description": "주변 상황이 바뀌었을 때, 그에 맞춰서 지혜롭게 행동하거나 자신의 모습을 바꾸는 것을 말해요.",
+    "message": "눈 위에서 하얗게 변하는 토끼와 바다색을 흉내 내는 문어처럼, 우리 친구도 상황에 맞게 생각할 줄 아는 똑똑하고 지혜로운 어린이가 되어 보세요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 제시된 초성을 보고 알맞은 단어를 맞혀보세요.",
+    "items": [
+      {
+        "clue": "겨울이 되면 갈색 털을 눈처럼 하얗게 바꾸어 몸을 안전하게 숨기는 동물은 누구인가요?",
+        "initials": [
+          "ㅅ",
+          "ㅌ",
+          "ㄲ"
+        ]
+      },
+      {
+        "clue": "바위나 미역의 색깔과 똑같이 피부색을 바꾸어 '바닷속 카멜레온'이라 불리는 동물은 누구인가요?",
+        "initials": [
+          "ㅁ",
+          "ㅇ"
+        ]
+      },
+      {
+        "clue": "주변 환경에 맞춰 색깔뿐만 아니라 울퉁불퉁한 모양까지 흉내 내는 동물의 모습은 무엇 같다고 하였나요?",
+        "initials": [
+          "ㅁ",
+          "ㅅ",
+          "ㅅ"
+        ]
+      }
+    ]
+  }
+}

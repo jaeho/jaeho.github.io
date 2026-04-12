@@ -1,0 +1,171 @@
+{
+  "page1": {
+    "headline": "다리 없는 뱀이 산을 잘 오르는 비밀은?",
+    "article_body": [
+      "숲속 뱀은 다리가 없어도 산을 아주 잘 타요. 뱀은 우리처럼 발이 없는데 어떻게 미끄러운 바위나 높은 나무 위를 쑥쑥 잘 오를까요? 그 비밀은 바로 뱀의 말랑하면서도 특별한 몸에 숨어 있답니다.",
+      "뱀의 배에는 아주 단단한 비늘이 가득해요. 이 비늘이 땅을 꽉 붙잡는 등산화 역할을 해준답니다. 또한 뱀은 온몸의 강한 근육을 구불구불하게 움직여서 힘차게 앞으로 밀고 나갈 수 있어요.",
+      "뱀은 몸 전체를 발처럼 사용해서 어디든 자유롭게 이동해요. 좁은 바위 틈도 비늘 덕분에 미끄러지지 않고 쑥쑥 지나갈 수 있지요. 여러분은 뱀처럼 몸을 구불거리며 어디로 여행을 떠나고 싶나요?"
+    ],
+    "image_prompt": "A cute and friendly snake with colorful patterns climbing a gentle green hill with small flowers. Soft pastel colors, warm sunlight, storybook illustration style, bright and cozy atmosphere, 4k resolution.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "비늘",
+    "definition": "물고기나 뱀의 몸 겉면을 덮고 있는 아주 작고 딱딱한 껍질이에요."
+  },
+  "hidden_word": {
+    "word": "비늘",
+    "mission": "물고기나 뱀의 온몸에 빈틈없이 붙어 있는, 작고 단단한 껍질 옷은 무엇일까요?"
+  },
+  "selected_topic": "뱀은 다리가 없는데 어떻게 산을 잘 올라갈까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "아이작 뉴턴의 사과처럼",
+    "description": "사과가 떨어지는 것을 보고 놀라운 법칙을 발견한 것처럼, 주변을 꼼꼼하게 관찰하면 세상의 비밀을 알 수 있다는 뜻이에요.",
+    "message": "뱀이 다리 없이도 산을 잘 오르는 비밀을 알아낸 것처럼, 우리 친구도 세상에 호기심을 갖고 관찰하는 멋진 꼬마 탐험가가 되어보세요!"
+  },
+  "activity_data": {
+    "instruction": "가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 1,
+        "display_char": "비"
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 1,
+        "text": "뱀이 다리 없이도 산을 잘 타는 비법! 뱀의 몸속에 숨겨진 특별한 것이에요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 1,
+        "text": "뱀의 배를 덮고 있는 단단한 껍질로, 땅을 꽉 붙잡는 등산화 역할을 해요."
+      }
+    ]
+  }
+}

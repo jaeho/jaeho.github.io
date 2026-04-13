@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "선 없이 연결되는 마법, 블루투스!",
+    "article_body": [
+      "선 없이 노래가 나오고 사진을 보내는 마법 같은 기술이 있어요. 바로 '블루투스'라는 이름의 신기한 약속이지요. 스마트폰과 스피커가 보이지 않는 투명한 손을 잡고 서로 대화하는 것과 같답니다.",
+      "블루투스는 아주 작은 전파를 공중으로 띄워 정보를 전해요. 눈에 보이지 않는 빠른 비둘기가 편지를 나르는 모습과 비슷해요. 아주 가까운 거리에서만 비밀 신호를 주고받는 다정한 속삭임 같아요.",
+      "이 기술 덕분에 우리는 복잡한 선 없이도 아주 자유롭게 놀 수 있어요. 무선 헤드셋으로 노래를 듣거나 로봇을 조종할 때도 쓰여요. 우리 주변에 선 없이 움직이는 물건은 또 무엇이 있을까요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration showing a cute smartphone and a friendly speaker holding invisible sparkly blue hands, musical notes and tiny radio wave patterns floating in the air, soft clouds, cozy atmosphere for children.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "전파",
+    "definition": "눈에 보이지 않지만 공기 중에서 소리나 정보를 실어나르는 특별한 힘이에요."
+  },
+  "hidden_word": {
+    "word": "비둘기",
+    "mission": "먼 옛날, 편지를 발에 묶어 멀리까지 소식을 전해주던 새는 누구일까요?"
+  },
+  "selected_topic": "블루투스는 어떻게 선 없이 연결될까요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "이심전심 (以心傳心)",
+    "description": "마음과 마음이 서로 통한다는 뜻이에요. 블루투스가 선 없이도 정보를 척척 주고받는 것처럼, 말하지 않아도 서로의 생각을 잘 이해하는 것을 말한답니다.",
+    "message": "블루투스처럼 눈에 보이지 않아도 마음을 나눌 수 있는 친구들이 곁에 있다는 건 참 행복한 일이에요. 우리 친구도 주변 사람들에게 따뜻한 마음을 전하는 멋진 어린이가 되어보세요!"
+  },
+  "activity_data": {
+    "instruction": "선 없이 소리가 들리는 신기한 블루투스 세상을 예쁘게 색칠해 보세요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a friendly smartphone and wireless headphones with magic signal waves and a Bluetooth icon between them, white background, thick lines, no shading, minimalist vector style, high contrast."
+  }
+}

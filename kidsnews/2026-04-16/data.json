@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "휠체어 친구에게 자리를 양보하는 멋진 마법!",
+    "article_body": [
+      "엘리베이터는 윙 하고 움직이는 편리한 보물상자 같아요. 계단을 오르기 힘든 친구들에게는 아주 소중한 이동 수단이지요. 특히 바퀴 달린 휠체어를 타는 친구들에게는 엘리베이터가 튼튼한 다리가 되어 준답니다.",
+      "휠체어는 계단을 이용하기 참 어려워요. 엘리베이터가 꽉 차서 타지 못하면 친구는 다음 차례를 오래 기다려야 해요. 우리가 먼저 자리를 양보해 준다면 친구는 가고 싶은 곳에 안전하고 빠르게 갈 수 있어요.",
+      "웃으며 길을 비켜주면 우리 마음속에 따뜻한 무지개가 피어나요. 작은 배려가 모여 모두가 행복한 세상을 만들 수 있지요. 여러분은 오늘 엘리베이터 앞에서 어떤 다정한 마음을 친구에게 전하고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration showing a smiling child holding an elevator door open for a friend in a wheelchair. The scene is cheerful, filled with soft sunlight and a rainbow pattern in the background. Friendly characters with round, soft features, 2D vector style.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "휠체어",
+    "definition": "다리가 불편한 사람이 앉아서 이동할 수 있도록 바퀴가 달린 의자예요."
+  },
+  "hidden_word": {
+    "word": "무지개",
+    "mission": "비가 그친 뒤 하늘에 일곱 빛깔로 예쁘게 그려지는 것은 무엇일까요?"
+  },
+  "selected_topic": "휠체어 타는 친구를 위해 엘리베이터 양보하기",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "역지사지(易地思之)",
+    "description": "친구의 입장이 되어서 '내가 저 친구라면 지금 어떤 기분일까?' 하고 먼저 생각해보는 예쁜 마음이에요.",
+    "message": "휠체어를 탄 친구를 위해 기분 좋게 자리를 양보한 여러분은 마음속에 예쁜 무지개를 가진 멋진 어린이에요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "앗! 엘리베이터가 도착했다! 그런데 저기 휠체어를 탄 친구도 오고 있네?",
+    "image_prompt": "Black and white simple line art for kids, a cute child character standing in front of an opening elevator door, another child in a wheelchair approaching from behind, the first scene of a story, white background, thick lines, no shading, coloring book style"
+  }
+}

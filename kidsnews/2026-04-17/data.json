@@ -1,0 +1,55 @@
+{
+  "page1": {
+    "headline": "해님이 뚝딱! 전기를 만드는 태양광 전문가",
+    "article_body": [
+      "하늘 위 해님은 우리에게 특별한 힘을 빌려줘요. 태양광 전문가는 반짝이는 판으로 햇빛을 전기로 바꾼답니다. 뜨거운 햇볕이 닿으면 지구가 움직일 힘이 생겨요. 이 전기는 집에서 TV를 볼 때도 쓰여요.",
+      "해님 에너지는 나쁜 공기를 만들지 않아서 지구가 좋아해요. 지붕 위에 판을 설치하면 공기도 맑아지고 지구가 건강해져요. 깨끗한 세상을 만드는 마법 같은 일이지요. 전문가들은 오늘도 소중한 전기를 선물해요.",
+      "우리도 해님이 준 전기를 아껴서 사용해 볼까요? 주변을 둘러보면 지붕 위 파란색 판을 찾을 수 있을 거예요. 우리가 자연을 사랑하면 초록 지구는 항상 웃을 거예요. 오늘 본 예쁜 햇살로 무엇을 해보고 싶나요?"
+    ],
+    "image_prompt": "A bright, warm pastel illustration of a friendly solar energy specialist wearing a yellow safety vest, standing next to shiny blue solar panels on a green hill under a big smiling sun. Soft textures, child-friendly art style.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "에너지",
+    "definition": "우리 몸을 움직이게 하거나 기계를 돌아가게 만드는 아주 큰 힘이에요."
+  },
+  "hidden_word": {
+    "word": "태양",
+    "mission": "낮 동안 하늘에서 아주 뜨겁고 밝게 빛나며 우리에게 빛을 주는 것은 무엇일까요?"
+  },
+  "selected_topic": "지구를 위해 깨끗한 에너지를 만드는 태양광 발전 전문가",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "상상은 현실의 시작",
+    "description": "햇빛을 전기로 바꾸는 마법 같은 일처럼, 우리가 마음속으로 꿈꾸는 멋진 생각들이 실제로 이루어질 수 있다는 뜻이에요.",
+    "message": "해님 전문가처럼 우리 친구도 지구를 지키는 멋진 상상을 해보세요! 해님이 준 소중한 전기를 아껴 쓰면, 우리 지구는 매일매일 행복하게 웃을 거예요."
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 알맞은 단어의 초성을 맞혀보세요.",
+    "items": [
+      {
+        "clue": "반짝이는 판으로 햇빛을 전기로 바꾸는 이것은 무엇일까요?",
+        "initials": [
+          "ㅌ",
+          "ㅇ",
+          "ㄱ"
+        ]
+      },
+      {
+        "clue": "태양광 판을 통해 만들어지며, 집에서 TV를 볼 때도 쓰이는 힘이에요.",
+        "initials": [
+          "ㅈ",
+          "ㄱ"
+        ]
+      },
+      {
+        "clue": "파란색 태양광 판을 주로 설치하는 장소예요.",
+        "initials": [
+          "ㅈ",
+          "ㅂ"
+        ]
+      }
+    ]
+  }
+}

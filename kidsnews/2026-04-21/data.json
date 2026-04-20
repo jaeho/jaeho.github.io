@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "반짝반짝 유리창이 전기를 만들어요!",
+    "article_body": [
+      "집이나 학교에 있는 투명한 유리창을 보세요. 이제 유리창은 그냥 창문이 아니라 전기를 만드는 마법 도구예요. 창문에 얇은 태양전지를 붙이면 햇빛이 유리를 통과할 때마다 전기가 쑥쑥 생겨나요.",
+      "이 전기는 우리 집 전등을 켜거나 장난감을 움직여요. 예전에는 까맣고 두껍던 판이 이제는 유리처럼 맑아져서 밖이 아주 잘 보인답니다. 지구를 아프지 않게 지켜주는 정말 착하고 똑똑한 발명품이지요.",
+      "나중에는 건물의 모든 창문이 커다란 배터리가 될 거예요. 햇빛 에너지는 자연이 주는 아주 소중하고 고마운 선물이에요. 우리 집 창문이 직접 전기를 만든다면 여러분은 그 전기로 무엇을 하고 싶나요?"
+    ],
+    "image_prompt": "A warm, bright pastel-colored illustration for children showing a modern house with large, transparent glass windows. The sun is smiling in the sky, and golden sunbeams are hitting the windows. Inside the house, a lamp lights up and a small toy robot moves, indicating energy being generated. The atmosphere is cozy, friendly, and magical.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "태양전지",
+    "definition": "햇빛을 받아서 우리가 쓰는 전기를 만들어 내는 신기한 판이에요."
+  },
+  "hidden_word": {
+    "word": "유리창",
+    "mission": "투명해서 밖이 잘 보이고, 집 안으로 햇빛이 들어오게 도와주는 것은 무엇일까요?"
+  },
+  "selected_topic": "유리창에 붙여두기만 해도 전기를 만드는 태양전지",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "일석이조 (一石二鳥)",
+    "description": "돌 하나를 던져서 새 두 마리를 잡는다는 뜻으로, 한 가지 일을 해서 두 가지 좋은 결과를 얻는 것을 말해요. 투명한 창문으로 밖을 보면서 동시에 전기도 만들 수 있으니 정말 딱 어울리는 말이지요?",
+    "message": "자연이 주는 선물인 햇빛을 소중히 여기고 지구를 사랑하는 마음을 가져보아요. 우리 친구의 반짝이는 생각들이 미래의 세상을 더욱 밝고 깨끗하게 만들 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 느낀 점을 담아 미래의 나에게 짧은 편지를 완성해보세요!",
+    "receiver": "10년 뒤, 투명한 유리창으로 전기를 만들고 있을 미래의 나에게",
+    "greeting": "안녕! 오늘 나는 유리창이 전기를 만드는 마법 도구가 된다는 아주 멋진 소식을 들었어.",
+    "guide_text": "우리 집 창문이 직접 만든 전기로 내가 가장 먼저 해보고 싶은 일은..."
+  }
+}

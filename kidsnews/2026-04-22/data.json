@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "반가워, 아기 공룡 둘리사우루스!",
+    "article_body": [
+      "친구들, 땅속에서 아주 오래전 살았던 아기 공룡의 뼈가 발견되었다는 소식 들었나요? 우리나라 전라남도라는 곳에서 아주 작고 귀여운 아기 공룡의 화석이 세상 밖으로 나왔답니다.",
+      "이 귀여운 아기 공룡에게는 아주 특별하고 예쁜 이름이 생겼어요. 바로 우리가 잘 아는 만화 주인공의 이름을 따서 '둘리사우루스'라는 이름을 지어주었답니다. 정말 친근하고 귀엽죠?",
+      "수천만 년 전, 둘리사우루스는 엄마 공룡과 함께 넓은 들판을 쿵쿵 뛰어놀았을 거예요. 우리 친구들도 오늘 하루 귀여운 아기 공룡이 되어 즐겁고 신나게 상상의 나래를 펼쳐보아요!"
+    ],
+    "image_prompt": "A warm and realistic picture book illustration style. A smiling 7-year-old child explorer wearing a cute explorer hat is looking at a small baby dinosaur fossil in the ground using a magnifying glass. The scene is bright, friendly, and magical, with soft sunlight.",
+    "category_tag": "공룡마을",
+    "reference": "https://www.chosun.com/"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "화석",
+    "definition": "아주 오랜 옛날에 살았던 동물이나 식물의 뼈, 발자국 등이 돌처럼 단단하게 굳어져 땅속에 남아있는 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "만화",
+    "mission": "움직이는 그림으로 재미있는 이야기를 들려주는 이것은 무엇일까요? 텔레비전이나 책에서 자주 보아요!"
+  },
+  "selected_category": "공룡마을",
+  "selected_topic": "전남서 발견된 아기 공룡 화석… '둘리'라는 이름 붙었죠",
+  "wisdom_pool_data": {
+    "text": "바늘 가는 데 실 간다",
+    "description": "뾰족한 바늘이 가는 곳에 항상 실이 졸졸 따라가는 것처럼, 서로 꼭 붙어서 떨어지지 않는 찰떡궁합 사이를 뜻해요. 엄마 공룡 곁을 매일 따라다녔을 귀여운 아기 공룡 둘리사우루스처럼요!",
+    "message": "아기 공룡이 엄마와 함께 넓은 들판을 쿵쿵 뛰어놀았던 것처럼, 우리 친구들도 사랑하는 가족이나 소중한 친구와 짝꿍이 되어 신나고 즐거운 상상의 나래를 펼쳐보아요!"
+  },
+  "activity_data": {
+    "instruction": "안녕? 귀여운 아기 공룡 둘리사우루스가 인사하고 있어요! 알록달록 예쁘게 색칠해보아요.",
+    "image_prompt": "Black and white simple line art for kids coloring book, a cute baby dinosaur waving its hand to say hello, smiling cheerfully, full body, white background, thick lines, clean outlines, no shading, no colors, very simple and minimal details."
+  }
+}

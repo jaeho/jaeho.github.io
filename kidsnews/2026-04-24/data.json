@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "로봇에게 말을 가르치는 다정한 선생님",
+    "article_body": [
+      "로봇은 똑똑하지만 사람의 말을 처음부터 알지는 못해요. 그래서 로봇에게 말을 가르치는 선생님이 필요하답니다. 이분은 'AI 조련사'예요. 조련사는 로봇이 우리 마음을 잘 이해하도록 정성껏 도와주지요.",
+      "조련사는 로봇에게 예쁜 말과 바른 대답을 알려줘요. 로봇이 틀리면 친절하게 고쳐주기도 하지요. 덕분에 로봇은 친구처럼 다정하게 대화하는 법을 배워요. 로봇은 매일 더 똑똑한 친구로 자라나요.",
+      "이제 로봇은 우리 마음을 잘 아는 든든한 친구가 되었어요. 나중에는 여러분을 따뜻하게 안아줄지도 몰라요. 여러분이 로봇 선생님이라면 어떤 말을 가장 먼저 가르쳐 주고 싶나요?"
+    ],
+    "image_prompt": "A friendly teacher in a colorful classroom teaching a cute white robot. Floating holographic speech bubbles with hearts and smiley faces. Soft pastel palette, whimsical storybook illustration style, warm sunshine lighting, 4k.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "조련사",
+    "definition": "동물이나 기계가 어떤 일을 잘하도록 가르치고 길들이는 사람이에요."
+  },
+  "hidden_word": {
+    "word": "로봇",
+    "mission": "철로 된 몸을 가지고 전기의 힘으로 움직이는 똑똑한 기계 친구는 무엇일까요?"
+  },
+  "selected_topic": "로봇이 사람의 말을 잘 배우도록 가르치는 AI 조련사",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "가는 말이 고와야 오는 말이 곱다",
+    "description": "내가 먼저 다른 사람에게 예쁜 말을 하면, 그 사람도 나에게 기분 좋은 말을 해준다는 뜻이에요.",
+    "message": "기사 속 선생님이 로봇에게 다정한 말을 가르쳐서 든든한 친구로 만든 것처럼, 우리 친구도 주변 사람들에게 먼저 따뜻한 말을 건네보아요. 그러면 로봇처럼 우리 마음을 잘 알아주는 소중한 친구들이 많이 생길 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "로봇",
+      "선생님",
+      "하트"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring a friendly robot, a kind teacher with a gentle smile, and small floating hearts representing warm words, thick line art style, black and white, white background, no text"
+  }
+}

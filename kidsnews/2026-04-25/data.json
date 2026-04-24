@@ -1,0 +1,171 @@
+{
+  "page1": {
+    "headline": "삐뚤빼뚤해도 괜찮아요! 세상에 하나뿐인 내 그림",
+    "article_body": [
+      "도화지 위에 색깔을 입히는 시간은 참 즐거워요. 가끔 선이 삐져나가거나 모양이 엉뚱해도 괜찮아요. 이건 틀린 게 아니니 걱정 마세요. 동그라미가 조금 찌그러져도 나만의 특별한 개성이 담긴 소중한 시작이랍니다.",
+      "세상에는 똑같이 생긴 나무나 꽃이 하나도 없어요. 여러분이 그린 그림도 세상에 단 하나뿐인 예술 작품이지요. 삐뚤어진 선은 오히려 재미있는 상상을 불러와요. 좋아하는 마음을 담아 정성껏 그렸다면 그것으로 충분해요.",
+      "이제 틀릴까 봐 걱정하지 말고 마음껏 손을 움직여 보세요. 그림 속에 숨겨진 나만의 멋진 이야기를 발견할 수 있을 거예요. 여러분은 오늘 어떤 색깔로 나만의 멋진 세상을 꾸며보고 싶나요?"
+    ],
+    "image_prompt": "A warm, bright pastel-colored illustration of a child happily painting on a large canvas. The drawing on the canvas is whimsical with slightly crooked lines, featuring a colorful sun and a smiling flower. Soft sunlight shines through a window, and artistic tools like brushes and crayons are scattered around, creating a cozy atmosphere.",
+    "category_tag": "오늘의 마음과 감정"
+  },
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "예술",
+    "definition": "그림을 그리거나 노래를 만드는 것처럼 멋진 생각을 표현하는 일이에요."
+  },
+  "hidden_word": {
+    "word": "예술",
+    "mission": "그림을 그리거나 아름다운 것을 만들어서 내 마음을 뽐내는 멋진 활동을 무엇이라고 할까요?"
+  },
+  "selected_topic": "나만의 그림이 조금 삐뚤빼뚤해도 세상에 하나뿐인 예술품이에요",
+  "selected_category": "오늘의 마음과 감정",
+  "wisdom_pool_data": {
+    "text": "무지개처럼 아름다운 너",
+    "description": "무지개가 여러 가지 색깔로 빛나는 것처럼, 너의 그림 속 삐뚤빼뚤한 모양들도 모두 너만의 특별하고 예쁜 개성이라는 뜻이야.",
+    "message": "선이 조금 삐져나와도 괜찮아! 그건 세상에 하나뿐인 너만의 멋진 그림이거든. 틀릴까 봐 걱정하지 말고, 네가 좋아하는 색깔로 마음껏 네 상상을 그려보렴. 넌 정말 멋진 꼬마 예술가야!"
+  },
+  "activity_data": {
+    "instruction": "가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 1,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 2,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": "라"
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 2,
+        "text": "도화지 위에 선을 그리고 색을 칠해 만든 나만의 작품이에요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 1,
+        "text": "동글동글한 모양이에요. 삐뚤빼뚤 찌그러져도 나만의 개성이 담긴 소중한 시작이에요."
+      }
+    ]
+  }
+}

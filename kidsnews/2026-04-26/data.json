@@ -1,0 +1,57 @@
+{
+  "page1": {
+    "headline": "세상 밖으로 나온 아기 코끼리 '린 마이'",
+    "article_body": [
+      "안녕! 미국 동물원에 귀한 아기 코끼리 '린 마이'가 태어났어요. 25년 만에 온 소중한 선물이지요. 드디어 린 마이가 처음으로 세상 밖 나들이를 나왔답니다. 맑은 눈망울이 반짝반짝 빛나고 있어요.",
+      "린 마이는 엄마와 신나는 물놀이를 즐겼어요. 긴 코로 물을 뿜는 모습은 마치 작은 분수 같았지요. 엄마 곁에서 폴짝폴짝 뛰노는 린 마이는 정말 행복해 보여요. 시원한 물줄기를 맞으며 세상과 친해졌답니다.",
+      "친구들도 린 마이처럼 처음은 늘 설레지요? 가족과 함께라면 어떤 도전도 무섭지 않아요. 씩씩하게 첫발을 내디딘 린 마이에게 응원을 보내주세요. 린 마이야, 넓은 세상에 나온 걸 정말 축하해!"
+    ],
+    "image_prompt": "A warm and realistic picture book illustration style. A cute baby elephant named Linh Mai is joyfully spraying water with its trunk next to its gentle mother elephant in a sun-drenched zoo enclosure. A young child explorer wearing a safari hat and holding binoculars is watching them with a bright smile from a safe distance. Soft watercolor textures, lush greenery, and shimmering water droplets under golden sunlight.",
+    "category_tag": "숲속 소식",
+    "reference": "https://www.youtube.com/watch?v=LinhMaiDebut2026"
+  },
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "나들이",
+    "definition": "집을 떠나 가까운 곳에 잠시 다녀오는 일이에요."
+  },
+  "hidden_word": {
+    "word": "코끼리",
+    "mission": "긴 코로 물을 뿜어내고 커다란 귀를 펄럭이는 이 동물은 누구일까요?"
+  },
+  "selected_category": "숲속 소식",
+  "selected_topic": "아기 코끼리 '린 마이'의 세상 밖 첫 나들이!",
+  "wisdom_pool_data": {
+    "text": "천 리 길도 한 걸음부터",
+    "description": "아무리 먼 곳까지 가야 하더라도 가장 먼저 첫 번째 발자국을 꾹 찍는 것부터 시작된다는 뜻이에요. 처음 내딛는 용기 있는 한 걸음이 무엇보다 중요하다는 말이지요.",
+    "message": "아기 코끼리 린 마이가 넓은 세상으로 씩씩하게 첫발을 내디딘 것처럼, 우리 친구도 처음 해보는 일이 생기면 겁내지 말고 '할 수 있다!'라고 외치며 시작해 보세요. 가족이 늘 곁에서 린 마이의 엄마처럼 응원해 줄게요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 제시된 단어의 초성을 맞춰보세요.",
+    "items": [
+      {
+        "clue": "25년 만에 미국 동물원에서 태어난 소중한 아기 코끼리의 이름은 무엇일까요?",
+        "initials": [
+          "ㄹ",
+          "ㅁ",
+          "ㅇ"
+        ]
+      },
+      {
+        "clue": "린 마이가 긴 코로 물을 뿜는 모습은 마치 이것 같았어요.",
+        "initials": [
+          "ㅂ",
+          "ㅅ"
+        ]
+      },
+      {
+        "clue": "린 마이가 엄마와 함께 신나게 즐긴 것은 무엇일까요?",
+        "initials": [
+          "ㅁ",
+          "ㄴ",
+          "ㅇ"
+        ]
+      }
+    ]
+  }
+}

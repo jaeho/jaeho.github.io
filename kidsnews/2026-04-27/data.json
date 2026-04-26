@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "느릿느릿 달팽이, 왜 무거운 집을 지고 다닐까요?",
+    "article_body": [
+      "느릿느릿 기어가는 달팽이를 본 적 있나요? 비가 오는 날이면 촉촉한 땅 위를 여행해요. 달팽이 등에 있는 딱딱한 껍데기는 소중한 집이에요. 태어날 때부터 작고 투명한 껍데기를 등에 지고 태어난답니다.",
+      "이 집은 달팽이의 몸을 안전하게 지켜줘요. 무서운 적이 나타나면 쏙 몸을 숨겨서 공격을 피하지요. 또한 햇볕이 쨍쨍한 날에는 몸속 수분이 마르지 않게 도와줘요. 달팽이에게 껍데기는 튼튼한 방패와 같아요.",
+      "달팽이가 쑥쑥 자라면 등에 있는 집도 함께 커져요. 집을 따로 구하지 않아도 되니 정말 편리하겠지요? 만약 여러분의 등에 예쁜 집이 있다면 어떨까요? 오늘 달팽이를 만나면 반갑게 인사해 보세요."
+    ],
+    "image_prompt": "A cute, smiling snail with a colorful spiral shell crawling on a large green leaf with morning dew. Warm pastel colors, soft watercolor style, bright and friendly atmosphere for a 7-year-old child.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "껍데기",
+    "definition": "달팽이나 조개처럼 몸을 보호하기 위해 겉을 감싸고 있는 딱딱한 부분이에요."
+  },
+  "hidden_word": {
+    "word": "방패",
+    "mission": "무서운 공격으로부터 몸을 튼튼하게 막아주는 물건은 무엇일까요?"
+  },
+  "selected_topic": "달팽이는 왜 자기 집을 등에 지고 다닐까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "관찰은 최고의 선생님",
+    "description": "우리 주변을 자세히 살펴보면 달팽이 집의 비밀처럼 신기하고 새로운 것을 많이 배울 수 있다는 뜻이에요.",
+    "message": "달팽이를 유심히 살펴본 우리 친구! 앞으로도 주변의 작은 생물들을 아껴주고, 숨겨진 비밀을 찾아내는 멋진 꼬마 탐험가가 되길 바라요."
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸의 달팽이를 보고, 이 무거운 집으로 또 어떤 재미있는 일을 할 수 있을지 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "영차! 해님은 아주 뜨겁지만, 내 튼튼한 집이 있으면 걱정 없어!",
+    "image_prompt": "Black and white simple line art for kids, a cute round snail with a large spiral shell on its back, the snail is smiling and looking up at a bright shining sun, white background, thick lines, no shading, coloring book style, the snail is pointing at its shell with its antenna."
+  }
+}

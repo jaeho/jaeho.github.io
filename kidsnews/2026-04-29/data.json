@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "고구려의 영웅, 광개토 대왕의 위대한 모험",
+    "article_body": [
+      "옛날 고구려에 아주 용감한 왕이 있었어요. 이름은 광개토 대왕이에요. 왕은 말을 타고 씩씩하게 달리며 우리 땅을 넓게 만들었지요. 사람들은 왕을 '땅을 크게 넓힌 임금님'이라고 불렀어요.",
+      "왕은 북쪽으로 아주 멀리까지 나아갔어요. 끝이 보이지 않는 넓은 벌판이 모두 고구려의 땅이 되었답니다. 용맹한 군사들과 함께 들판을 누비는 모습은 정말 멋졌을 거예요. 덕분에 고구려는 힘이 아주 센 나라가 되었지요.",
+      "왕의 업적을 기리는 커다란 비석도 세워졌어요. 지금까지도 우리는 왕의 용기를 기억하고 있답니다. 만약 여러분이 그 시대에 살았다면 왕과 함께 어디까지 가보고 싶나요? 넓은 세상을 향해 씩씩하게 나아가는 꿈을 함께 꾸어 보아요."
+    ],
+    "image_prompt": "A heroic and friendly illustration of King Gwanggaeto the Great riding a white horse across a vast green field, bright and warm pastel tones, soft brush strokes, clear blue sky, fairytale style for 7-year-olds.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "벌판",
+    "definition": "나무가 별로 없고 아주 넓고 평평하게 트인 땅을 말해요."
+  },
+  "hidden_word": {
+    "word": "비석",
+    "mission": "오랜 시간 동안 잊지 않도록 커다란 돌에 글자를 새겨 세운 것을 무엇이라고 할까요?"
+  },
+  "selected_topic": "광개토 대왕은 땅을 얼마나 넓게 넓혔을까요?",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "천리길도 한 걸음부터 (千里之行 始於足下)",
+    "description": "아무리 멀리 있는 땅이라도 한 걸음씩 씩씩하게 걸어가다 보면 결국 도착할 수 있다는 뜻이에요.",
+    "message": "광개토 대왕처럼 넓은 세상을 꿈꾸나요? 우리 친구도 오늘 할 수 있는 작은 일부터 용기 있게 도전하며 멋진 꿈을 향해 나아가 보아요!"
+  },
+  "activity_data": {
+    "instruction": "용감한 고구려의 영웅, 광개토 대왕이 말을 타고 달리는 모습을 멋지고 알록달록하게 색칠해 보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, King Gwanggaeto the Great of Goguryeo riding a horse across a vast field, heroic pose, ancient Korean armor, white background, thick lines, no shading, minimal detail, vector style."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "피라미드 속에는 누가 잠들어 있을까요?",
+    "article_body": [
+      "이집트 사막에는 아주 커다랗고 높은 돌산 같은 피라미드가 있어요. 피라미드는 아주 옛날 왕들의 무덤으로 만들어졌답니다. 수천 년이 지났지만 피라미드는 여전히 튼튼하게 서 있어요. 그 안에는 과연 무엇이 숨겨져 있을까요?",
+      "피라미드 안에는 '미라'라고 부르는 왕의 몸이 보관되어 있어요. 몸이 상하지 않게 붕대로 돌돌 말아서 정성껏 준비했지요. 왕이 아끼던 보물과 그림들도 함께 들어 있답니다. 미라는 아주 긴 잠을 자는 것과 같아요.",
+      "사람들은 미라가 다시 태어날 수 있다고 믿어서 정성을 다해 돌봤어요. 아직도 발견되지 않은 비밀의 방이 아주 많답니다. 여러분은 피라미드 속 보물 중 어떤 것이 가장 궁금한가요? 나중에 피라미드에 가면 무엇을 보고 싶나요?"
+    ],
+    "image_prompt": "A bright, warm pastel illustration of a friendly Egyptian pyramid under a golden sun, with a cute mummy character wearing white bandages peeking out and smiling, desert sand dunes, 2D flat design for kids.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "미라",
+    "definition": "옛날 사람들이 몸이 상하지 않게 붕대로 돌돌 말아 놓은 모습이에요."
+  },
+  "hidden_word": {
+    "word": "보물",
+    "mission": "반짝반짝 빛나고 아주 소중해서 깊이 숨겨둔 물건은 무엇일까요?"
+  },
+  "selected_topic": "이집트 피라미드 속에는 진짜 미라가 있을까요?",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "천 리 길도 한 걸음부터",
+    "description": "산처럼 거대한 피라미드도 처음에는 돌 하나를 쌓는 아주 작은 시작부터 만들어졌다는 뜻이에요.",
+    "message": "아주 높은 피라미드를 지은 옛날 사람들처럼, 우리 친구도 매일매일 작은 일부터 차근차근 노력하다 보면 무엇이든 멋지게 해낼 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "피라미드",
+      "미라",
+      "보물"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring a large ancient pyramid, a friendly mummy wrapped in bandages, and a treasure chest overflowing with gold and jewels, thick line art style, black and white, white background, no text"
+  }
+}

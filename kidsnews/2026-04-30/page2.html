@@ -191,8 +191,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -210,34 +210,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">🔍 기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!</p>
-    
-    <div class="flex-1 rounded-2xl overflow-hidden border-4 border-slate-200 shadow-sm relative">
-        <img src="activity_image.webp" alt="그림 속 단어 찾기" class="object-cover w-full h-full">
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
+
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    우와! 엄청 큰 세모 피라미드다! 이 안에 진짜 미라랑 반짝이는 보물이 숨겨져 있을까? 탐험 출발!
+                </div>
+            </div>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="bg-blue-50 rounded-2xl p-6 border-2 border-blue-100 flex flex-col gap-3 shrink-0">
-        <h3 class="text-xl font-bold text-blue-800 text-center mb-2">어떤 단어를 찾을까요?</h3>
-        <div class="flex justify-center gap-4 flex-wrap">
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                피라미드
-            </div>
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                미라
-            </div>
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                보물
-            </div>
-            
-        </div>
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -249,8 +265,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">천 리 길도 한 걸음부터</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">산처럼 거대한 피라미드도 처음에는 돌 하나를 쌓는 아주 작은 시작부터 만들어졌다는 뜻이에요.</p>
+                    <p class="text-3xl font-black text-slate-900">별을 보는 아이는 꿈을 꾼다</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">밤하늘의 반짝이는 별을 보면서 상상의 나래를 펼치고 멋진 미래를 생각한다는 뜻이에요. 신비로운 피라미드 이야기를 읽으며 즐거운 상상을 하는 것과 같답니다.</p>
                 </div>
             </div>
         </footer>

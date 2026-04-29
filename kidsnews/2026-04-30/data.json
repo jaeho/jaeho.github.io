@@ -1,37 +1,33 @@
 {
   "page1": {
-    "headline": "피라미드 속에는 누가 잠들어 있을까요?",
+    "headline": "세모 모양 피라미드 속에 진짜 미라가 잠들어 있을까요?",
     "article_body": [
-      "이집트 사막에는 아주 커다랗고 높은 돌산 같은 피라미드가 있어요. 피라미드는 아주 옛날 왕들의 무덤으로 만들어졌답니다. 수천 년이 지났지만 피라미드는 여전히 튼튼하게 서 있어요. 그 안에는 과연 무엇이 숨겨져 있을까요?",
-      "피라미드 안에는 '미라'라고 부르는 왕의 몸이 보관되어 있어요. 몸이 상하지 않게 붕대로 돌돌 말아서 정성껏 준비했지요. 왕이 아끼던 보물과 그림들도 함께 들어 있답니다. 미라는 아주 긴 잠을 자는 것과 같아요.",
-      "사람들은 미라가 다시 태어날 수 있다고 믿어서 정성을 다해 돌봤어요. 아직도 발견되지 않은 비밀의 방이 아주 많답니다. 여러분은 피라미드 속 보물 중 어떤 것이 가장 궁금한가요? 나중에 피라미드에 가면 무엇을 보고 싶나요?"
+      "머나먼 이집트에는 세모 모양의 피라미드가 있어요. 옛날 사람들은 왕이 하늘나라로 편히 가도록 아주 커다란 돌무덤을 만들었답니다. 돌을 높이 쌓아 올린 모습이 정말 신비로워요.",
+      "피라미드 안에는 진짜 미라가 있을까요? 네, 맞아요! 왕의 몸이 상하지 않게 약을 바르고 하얀 붕대로 칭칭 감아 미라를 만들었죠. 반짝이는 보물과 함께 깊은 방에 소중히 숨겼답니다.",
+      "지금도 피라미드에는 우리가 모르는 비밀이 참 많아요. 캄캄한 통로를 걷는 멋진 탐험가가 되는 상상을 해보세요. 친구들이 피라미드에서 가장 찾고 싶은 보물은 무엇인가요?"
     ],
-    "image_prompt": "A bright, warm pastel illustration of a friendly Egyptian pyramid under a golden sun, with a cute mummy character wearing white bandages peeking out and smiling, desert sand dunes, 2D flat design for kids.",
+    "image_prompt": "A bright and warm pastel-toned illustration of a cute 7-year-old child dressed as an explorer, standing in front of a giant triangular Egyptian pyramid, friendly mummy and shiny treasures peeking out, child-friendly, storybook style, soft lighting",
     "category_tag": "오늘의 세계와 사회"
   },
-  "activity_type": "word_hunt",
+  "activity_type": "cartoon",
   "word_info": {
     "word": "미라",
-    "definition": "옛날 사람들이 몸이 상하지 않게 붕대로 돌돌 말아 놓은 모습이에요."
+    "definition": "사람의 몸이 상하지 않게 특별한 약을 바르고 하얀 붕대로 칭칭 감아놓은 것을 말해요."
   },
   "hidden_word": {
     "word": "보물",
-    "mission": "반짝반짝 빛나고 아주 소중해서 깊이 숨겨둔 물건은 무엇일까요?"
+    "mission": "탐험가들이 가장 찾고 싶어 하고, 반짝반짝 빛나며 상자 안에 가득 들어있는 아주 귀한 물건은 무엇일까요?"
   },
   "selected_topic": "이집트 피라미드 속에는 진짜 미라가 있을까요?",
   "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "천 리 길도 한 걸음부터",
-    "description": "산처럼 거대한 피라미드도 처음에는 돌 하나를 쌓는 아주 작은 시작부터 만들어졌다는 뜻이에요.",
-    "message": "아주 높은 피라미드를 지은 옛날 사람들처럼, 우리 친구도 매일매일 작은 일부터 차근차근 노력하다 보면 무엇이든 멋지게 해낼 수 있을 거예요!"
+    "text": "별을 보는 아이는 꿈을 꾼다",
+    "description": "밤하늘의 반짝이는 별을 보면서 상상의 나래를 펼치고 멋진 미래를 생각한다는 뜻이에요. 신비로운 피라미드 이야기를 읽으며 즐거운 상상을 하는 것과 같답니다.",
+    "message": "우리 친구도 기사 속의 멋진 탐험가가 되어 피라미드에 숨겨진 보물을 찾는 크고 멋진 꿈을 꿔보세요! 호기심을 가지고 상상하다 보면 언젠가 세상을 탐험하는 멋진 어른이 될 거예요."
   },
   "activity_data": {
-    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
-    "words": [
-      "피라미드",
-      "미라",
-      "보물"
-    ],
-    "image_prompt": "Beautiful illustration for kids, featuring a large ancient pyramid, a friendly mummy wrapped in bandages, and a treasure chest overflowing with gold and jewels, thick line art style, black and white, white background, no text"
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와! 엄청 큰 세모 피라미드다! 이 안에 진짜 미라랑 반짝이는 보물이 숨겨져 있을까? 탐험 출발!",
+    "image_prompt": "Black and white simple line art for kids, theme of 'Is there a real mummy sleeping in the triangular pyramid?', the first scene of a story, a cute child explorer character standing in front of a giant triangular pyramid holding a treasure map and pointing at the dark entrance with an excited expression, white background, thick lines, no shading"
   }
 }

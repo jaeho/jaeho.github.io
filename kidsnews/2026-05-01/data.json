@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "바다의 탐험가, 어부 아저씨가 잡은 물고기는 무엇일까요?",
+    "article_body": [
+      "어부 아저씨는 매일 아침 배를 타고 푸른 바다로 떠나요. 바닷속에는 신기한 물고기가 많이 살고 있답니다. 어부님은 커다란 그물로 은빛 갈치와 튼튼한 고등어를 정성껏 잡아요.",
+      "그물 안에는 펄떡펄떡 뛰는 도미와 맛있는 조개들도 아주 가득 들어있어요. 계절마다 바다가 주는 선물이 달라서 어부님의 하루는 늘 즐거워요. 이 생선들은 어부님이 노력해서 잡아온 보물이에요.",
+      "낚싯대로 잡기도 하고 넓은 그물로 한꺼번에 모으기도 해요. 어부님 덕분에 우리는 바다의 맛을 아주 건강하게 느껴요. 여러분은 바다 친구들 중 어떤 물고기를 가장 좋아하고 먹어보고 싶나요?"
+    ],
+    "image_prompt": "A warm pastel-colored illustration of a friendly fisherman in a small boat on a sparkling blue ocean, colorful fish like mackerel and hairtail jumping in nets, bright and sunny atmosphere, children's book style.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "activity_type": "basic",
+  "word_info": {
+    "word": "그물",
+    "definition": "물고기를 한꺼번에 많이 잡으려고 실로 엮어 만든 도구예요."
+  },
+  "hidden_word": {
+    "word": "고등어",
+    "mission": "등은 푸른색이고 배는 은백색인, 우리 식탁에 자주 올라오는 맛있는 생선은 무엇일까요?"
+  },
+  "selected_topic": "어부는 바다에서 어떤 물고기를 잡을까요?",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "마부 작침",
+    "description": "도끼를 계속 갈아서 아주 작은 바늘을 만드는 것처럼, 포기하지 않고 매일 정성을 다하면 무엇이든 멋지게 해낼 수 있다는 뜻이에요.",
+    "message": "어부 아저씨가 매일 바다로 나가 물고기를 잡는 것처럼, 우리 친구도 오늘 할 수 있는 일들을 하나씩 차근차근 해내면 어부 아저씨의 그물처럼 커다란 꿈을 이룰 수 있을 거예요!"
+  },
+  "activity_data": {
+    "category": "drawing",
+    "title": "어부 아저씨의 그물 속에 쏙! 내가 상상한 신비한 물고기"
+  }
+}

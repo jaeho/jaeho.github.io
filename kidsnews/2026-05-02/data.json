@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "우리 집 행복 요정은 바로 나!",
+    "article_body": [
+      "우리 집은 가족이 함께 사는 소중한 곳이에요. 부모님은 매일 밥을 차려주시고 집을 깨끗이 치워주세요. 부모님 덕분에 집은 늘 반짝반짝 빛나요. 하지만 반복되는 일은 가끔 부모님을 힘들게 해요.",
+      "우리가 작은 도움을 보태면 집은 금세 행복해져요. 장난감을 스스로 치우거나 그릇을 옮겨보세요. 양말을 접는 일도 훌륭한 도움이에요. 우리의 손길에 부모님의 얼굴에는 예쁜 미소가 가득 피어나요.",
+      "집안일을 돕는 것은 가족을 사랑하는 방법이에요. 부모님을 도우면 마음속에 뿌듯한 기쁨이 쑥쑥 자라나요. 힘을 합치면 일은 즐거운 놀이가 돼요. 여러분은 부모님을 위해 어떤 작은 일을 도와드리고 싶나요?"
+    ],
+    "image_prompt": "A warm and bright pastel illustration of a young child happily helping their parents tidy up a cozy living room, sparkling clean effects, soft sunlight coming through the window, heart icons floating around, storybook style.",
+    "category_tag": "오늘의 마음과 감정"
+  },
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "집안일",
+    "definition": "집 안에서 가족을 위해 청소나 요리, 빨래를 하는 모든 일을 말해요."
+  },
+  "hidden_word": {
+    "word": "장난감",
+    "mission": "우리가 신나게 가지고 놀다가, 다 놀고 나면 스스로 정리 상자에 쏙쏙 넣어야 하는 물건은 무엇일까요?"
+  },
+  "selected_topic": "부모님의 집안일을 조금만 도와드려도 집안에 행복이 가득해져요",
+  "selected_category": "오늘의 마음과 감정",
+  "wisdom_pool_data": {
+    "text": "백지장도 맞들면 낫다",
+    "description": "아주 가벼운 종이 한 장도 혼자 드는 것보다 둘이서 함께 들면 훨씬 더 쉽고 즐거워진다는 뜻이야.",
+    "message": "우리 친구의 작은 손길이 엄마, 아빠에게는 커다란 행복 선물이 된단다! 오늘부터 집안일을 놀이처럼 즐겁게 도와주는 우리 집 멋진 행복 요정이 되어볼까?"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 우리 집의 '행복 요정'이 되어 부모님께 마음을 전하는 짧은 편지를 써보세요!",
+    "receiver": "사랑하는 부모님께",
+    "greeting": "안녕하세요, 엄마 아빠! 기사를 읽고 우리 집을 늘 반짝반짝하게 만들어주시는 부모님의 소중함을 다시 한번 느꼈어요.",
+    "guide_text": "앞으로 제가 부모님을 도와 우리 집의 행복 요정이 되기 위해 실천하고 싶은 작은 일은..."
+  }
+}

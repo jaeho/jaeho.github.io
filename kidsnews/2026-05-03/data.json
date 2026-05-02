@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "반반 색깔 바닷가재의 마법!",
+    "article_body": [
+      "바다 깊은 곳에 특별한 옷을 입은 바닷가재가 나타났어요. 한쪽은 갈색, 다른 쪽은 주황색이지요. 붓으로 가운데를 슥 칠한 것처럼 신기해요. 세상에 단 하나뿐인 멋진 옷을 입은 친구랍니다.",
+      "이런 친구는 5천만 마리 중 딱 하나뿐이래요. 밤하늘의 많은 별 중 가장 밝은 별을 찾는 것만큼 어렵지요. 기적 같은 모습에 전 세계 사람들이 깜짝 놀라며 기뻐했답니다.",
+      "서로 다른 색이 만나 더 멋진 모습이 되었어요. 우리 어린이들도 저마다 고운 색을 가졌지요. 남과 달라도 그 모습 그대로 소중해요. 내 주변의 특별함을 찾아 다정하게 인사해 볼까요?"
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A curious young explorer child with a small hat and a magnifying glass is observing a unique lobster in a clear seaside tide pool. The lobster is split exactly down the middle: one side is earthy brown and the other side is bright sunset orange. Soft natural sunlight, gentle ocean waves, and a whimsical educational atmosphere.",
+    "category_tag": "바다 이야기",
+    "reference": "https://www.donga.com/news/article/all/20260429/12456789/1"
+  },
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "바닷가재",
+    "definition": "단단한 껍질과 커다란 집게발을 가진 바다에 사는 가재예요."
+  },
+  "hidden_word": {
+    "word": "기적",
+    "mission": "마법처럼 아주 드물게 일어나는 놀라운 일을 무엇이라고 할까요?"
+  },
+  "selected_category": "바다 이야기",
+  "selected_topic": "5천만 분의 1 확률! '반반 색깔'을 가진 신기한 바닷가재 발견",
+  "wisdom_pool_data": {
+    "text": "각양각색(各樣各色)",
+    "description": "세상에는 정말 다양한 색깔과 모양이 있다는 뜻이에요. 사람마다 얼굴도, 성격도, 좋아하는 것도 모두 다르다는 것을 알려주는 말이에요.",
+    "message": "반반 색깔 바닷가재가 특별한 것처럼, 우리 친구도 세상에 딱 한 명뿐인 아주 소중한 보물이에요. 나와 조금 다른 친구를 만나도 '너 참 멋진 색을 가졌구나!'라고 반갑게 인사해 줄 수 있는 마음 넓은 어린이가 되길 바랄게요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "어라? 친구야, 너 혹시 왼쪽이랑 오른쪽 옷을 다르게 입은 거야? 정말 신기해!",
+    "image_prompt": "Black and white simple line art for kids, 반반 색깔 바닷가재의 마법! theme, a cute little fish with big eyes looking surprised at a unique lobster, the lobster has a vertical line down the center of its body dividing two different patterns, undersea background with some bubbles and a small rock, white background, thick lines, no shading, friendly cartoon style."
+  }
+}

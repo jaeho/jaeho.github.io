@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2ECC71",
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../archive.js"></script>
+    <style>/* Tailwind CDN은 HTML에서 호출하므로 여기에는 커스텀 클래스만 넣습니다. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gaegu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+    --primary-color: #2ECC71;
+    --background-light: #F9FCF9;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --accent-blue: #EBF5FF;
+    --accent-yellow: #FFFBEB;
+    --paper-bg: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--text-main);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 실제 인쇄 및 캡처 시 A4 규격 유지 */
+@media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .paper {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.paper {
+    width: 210mm;
+    height: 297mm;
+    background-color: var(--paper-bg);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    padding: 15mm;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 드롭캡: 씨앗 어린이 신문 스타일 */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4.5rem;
+    line-height: 0.8;
+    font-weight: 800;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: var(--primary-color);
+}
+
+/* 기사 본문 최적화 */
+.article-text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.65;
+    text-align: justify;
+    word-break: keep-all;
+    color: var(--text-main);
+    height: 100%;
+    column-fill: auto;
+}
+
+.article-text p {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.text-hand {
+    font-family: 'Gaegu', cursive;
+}
+
+/* 아이콘 스타일 */
+.material-symbols-rounded {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+/* 카드 공통 스타일 */
+.card-blue {
+    background-color: var(--accent-blue);
+    border: 1px solid #dbeafe;
+    border-radius: 24px;
+    padding: 14px;
+}
+
+.card-yellow {
+    background-color: var(--accent-yellow);
+    border: 2px dashed #fde68a;
+    border-radius: 24px;
+    padding: 14px;
+}
+
+/* 헤더 스타일링 */
+.header-eco-icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
+}
+
+/* 4컷 만화 스타일 */
+.cartoon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    height: 100%;
+}
+
+.cartoon-panel {
+    border: 3px solid #1e293b;
+    border-radius: 12px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.cartoon-number {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.cartoon-dialogue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid #1e293b;
+}</style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID ');
+    </script>
+    
+</head>
+
+<body class="bg-white flex justify-center antialiased">
+    <div class="paper flex flex-col gap-6">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+            <div class="flex items-center gap-3">
+                <div class="header-eco-icon">
+                    <span class="material-symbols-rounded">eco</span>
+                </div>
+                <div>
+                    <h1 class="font-bold text-2xl text-primary leading-tight">씨앗 어린이 놀이터</h1>
+                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Daily Kids Play</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="page1.html" class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold hover:bg-primary/20 transition-colors">
+                    PAGE 02
+                </a>
+            </div>
+        </header>
+
+        
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        
+
+        <main class="flex-1 overflow-hidden">
+            <div class="flex flex-col gap-6 h-full">
+    <p class="text-2xl font-bold text-slate-800 italic">🔍 기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!</p>
+    
+    <div class="flex-1 rounded-2xl overflow-hidden border-4 border-slate-200 shadow-sm relative">
+        <img src="activity_image.webp" alt="그림 속 단어 찾기" class="object-cover w-full h-full">
+    </div>
+
+    <div class="bg-blue-50 rounded-2xl p-6 border-2 border-blue-100 flex flex-col gap-3 shrink-0">
+        <h3 class="text-xl font-bold text-blue-800 text-center mb-2">어떤 단어를 찾을까요?</h3>
+        <div class="flex justify-center gap-4 flex-wrap">
+            
+            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
+                태양
+            </div>
+            
+            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
+                식물
+            </div>
+            
+            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
+                물
+            </div>
+            
+        </div>
+    </div>
+</div>
+        </main>
+
+        <footer class="mt-auto">
+            <div class="card-blue">
+                <div class="flex items-center gap-2 mb-2 text-blue-600">
+                    <span class="material-symbols-rounded text-sm">lightbulb</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <p class="text-3xl font-black text-slate-900">일월지광(日月之光)</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">하늘의 해님이 온 세상을 환하게 비춰주는 아주 밝고 소중한 빛을 말해요.</p>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="text-center pt-2 relative">
+            <button onclick="openArchiveModal()" class="text-[9px] text-slate-400 font-bold uppercase tracking-widest hover:text-primary transition-colors cursor-pointer bg-transparent border-none appearance-none p-0 m-0 w-full text-center">
+                씨앗 어린이 신문 114호 (2026년 05월 05일)
+            </button>
+        </footer>
+    </div>
+
+    <!-- 아카이브 모달 (추가) -->
+    <div id="archiveModal" class="fixed inset-0 bg-black/40 hidden flex-col items-center justify-center z-50 p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-[24px] p-6 w-full max-w-sm shadow-2xl relative flex flex-col max-h-[80vh]">
+            <button onclick="closeArchiveModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700">
+                <span class="material-symbols-rounded">close</span>
+            </button>
+            <h3 class="text-xl font-extrabold text-slate-900 mb-4 flex items-center gap-2">
+                <span class="material-symbols-rounded text-primary">auto_stories</span>
+                다른 날짜 신문 보기
+            </h3>
+            <div id="archiveList" class="flex-1 overflow-y-auto flex flex-col gap-2 pr-2">
+                <!-- JS가 여기에 목록을 채울 것입니다 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openArchiveModal() {
+            const modal = document.getElementById('archiveModal');
+            const list = document.getElementById('archiveList');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            
+            if (list.children.length === 0) {
+                if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
+                    window.ARCHIVE_DATES.forEach(date => {
+                        const btn = document.createElement('button');
+                        btn.className = "w-full text-left px-4 py-3 rounded-xl bg-slate-50 hover:bg-primary/10 hover:text-primary font-bold text-slate-700 transition-colors border border-slate-100 flex items-center justify-between";
+                        
+                        const isCurrent = window.location.pathname.includes(date);
+                        
+                        let html = `<span>${date}</span>`;
+                        if (isCurrent) {
+                            html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
+                            btn.className += " border-primary/30 text-primary bg-primary/5";
+                        } else {
+                            html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
+                        }
+                        
+                        btn.innerHTML = html;
+                        btn.onclick = () => {
+                            window.location.href = `../${date}/index.html`;
+                        };
+                        list.appendChild(btn);
+                    });
+                } else {
+                    list.innerHTML = '<p class="text-center text-slate-500 py-4 font-medium text-sm">목록을 불러올 수 없습니다.</p>';
+                }
+            }
+        }
+
+        function closeArchiveModal() {
+            const modal = document.getElementById('archiveModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        document.getElementById('archiveModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeArchiveModal();
+            }
+        });
+    </script>
+</body>
+
+</html>

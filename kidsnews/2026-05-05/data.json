@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "이글이글 뜨거운 태양, 얼마나 뜨거울까요?",
+    "article_body": [
+      "하늘 위에서 반짝이는 태양은 우리에게 소중한 친구예요. 태양은 스스로 빛을 내는 커다란 불덩어리랍니다. 겉부분 온도가 무려 육천 도나 될 정도로 엄청나게 뜨거워요. 이 열기 덕분에 우리는 따뜻한 낮을 보내요.",
+      "태양은 펄펄 끓는 물보다 훨씬 더 뜨겁답니다. 만약 태양 근처에 가면 무엇이든 금방 녹아버릴 거예요. 태양은 멀리 있지만 뜨거운 에너지는 우주를 지나 우리에게 찾아와요. 정말 놀랍고 신기한 힘이지요.",
+      "태양은 식물을 쑥쑥 자라게 하고 우리 몸도 튼튼하게 만들어요. 만약 태양이 갑자기 사라진다면 세상은 어떻게 변할까요? 오늘 낮에 잠시 하늘을 보며 태양의 고마움을 꼭 떠올려 보세요."
+    ],
+    "image_prompt": "A friendly, smiling golden sun radiating warm light in the blue sky, soft pastel colors, whimsical children's book illustration style, cozy and bright atmosphere.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "태양",
+    "definition": "하늘 높이 떠서 낮을 밝게 비춰 주고 따뜻한 열을 주는 커다란 별이에요."
+  },
+  "hidden_word": {
+    "word": "에너지",
+    "mission": "우리가 힘차게 움직이거나 태양이 뜨거운 빛을 내게 만드는 '힘'을 무엇이라고 부를까요?"
+  },
+  "selected_topic": "태양은 얼마나 뜨거울까요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "일월지광(日月之光)",
+    "description": "하늘의 해님이 온 세상을 환하게 비춰주는 아주 밝고 소중한 빛을 말해요.",
+    "message": "우리에게 따뜻한 열기와 빛을 선물하는 고마운 해님처럼, 우리 친구도 주변 사람들에게 따뜻한 마음과 밝은 웃음을 나눠주는 소중한 어린이가 되길 바랄게요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "태양",
+      "식물",
+      "물"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring a bright shining sun in the sky, healthy green plants growing from the earth, and a small pot of water on a table nearby, thick line art style, black and white, white background, no text"
+  }
+}

@@ -1,37 +1,37 @@
 {
   "page1": {
-    "headline": "코를 비비고 혀를 쏙? 세계의 신기한 인사법!",
+    "headline": "코를 비비며 안녕? 세계의 신기한 인사법!",
     "article_body": [
-      "친구를 만나면 \"안녕\" 하고 손을 흔들지요? 세상에는 특별한 인사법이 참 많아요. 나라마다 문화가 달라 인사를 나누는 모습도 제각각이랍니다. 어떤 나라는 머리를 숙여 예의를 지키고, 어떤 나라는 따뜻하게 껴안으며 반가움을 표현하기도 해요.",
-      "뉴질랜드 마오리족은 코를 맞대고 숨을 나누는 '홍이' 인사를 해요. 티베트에서는 혀를 내밀어 믿음을 보여주기도 하죠. 태국에서는 양손을 모으고 정중히 허리를 숙여요. 여기에는 상대를 소중히 여기는 마음이 가득 담겨 있답니다.",
-      "낯선 인사법 속에도 '반가워'라는 다정한 뜻이 숨어 있어요. 세계 친구들이 각자의 방식으로 사랑을 전하는 모습이 참 멋지지 않나요? 여러분이 외국 친구를 만난다면 어떤 인사를 먼저 건네보고 싶은지 다함께 상상해 보세요."
+      "아침에 친구를 만나면 여러분은 어떻게 인사하나요? 우리는 보통 고개를 꾸벅 숙이며 \"안녕!\" 하고 반갑게 인사해요. 하지만 세계 여러 나라의 친구들은 아주 신기하고 다양한 방법으로 서로의 마음을 나눈답니다.",
+      "뉴질랜드의 마오리족은 서로 코를 가볍게 비비며 인사하는 '홍이'라는 풍습이 있어요. 이것은 생명의 숨결을 나눈다는 아주 멋진 뜻을 담고 있지요. 또, 티베트에서는 혀를 내미는 것이 상대를 존중한다는 반가운 인사법이랍니다.",
+      "이처럼 세계의 여러 나라마다 인사하는 모습은 모두 달라요. 하지만 상대를 환영하고 반가운 마음을 전하고 싶은 진심은 언제나 똑같답니다. 여러분도 오늘 가족이나 친구에게 평소와 조금 다른 재미있는 몸짓으로 다정하게 인사를 건네보면 어떨까요?"
     ],
-    "image_prompt": "Warm and bright pastel-colored illustration of children from different countries around the world greeting each other in various ways like rubbing noses, bowing with hands together, and hugging, joyful atmosphere, soft lighting, children's book style.",
+    "image_prompt": "A bright and warm pastel-toned illustration of cute children from diverse cultures greeting each other happily, with one pair lightly rubbing their noses together. Perfect for an educational children's newspaper.",
     "category_tag": "오늘의 세계와 사회"
   },
-  "activity_type": "hidden_objects",
+  "activity_type": "word_hunt",
   "word_info": {
-    "word": "문화",
-    "definition": "사람들이 오랫동안 함께 살며 만들어 온 생활 방식이에요."
+    "word": "존중",
+    "definition": "다른 사람을 아주 소중하게 생각하고 예의 바르게 대하는 따뜻한 마음이에요."
   },
   "hidden_word": {
-    "word": "태국",
-    "mission": "코끼리를 소중히 여기고, 맛있는 요리인 '팟타이'가 유명한 이 나라는 어디일까요?"
+    "word": "진심",
+    "mission": "거짓이 없이 참되고 바른 마음을 뜻하는 단어로, 세 번째 문단에 숨어있는 두 글자는 무엇일까요?"
   },
   "selected_topic": "나라마다 다른 인사법, 코를 비비는 나라도 있대요!",
   "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "역지사지 (易地思之)",
-    "description": "상대방의 입장에서 생각해 본다는 뜻이에요. 우리와 인사하는 모습이 달라도, 그 속에 담긴 '반가워'라는 친구의 진심을 먼저 이해해 보는 마음이에요.",
-    "message": "세계 친구들의 인사가 조금 낯설게 느껴질 수도 있지만, 그 속에는 상대를 아끼는 따뜻한 마음이 가득해요. 우리 친구도 다른 사람의 마음을 먼저 헤아려 주는 멋진 어린이가 되어 전 세계 친구들과 다정하게 인사를 나누어 보길 바라요!"
+    "text": "이심전심 (以心傳心)",
+    "description": "말을 하지 않거나 겉모습이 달라도 마음과 마음이 서로 통한다는 뜻이에요. 세계 여러 나라 친구들의 인사 방법이 코를 비비거나 혀를 내미는 등 모두 다르지만, 상대를 반가워하는 따뜻한 마음만큼은 똑같이 전해지는 것과 같아요.",
+    "message": "인사하는 모습이나 방법이 달라도 상대를 환영하고 반가워하는 진심은 언제나 통하는 법이랍니다. 오늘 가족이나 친구에게 평소와 조금 다른 재미있는 몸짓으로 여러분의 따뜻한 마음을 듬뿍 전해 보세요!"
   },
   "activity_data": {
-    "instruction": "세계 각국의 독특한 인사법(코 비비기, 혀 내밀기 등)을 나누는 사람들 사이에서 숨겨진 3개의 사물을 찾아보세요!",
-    "items": [
-      "나침반",
-      "깃털",
-      "돋보기"
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "코",
+      "혀",
+      "친구"
     ],
-    "image_prompt": "A detailed black and white line art illustration for a hidden object game. The scene shows various people around the world performing unique greetings: Maori rubbing noses (Hongi), Tibetans sticking out their tongues, and people bowing. The background is filled with diverse cultural patterns and global landmarks. Discretely hidden within the intricate lines are exactly one compass, one feather, and one magnifying glass. The style is clean, intricate, and perfect for a search-and-find activity."
+    "image_prompt": "Beautiful illustration for kids, featuring a nose, a tongue, two friends greeting, thick line art style, black and white, white background, no text"
   }
 }

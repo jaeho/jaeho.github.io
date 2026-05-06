@@ -1,0 +1,171 @@
+{
+  "page1": {
+    "headline": "코를 비비고 혀를 쑥! 세계의 신기한 인사법",
+    "article_body": [
+      "우리는 만날 때 고개를 숙이지만, 세계에는 신기한 인사법이 아주 많아요. 태국에서는 양손을 모으고 \"스와디캅\"이라 말하며 고개를 살짝 숙인답니다. 프랑스나 이탈리아에서는 볼을 맞대며 소리를 내는 '비쥬' 인사를 나누기도 해요. 따뜻한 정을 나누는 멋진 방법이지요.",
+      "뉴질랜드 마오리족은 서로 코와 이마를 맞대고 숨을 나누는 '홍이'라는 인사를 해요. 영혼이 섞인다는 소중한 의미가 담겨 있는 특별한 몸짓이랍니다. 티베트에서는 존경의 표시로 혀를 쑥 내밀어 인사를 하기도 해요. 모습은 다르지만 반가워하는 마음은 모두 똑같아요.",
+      "다양한 인사법은 각 나라의 문화와 소중한 역사를 담고 있어요. 다른 나라 친구를 만났을 때 그들만의 방식으로 인사하면 금방 친해질 수 있답니다. 여러분은 어떤 인사가 가장 기억에 남나요? 오늘은 친구에게 조금 더 특별한 마음을 담아 다정하게 인사를 건네보세요."
+    ],
+    "image_prompt": "A bright and warm pastel illustration showing children from different countries greeting each other friendly. One pair is rubbing noses gently in Maori style, another is pressing palms together in Thai style. Soft colors, happy facial expressions, educational and peaceful atmosphere.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "인사",
+    "definition": "사람을 만났을 때 반가움을 표현하는 말이나 몸짓"
+  },
+  "hidden_word": {
+    "word": "문화",
+    "mission": "한 나라의 사람들이 오랜 시간 함께 만들어온 고유한 생활 방식을 무엇이라고 할까요?"
+  },
+  "selected_topic": "나라마다 다른 인사법, 코를 비비는 나라도 있대요!",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "각양각색 (各樣各色)",
+    "description": "사람이나 물건의 모양, 색깔, 하는 행동이 저마다 다르고 다양하다는 뜻이에요.",
+    "message": "세상에는 코를 맞대거나 혀를 내미는 것처럼 아주 다양한 인사법이 있어요. 모습은 모두 다르지만, 서로를 반가워하고 아끼는 따뜻한 마음은 모두 똑같답니다. 우리 친구들도 서로의 다른 문화를 존중하며 다정하게 먼저 인사를 건네볼까요?"
+  },
+  "activity_data": {
+    "instruction": "가로 세로 열쇠를 읽고 기사 속에 나온 나라와 부족 이름을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 2,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 1,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": "리"
+      },
+      {
+        "is_blank": true,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": null,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 1,
+        "text": "프랑스와 함께 볼을 맞대며 '비쥬' 인사를 나누는 유럽의 나라예요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 2,
+        "text": "뉴질랜드에서 코와 이마를 맞대고 '홍이'라는 인사를 하는 부족 이름이에요."
+      }
+    ]
+  }
+}

@@ -1,34 +1,32 @@
 {
   "page1": {
-    "headline": "왕의 욕심을 멈춘 위대한 약속 이야기!",
+    "headline": "조선 최고의 화가 김홍도, 웃음 가득한 일상을 그리다",
     "article_body": [
-      "옛날 영국에 욕심 많은 왕이 살았어요. 왕이 마음대로 행동하자 사람들이 모여 약속을 요구했지요. 이것이 '자유 대헌장'이라는 아주 위대한 약속의 소중한 시작이랍니다.",
-      "약속에는 왕이라도 법을 꼭 지켜야 한다는 규칙이 담겼어요. 누구든 함부로 벌을 받지 않게 정했지요. 덕분에 사람들은 더 안전하고 자유롭게 지낼 수 있는 권리를 가졌어요.",
-      "이 약속은 오늘날 우리 자유의 소중한 씨앗이 되었답니다. 친구들도 친구와 꼭 지키고 싶은 특별한 약속이 있나요? 모두를 웃게 만드는 멋진 규칙에 대해 다 함께 생각하며 이야기해요."
+      "조선 최고의 화가 김홍도를 알고 있나요? 옛날 화가들은 보통 멋진 풍경을 그렸지만, 김홍도는 평범한 사람들의 일상을 그리는 풍속화를 사랑했어요. 장터의 상인과 땀 흘리는 농부의 모습이 그림 속에 살아 숨 쉬지요.",
+      "그의 그림을 보면 사람들의 표정이 아주 생생하고 밝아요. 서당에서 훌쩍이는 아이나 씨름판에서 환호하는 사람들의 얼굴을 보면 절로 웃음이 터진답니다. 고된 하루 속에서도 웃음을 잃지 않았던 조상들의 유쾌한 마음을 담았거든요.",
+      "김홍도는 그림을 통해 옛사람들의 진짜 삶과 즐거움을 우리에게 전해주고 있어요. 평범한 일상을 특별한 예술로 바꾼 그는 마치 마법사 같지요. 여러분이 조선 시대의 화가가 된다면, 친구들의 어떤 즐거운 모습을 그려보고 싶나요?"
     ],
-    "image_prompt": "A bright, warm pastel illustration of a king in a crown sitting at a wooden table, signing a large parchment paper with a quill pen. Smiling villagers are standing nearby. Magical sparkles surround the paper. Soft lighting, storybook style.",
+    "image_prompt": "A bright and warm pastel tone illustration of a traditional Korean village, happy commoners wearing Hanbok laughing and living their daily lives, a friendly Joseon painter sitting and drawing them on a canvas, cozy and cheerful atmosphere, children's storybook style.",
     "category_tag": "오늘의 역사와 인물"
   },
-  "activity_type": "letter_writing",
+  "activity_type": "coloring",
   "word_info": {
-    "word": "약속",
-    "definition": "다른 사람과 무엇을 하기로 정하고 꼭 지키기로 마음먹는 것이에요."
+    "word": "풍속화",
+    "definition": "옛날 사람들이 시장에 가거나 일하는 등 평범하고 자연스럽게 생활하는 모습을 그대로 그린 그림이에요."
   },
   "hidden_word": {
-    "word": "왕",
-    "mission": "머리에 반짝이는 황금 왕관을 쓰고 나라를 다스리는 사람은 누구일까요?"
+    "word": "서당",
+    "mission": "옛날 조선 시대에 어린이들이 모여서 무서운 훈장님께 글을 배우고 공부하던 옛날 학교의 이름은 무엇일까요?"
   },
-  "selected_topic": "영국에서 자유 대헌장(마그나 카르타)을 약속한 날",
+  "selected_topic": "조선 최고의 화가 김홍도가 그린 서민들의 즐거운 모습",
   "selected_category": "오늘의 역사와 인물",
   "wisdom_pool_data": {
-    "text": "약속은 모두를 지켜주는 든든한 울타리",
-    "description": "약속은 힘이 센 왕도, 어린아이도 모두가 똑같이 지켜야 하는 규칙이에요. 이 약속이 우리를 마음대로 괴롭히지 못하게 막아주고 안전하게 보호해 주는 울타리 역할을 한다는 뜻이랍니다.",
-    "message": "욕심쟁이 왕도 약속을 지켰을 때 비로소 모두가 행복해질 수 있었어요. 우리 친구도 친구들과 정한 약속을 소중히 지키며, 서로를 웃게 만드는 멋진 어린이가 되어보아요!"
+    "text": "소문만복래(笑門萬福來)",
+    "description": "웃는 문으로 만 가지 복이 들어온다는 뜻이에요. 아무리 힘든 일이 있어도 밝게 웃으며 긍정적으로 생각하면 좋은 일이 잔뜩 생길 거라는 의미랍니다.",
+    "message": "김홍도의 그림 속 조상들처럼 평범한 하루 속에서도 작은 즐거움을 찾아볼까요? 친구들과 환하게 웃으며 매일매일을 특별하고 행복하게 만들어봐요!"
   },
   "activity_data": {
-    "instruction": "기사를 읽고, 세상을 바꾼 위대한 약속을 만든 사람들에게 고마운 마음을 담아 편지를 써보세요!",
-    "receiver": "용기 있게 약속을 요구한 옛날 영국 사람들께",
-    "greeting": "안녕하세요! 왕의 욕심에 맞서 '자유 대헌장'이라는 위대한 약속을 만들어 주셔서 정말 감사합니다.",
-    "guide_text": "여러분이 만든 법과 규칙 덕분에 오늘날 우리가 안전하고 자유롭게 지낼 수 있게 되었어요. 저도 여러분처럼 모두를 행복하게 만드는 소중한 약속을 지키기 위해..."
+    "instruction": "조선시대 최고의 화가 김홍도 할아버지가 웃음 가득한 사람들의 모습을 그리고 있어요! 우리도 예쁜 색깔로 옛날 사람들의 일상을 알록달록하게 칠해보아요.",
+    "image_prompt": "Black and white simple line art for kids coloring book, a friendly traditional Korean painter Kim Hong-do wearing Hanbok holding a brush and smiling, drawing joyful people and children playing in Joseon dynasty, white background, thick clean lines, no shading, minimal details, no color, pure black lines on white canvas"
   }
 }

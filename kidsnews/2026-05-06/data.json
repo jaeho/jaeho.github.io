@@ -1,32 +1,33 @@
 {
   "page1": {
-    "headline": "조선 최고의 화가 김홍도, 웃음 가득한 일상을 그리다",
+    "headline": "밤하늘을 수놓는 불꽃! 미국이 자유를 외친 날",
     "article_body": [
-      "조선 최고의 화가 김홍도를 알고 있나요? 옛날 화가들은 보통 멋진 풍경을 그렸지만, 김홍도는 평범한 사람들의 일상을 그리는 풍속화를 사랑했어요. 장터의 상인과 땀 흘리는 농부의 모습이 그림 속에 살아 숨 쉬지요.",
-      "그의 그림을 보면 사람들의 표정이 아주 생생하고 밝아요. 서당에서 훌쩍이는 아이나 씨름판에서 환호하는 사람들의 얼굴을 보면 절로 웃음이 터진답니다. 고된 하루 속에서도 웃음을 잃지 않았던 조상들의 유쾌한 마음을 담았거든요.",
-      "김홍도는 그림을 통해 옛사람들의 진짜 삶과 즐거움을 우리에게 전해주고 있어요. 평범한 일상을 특별한 예술로 바꾼 그는 마치 마법사 같지요. 여러분이 조선 시대의 화가가 된다면, 친구들의 어떤 즐거운 모습을 그려보고 싶나요?"
+      "지금의 미국은 오래전 영국이라는 나라의 지배를 받았어요. 당시 사람들은 불공평한 규칙 때문에 많이 힘들었답니다. 그래서 용감한 대표들이 모여 스스로 나라를 다스리겠다고 굳게 결심했어요.",
+      "1776년 7월 4일, 사람들은 '독립 선언서'라는 아주 중요한 문서를 세상에 발표했어요. 이 문서에는 모든 사람이 자유롭고 평등할 권리가 있다고 적혀 있었죠. 영국의 간섭에서 벗어나 완전한 자유를 외친 벅찬 순간이었어요.",
+      "오늘날 미국 사람들은 매년 7월 4일에 화려한 불꽃놀이를 하며 이 특별한 날을 축하해요. 자유는 가만히 앉아서 얻는 게 아니라 용기를 내어 지켜야 하는 보물이에요. 우리 친구들이 생각하는 진정한 자유란 과연 어떤 모습인가요?"
     ],
-    "image_prompt": "A bright and warm pastel tone illustration of a traditional Korean village, happy commoners wearing Hanbok laughing and living their daily lives, a friendly Joseon painter sitting and drawing them on a canvas, cozy and cheerful atmosphere, children's storybook style.",
+    "image_prompt": "A bright and warm pastel-toned illustration of diverse children happily watching colorful fireworks in the night sky, with a festive and peaceful atmosphere, beautiful watercolor style, suitable for a kids newspaper.",
     "category_tag": "오늘의 역사와 인물"
   },
-  "activity_type": "coloring",
+  "activity_type": "cartoon",
   "word_info": {
-    "word": "풍속화",
-    "definition": "옛날 사람들이 시장에 가거나 일하는 등 평범하고 자연스럽게 생활하는 모습을 그대로 그린 그림이에요."
+    "word": "독립",
+    "definition": "다른 사람이나 나라의 간섭을 받지 않고, 스스로 자신의 일을 결정하고 이끌어가는 것을 말해요."
   },
   "hidden_word": {
-    "word": "서당",
-    "mission": "옛날 조선 시대에 어린이들이 모여서 무서운 훈장님께 글을 배우고 공부하던 옛날 학교의 이름은 무엇일까요?"
+    "word": "불꽃놀이",
+    "mission": "캄캄한 밤하늘에 펑펑 소리를 내며 예쁜 꽃처럼 반짝반짝 빛나는 것은 무엇일까요?"
   },
-  "selected_topic": "조선 최고의 화가 김홍도가 그린 서민들의 즐거운 모습",
+  "selected_topic": "미국이 독립을 선언하고 자유로운 나라가 된 날",
   "selected_category": "오늘의 역사와 인물",
   "wisdom_pool_data": {
-    "text": "소문만복래(笑門萬福來)",
-    "description": "웃는 문으로 만 가지 복이 들어온다는 뜻이에요. 아무리 힘든 일이 있어도 밝게 웃으며 긍정적으로 생각하면 좋은 일이 잔뜩 생길 거라는 의미랍니다.",
-    "message": "김홍도의 그림 속 조상들처럼 평범한 하루 속에서도 작은 즐거움을 찾아볼까요? 친구들과 환하게 웃으며 매일매일을 특별하고 행복하게 만들어봐요!"
+    "text": "공짜 점심은 없다",
+    "description": "세상에 노력 없이 저절로 얻을 수 있는 것은 없다는 뜻의 속담이에요. 가만히 앉아서 기다리기만 해서는 원하는 것을 얻기 힘들다는 의미랍니다.",
+    "message": "미국 사람들이 용기를 내어 스스로 자유를 얻어낸 것처럼, 우리 친구들도 원하는 꿈이나 소중한 것을 얻기 위해 용기 내어 꾸준히 노력하는 멋진 어린이가 되기를 응원할게요!"
   },
   "activity_data": {
-    "instruction": "조선시대 최고의 화가 김홍도 할아버지가 웃음 가득한 사람들의 모습을 그리고 있어요! 우리도 예쁜 색깔로 옛날 사람들의 일상을 알록달록하게 칠해보아요.",
-    "image_prompt": "Black and white simple line art for kids coloring book, a friendly traditional Korean painter Kim Hong-do wearing Hanbok holding a brush and smiling, drawing joyful people and children playing in Joseon dynasty, white background, thick clean lines, no shading, minimal details, no color, pure black lines on white canvas"
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "더 이상 불공평한 규칙은 싫어! 이제 우리가 스스로 나라를 다스릴 거야!",
+    "image_prompt": "Black and white simple line art for kids, US Independence Day theme, the first scene of a story, a cute character wearing a 1776 tricorn hat looking determined while holding a large quill pen and a scroll of paper, white background, thick lines, no shading"
   }
 }

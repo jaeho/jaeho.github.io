@@ -191,8 +191,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -210,18 +210,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-green-50 p-6 rounded-2xl border border-green-100 shadow-sm text-center">
-        <p class="text-xl font-bold text-gray-800">조선시대 최고의 화가 김홍도 할아버지가 웃음 가득한 사람들의 모습을 그리고 있어요! 우리도 예쁜 색깔로 옛날 사람들의 일상을 알록달록하게 칠해보아요.</p>
-        <p class="text-sm text-green-600 font-bold mt-2">✨ 선을 따라 예쁘게 색칠해볼까요? ✨</p>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
+
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    더 이상 불공평한 규칙은 싫어! 이제 우리가 스스로 나라를 다스릴 거야!
+                </div>
+            </div>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
-        <img src="activity_image.webp" class="w-full">
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -233,8 +265,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">소문만복래(笑門萬福來)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">웃는 문으로 만 가지 복이 들어온다는 뜻이에요. 아무리 힘든 일이 있어도 밝게 웃으며 긍정적으로 생각하면 좋은 일이 잔뜩 생길 거라는 의미랍니다.</p>
+                    <p class="text-3xl font-black text-slate-900">공짜 점심은 없다</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">세상에 노력 없이 저절로 얻을 수 있는 것은 없다는 뜻의 속담이에요. 가만히 앉아서 기다리기만 해서는 원하는 것을 얻기 힘들다는 의미랍니다.</p>
                 </div>
             </div>
         </footer>

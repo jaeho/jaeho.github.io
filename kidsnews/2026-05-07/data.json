@@ -1,37 +1,49 @@
 {
   "page1": {
-    "headline": "코를 비비며 안녕? 세계의 신기한 인사법!",
+    "headline": "코를 비비고 혀를 쏙! 세계의 신기한 인사법",
     "article_body": [
-      "아침에 친구를 만나면 여러분은 어떻게 인사하나요? 우리는 보통 고개를 꾸벅 숙이며 \"안녕!\" 하고 반갑게 인사해요. 하지만 세계 여러 나라의 친구들은 아주 신기하고 다양한 방법으로 서로의 마음을 나눈답니다.",
-      "뉴질랜드의 마오리족은 서로 코를 가볍게 비비며 인사하는 '홍이'라는 풍습이 있어요. 이것은 생명의 숨결을 나눈다는 아주 멋진 뜻을 담고 있지요. 또, 티베트에서는 혀를 내미는 것이 상대를 존중한다는 반가운 인사법이랍니다.",
-      "이처럼 세계의 여러 나라마다 인사하는 모습은 모두 달라요. 하지만 상대를 환영하고 반가운 마음을 전하고 싶은 진심은 언제나 똑같답니다. 여러분도 오늘 가족이나 친구에게 평소와 조금 다른 재미있는 몸짓으로 다정하게 인사를 건네보면 어떨까요?"
+      "사람을 만났을 때 나누는 인사는 나라마다 정말 다양해요. 한국은 허리를 굽히지만 태국은 양손을 모으고 ‘와이’라고 인사하며 존경을 표하지요. 인사법은 달라도 모두 반가움을 전하려는 따뜻한 마음이 담겨 있답니다.",
+      "뉴질랜드 마오리족은 코를 맞대고 비비는 ‘홍이’라는 인사를 해요. 이것은 서로의 숨결을 나눈다는 깊은 의미를 가지고 있어요. 티베트에서는 혀를 내밀기도 하는데, 이는 내 마음에 나쁜 뜻이 없음을 보여주는 신호예요.",
+      "지구촌의 다양한 인사는 서로의 문화를 이해하는 소중한 열쇠예요. 낯선 인사를 만났을 때 그 속에 담긴 예의를 먼저 생각해보면 좋겠지요? 다른 나라 친구를 만난다면 여러분은 어떤 인사를 가장 먼저 해보고 싶나요?"
     ],
-    "image_prompt": "A bright and warm pastel-toned illustration of cute children from diverse cultures greeting each other happily, with one pair lightly rubbing their noses together. Perfect for an educational children's newspaper.",
+    "image_prompt": "A bright and warm pastel-tone illustration showing diverse children from around the world (Korean child bowing, Maori child rubbing noses, and a Thai child doing the Wai) greeting each other happily under a blue sky.",
     "category_tag": "오늘의 세계와 사회"
   },
-  "activity_type": "word_hunt",
+  "activity_type": "scale_quiz",
   "word_info": {
-    "word": "존중",
-    "definition": "다른 사람을 아주 소중하게 생각하고 예의 바르게 대하는 따뜻한 마음이에요."
+    "word": "지구촌",
+    "definition": "지구가 하나의 마을처럼 가깝게 연결되어 있다는 뜻이에요."
   },
   "hidden_word": {
-    "word": "진심",
-    "mission": "거짓이 없이 참되고 바른 마음을 뜻하는 단어로, 세 번째 문단에 숨어있는 두 글자는 무엇일까요?"
+    "word": "인사",
+    "definition": "사람을 만났을 때 반갑게 나누는 말이나 행동은 무엇일까요?"
   },
   "selected_topic": "나라마다 다른 인사법, 코를 비비는 나라도 있대요!",
   "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "이심전심 (以心傳心)",
-    "description": "말을 하지 않거나 겉모습이 달라도 마음과 마음이 서로 통한다는 뜻이에요. 세계 여러 나라 친구들의 인사 방법이 코를 비비거나 혀를 내미는 등 모두 다르지만, 상대를 반가워하는 따뜻한 마음만큼은 똑같이 전해지는 것과 같아요.",
-    "message": "인사하는 모습이나 방법이 달라도 상대를 환영하고 반가워하는 진심은 언제나 통하는 법이랍니다. 오늘 가족이나 친구에게 평소와 조금 다른 재미있는 몸짓으로 여러분의 따뜻한 마음을 듬뿍 전해 보세요!"
+    "text": "각양각색(各樣各色)",
+    "description": "사람이나 물건의 모양과 색깔이 제각각 다르다는 뜻으로, 세상에는 아주 다양한 모습과 방식이 있다는 말이에요.",
+    "message": "나라마다 인사법은 모두 다르지만, 반가움을 전하는 따뜻한 마음은 모두 똑같답니다. 우리 친구도 세상의 다양한 문화를 편견 없이 존중하고 이해하는 마음이 넓은 어린이가 되길 바랄게요!"
   },
   "activity_data": {
-    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
-    "words": [
-      "코",
-      "혀",
-      "친구"
-    ],
-    "image_prompt": "Beautiful illustration for kids, featuring a nose, a tongue, two friends greeting, thick line art style, black and white, white background, no text"
+    "instruction": "누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!",
+    "items": [
+      {
+        "question": "기사에 나온 '지구촌(지구)'은 얼마나 클까요?",
+        "options": [
+          "우리가 다니는 학교를 수십만 개 합쳐도 모자랄 만큼 아주 커요",
+          "커다란 수박 100개만큼 커요",
+          "노란색 학원 버스 10대만큼 커요"
+        ]
+      },
+      {
+        "question": "티베트 인사법에서 쏙 내미는 '혀'의 길이는 보통 무엇과 비슷할까요?",
+        "options": [
+          "학교 복도 끝에서 끝까지의 길이에요",
+          "비행기의 커다란 날개만큼 길어요",
+          "내가 맛있게 먹는 사탕 한 알의 크기처럼 작고 귀여워요"
+        ]
+      }
+    ]
   }
 }

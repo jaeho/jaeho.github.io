@@ -214,30 +214,69 @@ body {
         
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">🔍 기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!</p>
-    
-    <div class="flex-1 rounded-2xl overflow-hidden border-4 border-slate-200 shadow-sm relative">
-        <img src="activity_image.webp" alt="그림 속 단어 찾기" class="object-cover w-full h-full">
-    </div>
+            <div class="flex flex-col gap-4 h-full">
+    <p class="text-2xl font-bold text-slate-800 italic">⚖️ 누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!</p>
 
-    <div class="bg-blue-50 rounded-2xl p-6 border-2 border-blue-100 flex flex-col gap-3 shrink-0">
-        <h3 class="text-xl font-bold text-blue-800 text-center mb-2">어떤 단어를 찾을까요?</h3>
-        <div class="flex justify-center gap-4 flex-wrap">
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                코
+    <div class="flex-1 flex flex-col justify-evenly gap-4 py-2 pl-3">
+        
+        <div class="bg-indigo-50 rounded-2xl p-4 md:p-5 border-2 border-indigo-200 flex flex-col gap-3 relative shadow-sm">
+            <div class="absolute -top-3 -left-3 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
+                Q1
             </div>
             
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                혀
-            </div>
+            <p class="text-xl font-black text-indigo-900 leading-tight pl-4">
+                기사에 나온 '지구촌(지구)'은 얼마나 클까요?
+            </p>
             
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                친구
+            <div class="flex flex-col gap-2 mt-1">
+                
+                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
+                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
+                    <span>우리가 다니는 학교를 수십만 개 합쳐도 모자랄 만큼 아주 커요</span>
+                </div>
+                
+                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
+                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
+                    <span>커다란 수박 100개만큼 커요</span>
+                </div>
+                
+                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
+                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
+                    <span>노란색 학원 버스 10대만큼 커요</span>
+                </div>
+                
             </div>
-            
         </div>
+        
+        <div class="bg-indigo-50 rounded-2xl p-4 md:p-5 border-2 border-indigo-200 flex flex-col gap-3 relative shadow-sm">
+            <div class="absolute -top-3 -left-3 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
+                Q2
+            </div>
+            
+            <p class="text-xl font-black text-indigo-900 leading-tight pl-4">
+                티베트 인사법에서 쏙 내미는 '혀'의 길이는 보통 무엇과 비슷할까요?
+            </p>
+            
+            <div class="flex flex-col gap-2 mt-1">
+                
+                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
+                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
+                    <span>학교 복도 끝에서 끝까지의 길이에요</span>
+                </div>
+                
+                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
+                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
+                    <span>비행기의 커다란 날개만큼 길어요</span>
+                </div>
+                
+                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
+                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
+                    <span>내가 맛있게 먹는 사탕 한 알의 크기처럼 작고 귀여워요</span>
+                </div>
+                
+            </div>
+        </div>
+        
     </div>
 </div>
         </main>
@@ -249,8 +288,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">이심전심 (以心傳心)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">말을 하지 않거나 겉모습이 달라도 마음과 마음이 서로 통한다는 뜻이에요. 세계 여러 나라 친구들의 인사 방법이 코를 비비거나 혀를 내미는 등 모두 다르지만, 상대를 반가워하는 따뜻한 마음만큼은 똑같이 전해지는 것과 같아요.</p>
+                    <p class="text-3xl font-black text-slate-900">각양각색(各樣各色)</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">사람이나 물건의 모양과 색깔이 제각각 다르다는 뜻으로, 세상에는 아주 다양한 모습과 방식이 있다는 말이에요.</p>
                 </div>
             </div>
         </footer>

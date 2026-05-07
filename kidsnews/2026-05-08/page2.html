@@ -191,8 +191,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -210,18 +210,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-green-50 p-6 rounded-2xl border border-green-100 shadow-sm text-center">
-        <p class="text-xl font-bold text-gray-800">마음의 비밀번호를 풀고 있는 꼬마 탐정님을 예쁘게 색칠해 볼까요? 어떤 색으로 마음의 문을 열지 정해보아요!</p>
-        <p class="text-sm text-green-600 font-bold mt-2">✨ 선을 따라 예쁘게 색칠해볼까요? ✨</p>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
+
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    바스락! 앗, 넌 누구니? 우리 집 강아지보다 더 작고 귀여운 꼬마 공룡이잖아!
+                </div>
+            </div>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
-        <img src="activity_image.webp" class="w-full">
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -233,8 +265,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">이심전심 (以心傳心)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">마음과 마음이 서로 통한다는 뜻이에요. 굳이 말로 다 하지 않아도 표정이나 몸짓을 보고 상대방이 어떤 기분인지 잘 이해하게 되는 것을 말해요.</p>
+                    <p class="text-3xl font-black text-slate-900">작은 고추가 맵다</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">고추는 크기가 작아도 아주 매운 것처럼, 겉보기에 몸집이 작아도 속은 아주 단단하고 용감하며 훌륭한 능력을 가졌을 때 쓰는 속담이에요.</p>
                 </div>
             </div>
         </footer>

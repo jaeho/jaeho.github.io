@@ -1,1 +1,1 @@
-window.ARCHIVE_DATES = ["2026-05-07"];
+window.ARCHIVE_DATES = ["2026-05-08"];

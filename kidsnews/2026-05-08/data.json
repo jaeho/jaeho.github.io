@@ -1,34 +1,37 @@
 {
   "page1": {
-    "headline": "강아지 크기의 귀여운 꼬마 공룡이 나타났어요!",
+    "headline": "안녕, 꼬마 공룡! '둘리사우루스'가 나타났어요",
     "article_body": [
-      "우리 친구들, 공룡이라고 하면 아파트처럼 커다란 모습이 먼저 떠오르지요? 그런데 스코틀랜드에서 아주 작고 귀여운 꼬마 공룡 화석이 새롭게 발견되었어요. 무려 1억 6천6백만 년 전에 살았던 공룡이랍니다.",
-      "이 공룡은 우리가 집에서 키우는 강아지 정도의 크기였어요. 커다란 나무 사이를 쪼르르 달려 다니며 맛있는 풀과 나뭇잎을 냠냠 먹는 초식 공룡이었지요. 무시무시한 거인 공룡들 사이에서 아주 용감하게 살았어요.",
-      "이렇게 작은 꼬마 공룡이 우리와 함께 지금 이 시대를 살아간다면 얼마나 재미있을까요? 공원에서 강아지 대신 귀여운 공룡과 함께 산책하는 모습을 한 번 상상해 보며, 오늘 하루도 즐겁고 신나게 보내길 바라요!"
+      "친구들, 우리나라의 섬 암태도에서 아주 작고 귀여운 새끼 공룡의 화석이 발견되었다는 소식이 있어요! 옛날 옛적 이 땅에 살았던 꼬마 공룡이 긴 잠에서 깨어나 우리에게 반갑게 인사를 건네고 있는 것만 같아요.",
+      "이 공룡의 이름은 우리나라의 유명한 만화 주인공 이름을 딴 '둘리사우루스'랍니다. 한국에서 무려 15년 만에 새롭게 찾아낸 공룡 종이라니 정말 자랑스럽죠? 이름만큼이나 무척 친근하고 반가운 우리의 새 친구랍니다.",
+      "특히 이번에는 공룡의 머리뼈 화석까지 온전하게 함께 발견되어서 과학적으로도 아주 소중한 보물이라고 해요. 우리 땅 곳곳에는 아직 우리가 모르는 어떤 신비한 옛날이야기가 숨어 있을지 다 함께 즐겁게 상상해 보아요."
     ],
-    "image_prompt": "Warm and realistic picture book illustration of a cute, dog-sized plant-eating dinosaur running among giant prehistoric trees, with a young kid explorer in a safari hat looking at it in awe, rich nature colors, soft lighting.",
-    "category_tag": "공룡탐험대",
-    "reference": "https://www.earth.com"
+    "image_prompt": "A warm and realistic picture book style illustration of a cute baby dinosaur looking friendly in nature, and a young curious explorer child looking at the baby dinosaur with wonder, soft lighting, vibrant colors.",
+    "category_tag": "공룡 이야기",
+    "reference": "https://www.ecoticias.com"
   },
-  "activity_type": "cartoon",
+  "activity_type": "ox_quiz",
   "word_info": {
     "word": "화석",
-    "definition": "아주 오랜 옛날에 살았던 동물이나 식물의 뼈나 발자국이 돌처럼 굳어져서 남아있는 것"
+    "definition": "아주 오랜 옛날에 살았던 동물이나 식물의 몸통, 또는 발자국 같은 흔적이 돌처럼 단단하게 굳어져 땅속에 남아있는 것을 말해요."
   },
   "hidden_word": {
-    "word": "강아지",
-    "mission": "우리 주변에서 멍멍 짖으며 꼬리를 살랑살랑 흔드는 아주 친근하고 귀여운 동물은 무엇일까요?"
+    "word": "보물",
+    "mission": "아주 귀하고 소중해서 잃어버리고 싶지 않은 가치 있는 것을 부르는 이 단어는 무엇일까요? 해적들이 상자 안에 가득 담아 섬에 몰래 숨겨두는 것이기도 해요!"
   },
-  "selected_category": "공룡탐험대",
-  "selected_topic": "강아지 크기의 꼬마 공룡 발견!",
+  "selected_category": "공룡 이야기",
+  "selected_topic": "한국에서 발견된 귀여운 새끼 공룡, 이름은 '둘리사우루스'!",
   "wisdom_pool_data": {
-    "text": "작은 고추가 맵다",
-    "description": "고추는 크기가 작아도 아주 매운 것처럼, 겉보기에 몸집이 작아도 속은 아주 단단하고 용감하며 훌륭한 능력을 가졌을 때 쓰는 속담이에요.",
-    "message": "무시무시한 거인 공룡들 사이에서도 씩씩하게 살았던 꼬마 공룡처럼, 우리 친구들도 아직 몸집은 작지만 어떤 일이든 용감하고 씩씩하게 해낼 수 있는 멋진 어린이가 되길 응원해요!"
+    "text": "온고지신",
+    "description": "옛것을 살펴보고 연구해서 새로운 지식을 알아낸다는 뜻의 사자성어예요. 아주 먼 옛날 땅속에 묻혀 있던 공룡의 뼈(옛것)를 열심히 연구해서 '둘리사우루스'라는 새로운 공룡 친구(새로운 것)를 찾아낸 것처럼 말이죠!",
+    "message": "우리 땅속에 숨겨져 있던 화석이 재미있는 옛날이야기를 들려주는 것 같지 않나요? 여러분도 호기심을 듬뿍 가지고 세상을 탐구하는 멋진 꼬마 과학자가 되어 보아요!"
   },
   "activity_data": {
-    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
-    "first_cut_dialogue": "바스락! 앗, 넌 누구니? 우리 집 강아지보다 더 작고 귀여운 꼬마 공룡이잖아!",
-    "image_prompt": "Black and white simple line art for kids, 강아지 크기의 귀여운 꼬마 공룡이 나타났어요! theme, the first scene of a story, a surprised and happy child discovering a cute tiny puppy-sized dinosaur with a leaf in its mouth popping out of a bush in a park, white background, thick lines, no shading"
+    "instruction": "기사의 내용을 바탕으로 다음 질문에 대해 맞으면 O, 틀리면 X를 고르세요.",
+    "items": [
+      "암태도에서 발견된 새끼 공룡의 이름은 우리나라 만화 주인공의 이름을 딴 '둘리사우루스'이다. (O/X)",
+      "이 공룡은 한국에서 15년 만에 새롭게 발견된 공룡 종이다. (O/X)",
+      "이번 발견에서는 머리뼈 화석이 온전하게 발견되지 않아 과학적 가치가 부족하다. (O/X)"
+    ]
   }
 }

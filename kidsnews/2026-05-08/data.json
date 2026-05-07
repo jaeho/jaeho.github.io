@@ -1,34 +1,48 @@
 {
   "page1": {
-    "headline": "화성으로 가는 슝슝 우주 지름길을 찾았어요!",
+    "headline": "마음의 감기를 치료하는 마법사, 심리 분석가",
     "article_body": [
-      "여러분, 우주선을 타고 먼 화성까지 가려면 과연 시간이 얼마나 걸릴까요? 보통은 무려 9개월이나 걸리는 아주 긴 여행이랍니다. 그런데 최근 우주 과학자들이 화성으로 훨씬 빨리 갈 수 있는 특별한 ‘우주 지름길’을 발견했어요!",
-      "이 지름길의 비밀은 바로 우주를 떠도는 거대한 바위인 ‘소행성’이랍니다. 2031년에 지구와 화성 사이를 휙 지나가는 소행성이 하나 있는데, 이것을 우주 기차처럼 타면 9개월 걸리던 여행을 153일 만에 갈 수 있다고 해요.",
-      "소행성을 타고 화성으로 쌩쌩 날아가는 우주여행이라니, 정말 놀랍고 신나는 상상이지 않나요? 머지않아 여러분이 직접 멋진 우주 탐험가가 되어 붉은 별 화성에 씩씩하게 첫발을 내디딜 날이 찾아올지도 몰라요!"
+      "마음에도 감기가 걸린다는 사실을 알고 있나요? 우리 마음이 아프거나 고민이 생겼을 때, 이야기를 들어주고 마음의 매듭을 풀어주는 전문가가 심리 분석가예요. 이들은 사람들이 왜 슬픈지 관찰하고 다시 행복해질 수 있는 방법을 함께 찾아준답니다.",
+      "심리 분석가는 상담이나 그림, 놀이 같은 여러 가지 방법을 사용해요. 말로 다 표현하지 못하는 속마음도 장난감이나 색깔을 통해 세심하게 읽어내지요. 눈에 보이지 않는 마음의 지도를 그려서 우리가 길을 잃지 않도록 돕는 길잡이 역할을 해요.",
+      "고민을 털어놓는 것만으로도 마음은 한결 가벼워진답니다. 분석가는 우리 모두가 자신을 사랑하고 당당하게 성장하도록 돕는 정원사예요. 만약 여러분의 소중한 친구가 오늘 시무룩하다면, 어떤 따뜻한 위로를 건네주고 싶나요?"
     ],
-    "image_prompt": "A warm and realistic picture book style illustration of a young child explorer wearing a cute space suit, sitting on a giant bumpy asteroid moving like a train through the starry space, pointing excitedly towards the red planet Mars in the distance.",
-    "category_tag": "우주탐험",
-    "reference": "https://www.vietnam.vn/ko/phat-hien-loi-tat-co-the-rut-ngan-hanh-trinh-den-sao-hoa-chi-con-153-ngay/"
+    "image_prompt": "A warm and cozy counseling room with soft pastel colors. A friendly psychological analyst is listening to a child, surrounded by soft toys and colorful drawing papers. Sunlight streaming through a window, gentle and peaceful illustration style.",
+    "category_tag": "오늘의 직업과 미래"
   },
-  "search_core_topic": "화성 탐사 지름길 소행성 발견",
-  "activity_type": "coloring",
+  "activity_type": "word_morphing",
   "word_info": {
-    "word": "소행성",
-    "definition": "우주 공간을 둥둥 떠다니는 바위 덩어리로, 행성보다는 훨씬 크기가 작은 천체를 말해요."
+    "word": "분석가",
+    "definition": "어떤 것을 아주 자세히 살펴보고 그 이유를 밝혀내는 사람을 말해요."
   },
   "hidden_word": {
-    "word": "지름길",
-    "mission": "목적지까지 원래 가야 하는 길보다 훨씬 짧고 빠르게 갈 수 있는 길을 뜻하는 이 세 글자 단어는 무엇일까요?"
+    "word": "마음",
+    "mission": "우리 몸속에 있지만 눈에는 보이지 않고, 기쁘거나 슬픈 느낌을 느끼게 하는 곳은 어디일까요?"
   },
-  "selected_category": "우주탐험",
-  "selected_topic": "화성까지 가는 우주 지름길을 찾았어요!",
+  "selected_topic": "사람들의 고민을 듣고 해결을 돕는 심리 분석가",
+  "selected_category": "오늘의 직업과 미래",
   "wisdom_pool_data": {
-    "text": "뜻이 있는 곳에 길이 있다",
-    "description": "이루고자 하는 간절한 목표(뜻)가 있다면, 그것을 해낼 수 있는 방법(길)은 반드시 찾아낼 수 있다는 속담이에요. 화성에 더 빨리 도착하고 싶다는 과학자들의 꿈이 결국 놀라운 '우주 지름길'을 찾아낸 것처럼 말이에요!",
-    "message": "과학자들이 포기하지 않고 멋진 우주 지름길을 찾아낸 것처럼, 여러분도 가슴속에 반짝이는 꿈을 가져보세요. 끈기 있게 생각하고 노력하다 보면 꼭 꿈을 이룰 수 있는 여러분만의 길을 발견하게 될 거예요!"
+    "text": "동고동락",
+    "description": "슬프고 힘든 일은 함께 나누고, 즐겁고 기쁜 일도 함께한다는 뜻이에요. 우리 마음의 고민을 함께 들어주고 도와주는 분들이 있다는 것을 알려준답니다.",
+    "message": "마음이 아프거나 고민이 생겼을 때 혼자 끙끙 앓지 않아도 괜찮아요. 심리 분석가 선생님처럼 여러분의 이야기를 들어줄 사람과 마음을 나누면, 슬픈 마음은 금방 사라지고 다시 행복해질 수 있을 거예요!"
   },
   "activity_data": {
-    "instruction": "우주선을 타고 화성으로 슝슝! 마법의 우주 지름길과 귀여운 우주선을 알록달록 예쁘게 색칠해보아요.",
-    "image_prompt": "Black and white simple line art for kids coloring book, a cute simple spaceship flying on a magical winding starry shortcut path towards the planet Mars, surrounded by simple stars and small planets, white background, thick lines, strictly no color, no shading, clean outlines, flat minimal design"
+    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
+    "items": [
+      {
+        "original_word": "감기",
+        "hint": "땅속에서 동글동글하게 자라며, 쪄서 먹거나 튀겨 먹으면 맛있는 채소예요.",
+        "target_word": "감자"
+      },
+      {
+        "original_word": "지도",
+        "hint": "보라색 알맹이가 송이송이 모여 있는 달콤하고 상큼한 여름 과일이에요.",
+        "target_word": "포도"
+      },
+      {
+        "original_word": "친구",
+        "hint": "발로 공을 뻥 차서 상대방의 골대에 넣는 아주 인기 있는 운동 경기예요.",
+        "target_word": "축구"
+      }
+    ]
   }
 }

@@ -1,47 +1,48 @@
 {
   "page1": {
-    "headline": "마음의 감기를 치료하는 마법사, 심리 분석가",
+    "headline": "마음의 감기를 치료하는 특별한 의사, 심리 분석가",
     "article_body": [
-      "마음에도 감기가 걸린다는 사실을 알고 있나요? 우리 마음이 아프거나 고민이 생겼을 때, 이야기를 들어주고 마음의 매듭을 풀어주는 전문가가 심리 분석가예요. 이들은 사람들이 왜 슬픈지 관찰하고 다시 행복해질 수 있는 방법을 함께 찾아준답니다.",
-      "심리 분석가는 상담이나 그림, 놀이 같은 여러 가지 방법을 사용해요. 말로 다 표현하지 못하는 속마음도 장난감이나 색깔을 통해 세심하게 읽어내지요. 눈에 보이지 않는 마음의 지도를 그려서 우리가 길을 잃지 않도록 돕는 길잡이 역할을 해요.",
-      "고민을 털어놓는 것만으로도 마음은 한결 가벼워진답니다. 분석가는 우리 모두가 자신을 사랑하고 당당하게 성장하도록 돕는 정원사예요. 만약 여러분의 소중한 친구가 오늘 시무룩하다면, 어떤 따뜻한 위로를 건네주고 싶나요?"
+      "우리 몸이 아프면 병원에 가는 것처럼 마음이 아플 때 찾아가는 특별한 선생님이 있어요. 바로 사람들의 고민을 듣고 해결을 돕는 심리 분석가랍니다. 이들은 꽁꽁 숨겨진 마음의 상처를 따뜻하게 안아줘요.",
+      "심리 분석가는 탐정처럼 대화나 그림을 통해 마음속 진짜 이야기를 찾아내요. 왜 슬픈 기분이 들었는지, 무엇이 나를 불안하게 했는지 원인을 꼼꼼히 알아보지요. 그리고 스스로 감정을 다스릴 수 있는 멋진 방법을 함께 고민한답니다.",
+      "마음속 감정은 눈에 보이지 않아서 나조차도 진짜 내 마음을 모를 때가 꽤 많아요. 그럴 때는 혼자 끙끙 앓지 말고 솔직하게 감정을 표현하는 것이 아주 중요해요. 여러분은 오늘 하루 어떤 기분을 느꼈는지 가족에게 이야기해 볼까요?"
     ],
-    "image_prompt": "A warm and cozy counseling room with soft pastel colors. A friendly psychological analyst is listening to a child, surrounded by soft toys and colorful drawing papers. Sunlight streaming through a window, gentle and peaceful illustration style.",
+    "image_prompt": "A warm pastel-toned illustration of a friendly psychoanalyst talking with a happy child in a cozy clinic room, soft colors, children's book style, joyful and comforting atmosphere",
     "category_tag": "오늘의 직업과 미래"
   },
-  "activity_type": "word_morphing",
+  "activity_type": "fact_opinion",
   "word_info": {
-    "word": "분석가",
-    "definition": "어떤 것을 아주 자세히 살펴보고 그 이유를 밝혀내는 사람을 말해요."
+    "word": "원인",
+    "definition": "어떤 일이 일어나게 된 진짜 이유를 말해요."
   },
   "hidden_word": {
-    "word": "마음",
-    "mission": "우리 몸속에 있지만 눈에는 보이지 않고, 기쁘거나 슬픈 느낌을 느끼게 하는 곳은 어디일까요?"
+    "word": "탐정",
+    "mission": "돋보기를 들고 숨겨진 단서나 비밀을 요리조리 찾아내는 사람을 무엇이라고 부를까요?"
   },
   "selected_topic": "사람들의 고민을 듣고 해결을 돕는 심리 분석가",
   "selected_category": "오늘의 직업과 미래",
   "wisdom_pool_data": {
-    "text": "동고동락",
-    "description": "슬프고 힘든 일은 함께 나누고, 즐겁고 기쁜 일도 함께한다는 뜻이에요. 우리 마음의 고민을 함께 들어주고 도와주는 분들이 있다는 것을 알려준답니다.",
-    "message": "마음이 아프거나 고민이 생겼을 때 혼자 끙끙 앓지 않아도 괜찮아요. 심리 분석가 선생님처럼 여러분의 이야기를 들어줄 사람과 마음을 나누면, 슬픈 마음은 금방 사라지고 다시 행복해질 수 있을 거예요!"
+    "text": "병은 자랑해야 낫는다",
+    "description": "몸이나 마음이 아플 때는 혼자서 숨기지 말고 주변 사람들에게 솔직하게 알려야 좋은 도움을 받고 빨리 나을 수 있다는 뜻의 속담이에요.",
+    "message": "마음이 슬프거나 불안할 때 혼자 끙끙 앓지 말고 가족이나 선생님께 이야기해 보세요. 내 마음을 꺼내어 솔직하게 표현하는 것만으로도 마음의 감기가 훌쩍 달아날 거예요!"
   },
   "activity_data": {
-    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
+    "title": "팩트 체크 탐정",
+    "instruction": "문장을 읽고 사실인지 의견인지 표시한 뒤, 그렇게 생각한 까닭을 짧게 써보세요.",
     "items": [
       {
-        "original_word": "감기",
-        "hint": "땅속에서 동글동글하게 자라며, 쪄서 먹거나 튀겨 먹으면 맛있는 채소예요.",
-        "target_word": "감자"
+        "statement": "심리 분석가는 대화나 그림을 통해서 사람들이 왜 슬프고 불안한지 원인을 알아본다.",
+        "answer": "사실",
+        "reason_hint": "심리 분석가라는 직업이 사람의 마음을 알아보기 위해 실제로 어떤 일을 하고 있는지 설명한 것인지 생각해 보세요."
       },
       {
-        "original_word": "지도",
-        "hint": "보라색 알맹이가 송이송이 모여 있는 달콤하고 상큼한 여름 과일이에요.",
-        "target_word": "포도"
+        "statement": "내 진짜 마음을 모를 때는 혼자 끙끙 앓지 말고 감정을 솔직하게 표현하는 것이 중요하다.",
+        "answer": "의견",
+        "reason_hint": "글쓴이가 독자들에게 어떻게 행동하는 것이 더 좋다고 자신의 생각이나 주장을 나타낸 것인지 살펴보세요."
       },
       {
-        "original_word": "친구",
-        "hint": "발로 공을 뻥 차서 상대방의 골대에 넣는 아주 인기 있는 운동 경기예요.",
-        "target_word": "축구"
+        "statement": "심리 분석가와 함께 스스로 감정을 다스릴 수 있는 방법을 찾는 것은 아주 멋진 일이다.",
+        "answer": "의견",
+        "reason_hint": "'멋지다'라는 표현이 누가 보아도 변하지 않는 사실인지, 아니면 사람마다 다르게 느낄 수 있는 생각인지 떠올려 보세요."
       }
     ]
   }

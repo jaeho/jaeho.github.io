@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <title>씨앗 어린이 신문 - 팩트 체크 탐정</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -210,90 +210,87 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">팩트 체크 탐정</h2>
         
 
         <main class="flex-1 overflow-hidden">
             <div class="flex flex-col gap-4 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">✨ 원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!</p>
-    
-    <div class="flex-1 flex flex-col justify-evenly gap-3 py-2 pl-3">
+    <p class="text-xl font-bold text-slate-800 leading-tight">🔎 문장을 읽고 사실인지 의견인지 표시한 뒤, 그렇게 생각한 까닭을 짧게 써보세요.</p>
+
+    <div class="flex-1 grid grid-cols-1 gap-3">
         
-        <div class="bg-amber-50 rounded-2xl p-4 border-2 border-amber-200 flex flex-col gap-2 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-amber-400 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                1
-            </div>
-            
-            <p class="text-lg font-bold text-slate-700 pl-4">
-                <span class="text-amber-600 bg-amber-100 px-2 py-0.5 rounded-lg mr-1">'감기'</span>의 한 글자를 바꾸면?
-            </p>
-            
-            <p class="text-lg font-black text-slate-800 mb-1 leading-snug pl-4">
-                💡 땅속에서 동글동글하게 자라며, 쪄서 먹거나 튀겨 먹으면 맛있는 채소예요.
-            </p>
-            
-            <div class="flex justify-end gap-2 mt-auto">
-                
-                <div class="w-12 h-12 bg-white border-[3px] border-dashed border-slate-300 rounded-xl flex items-center justify-center text-2xl font-black text-slate-200 shadow-inner">
-                    ?
+        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm">
+            <div class="flex gap-3 items-start">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shrink-0">
+                    1
                 </div>
-                
-                <div class="w-12 h-12 bg-white border-[3px] border-dashed border-slate-300 rounded-xl flex items-center justify-center text-2xl font-black text-slate-200 shadow-inner">
-                    ?
+                <div class="flex-1 min-w-0">
+                    <p class="text-lg font-black text-slate-800 leading-snug break-keep">심리 분석가는 대화나 그림을 통해서 사람들이 왜 슬프고 불안한지 원인을 알아본다.</p>
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="border-2 border-blue-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-blue-50">
+                            <div class="w-5 h-5 rounded border-2 border-blue-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-blue-700">사실</span>
+                        </div>
+                        <div class="border-2 border-amber-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-amber-50">
+                            <div class="w-5 h-5 rounded border-2 border-amber-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-amber-700">의견</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center gap-2">
+                        <span class="text-sm font-black text-slate-400 shrink-0">까닭</span>
+                        <div class="h-7 flex-1 border-b-2 border-dashed border-slate-300"></div>
+                    </div>
                 </div>
-                
             </div>
         </div>
         
-        <div class="bg-amber-50 rounded-2xl p-4 border-2 border-amber-200 flex flex-col gap-2 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-amber-400 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                2
-            </div>
-            
-            <p class="text-lg font-bold text-slate-700 pl-4">
-                <span class="text-amber-600 bg-amber-100 px-2 py-0.5 rounded-lg mr-1">'지도'</span>의 한 글자를 바꾸면?
-            </p>
-            
-            <p class="text-lg font-black text-slate-800 mb-1 leading-snug pl-4">
-                💡 보라색 알맹이가 송이송이 모여 있는 달콤하고 상큼한 여름 과일이에요.
-            </p>
-            
-            <div class="flex justify-end gap-2 mt-auto">
-                
-                <div class="w-12 h-12 bg-white border-[3px] border-dashed border-slate-300 rounded-xl flex items-center justify-center text-2xl font-black text-slate-200 shadow-inner">
-                    ?
+        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm">
+            <div class="flex gap-3 items-start">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shrink-0">
+                    2
                 </div>
-                
-                <div class="w-12 h-12 bg-white border-[3px] border-dashed border-slate-300 rounded-xl flex items-center justify-center text-2xl font-black text-slate-200 shadow-inner">
-                    ?
+                <div class="flex-1 min-w-0">
+                    <p class="text-lg font-black text-slate-800 leading-snug break-keep">내 진짜 마음을 모를 때는 혼자 끙끙 앓지 말고 감정을 솔직하게 표현하는 것이 중요하다.</p>
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="border-2 border-blue-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-blue-50">
+                            <div class="w-5 h-5 rounded border-2 border-blue-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-blue-700">사실</span>
+                        </div>
+                        <div class="border-2 border-amber-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-amber-50">
+                            <div class="w-5 h-5 rounded border-2 border-amber-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-amber-700">의견</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center gap-2">
+                        <span class="text-sm font-black text-slate-400 shrink-0">까닭</span>
+                        <div class="h-7 flex-1 border-b-2 border-dashed border-slate-300"></div>
+                    </div>
                 </div>
-                
             </div>
         </div>
         
-        <div class="bg-amber-50 rounded-2xl p-4 border-2 border-amber-200 flex flex-col gap-2 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-amber-400 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                3
-            </div>
-            
-            <p class="text-lg font-bold text-slate-700 pl-4">
-                <span class="text-amber-600 bg-amber-100 px-2 py-0.5 rounded-lg mr-1">'친구'</span>의 한 글자를 바꾸면?
-            </p>
-            
-            <p class="text-lg font-black text-slate-800 mb-1 leading-snug pl-4">
-                💡 발로 공을 뻥 차서 상대방의 골대에 넣는 아주 인기 있는 운동 경기예요.
-            </p>
-            
-            <div class="flex justify-end gap-2 mt-auto">
-                
-                <div class="w-12 h-12 bg-white border-[3px] border-dashed border-slate-300 rounded-xl flex items-center justify-center text-2xl font-black text-slate-200 shadow-inner">
-                    ?
+        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm">
+            <div class="flex gap-3 items-start">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shrink-0">
+                    3
                 </div>
-                
-                <div class="w-12 h-12 bg-white border-[3px] border-dashed border-slate-300 rounded-xl flex items-center justify-center text-2xl font-black text-slate-200 shadow-inner">
-                    ?
+                <div class="flex-1 min-w-0">
+                    <p class="text-lg font-black text-slate-800 leading-snug break-keep">심리 분석가와 함께 스스로 감정을 다스릴 수 있는 방법을 찾는 것은 아주 멋진 일이다.</p>
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="border-2 border-blue-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-blue-50">
+                            <div class="w-5 h-5 rounded border-2 border-blue-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-blue-700">사실</span>
+                        </div>
+                        <div class="border-2 border-amber-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-amber-50">
+                            <div class="w-5 h-5 rounded border-2 border-amber-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-amber-700">의견</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center gap-2">
+                        <span class="text-sm font-black text-slate-400 shrink-0">까닭</span>
+                        <div class="h-7 flex-1 border-b-2 border-dashed border-slate-300"></div>
+                    </div>
                 </div>
-                
             </div>
         </div>
         
@@ -308,8 +305,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">동고동락</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">슬프고 힘든 일은 함께 나누고, 즐겁고 기쁜 일도 함께한다는 뜻이에요. 우리 마음의 고민을 함께 들어주고 도와주는 분들이 있다는 것을 알려준답니다.</p>
+                    <p class="text-3xl font-black text-slate-900">병은 자랑해야 낫는다</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">몸이나 마음이 아플 때는 혼자서 숨기지 말고 주변 사람들에게 솔직하게 알려야 좋은 도움을 받고 빨리 나을 수 있다는 뜻의 속담이에요.</p>
                 </div>
             </div>
         </footer>

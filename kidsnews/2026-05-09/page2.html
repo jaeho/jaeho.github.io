@@ -230,8 +230,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -249,59 +249,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-8">
-    <p class="text-2xl font-bold text-gray-800 italic">✏️ 기사 내용을 바탕으로 주요 단어의 초성을 맞춰보세요.</p>
-    <div class="space-y-10">
-        
-        <div class="flex flex-col gap-4">
-            <p class="text-xl font-bold text-gray-600">"서로 다른 점을 부르는 말로, 틀린 것이 아니라 단지 다를 뿐이라는 것을 의미해요."</p>
-            <div class="flex gap-3">
-                
-                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
-                    ㅊ
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
+
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    우와, 이게 뭐지? 전남 신안군으로 탐험을 왔다가 이상한 돌을 발견했어! 어? 돌에 작은 깃털 무늬가 있잖아?!
                 </div>
-                
-                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
-                    ㅇ
+            </div>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
                 </div>
-                
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
             </div>
         </div>
-        
-        <div class="flex flex-col gap-4">
-            <p class="text-xl font-bold text-gray-600">"친구의 특별한 점을 귀하게 여기고 인정해 주는 마음을 뜻해요."</p>
-            <div class="flex gap-3">
-                
-                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
-                    ㅈ
-                </div>
-                
-                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
-                    ㅈ
-                </div>
-                
-            </div>
-        </div>
-        
-        <div class="flex flex-col gap-4">
-            <p class="text-xl font-bold text-gray-600">"친구마다 가지고 있는 고유하고 특별한 성격이나 특징을 말해요."</p>
-            <div class="flex gap-3">
-                
-                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
-                    ㄱ
-                </div>
-                
-                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
-                    ㅅ
-                </div>
-                
-            </div>
-        </div>
-        
+    </div>
+
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -313,8 +304,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">십인십색(十人十色)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">열 명의 사람이 있으면 열 가지의 색깔이 있다는 뜻으로, 사람마다 생김새나 성격, 생각이 모두 제각각 다르다는 말이에요.</p>
+                    <p class="text-3xl font-black text-slate-900">온고지신 (溫故知新)</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">'옛것을 살펴서 새로운 지식을 얻는다'는 뜻의 사자성어예요. 1억 년 전의 아주 오래된 공룡 알 화석(옛것)을 연구해서 무서운 공룡이 어떻게 예쁜 새로 변했는지(새로운 사실)를 알아내는 기사 내용과 딱 맞아요.</p>
                 </div>
             </div>
         </footer>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 나도 꼬마 기자: 5W1H 비밀 노트</title>
+    <title>씨앗 어린이 신문 - 유리개구리 꼬마 기자 노트</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -177,7 +177,42 @@ body {
     font-weight: bold;
     text-align: center;
     border-top: 2px solid #1e293b;
-}</style>
+}
+
+.reporter-note-card,
+.reporter-note-card * {
+    min-width: 0;
+}
+
+.reporter-note-instruction,
+.reporter-note-hint,
+.reporter-note-question,
+.reporter-note-summary p,
+.wisdom-description-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.reporter-note-instruction {
+    -webkit-line-clamp: 2;
+}
+
+.reporter-note-hint,
+.reporter-note-question,
+.wisdom-description-clamp {
+    -webkit-line-clamp: 2;
+}
+
+.reporter-note-summary p {
+    -webkit-line-clamp: 1;
+}
+
+.compact-wisdom {
+    border-radius: 16px;
+    padding: 10px;
+}
+</style>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
@@ -191,8 +226,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-primary/10 pb-4">
+    <div class="paper flex flex-col gap-3">
+        <header class="flex items-center justify-between border-b border-primary/10 pb-2">
             <div class="flex items-center gap-3">
                 <div class="header-eco-icon">
                     <span class="material-symbols-rounded">eco</span>
@@ -210,87 +245,87 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">나도 꼬마 기자: 5W1H 비밀 노트</h2>
+        <h2 class="text-2xl font-extrabold text-slate-900 tracking-tight">유리개구리 꼬마 기자 노트</h2>
         
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-4 h-full">
-    <p class="text-xl font-bold text-slate-800 leading-tight">📝 기자가 된 것처럼 기사를 꼼꼼히 읽고, 숲속 작은 영웅의 이야기를 5W1H 노트에 정리해 보세요. 그리고 나의 생각도 함께 적어보아요!</p>
+            <div class="reporter-note flex flex-col gap-3 h-full overflow-hidden">
+    <p class="reporter-note-instruction text-lg font-bold text-slate-800 leading-tight">📝 기자가 되어 유리개구리 기사에서 중요한 정보를 찾아보세요.</p>
 
-    <div class="grid grid-cols-2 gap-3">
+    <div class="grid grid-cols-2 gap-2">
         
-        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm min-h-[116px]">
-            <div class="flex items-center gap-2 mb-2">
-                <span class="px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-sm font-black">누가</span>
-                <p class="text-sm font-bold text-slate-500 leading-tight">제목과 기사 첫 부분에서 몸이 투명한 친구의 이름을 찾아보세요.</p>
+        <div class="reporter-note-card bg-white border-2 border-slate-200 rounded-xl p-3 shadow-sm h-[112px] overflow-hidden">
+            <div class="flex items-start gap-2 mb-1.5 min-w-0">
+                <span class="shrink-0 px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-xs font-black">누가</span>
+                <p class="reporter-note-hint text-xs font-bold text-slate-500 leading-tight min-w-0">제목이나 첫 문장을 읽어보세요.</p>
             </div>
-            <p class="text-base font-black text-slate-800 leading-snug break-keep">이 기사에서 우리에게 놀라움과 감동을 주는 숲속의 작은 영웅은 누구인가요?</p>
-            <div class="mt-3 h-8 border-b-2 border-dashed border-slate-300"></div>
+            <p class="reporter-note-question text-sm font-black text-slate-800 leading-snug break-keep">기사에서 소개하는 투명하고 용감한 주인공은 누구인가요?</p>
+            <div class="mt-2 h-6 border-b-2 border-dashed border-slate-300"></div>
         </div>
         
-        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm min-h-[116px]">
-            <div class="flex items-center gap-2 mb-2">
-                <span class="px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-sm font-black">언제</span>
-                <p class="text-sm font-bold text-slate-500 leading-tight">가장 소중한 알을 노리고 무서운 불청객이 다가오는 순간을 기사에서 찾아보세요.</p>
+        <div class="reporter-note-card bg-white border-2 border-slate-200 rounded-xl p-3 shadow-sm h-[112px] overflow-hidden">
+            <div class="flex items-start gap-2 mb-1.5 min-w-0">
+                <span class="shrink-0 px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-xs font-black">언제</span>
+                <p class="reporter-note-hint text-xs font-bold text-slate-500 leading-tight min-w-0">커다란 곤충이 다가오는 부분을 봐요.</p>
             </div>
-            <p class="text-base font-black text-slate-800 leading-snug break-keep">아빠 개구리의 진짜 용기가 번쩍하고 빛나는 때는 언제인가요?</p>
-            <div class="mt-3 h-8 border-b-2 border-dashed border-slate-300"></div>
+            <p class="reporter-note-question text-sm font-black text-slate-800 leading-snug break-keep">아빠 개구리가 적과 맞서 싸우는 때는 언제인가요?</p>
+            <div class="mt-2 h-6 border-b-2 border-dashed border-slate-300"></div>
         </div>
         
-        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm min-h-[116px]">
-            <div class="flex items-center gap-2 mb-2">
-                <span class="px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-sm font-black">어디서</span>
-                <p class="text-sm font-bold text-slate-500 leading-tight">기사 맨 처음 부분에서 나라 이름과 장소를 나타내는 단어를 찾아보세요.</p>
+        <div class="reporter-note-card bg-white border-2 border-slate-200 rounded-xl p-3 shadow-sm h-[112px] overflow-hidden">
+            <div class="flex items-start gap-2 mb-1.5 min-w-0">
+                <span class="shrink-0 px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-xs font-black">어디서</span>
+                <p class="reporter-note-hint text-xs font-bold text-slate-500 leading-tight min-w-0">기사의 맨 처음 부분을 살펴보세요.</p>
             </div>
-            <p class="text-base font-black text-slate-800 leading-snug break-keep">이 신기하고 용감한 주인공은 어디에서 살고 있나요?</p>
-            <div class="mt-3 h-8 border-b-2 border-dashed border-slate-300"></div>
+            <p class="reporter-note-question text-sm font-black text-slate-800 leading-snug break-keep">신기한 투명 개구리가 발견된 장소는 어디인가요?</p>
+            <div class="mt-2 h-6 border-b-2 border-dashed border-slate-300"></div>
         </div>
         
-        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm min-h-[116px]">
-            <div class="flex items-center gap-2 mb-2">
-                <span class="px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-sm font-black">무엇을</span>
-                <p class="text-sm font-bold text-slate-500 leading-tight">커다란 말벌이 다가올 때 도망치는 대신 어떤 멋진 기술을 썼는지 읽어보세요.</p>
+        <div class="reporter-note-card bg-white border-2 border-slate-200 rounded-xl p-3 shadow-sm h-[112px] overflow-hidden">
+            <div class="flex items-start gap-2 mb-1.5 min-w-0">
+                <span class="shrink-0 px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-xs font-black">무엇을</span>
+                <p class="reporter-note-hint text-xs font-bold text-slate-500 leading-tight min-w-0">아빠가 보호하는 소중한 것을 찾아요.</p>
             </div>
-            <p class="text-base font-black text-slate-800 leading-snug break-keep">아빠 개구리는 소중한 가족을 지키기 위해 무서운 적에게 무엇을 했나요?</p>
-            <div class="mt-3 h-8 border-b-2 border-dashed border-slate-300"></div>
+            <p class="reporter-note-question text-sm font-black text-slate-800 leading-snug break-keep">기사 속 아빠 개구리는 끝까지 무엇을 지켜내나요?</p>
+            <div class="mt-2 h-6 border-b-2 border-dashed border-slate-300"></div>
         </div>
         
-        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm min-h-[116px]">
-            <div class="flex items-center gap-2 mb-2">
-                <span class="px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-sm font-black">왜</span>
-                <p class="text-sm font-bold text-slate-500 leading-tight">아빠 개구리의 마음속에 무엇이 가득할지 상상하며 읽어보세요.</p>
+        <div class="reporter-note-card bg-white border-2 border-slate-200 rounded-xl p-3 shadow-sm h-[112px] overflow-hidden">
+            <div class="flex items-start gap-2 mb-1.5 min-w-0">
+                <span class="shrink-0 px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-xs font-black">왜</span>
+                <p class="reporter-note-hint text-xs font-bold text-slate-500 leading-tight min-w-0">무서운 적과 관련된 문장을 읽어보세요.</p>
             </div>
-            <p class="text-base font-black text-slate-800 leading-snug break-keep">아빠 개구리는 무서운 적이 나타나도 왜 도망가지 않았을까요?</p>
-            <div class="mt-3 h-8 border-b-2 border-dashed border-slate-300"></div>
+            <p class="reporter-note-question text-sm font-black text-slate-800 leading-snug break-keep">개구리는 왜 피를 숨겨서 몸을 더 투명하게 만드나요?</p>
+            <div class="mt-2 h-6 border-b-2 border-dashed border-slate-300"></div>
         </div>
         
-        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm min-h-[116px]">
-            <div class="flex items-center gap-2 mb-2">
-                <span class="px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-sm font-black">어떻게</span>
-                <p class="text-sm font-bold text-slate-500 leading-tight">기사에서 우리 친구들에게 바라는 점을 읽고, 나의 다짐을 적어보세요.</p>
+        <div class="reporter-note-card bg-white border-2 border-slate-200 rounded-xl p-3 shadow-sm h-[112px] overflow-hidden">
+            <div class="flex items-start gap-2 mb-1.5 min-w-0">
+                <span class="shrink-0 px-2 py-1 rounded-md bg-emerald-100 text-emerald-700 text-xs font-black">어떻게</span>
+                <p class="reporter-note-hint text-xs font-bold text-slate-500 leading-tight min-w-0">아빠가 다리로 하는 행동을 찾아보세요.</p>
             </div>
-            <p class="text-base font-black text-slate-800 leading-snug break-keep">우리는 겉모습이 작거나 약해도 어떻게 마음을 가꾸며 살아야 할까요?</p>
-            <div class="mt-3 h-8 border-b-2 border-dashed border-slate-300"></div>
+            <p class="reporter-note-question text-sm font-black text-slate-800 leading-snug break-keep">아빠 개구리는 어떻게 커다란 말벌을 물리치나요?</p>
+            <div class="mt-2 h-6 border-b-2 border-dashed border-slate-300"></div>
         </div>
         
     </div>
 
-    <div class="bg-amber-50 border-2 border-amber-200 rounded-xl p-4 mt-auto">
-        <p class="text-base font-black text-amber-700 mb-2">유리개구리의 멋진 모습과 내가 배운 점을 합쳐서, 기사 내용을 딱 한 문장으로 요약해보세요.</p>
-        <div class="h-9 border-b-2 border-dashed border-amber-300"></div>
+    <div class="reporter-note-summary bg-amber-50 border-2 border-amber-200 rounded-xl p-3 mt-auto overflow-hidden">
+        <p class="text-sm font-black text-amber-700 mb-2 leading-tight">5W1H 노트를 바탕으로 기사를 한 줄로 요약해보세요.</p>
+        <div class="h-7 border-b-2 border-dashed border-amber-300"></div>
     </div>
 </div>
         </main>
 
         <footer class="mt-auto">
-            <div class="card-blue">
+            <div class="card-blue compact-wisdom">
                 <div class="flex items-center gap-2 mb-2 text-blue-600">
                     <span class="material-symbols-rounded text-sm">lightbulb</span>
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">작은 고추가 맵다</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">고추의 크기는 작아도 맛은 훨씬 매운 것처럼, 겉모습이 작고 약해 보여도 실제로는 아주 큰 힘과 단단한 마음을 가지고 있다는 뜻의 속담이에요.</p>
+                    <p class="text-2xl font-black text-slate-900">작은 고추가 맵다</p>
+                    <p class="text-sm wisdom-description-clamp font-bold text-blue-700/80 leading-snug">고추의 크기는 작아도 맛은 훨씬 매운 것처럼, 겉모습이 작고 약해 보여도 실제로는 아주 큰 힘과 단단한 마음을 가지고 있다는 뜻의 속담이에요.</p>
                 </div>
             </div>
         </footer>

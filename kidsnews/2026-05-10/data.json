@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "은하수를 건너는 특별한 배달부, 우주 집배원 이야기",
+    "article_body": [
+      "머나먼 우주에는 별 사이를 누비며 편지를 전하는 '우주 집배원'이 있어요. 이들은 로켓을 타고 여러 행성을 부지런히 방문하지요. 외계인 친구들에게 소식을 전하는 아주 특별한 일을 한답니다. 이들은 반짝이는 별가루를 연료로 쓰며 매일 신나는 우주 모험을 떠나요.",
+      "우주 배달은 쉽지 않아요. 쏟아지는 유성우를 피해야 하고 중력이 없는 곳에서는 몸이 둥둥 떠올라 편지를 꽉 잡아야 하거든요. 그래도 편지를 받은 친구가 기뻐하는 모습을 보면 힘든 마음이 사라져요. 집배원들은 밝게 웃으며 다음 목적지로 힘차게 날아갑니다.",
+      "여러분이 우주 집배원이 된다면 누구에게 편지를 전해주고 싶나요? 우주 너머 어딘가에서 누군가 여러분의 이야기를 기다리고 있을지 몰라요. 오늘 밤에는 창밖의 별을 바라보며 소중한 사람에게 전하고 싶은 다정한 마음을 한 번 떠올려 보세요."
+    ],
+    "image_prompt": "A friendly astronaut mailman riding a small rocket across a pastel-colored galaxy, delivering letters to cute aliens on different planets, soft warm lighting, whimsical and imaginative illustration style for kids.",
+    "category_tag": "오늘의 지혜"
+  },
+  "age_group": "8-10",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "중력",
+    "definition": "지구가 물체를 아래로 끌어당기는 힘이에요. 우주에서는 이 힘이 약해서 몸이 둥둥 떠다녀요."
+  },
+  "hidden_word": {
+    "word": "로켓",
+    "mission": "하늘 높이 솟구쳐 우주로 날아가는 아주 빠른 탈것은 무엇일까요?"
+  },
+  "selected_topic": "우리 아이들이 좋아할 만한 아주 흥미로운 이야기",
+  "selected_category": "오늘의 지혜",
+  "wisdom_pool_data": {
+    "text": "이심전심(以心傳心)",
+    "description": "말을 하지 않아도 마음에서 마음으로 내 정성과 생각이 전달되는 것을 뜻해요. 정성껏 쓴 편지처럼 말이에요!",
+    "message": "우주 집배원 아저씨가 유성우를 뚫고 소중한 편지를 배달하듯, 우리 친구의 따뜻한 진심도 우주 너머 누군가에게 꼭 닿을 거예요. 오늘 밤엔 소중한 사람을 떠올리며 다정한 마음을 가져보세요!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 느낀 점을 담아 짧은 편지를 완성해보세요!",
+    "receiver": "은하수를 누비는 용감한 우주 집배원님께",
+    "greeting": "안녕하세요! 별가루 연료를 채우고 신나게 우주를 여행하는 당신의 이야기를 읽고 정말 감동받았어요.",
+    "guide_text": "유성우를 뚫고 소중한 마음을 전하는 집배원님을 보니, 저도 누군가에게 전하고 싶은 이야기가 생겼어요. 제가 전하고 싶은 마음은..."
+  }
+}

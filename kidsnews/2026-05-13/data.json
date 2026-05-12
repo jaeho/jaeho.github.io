@@ -1,0 +1,36 @@
+{
+  "page1": {
+    "headline": "아픈 문화유산을 고치는 마법사, 보존 과학자!",
+    "article_body": [
+      "오랜 시간이 흐른 조상들의 보물인 문화유산은 아프거나 부서지기도 해요. 이때 나타나는 영웅이 '보존 과학자'예요. 이분들은 유물을 고치는 의사 선생님 같답니다. 첨단 기계로 상태를 꼼꼼히 살피고, 다친 곳을 확인하며 소중한 보물을 정성껏 치료해 주지요.",
+      "보존 과학자들은 돋보기나 엑스레이로 보이지 않는 안쪽까지 들여다봐요. 흙을 조심스레 털어내고, 특수한 약품을 발라 부서진 곳을 튼튼하게 붙여요. 옛 모습을 되살리기 위해 역사 공부도 열심히 한답니다. 한 조각도 잃지 않도록 세심하게 관찰하며 매일 정성을 다해 연구해요.",
+      "이들의 손길 덕분에 우리는 수천 년 전 조상들의 지혜를 생생하게 만날 수 있어요. 작은 흔적 하나로 과거 이야기를 들려주는 유산은 신비로운 보물지도 같아요. 여러분이 유물을 치료하는 과학자가 된다면, 어떤 보물을 지켜주고 싶나요? 소중한 우리 유산을 아끼는 마음을 가져보아요."
+    ],
+    "image_prompt": "A bright, warm pastel-toned illustration of a friendly scientist wearing a white lab coat, carefully using a soft small brush to clean a shiny ancient golden crown. The laboratory is clean and filled with magnifying glasses and old scrolls. Soft sunlight is coming through the window.",
+    "category_tag": "오늘의 역사·인물 깊이읽기"
+  },
+  "age_group": "8-10",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "보존",
+    "definition": "물건이나 상태가 변하지 않도록 잘 보호하여 그대로 간직하는 것"
+  },
+  "hidden_word": {
+    "word": "문화유산",
+    "definition": "조상들이 물려준 소중한 보물을 말해요.",
+    "mission": "우리 조상들이 남겨준 소중한 물건이나 지혜를 네 글자로 무엇이라고 부를까요?"
+  },
+  "selected_topic": "문화유산을 지키는 보존 과학자는 어떤 일을 할까요?",
+  "selected_category": "오늘의 역사·인물 깊이읽기",
+  "wisdom_pool_data": {
+    "text": "온고지신(溫故知新)",
+    "description": "옛것을 정성스럽게 배우고 익혀서 그 바탕으로 새로운 것을 깨닫는다는 뜻이에요. 조상님들의 보물을 고치고 연구해서 오늘날 우리에게 소중한 지혜를 들려주는 보존 과학자의 모습과 잘 어울리는 말이에요.",
+    "message": "아픈 유물을 정성껏 치료하는 과학자 선생님들처럼, 우리 친구도 조상님들의 흔적을 소중히 아끼고 배우며 과거와 미래를 이어주는 지혜로운 어린이가 되길 응원할게요!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 느낀 점을 담아 짧은 편지를 완성해보세요!",
+    "receiver": "아픈 유물을 정성껏 치료하는 보존 과학자님께",
+    "greeting": "안녕하세요! 보이지 않는 곳까지 세심하게 살펴 유물을 고쳐주시는 과학자님의 이야기를 읽고 큰 감동을 받았어요.",
+    "guide_text": "제가 만약 과학자님처럼 보존 과학자가 되어 소중한 우리 유물을 치료하게 된다면 지켜주고 싶은 보물은..."
+  }
+}

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <title>씨앗 어린이 신문 - 팩트 체크 탐정</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -249,32 +249,90 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">오늘의 활동</h2>
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">팩트 체크 탐정</h2>
         
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">💌 기사를 읽고 느낀 점을 담아 짧은 편지를 완성해보세요!</p>
+            <div class="flex flex-col gap-4 h-full">
+    <p class="text-xl font-bold text-slate-800 leading-tight">🔎 문장을 읽고 사실인지 의견인지 표시한 뒤, 그렇게 생각한 까닭을 짧게 써보세요.</p>
 
-    <div class="flex-1 flex flex-col items-center justify-center py-2 h-full w-full relative">
-        <!-- 편지 봉투 귀여운 디자인 요소 추가 가능 -->
-        <div class="bg-[#fdfbf7] rounded-sm shadow-md border border-slate-200 p-8 md:p-10 w-full max-w-2xl relative overflow-hidden" 
-             style="background-image: repeating-linear-gradient(transparent, transparent 49px, #cbd5e1 49px, #cbd5e1 50px); background-position: 0 35px; min-height: 400px;">
-            <p class="text-2xl font-bold text-slate-800 leading-[50px]">To. <span class="bg-blue-100 px-2 rounded-md">아픈 유물을 정성껏 치료하는 보존 과학자님께</span></p>
-            <p class="text-xl font-bold text-slate-700 leading-[50px] pl-2 whitespace-normal break-keep">
-                안녕하세요! 보이지 않는 곳까지 세심하게 살펴 유물을 고쳐주시는 과학자님의 이야기를 읽고 큰 감동을 받았어요.
-            </p>
-            <p class="text-xl font-bold text-blue-400 leading-[50px] pl-2">
-                제가 만약 과학자님처럼 보존 과학자가 되어 소중한 우리 유물을 치료하게 된다면 지켜주고 싶은 보물은...
-            </p>
-            <!-- Blank lines for kids to write on -->
-            <div class="h-[50px]"></div>
-            <div class="h-[50px]"></div>
-            
-            <p class="text-xl font-bold text-slate-800 leading-[50px] text-right mt-4">
-                From. <span class="inline-block w-32 border-b-2 border-slate-400 border-dashed"></span>
-            </p>
+    <div class="flex-1 grid grid-cols-1 gap-3">
+        
+        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm">
+            <div class="flex gap-3 items-start">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shrink-0">
+                    1
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-lg font-black text-slate-800 leading-snug break-keep">지구에서는 중력 때문에 세포가 바닥으로 가라앉아, 우주에서보다 인공 심장 같은 입체 모양을 만들기 어렵다.</p>
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="border-2 border-blue-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-blue-50">
+                            <div class="w-5 h-5 rounded border-2 border-blue-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-blue-700">사실</span>
+                        </div>
+                        <div class="border-2 border-amber-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-amber-50">
+                            <div class="w-5 h-5 rounded border-2 border-amber-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-amber-700">의견</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center gap-2">
+                        <span class="text-sm font-black text-slate-400 shrink-0">까닭</span>
+                        <div class="h-7 flex-1 border-b-2 border-dashed border-slate-300"></div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm">
+            <div class="flex gap-3 items-start">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shrink-0">
+                    2
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-lg font-black text-slate-800 leading-snug break-keep">깜깜한 우주에서 생명을 살리는 따뜻한 희망인 인공 심장 조직을 만들어낸 것은 정말 멋지고 놀라운 일이다.</p>
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="border-2 border-blue-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-blue-50">
+                            <div class="w-5 h-5 rounded border-2 border-blue-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-blue-700">사실</span>
+                        </div>
+                        <div class="border-2 border-amber-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-amber-50">
+                            <div class="w-5 h-5 rounded border-2 border-amber-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-amber-700">의견</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center gap-2">
+                        <span class="text-sm font-black text-slate-400 shrink-0">까닭</span>
+                        <div class="h-7 flex-1 border-b-2 border-dashed border-slate-300"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white border-2 border-slate-200 rounded-xl p-4 shadow-sm">
+            <div class="flex gap-3 items-start">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shrink-0">
+                    3
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-lg font-black text-slate-800 leading-snug break-keep">우리나라 연구팀은 3D 프린터가 들어 있는 특별한 상자를 우주로 보내 인공 심장 조직을 만드는 데 성공했다.</p>
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="border-2 border-blue-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-blue-50">
+                            <div class="w-5 h-5 rounded border-2 border-blue-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-blue-700">사실</span>
+                        </div>
+                        <div class="border-2 border-amber-300 rounded-lg px-3 py-2 flex items-center gap-2 bg-amber-50">
+                            <div class="w-5 h-5 rounded border-2 border-amber-400 bg-white shrink-0"></div>
+                            <span class="text-base font-black text-amber-700">의견</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center gap-2">
+                        <span class="text-sm font-black text-slate-400 shrink-0">까닭</span>
+                        <div class="h-7 flex-1 border-b-2 border-dashed border-slate-300"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
         </main>
@@ -286,8 +344,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-slate-900">온고지신(溫故知新)</p>
-                    <p class="text-base font-bold text-blue-700/80 leading-snug">옛것을 정성스럽게 배우고 익혀서 그 바탕으로 새로운 것을 깨닫는다는 뜻이에요. 조상님들의 보물을 고치고 연구해서 오늘날 우리에게 소중한 지혜를 들려주는 보존 과학자의 모습과 잘 어울리는 말이에요.</p>
+                    <p class="text-3xl font-black text-slate-900">뜻이 있는 곳에 길이 있다</p>
+                    <p class="text-base font-bold text-blue-700/80 leading-snug">어떤 일을 간절히 이루고자 노력하면 아무리 어려운 상황에서도 결국 해낼 방법을 찾게 된다는 뜻의 속담이에요. 지구에서는 중력 때문에 만들기 어려웠던 인공 심장을 포기하지 않고 '우주'라는 특별한 공간을 생각해서 만들어낸 과학자들의 이야기와 딱 어울리지요!</p>
                 </div>
             </div>
         </footer>

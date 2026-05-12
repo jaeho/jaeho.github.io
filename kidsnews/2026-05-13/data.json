@@ -1,36 +1,52 @@
 {
   "page1": {
-    "headline": "아픈 문화유산을 고치는 마법사, 보존 과학자!",
+    "headline": "우주에서 쿵쾅쿵쾅! 3D 프린터로 만든 인공 심장",
     "article_body": [
-      "오랜 시간이 흐른 조상들의 보물인 문화유산은 아프거나 부서지기도 해요. 이때 나타나는 영웅이 '보존 과학자'예요. 이분들은 유물을 고치는 의사 선생님 같답니다. 첨단 기계로 상태를 꼼꼼히 살피고, 다친 곳을 확인하며 소중한 보물을 정성껏 치료해 주지요.",
-      "보존 과학자들은 돋보기나 엑스레이로 보이지 않는 안쪽까지 들여다봐요. 흙을 조심스레 털어내고, 특수한 약품을 발라 부서진 곳을 튼튼하게 붙여요. 옛 모습을 되살리기 위해 역사 공부도 열심히 한답니다. 한 조각도 잃지 않도록 세심하게 관찰하며 매일 정성을 다해 연구해요.",
-      "이들의 손길 덕분에 우리는 수천 년 전 조상들의 지혜를 생생하게 만날 수 있어요. 작은 흔적 하나로 과거 이야기를 들려주는 유산은 신비로운 보물지도 같아요. 여러분이 유물을 치료하는 과학자가 된다면, 어떤 보물을 지켜주고 싶나요? 소중한 우리 유산을 아끼는 마음을 가져보아요."
+      "여러분, 우주에서 심장 모양을 쿵쾅쿵쾅 찍어내는 마법 같은 기계를 상상해 본 적 있나요? 우리나라 연구팀이 우주로 보낸 특별한 상자 안에서 3D 프린터로 인공 심장 조직을 만드는 데 성공했어요.",
+      "왜 지구 대신 머나먼 우주에서 심장을 만들었을까요? 우주에는 물체를 아래로 끌어당기는 힘인 중력이 거의 없기 때문이에요. 물에 둥둥 뜨는 것처럼 세포가 바닥으로 가라앉지 않아서, 멋진 입체 모양을 훨씬 쉽게 만들 수 있답니다.",
+      "우주에서 성공적으로 만든 이 인공 심장 조직은 앞으로 아픈 사람들을 치료하는 데 아주 큰 도움을 줄 거예요. 별들이 반짝이는 깜깜한 우주 공간에서 생명을 살리는 따뜻한 희망이 자라나고 있다니 정말 멋지고 놀랍지 않나요?"
     ],
-    "image_prompt": "A bright, warm pastel-toned illustration of a friendly scientist wearing a white lab coat, carefully using a soft small brush to clean a shiny ancient golden crown. The laboratory is clean and filled with magnifying glasses and old scrolls. Soft sunlight is coming through the window.",
-    "category_tag": "오늘의 역사·인물 깊이읽기"
+    "image_prompt": "A warm and realistic picture book style illustration. A curious young explorer child wearing a cute astronaut suit is looking at a glowing 3D printer making a heart shape inside a futuristic space cabin. Stars are visible through a window in the background. Cozy lighting, magical atmosphere.",
+    "category_tag": "우주 의학",
+    "reference": "https://biz.chosun.com/science-chosun/science/2026/03/19"
   },
   "age_group": "8-10",
-  "activity_type": "letter_writing",
+  "search_core_topic": "우주 3D 인공심장 프린팅",
+  "activity_type": "fact_opinion",
   "word_info": {
-    "word": "보존",
-    "definition": "물건이나 상태가 변하지 않도록 잘 보호하여 그대로 간직하는 것"
+    "word": "중력",
+    "definition": "지구가 물체를 아래로 끌어당기는 힘이에요. 이 힘이 거의 없는 우주에서는 물건이나 사람이 바닥으로 떨어지지 않고 둥둥 떠다닌답니다."
   },
   "hidden_word": {
-    "word": "문화유산",
-    "definition": "조상들이 물려준 소중한 보물을 말해요.",
-    "mission": "우리 조상들이 남겨준 소중한 물건이나 지혜를 네 글자로 무엇이라고 부를까요?"
+    "word": "3D 프린터",
+    "mission": "보통 종이에 글씨나 그림을 인쇄하는 기계와 달리, 우리가 원하는 모양을 진짜 만질 수 있는 입체 물건으로 뚝딱 만들어 내는 마법의 상자는 무엇일까요?"
   },
-  "selected_topic": "문화유산을 지키는 보존 과학자는 어떤 일을 할까요?",
-  "selected_category": "오늘의 역사·인물 깊이읽기",
+  "selected_category": "우주 의학",
+  "selected_topic": "우주에서 3D 프린터로 쿵쾅쿵쾅 인공 심장을 만들었어요!",
   "wisdom_pool_data": {
-    "text": "온고지신(溫故知新)",
-    "description": "옛것을 정성스럽게 배우고 익혀서 그 바탕으로 새로운 것을 깨닫는다는 뜻이에요. 조상님들의 보물을 고치고 연구해서 오늘날 우리에게 소중한 지혜를 들려주는 보존 과학자의 모습과 잘 어울리는 말이에요.",
-    "message": "아픈 유물을 정성껏 치료하는 과학자 선생님들처럼, 우리 친구도 조상님들의 흔적을 소중히 아끼고 배우며 과거와 미래를 이어주는 지혜로운 어린이가 되길 응원할게요!"
+    "text": "뜻이 있는 곳에 길이 있다",
+    "description": "어떤 일을 간절히 이루고자 노력하면 아무리 어려운 상황에서도 결국 해낼 방법을 찾게 된다는 뜻의 속담이에요. 지구에서는 중력 때문에 만들기 어려웠던 인공 심장을 포기하지 않고 '우주'라는 특별한 공간을 생각해서 만들어낸 과학자들의 이야기와 딱 어울리지요!",
+    "message": "기사 속 과학자들처럼 여러분도 풀기 어려운 문제에 부딪혔을 때 절대 포기하지 마세요. '꼭 해내고 싶다'는 따뜻한 마음과 호기심을 품고 곰곰이 생각하다 보면, 머나먼 우주에서 방법을 찾은 것처럼 상상도 못 한 멋진 길을 발견할 수 있을 거예요!"
   },
   "activity_data": {
-    "instruction": "기사를 읽고 느낀 점을 담아 짧은 편지를 완성해보세요!",
-    "receiver": "아픈 유물을 정성껏 치료하는 보존 과학자님께",
-    "greeting": "안녕하세요! 보이지 않는 곳까지 세심하게 살펴 유물을 고쳐주시는 과학자님의 이야기를 읽고 큰 감동을 받았어요.",
-    "guide_text": "제가 만약 과학자님처럼 보존 과학자가 되어 소중한 우리 유물을 치료하게 된다면 지켜주고 싶은 보물은..."
+    "title": "팩트 체크 탐정",
+    "instruction": "문장을 읽고 사실인지 의견인지 표시한 뒤, 그렇게 생각한 까닭을 짧게 써보세요.",
+    "items": [
+      {
+        "statement": "지구에서는 중력 때문에 세포가 바닥으로 가라앉아, 우주에서보다 인공 심장 같은 입체 모양을 만들기 어렵다.",
+        "answer": "사실",
+        "reason_hint": "기사에서 우주가 입체 모양을 만들기 쉬운 이유를 반대로 생각했을 때, 과학적으로 증명할 수 있는 현상인지 생각해보세요."
+      },
+      {
+        "statement": "깜깜한 우주에서 생명을 살리는 따뜻한 희망인 인공 심장 조직을 만들어낸 것은 정말 멋지고 놀라운 일이다.",
+        "answer": "의견",
+        "reason_hint": "'멋지고 놀랍다'라는 표현이 누구에게나 똑같이 적용되는 객관적인 진짜 사실인지, 아니면 글쓴이의 감정이나 생각인지 떠올려보세요."
+      },
+      {
+        "statement": "우리나라 연구팀은 3D 프린터가 들어 있는 특별한 상자를 우주로 보내 인공 심장 조직을 만드는 데 성공했다.",
+        "answer": "사실",
+        "reason_hint": "사람의 생각이나 느낌과 상관없이 실제로 일어났고, 뉴스나 기록으로 확인할 수 있는 사건인지 확인해보세요."
+      }
+    ]
   }
 }

@@ -1,0 +1,172 @@
+{
+  "page1": {
+    "headline": "마음의 씨앗을 톡! 평화는 우리 습관에서 시작돼요",
+    "article_body": [
+      "평화라고 하면 전쟁이 없는 무서운 일이 일어나지 않는 상태를 떠올려요. 하지만 진짜 평화는 우리 마음이 잔잔하고 안전하다고 느끼는 것이에요. 친구와 사이좋게 지내며 웃음꽃이 피어나는 교실도 아주 멋진 평화의 장소랍니다. 평화는 먼 곳이 아닌 바로 우리 곁에 늘 있어요.",
+      "소중한 평화는 우리의 작은 습관에서부터 무럭무럭 자라나요. 친구가 말할 때 눈을 맞추며 끝까지 들어주는 경청은 평화를 만드는 첫 단추가 되지요. 고마워요, 미안해요 같은 다정한 말을 먼저 건네보세요. 나와 다른 점을 이해하는 마음이 모여 평화로운 세상을 만든답니다.",
+      "평화는 우리가 매일 가꾸어야 할 보물이에요. 이웃에게 건네는 인사나 생명을 아끼는 마음이 모여 평화의 숲을 이룬답니다. 여러분은 오늘 어떤 평화의 씨앗을 심었나요? 주변 사람들을 행복하게 만드는 나만의 작은 행동을 생각하며 다정한 하루를 보내길 바라요."
+    ],
+    "image_prompt": "A warm and sunny illustration of diverse children holding hands and smiling in a garden filled with blooming flowers, soft pastel colors, storybook style, peaceful and cozy atmosphere.",
+    "category_tag": "오늘의 세계·사회 이해"
+  },
+  "age_group": "8-10",
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "경청",
+    "definition": "상대방의 말을 귀를 기울여서 정성껏 듣는 태도를 말해요."
+  },
+  "hidden_word": {
+    "word": "보물",
+    "mission": "아주 소중하고 귀중한 물건을 뜻해요. 해적들이 지도에서 열심히 찾는 이것은 무엇일까요?"
+  },
+  "selected_topic": "평화는 전쟁이 없는 상태를 넘어 어떤 일상 습관에서 시작될까요?",
+  "selected_category": "오늘의 세계·사회 이해",
+  "wisdom_pool_data": {
+    "text": "감사하는 마음은 행복의 씨앗",
+    "description": "작은 일에도 고마워하고 다정하게 행동하면, 우리 마음속에 커다란 행복과 평화가 쑥쑥 자라난다는 뜻이에요.",
+    "message": "여러분이 친구에게 건네는 따뜻한 말과 배려가 바로 평화의 씨앗이랍니다. 오늘도 소중한 평화의 씨앗을 하나씩 심으며 행복한 하루를 보내길 바라요!"
+  },
+  "activity_data": {
+    "instruction": "가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 1,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 2,
+        "display_char": "사"
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 1,
+        "text": "이웃에게 반갑게 건네는 '안녕하세요'라는 말이에요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 2,
+        "text": "친구와 'ㅇㅇ 좋게' 지내면 교실에 웃음꽃이 피어나는 평화가 찾아와요."
+      }
+    ]
+  }
+}

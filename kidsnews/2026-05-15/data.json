@@ -1,171 +1,51 @@
 {
   "page1": {
-    "headline": "우리 팀의 마음을 하나로 모으는 지휘자, 프로젝트 매니저!",
+    "headline": "바다에서 온 마법 종이, 미역 포장지!",
     "article_body": [
-      "친구들과 성을 쌓거나 요리를 해본 적 있나요? 여러 사람이 힘을 모아 하나의 목표를 완성할 때, 전체 과정을 이끄는 대장을 '프로젝트 매니저'라고 해요. 이들은 지휘자처럼 누가 어떤 일을 언제까지 마칠지 꼼꼼하게 계획을 세우지요.",
-      "일을 하다 보면 각자 의견이 달라서 부딪히기도 해요. 그럴 때 프로젝트 매니저는 양쪽의 이야기를 귀 기울여 듣고 마음을 맞춰주는 조율사 역할을 해요. 시간이나 도구가 부족하지 않은지 살피며 모두가 조화롭게 일하도록 돕는답니다.",
-      "이처럼 매니저는 사람과 사람 사이를 이어주는 튼튼한 다리와 같아요. 주변 친구들이 잘하는 일을 찾아내 한 팀으로 묶어주는 마법 같은 능력도 발휘하죠. 여러분도 친구들과 의견을 하나로 모아본 적이 있나요? 멋진 리더가 된 미래의 모습을 상상해 보세요."
+      "우리가 즐겨 먹는 미역과 다시마가 마법을 부린다고 해요! 우리나라 과학자들이 바다에서 흔히 자라는 해조류를 이용해 놀라운 발명품을 만들었거든요. 바로 물에 사르르 녹아 자연으로 돌아가는 친환경 포장지랍니다.",
+      "우리가 자주 쓰는 플라스틱은 썩지 않아 바다 동물들을 아프게 해요. 하지만 이 새로운 포장지는 생분해, 즉 자연에서 완전히 분해되어 흙과 바다의 영양분이 된답니다. 거북이와 고래도 안심하고 헤엄칠 수 있겠죠?",
+      "바다를 아프게 했던 쓰레기 대신, 바다 식물로 지구를 구하는 멋진 아이디어예요. 여러분도 생활 속에서 일회용품 대신 다시 쓸 수 있는 물건을 찾아보는 건 어떨까요? 작은 실천이 모여 깨끗한 지구를 만들 수 있어요."
     ],
-    "image_prompt": "A friendly professional project manager standing in front of a colorful whiteboard, coordinating a team of diverse people building a giant toy castle together, soft pastel colors, warm lighting, children's book illustration style.",
-    "category_tag": "오늘의 직업·미래 역량"
+    "image_prompt": "Warm and realistic picture book illustration style. A curious young explorer child with a magnifying glass standing on a clean beach, observing eco-friendly packaging made from green seaweed dissolving safely into the ocean. Gentle waves, friendly sea turtles, and colorful fish swimming nearby in the clear blue water. Bright, hopeful, and detailed nature.",
+    "category_tag": "지구 사랑",
+    "reference": "https://www.enviro-news.kr/seaweed-plastic-alternative-202605"
   },
   "age_group": "8-10",
-  "activity_type": "crossword",
+  "search_core_topic": "해조류를 활용한 친환경 생분해 포장지 개발",
+  "activity_type": "fact_opinion",
   "word_info": {
-    "word": "조율",
-    "definition": "서로 다른 의견이나 형편을 잘 살펴서 알맞게 맞추는 일이에요."
+    "word": "생분해",
+    "definition": "자연에 있는 작은 미생물들의 도움을 받아 썩어서 흙이나 물로 완전히 돌아가는 현상을 말해요."
   },
   "hidden_word": {
-    "word": "계획",
-    "mission": "앞으로 할 일을 미리 생각하여 정하는 것으로, 매니저가 가장 먼저 세우는 이것은 무엇일까요?"
+    "word": "해조류",
+    "mission": "바다에서 자라는 식물 무리를 말해요. 우리가 맛있게 먹는 미역국이나 김밥을 쌀 때 쓰는 김이 모두 여기에 속한답니다. 세 글자인 이것은 무엇일까요?"
   },
-  "selected_topic": "프로젝트 매니저는 여러 사람이 함께 일할 때 무엇을 조율할까요?",
-  "selected_category": "오늘의 직업·미래 역량",
+  "selected_category": "지구 사랑",
+  "selected_topic": "\"버리면 바다의 거름이 돼요!\" 미역과 다시마로 만든 마법의 친환경 포장지",
   "wisdom_pool_data": {
-    "text": "구슬이 서 말이라도 꿰어야 보배",
-    "description": "아무리 예쁜 구슬이 많아도 실로 잘 꿰어야 멋진 목걸이가 된다는 뜻이에요. 친구들의 재능이 아무리 훌륭해도 하나로 잘 모으는 '매니저'의 역할이 중요하다는 말이죠.",
-    "message": "친구들이 가진 각자의 장점을 잘 찾아내서 하나로 이어주는 멋진 리더가 되어보세요! 여러분이 마음을 하나로 모으면 혼자서는 할 수 없는 마법 같은 일을 해낼 수 있답니다."
+    "text": "일석이조(一石二鳥)",
+    "description": "돌 하나를 던져 새 두 마리를 잡는다는 뜻으로, 한 번의 행동으로 두 가지 좋은 결과를 얻는 것을 말해요. 바다 식물로 만든 포장지를 사용하면 바다를 아프게 하는 플라스틱 쓰레기를 줄일 수 있고, 포장지가 자연스럽게 녹아 바다의 영양분까지 되니 그야말로 일석이조랍니다!",
+    "message": "우리 친구들도 생활 속에서 일회용품 대신 다시 쓸 수 있는 물건을 찾아보는 건 어떨까요? 여러분의 작은 실천 하나가 거북이와 고래를 지켜주고, 깨끗한 지구를 만드는 멋진 마법이 될 거예요!"
   },
   "activity_data": {
-    "instruction": "가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
-    "grid_size": 5,
-    "grid": [
+    "title": "팩트 체크 탐정",
+    "instruction": "문장을 읽고 사실인지 의견인지 표시한 뒤, 그렇게 생각한 까닭을 짧게 써보세요.",
+    "items": [
       {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
+        "statement": "미역과 다시마 같은 해조류로 만든 친환경 포장지는 물에 녹아 자연의 영양분이 된다.",
+        "answer": "사실",
+        "reason_hint": "실제로 과학자들이 만든 물건의 특징과 증명할 수 있는 결과를 설명하고 있는지 생각해보세요."
       },
       {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
+        "statement": "바다 식물을 이용해 포장지를 발명한 것은 지구를 구하는 아주 멋진 아이디어다.",
+        "answer": "의견",
+        "reason_hint": "'멋지다'라는 표현처럼 글쓴이의 마음이나 평가가 들어간 문장인지 살펴보세요."
       },
       {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": false,
-        "number": 1,
-        "display_char": ""
-      },
-      {
-        "is_blank": false,
-        "number": 2,
-        "display_char": "리"
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": false,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      },
-      {
-        "is_blank": true,
-        "number": 0,
-        "display_char": ""
-      }
-    ],
-    "clues_across": [
-      {
-        "number": 1,
-        "text": "기사에서 프로젝트 매니저는 사람과 사람 사이를 이어주는 튼튼한 '이것'과 같다고 했어요."
-      }
-    ],
-    "clues_down": [
-      {
-        "number": 2,
-        "text": "팀의 의견을 하나로 모으고 이끄는 멋진 '이 사람'이 된 미래를 상상해 보세요."
+        "statement": "우리가 자주 사용하는 플라스틱은 자연에서 썩지 않기 때문에 바다 동물들을 아프게 한다.",
+        "answer": "사실",
+        "reason_hint": "누구나 관찰을 통해 진짜라고 확인할 수 있는 과학적인 정보인지 확인해보세요."
       }
     ]
   }

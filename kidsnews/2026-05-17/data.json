@@ -1,0 +1,53 @@
+{
+  "page1": {
+    "headline": "태국에서 나타난 산만한 공룡, ‘나가티탄’을 만나요!",
+    "article_body": [
+      "태국에서 놀라운 소식이 왔어요! 1억 년 전 살던 거대 공룡 화석이 발견됐거든요. 이름은 ‘나가티탄’으로, 동남아시아에서 발견된 것 중 가장 커요. 땅속에 숨어있던 커다란 뼈를 보고 전 세계 과학자들은 깜짝 놀랐답니다.",
+      "이 공룡은 몸길이가 27미터나 되고, 무게는 코끼리 9마리를 합친 것과 비슷해요. 풀을 먹는 ‘초식 공룡’인 나가티탄은 산처럼 덩치가 컸지만 아주 순했을 거예요. 긴 목을 뻗어 높은 나무의 잎사귀를 맛있게 먹으며 평화롭게 지냈겠지요?",
+      "이번 발견으로 옛날 지구가 어떤 모습이었는지 더 잘 알 수 있게 되었어요. 거대 공룡이 살 수 있었던 비밀은 무엇일까요? 여러분도 미래의 탐험가가 되어 지구의 보물을 찾는 상상을 해보세요. 우리 곁에는 아직 신비로운 이야기가 많답니다."
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A curious young child explorer with a magnifying glass and a khaki hat looking up at a massive, majestic long-necked dinosaur skeleton (Nagatitan) being unearthed in a Thai jungle setting. Soft sunlight filtering through trees, earth tones, gentle and inspiring atmosphere.",
+    "category_tag": "거대 공룡",
+    "reference": "https://www.sciencedaily.com/releases/2026/05/260515153210.htm"
+  },
+  "age_group": "8-10",
+  "search_core_topic": "나가티탄(Nagatitan) 거대 공룡 발견",
+  "activity_type": "cause_effect",
+  "word_info": {
+    "word": "초식 공룡",
+    "definition": "고기 대신 풀, 나뭇잎, 열매 등을 먹고 사는 공룡을 말해요."
+  },
+  "hidden_word": {
+    "word": "화석",
+    "mission": "아주 옛날에 살던 생물의 모습이나 흔적이 돌처럼 딱딱하게 굳은 것을 무엇이라고 할까요?"
+  },
+  "selected_category": "거대 공룡",
+  "selected_topic": "태국에서 발견된 코끼리 9마리 무게의 거대 공룡 '나가티탄'!",
+  "wisdom_pool_data": {
+    "text": "작은 노력들이 모여 큰 결과를 만든다",
+    "description": "땅속에 파묻힌 작은 뼈 조각들을 하나하나 정성스럽게 찾고 연구하는 노력이 모여서, 산처럼 거대한 공룡 '나가티탄'의 정체를 밝혀냈다는 뜻이야.",
+    "message": "우리 친구도 미래의 멋진 탐험가를 꿈꾸고 있나요? 매일 조금씩 책을 읽거나 궁금한 것을 찾아보는 작은 습관들이 모이면, 나중에 세상을 깜짝 놀라게 할 위대한 보물을 발견할 수 있을 거야!"
+  },
+  "activity_data": {
+    "title": "왜 그랬을까?",
+    "instruction": "기사 속 원인과 결과를 이어 보고, 빈칸에 나만의 생각을 덧붙여보세요.",
+    "items": [
+      {
+        "cause": "태국 땅속에서 1억 년 전의 거대 공룡 화석이 발견되었습니다.",
+        "effect": "이 소식을 들은 전 세계 과학자들은 깜짝 놀랐습니다.",
+        "thinking_prompt": "과학자들은 왜 땅속에 숨어있던 뼈를 보고 깜짝 놀랐을까요?"
+      },
+      {
+        "cause": "나가티탄은 몸길이가 27미터나 되고 무게가 코끼리 9마리와 비슷합니다.",
+        "effect": "동남아시아에서 지금까지 발견된 공룡 중에서 가장 큰 공룡이 되었습니다.",
+        "thinking_prompt": "이렇게 커다란 몸을 유지하려면 하루에 풀을 얼마나 많이 먹었을까요?"
+      },
+      {
+        "cause": "나가티탄은 목이 아주 길어서 높은 나무의 잎사귀를 편하게 먹을 수 있었습니다.",
+        "effect": "덩치는 산처럼 컸지만 다른 동물을 공격하지 않고 평화롭게 지냈습니다.",
+        "thinking_prompt": "목이 긴 나가티탄은 높은 곳에서 무엇을 보며 평화롭게 지냈을까요?"
+      }
+    ],
+    "final_question": "여러분이 미래의 탐험가가 되어 새로운 공룡 화석을 발견한다면, 그 공룡에게 어떤 이름을 지어주고 싶나요?"
+  }
+}

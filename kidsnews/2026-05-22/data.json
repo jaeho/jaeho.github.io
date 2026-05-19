@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "아픈 보물을 치료하는 마법사, 문화재 복원가 이야기",
+    "article_body": [
+      "박물관의 오래된 그림이나 성벽이 깨끗한 이유는 '문화재 복원가' 덕분이에요. 이분들은 아픈 보물을 정성껏 치료해서 원래 모습으로 되살리는 마법사 같은 존재랍니다. 낡은 종이를 꼼꼼히 붙이고 먼지를 닦아내며 소중한 가치를 되찾아 주지요.",
+      "복원가는 아주 작은 붓과 돋보기를 사용해서 조심스럽게 일해요. 색이 변한 곳은 옛날 물감을 찾아 똑같이 칠하고, 낡은 나무 건물은 조상들의 방식 그대로 고칩니다. 시간이 아주 오래 걸려도 보물이 다치지 않게 정성을 다하는 마음이 가장 중요해요.",
+      "문화재를 되살리는 일은 과거와 현재를 잇는 튼튼한 다리를 놓는 것과 같아요. 덕분에 우리는 수백 년 전 사람들의 지혜를 오늘날에도 생생하게 만날 수 있답니다. 여러분이 복원가라면 어떤 소중한 보물을 가장 먼저 고쳐 보고 싶은지 궁금해요."
+    ],
+    "image_prompt": "A friendly professional restorer wearing a lab coat carefully cleaning an ancient colorful Korean painting with a tiny brush, soft sunlight through a window, warm pastel colors, cozy studio atmosphere, children's book illustration style.",
+    "category_tag": "오늘의 직업·미래 역량"
+  },
+  "age_group": "8-10",
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "복원",
+    "definition": "원래의 모습대로 다시 회복시키거나 고쳐 놓는 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "돋보기",
+    "mission": "작은 것을 아주 크게 확대해서 보여주는 유리 도구는 무엇일까요?"
+  },
+  "selected_topic": "문화재 복원가는 오래된 그림과 건물을 어떻게 조심스럽게 되살릴까요?",
+  "selected_category": "오늘의 직업·미래 역량",
+  "wisdom_pool_data": {
+    "text": "지성이면 감천(至誠感天)",
+    "description": "정성을 다하면 하늘도 감동한다는 뜻이에요. 아무리 오래되고 망가진 보물이라도 복원가 선생님의 정성 어린 손길이 닿으면 다시 반짝반짝 빛나게 되는 것과 같지요.",
+    "message": "복원가 선생님이 낡은 보물을 조심스럽게 고치듯, 우리 친구도 작은 일 하나하나에 정성을 다해보세요. 여러분의 예쁜 마음과 노력이 모이면 세상 그 어떤 보물보다 더 멋진 결과를 만들어낼 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 알맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "items": [
+      "문화재 복원가는 색이 변한 곳을 칠할 때 옛날 물감을 찾아 똑같이 칠한다.",
+      "복원가는 낡은 나무 건물을 수리할 때 조상들의 방식이 아닌 현대적인 방식으로만 고친다.",
+      "문화재를 되살리는 일은 과거와 현재를 잇는 튼튼한 다리를 놓는 것과 같은 의미를 지닌다."
+    ]
+  }
+}

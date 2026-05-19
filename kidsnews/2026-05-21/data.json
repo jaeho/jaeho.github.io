@@ -1,0 +1,172 @@
+{
+  "page1": {
+    "headline": "맛있는 음식, 남기지 않으면 지구가 활짝 웃어요!",
+    "article_body": [
+      "우리가 먹다 남긴 음식은 쓰레기가 되어 지구를 뜨겁게 만들어요. 버려진 음식이 썩으면서 나오는 나쁜 가스가 공기를 오염시키기 때문이지요. 음식을 만들기 위해 사용된 소중한 물과 에너지도 함께 낭비되고 말아요.",
+      "음식물 쓰레기를 줄이면 우리 가족의 지갑도 든든하게 지킬 수 있어요. 먹을 만큼만 장을 보면 돈을 아낄 수 있고, 쓰레기 처리 비용도 줄어들거든요. 이렇게 아낀 돈은 더 가치 있는 곳에 쓸 수 있어 무척 보람차요.",
+      "이제는 음식을 접시에 담을 때 내가 다 먹을 수 있는 양만큼만 덜어서 먹어보세요. 냉장고 속 재료를 미리 확인하는 습관도 지구를 지키는 멋진 방법이에요. 오늘 저녁 식탁에서 여러분이 실천할 약속은 무엇인가요?"
+    ],
+    "image_prompt": "A bright, warm pastel illustration showing a happy personified Earth wearing an apron and holding a clean plate. In the background, a friendly piggy bank is smiling, and colorful vegetables are arranged neatly. Soft lighting, cozy and educational atmosphere, 2D vector art style.",
+    "category_tag": "오늘의 세계·사회 이해"
+  },
+  "age_group": "8-10",
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "에너지",
+    "definition": "기계나 생물이 움직이고 일을 할 수 있게 만드는 힘이에요."
+  },
+  "hidden_word": {
+    "word": "지갑",
+    "mission": "돈이나 카드를 넣어 가지고 다니는 작은 가방을 무엇이라고 부를까요?"
+  },
+  "selected_topic": "음식물 쓰레기를 줄이면 기후와 지갑에 어떤 도움이 될까요?",
+  "selected_category": "오늘의 세계·사회 이해",
+  "wisdom_pool_data": {
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 먼지도 자꾸자꾸 모이면 커다란 산이 된다는 말이에요. 우리가 버리는 작은 음식 쓰레기들이 모여 지구를 아프게 할 수도 있지만, 반대로 여러분의 작은 노력이 모여 지구를 구하는 커다란 힘이 될 수 있다는 뜻이기도 해요.",
+    "message": "오늘 저녁 식탁에서 '내가 먹을 만큼만 덜어 먹기'라는 작은 약속 하나를 시작해 볼까요? 여러분의 이런 작은 습관들이 모여 우리 지구를 다시 활짝 웃게 만드는 커다란 선물이 될 거예요!"
+  },
+  "activity_data": {
+    "instruction": "가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 1,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 2,
+        "display_char": "식"
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 1,
+        "text": "우리가 남기면 쓰레기가 되어 지구가 뜨거워져요. 맛있는 (  )을 남기지 말아요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 2,
+        "text": "가족이 함께 모여 밥을 먹는 상이에요. 오늘 저녁 이곳에서 여러분이 실천할 약속은 무엇인가요?"
+      }
+    ]
+  }
+}

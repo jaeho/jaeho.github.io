@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "돌에 새긴 타임머신, 비석이 들려주는 옛날 이야기",
+    "article_body": [
+      "옛날 사람들은 이야기를 어떻게 남겼을까요? 종이가 없던 시절, 조상들은 커다란 돌에 글자를 새겨 ‘비석’을 만들었어요. 비석은 비바람에도 잘 견뎌서 오랜 시간 소식을 전해준답니다. 덕분에 우리는 수천 년 전 조상들의 목소리를 지금까지 생생하게 들을 수 있어요.",
+      "고구려의 광개토대왕비는 아주 유명해요. 여기에는 왕이 땅을 넓히고 백성을 돌본 자랑스러운 역사가 담겨 있지요. 거대한 돌에 새겨진 글자들은 고구려가 얼마나 용감했는지 알려주는 증거랍니다. 비석은 과거의 소식을 전하는 튼튼한 타임머신인 셈이에요.",
+      "박물관에서 비석을 만나면 대화를 나눠 보세요. 딱딱한 돌 속에는 옛날 사람들의 간절한 마음이 담겨 있답니다. 역사는 과거와 소통하는 즐거운 여행이지요. 여러분은 미래 친구들에게 어떤 이야기를 돌에 새겨 전해주고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration of a giant ancient stone stele with mysterious characters engraved on it. A curious young Korean boy and girl are looking at it with wonder in a sunny museum garden. Soft light, friendly and dreamlike storybook style.",
+    "category_tag": "오늘의 역사·인물 깊이읽기"
+  },
+  "age_group": "8-10",
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "비석",
+    "definition": "훌륭한 사람의 업적이나 중요한 사실을 잊지 않으려고 돌에 글을 새겨 세운 것이에요."
+  },
+  "hidden_word": {
+    "word": "타임머신",
+    "mission": "과거로 슝! 미래로 슝! 시간을 마음대로 왔다 갔다 할 수 있게 해주는 상상 속의 기계는 무엇일까요?"
+  },
+  "selected_topic": "광개토대왕비 같은 비석은 과거의 목소리를 어떻게 전할까요?",
+  "selected_category": "오늘의 역사·인물 깊이읽기",
+  "wisdom_pool_data": {
+    "text": "온고지신(溫故知新)",
+    "description": "옛것을 익히고 그것을 미루어서 새것을 안다는 뜻으로, 조상들의 지혜가 담긴 비석을 통해 새로운 지식을 얻는다는 의미예요.",
+    "message": "비석은 옛날 사람들이 남긴 아주 특별한 편지예요. 박물관에서 비석의 이야기에 귀를 기울이며, 과거의 지혜를 배워 미래의 꿈을 멋지게 그려보세요!"
+  },
+  "activity_data": {
+    "instruction": "제공된 기사 내용을 바탕으로 내용이 맞으면 O, 틀리면 X를 고르는 OX 퀴즈입니다.",
+    "items": [
+      "옛날 사람들은 종이가 없던 시절에 소식을 전하기 위해 커다란 돌에 글자를 새겨 비석을 만들었습니다. (O/X)",
+      "고구려의 광개토대왕비에는 왕이 땅을 넓히고 백성을 돌본 역사가 기록되어 있습니다. (O/X)",
+      "비석은 비바람에 약하기 때문에 오랜 시간 동안 소식을 전하기에는 적합하지 않은 도구입니다. (O/X)"
+    ]
+  }
+}

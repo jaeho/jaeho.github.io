@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "내가 몰랐던 내 안의 보물, 주변의 눈으로 찾아봐요!",
+    "article_body": [
+      "가끔은 내가 무엇을 잘하는지 몰라서 답답할 때가 있어요. 거울을 봐도 내 장점은 꼭꼭 숨어있는 것 같아 속상하기도 하지요. 하지만 내가 모르는 나의 멋진 모습은 다른 사람의 눈에 훨씬 더 잘 보인답니다. 우리 마음속 보물지도는 가족이나 친구의 도움을 받아야 비로소 완성되기도 해요.",
+      "나의 장점을 찾고 싶다면 주변 사람들에게 \"내가 언제 가장 멋져 보여?\"라고 물어보세요. 친구는 여러분이 간식을 나눠줄 때 가장 다정하다고 말해줄 거예요. 선생님은 수업 시간에 질문하는 모습이 용기 있다고 칭찬하실 수도 있지요. 다른 사람의 시선을 빌리면 내가 몰랐던 특별한 나를 발견할 수 있답니다.",
+      "주변에서 해주는 칭찬은 나를 더 사랑하게 만드는 단단한 힘이 됩니다. 쑥스러워하지 말고 나를 응원하는 소중한 말들을 마음속에 쏙쏙 저장해 보세요. 여러분의 주변 사람들은 나의 어떤 점이 가장 멋지다고 말해주나요? 오늘 저녁에는 가족들에게 나의 장점이 무엇인지 살짝 물어보세요."
+    ],
+    "image_prompt": "A warm and bright pastel-style illustration of a smiling child talking to friendly friends and family members. Sparkling stars and small floating hearts surround them, representing positive words and hidden strengths being discovered. Soft sunlight, cheerful atmosphere.",
+    "category_tag": "오늘의 마음·생각·문해력"
+  },
+  "age_group": "8-10",
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "장점",
+    "definition": "남보다 나은 점이나 좋은 점을 말해요."
+  },
+  "hidden_word": {
+    "word": "보물지도",
+    "mission": "보물이 숨겨진 장소를 그려 놓은 지도를 무엇이라고 부를까요?"
+  },
+  "selected_topic": "내 장점을 찾기 어려울 때 주변의 관찰을 어떻게 빌릴 수 있을까요?",
+  "selected_category": "오늘의 마음·생각·문해력",
+  "wisdom_pool_data": {
+    "text": "등잔 밑이 어둡다",
+    "description": "등불 바로 아래가 오히려 어두워서 잘 보이지 않는 것처럼, 나에게 가장 가까운 나의 장점인데도 정작 나 자신은 잘 모를 수 있다는 뜻이에요.",
+    "message": "거울을 봐도 내 장점이 안 보여서 속상했나요? 그건 보물이 없어서가 아니라 너무 가까이 있어서 잠깐 안 보이는 것뿐이에요. 주변 사람들에게 '나의 멋진 점'을 물어보며, 내가 몰랐던 소중한 보물을 하나씩 찾아보세요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 문장이 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "items": [
+      "나의 장점은 나 자신보다 다른 사람의 눈에 훨씬 더 잘 보일 수 있다.",
+      "주변 사람들에게 나의 장점을 물어보는 것은 쑥스러운 일이니 피하는 것이 좋다.",
+      "친구들의 칭찬이나 응원의 말은 나 스스로를 더 사랑하게 만드는 힘이 된다."
+    ]
+  }
+}

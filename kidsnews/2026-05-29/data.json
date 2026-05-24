@@ -1,0 +1,172 @@
+{
+  "page1": {
+    "headline": "의견 충돌은 마법의 재료! 더 멋진 생각을 만들어요",
+    "article_body": [
+      "친구들과 모둠 활동을 할 때 서로 생각이 달라 부딪히는 것을 '의견 충돌'이라고 해요. 이것은 결코 나쁜 일이 아니라 자연스러운 현상이에요. 모두가 똑같은 생각만 한다면 새롭고 기발한 결과물을 만들기 어렵기 때문이죠.",
+      "서로 다른 의견이 만날 때는 요리 재료가 섞여 맛있는 음식이 되듯 새로운 아이디어가 탄생해요. 친구의 말을 잘 듣고 내 생각과 합쳐보면 혼자서는 상상하지 못한 놀라운 해결책이 나오기도 하죠. 이 과정에서 생각의 폭이 더 넓어져요.",
+      "비빔밥의 재료가 섞여 최고의 맛을 내듯 다름을 존중하면 특별한 보물을 발견할 수 있어요. 갈등을 두려워하지 말고 대화하며 우리만의 멋진 조각을 맞춰볼까요? 오늘 친구에게 \"네 생각은 어때?\"라고 다정하게 물어보며 생각을 피워보세요."
+    ],
+    "image_prompt": "Warm pastel style illustration of diverse children happily discussing ideas around a large table, colorful thought bubbles merging into a glowing lightbulb above them, bright garden background, friendly atmosphere, digital art for children's newspaper.",
+    "category_tag": "오늘의 직업·미래 역량"
+  },
+  "age_group": "8-10",
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "의견 충돌",
+    "definition": "어떤 문제에 대해 서로의 생각이나 뜻이 달라서 부딪히는 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "보물",
+    "definition": "아주 귀하고 소중한 물건을 뜻해요. 기사에서는 협력을 통해 얻은 멋진 결과를 이것에 비유했어요."
+  },
+  "selected_topic": "협업에서 의견 충돌은 어떻게 더 좋은 아이디어의 재료가 될까요?",
+  "selected_category": "오늘의 직업·미래 역량",
+  "wisdom_pool_data": {
+    "text": "백지장도 맞들면 낫다",
+    "description": "아주 가벼운 종이 한 장이라도 혼자 드는 것보다 서로 힘을 합치면 훨씬 쉽고 좋은 결과를 만들 수 있다는 뜻이에요.",
+    "message": "친구와 생각이 달라도 속상해하지 마세요. 비빔밥 재료들이 섞여 최고의 맛을 내는 것처럼, 친구의 생각과 내 생각을 합치면 혼자서는 상상하지 못한 멋진 아이디어가 나올 거예요. 친구에게 '네 생각은 어때?'라고 먼저 물어보며 함께 멋진 보물을 찾아보세요!"
+  },
+  "activity_data": {
+    "instruction": "가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 2,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 1,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": "각"
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 1,
+        "text": "나의 머릿속에 떠오르는 기발한 아이디어예요. 친구의 말과 내 OO을 합치면 더 멋진 해결책이 돼요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 2,
+        "text": "다름을 존중하며 대화로 우리만의 멋진 OO을 맞춰볼까요? (기사의 마지막 문장 참고)"
+      }
+    ]
+  }
+}

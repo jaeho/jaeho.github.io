@@ -1,0 +1,36 @@
+{
+  "page1": {
+    "headline": "안녕, 코코! 코끼리도 우리처럼 서로 이름을 불러요",
+    "article_body": [
+      "여러분, 친구를 부를 때 이름을 부르나요? 최근 과학자들이 아프리카 코끼리들도 우리처럼 서로의 이름을 부른다는 놀라운 사실을 발견했어요. 코끼리들이 서로를 부를 때 저마다 다른 특별한 소리를 낸다는 것이지요. 사람처럼 고유한 이름을 사용하는 동물은 아주 드물어서 전 세계가 깜짝 놀랐답니다.",
+      "코끼리가 내는 소리는 우리 귀에는 비슷하게 들릴 수 있지만, 사실 그 안에는 각자를 구별하는 특별한 정보가 담겨 있어요. 마치 우리에게 ‘민수’나 ‘지혜’ 같은 이름이 있는 것과 같지요. 코끼리들은 멀리 떨어져 있어도 친구가 부르는 소리를 듣고 나를 부르는구나 하며 기쁘게 대답하고 달려간답니다.",
+      "이런 모습은 코끼리가 매우 똑똑하고 가족을 깊이 사랑한다는 증거예요. 서로를 소중한 존재로 여기기에 이름을 불러주는 것이지요. 넓은 초원에서 다정하게 서로의 이름을 부르며 발걸음을 옮길 코끼리들의 모습을 상상해 보세요. 우리도 오늘 소중한 친구의 이름을 따뜻하게 한 번 더 불러보는 건 어떨까요?"
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A curious young explorer child with binoculars is observing a family of African elephants in the savanna. The elephants are interacting affectionately, suggesting they are communicating. Soft golden hour sunlight, natural textures, high quality, heart-warming atmosphere.",
+    "category_tag": "동물 이야기",
+    "reference": "https://www.nature.com/articles/s41559-024-02420-w"
+  },
+  "age_group": "8-10",
+  "search_core_topic": "코끼리들이 서로를 이름으로 부른다는 발견",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "고유하다",
+    "definition": "세상에 하나뿐인 특별한 성질을 가지고 있다는 뜻이에요."
+  },
+  "hidden_word": {
+    "word": "초원",
+    "mission": "풀이 드넓게 펼쳐진 곳으로, 코끼리 가족이 서로 이름을 부르며 뛰어노는 이 장소는 어디일까요?"
+  },
+  "selected_category": "동물 이야기",
+  "selected_topic": "안녕, 코코! 코끼리도 사람처럼 서로 '이름'을 불러요",
+  "wisdom_pool_data": {
+    "text": "관포지교 (管鮑之交)",
+    "description": "서로를 아주 깊이 이해하고 아껴주는 아주 친한 친구 사이를 뜻하는 말이에요.",
+    "message": "코끼리들이 서로의 이름을 특별하게 부르며 아끼는 것처럼, 우리 친구도 단짝 친구의 이름을 다정하게 불러보세요. 서로를 소중히 여기는 마음이 전해져 더욱 깊고 예쁜 우정을 쌓을 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "코끼리 친구가 '코코'의 이름을 부르며 반갑게 인사하고 있어요! 소리를 들은 코코는 기분이 어떨까요? 코코가 친구를 찾아가서 무엇을 할지 나머지 이야기를 자유롭게 상상해서 그려보세요!",
+    "first_cut_dialogue": "뿌우우~! (안녕, 코코! 우리 같이 놀자!)",
+    "image_prompt": "Black and white simple line art for kids, a cute baby elephant named Coco with big ears standing in the savanna, another elephant silhouette in the far distance waving its trunk, a large speech bubble containing a unique star and musical note pattern representing a name call, white background, thick lines, no shading, coloring book style"
+  }
+}

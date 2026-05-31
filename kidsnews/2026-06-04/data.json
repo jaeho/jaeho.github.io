@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "뉴스 속 보물찾기: '사실'과 '의견' 안경을 써요!",
+    "article_body": [
+      "뉴스는 '사실'과 '의견'이 섞인 상자예요. 사실은 실제로 일어난 일이고, 의견은 사람의 생각이나 느낌이지요. \"사과가 한 개 있다\"는 사실이지만, \"사과가 맛있다\"는 의견이에요. 이 둘을 구별해야 뉴스를 정확히 알 수 있어요.",
+      "구분하지 않으면 다른 사람의 생각을 정답이라 믿게 돼요. 기사를 읽을 때 \"진짜 벌어진 일일까?\"라고 질문해 보세요. 이런 습관은 가짜 정보를 걸러내는 방패가 되고 나만의 멋진 생각을 키워준답니다. 세상을 바르게 보는 눈이 깊어질 거예요.",
+      "사실은 튼튼한 뿌리가 되고 의견은 예쁜 꽃처럼 다양한 생각을 들려주지요. 오늘부터 뉴스 속에서 진짜 일어난 일과 마음을 하나씩 찾아볼까요? 여러분은 오늘 하루 중 어떤 사실을 친구에게 가장 먼저 알려주고 싶나요?"
+    ],
+    "image_prompt": "A bright pastel illustration of a young child wearing two different colored glasses, blue for facts and yellow for opinions, looking at a giant magical newspaper. Magic sparkles, a magnifying glass, and light bulbs are floating around. Warm and friendly atmosphere.",
+    "category_tag": "오늘의 세계·사회 이해"
+  },
+  "age_group": "8-10",
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "사실",
+    "definition": "실제로 일어난 일이나 현재 있는 그대로의 모습이에요."
+  },
+  "hidden_word": {
+    "word": "안경",
+    "mission": "눈이 잘 보이지 않을 때 코 위에 걸쳐서 쓰는 물건은 무엇일까요?"
+  },
+  "selected_topic": "뉴스를 읽을 때 사실과 의견을 구분하는 힘은 왜 필요할까요?",
+  "selected_category": "오늘의 세계·사회 이해",
+  "wisdom_pool_data": {
+    "text": "돌다리도 두들겨 보고 건너라",
+    "description": "아무리 잘 아는 일이라도 한 번 더 확인하고 조심해야 한다는 뜻이에요. 뉴스 내용이 진짜 '사실'인지 아니면 누군가의 '의견'인지 꼼꼼히 살펴보는 습관과 비슷하답니다.",
+    "message": "기사를 읽을 때 '이게 정말 실제로 일어난 일일까?' 하고 다시 한번 생각해보는 여러분은 아주 지혜로운 어린이에요! 이렇게 확인하는 습관이 가짜 정보로부터 여러분을 지켜주는 튼튼한 방패가 될 거예요."
+  },
+  "activity_data": {
+    "instruction": "제시된 기사 내용을 바탕으로 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "items": [
+      "\"사과가 맛있다\"는 문장은 실제로 일어난 일인 '사실'에 해당합니다.",
+      "사실과 의견을 제대로 구분하지 않으면 다른 사람의 개인적인 생각을 정답이라고 믿게 될 위험이 있습니다.",
+      "기사를 읽을 때 \"진짜 벌어진 일일까?\"라고 스스로 질문하는 습관은 가짜 정보를 걸러내는 데 도움이 됩니다."
+    ]
+  }
+}

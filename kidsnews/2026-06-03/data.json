@@ -1,0 +1,50 @@
+{
+  "page1": {
+    "headline": "밀림과 산맥 위에 세운 지혜의 도시, 마야와 잉카",
+    "article_body": [
+      "옛날 중앙아메리카 밀림 속에는 ‘마야’ 사람들이 살았어요. 나무가 울창한 이곳에서 마야 사람들은 돌로 높은 피라미드와 도시를 세웠지요. 또한 하늘의 별을 관찰하며 정확한 달력을 만들어 농사를 지었답니다.",
+      "높은 안데스산맥에는 ‘잉카’ 제국이 있었어요. 사람들은 험한 절벽에 계단 모양의 밭을 만들어 곡식을 길렀지요. 정교하게 깎아 만든 ‘마추픽추’ 성벽은 오늘날까지 튼튼하게 남아 전 세계를 깜짝 놀라게 해요.",
+      "이들은 척박한 자연을 이겨내고 멋진 지혜를 발휘해 문명을 꽃피웠어요. 밀림과 험한 산맥도 이들의 열정을 막지는 못했지요. 여러분은 마야와 잉카의 지혜 중 무엇이 가장 놀라운가요? 나만의 지혜로 어려움을 이겨낼 방법도 생각해보아요."
+    ],
+    "image_prompt": "A bright and warm pastel-style illustration showing a stone Maya pyramid in a lush green jungle on the left, and the Inca city of Machu Picchu with terraced fields on a high mountain under a blue sky on the right, friendly and inviting atmosphere for children.",
+    "category_tag": "오늘의 역사·인물 깊이읽기"
+  },
+  "age_group": "8-10",
+  "activity_type": "scale_quiz",
+  "word_info": {
+    "word": "문명",
+    "definition": "사람들이 지혜를 모아 이룬 훌륭하고 편리한 생활 모습"
+  },
+  "hidden_word": {
+    "word": "계단",
+    "mission": "높은 곳을 쉽게 오르내릴 수 있도록 층층이 만든 발판은 무엇일까요?"
+  },
+  "selected_topic": "마야와 잉카 사람들은 자연환경에 맞춰 어떤 문명을 만들었을까요?",
+  "selected_category": "오늘의 역사·인물 깊이읽기",
+  "wisdom_pool_data": {
+    "text": "뜻이 있는 곳에 길이 있다",
+    "description": "어떤 어려운 상황이라도 포기하지 않고 노력하면 반드시 해결할 수 있는 방법이 생긴다는 뜻이에요.",
+    "message": "척박한 밀림과 험한 산속에서도 지혜를 발휘해 멋진 도시를 세운 마야와 잉카 사람들처럼, 우리 친구도 어려운 일이 생겼을 때 포기하지 않는 마음을 가진다면 꼭 멋진 길을 찾아낼 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!",
+    "items": [
+      {
+        "question": "밀림 속에 돌로 세운 거대한 '마야 피라미드'는 얼마나 클까요?",
+        "options": [
+          "사탕 100개를 모아둔 것만큼 커요",
+          "우리 학교 건물만큼 높고 커요",
+          "가방 속에 쏙 들어갈 만큼 작아요"
+        ]
+      },
+      {
+        "question": "잉카 사람들이 마추픽추를 쌓을 때 쓴 '커다란 바위' 하나는 얼마나 무거울까요?",
+        "options": [
+          "자동차 여러 대를 합친 것만큼 무거워요",
+          "축구공 하나만큼 가벼워요",
+          "아이스크림 한 박스만큼 가벼워요"
+        ]
+      }
+    ]
+  }
+}

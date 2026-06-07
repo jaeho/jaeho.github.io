@@ -1,0 +1,172 @@
+{
+  "page1": {
+    "headline": "낯선 곳에서 찾은 보물, 학교와 친구",
+    "article_body": [
+      "고향을 떠나 낯선 나라에 온 아이들을 '난민 어린이'라고 불러요. 이 친구들에게 학교는 마음을 지켜주는 안전한 울타리가 되어준답니다. 학교에서 공부하며 규칙적으로 생활하면 불안했던 마음이 사라지고 평범한 일상을 되찾을 수 있어요.",
+      "학교에서 사귄 친구들은 난민 어린이에게 가장 큰 선물이 돼요. 함께 운동장에서 뛰놀며 웃다 보면 마음속 걱정도 조금씩 사라지게 되지요. 친구와 대화하며 새로운 말을 배우는 과정은 큰 용기를 준답니다. 서로 응원하는 마음은 어려움을 이겨내게 하는 마법 같은 힘이에요.",
+      "학교와 친구는 난민 어린이의 꿈을 지켜주는 든든한 뿌리예요. 우리가 먼저 따뜻한 손을 내밀면 그들의 마음에도 희망이 자라날 거예요. 여러분은 오늘 친구에게 어떤 다정한 말을 해주고 싶나요? 소중한 친구와 함께 미소 지으며 행복한 하루를 만들어 보세요."
+    ],
+    "image_prompt": "A warm and bright pastel illustration of diverse children, including a refugee child, laughing and playing together in a sunny school playground with a friendly teacher in the background.",
+    "category_tag": "오늘의 세계·사회 이해"
+  },
+  "age_group": "8-10",
+  "activity_type": "crossword",
+  "word_info": {
+    "word": "난민",
+    "definition": "전쟁이나 재난 같은 위험을 피해 자신의 나라를 떠나 안전한 곳을 찾아온 사람이에요."
+  },
+  "hidden_word": {
+    "word": "울타리",
+    "mission": "소중한 것을 보호하기 위해 주변을 둘러싼 벽을 무엇이라고 할까요? 기사에서는 학교를 이것에 비유했어요!"
+  },
+  "selected_topic": "난민 어린이에게 학교와 친구가 왜 큰 힘이 될까요?",
+  "selected_category": "오늘의 세계·사회 이해",
+  "wisdom_pool_data": {
+    "text": "공감",
+    "description": "다른 사람의 기분이나 마음을 깊이 이해하고, 그 친구가 느끼는 기쁨과 슬픔을 함께 나누는 것을 말해요.",
+    "message": "낯선 곳에서 온 친구에게 먼저 따뜻한 눈길을 보내주세요. 친구의 이야기에 귀를 기울이고 마음을 나누면, 여러분은 어느새 서로의 꿈을 지켜주는 마법 같은 힘이 될 거예요."
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 떠올리며 가로 세로 열쇠를 읽고 빈칸을 채워보세요!",
+    "grid_size": 5,
+    "grid": [
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 1,
+        "display_char": "어"
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": false,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      },
+      {
+        "is_blank": true,
+        "number": 0,
+        "display_char": ""
+      }
+    ],
+    "clues_across": [
+      {
+        "number": 1,
+        "text": "고향을 떠나 낯선 나라에 온 아이들을 '난민 ○○○'라고 불러요."
+      }
+    ],
+    "clues_down": [
+      {
+        "number": 1,
+        "text": "서로 응원하는 마음은 힘들고 고된 ○○○을 이겨내게 하는 마법 같은 힘이에요."
+      }
+    ]
+  }
+}

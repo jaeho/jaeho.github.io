@@ -1,0 +1,52 @@
+{
+  "page1": {
+    "headline": "달 뒷면의 비밀을 싣고 슝! 상아 6호의 멋진 모험",
+    "article_body": [
+      "우주선 ‘상아 6호’가 지구에서 보이지 않는 달의 뒷면에 무사히 도착했다는 기쁜 소식이에요. 달의 뒷면은 우리가 보는 앞면과는 달리 아주 울퉁불퉁하고 험해서 착륙하기가 매우 어렵답니다. 하지만 상아 6호는 이 어려운 일을 멋지게 해내고, 달의 비밀이 담긴 흙과 돌을 챙겨 다시 하늘로 솟아올랐어요.",
+      "상아 6호가 가져오는 이 샘플들은 인류 역사상 처음으로 달 뒷면에서 직접 가져오는 소중한 보물이에요. 달 뒷면은 지구와 통신하기도 어렵지만, 상아 6호는 로봇 팔을 이용해 꼼꼼하게 주변을 탐색하며 샘플을 모았지요. 이 흙과 돌은 아주 오래전 달이 어떻게 태어났는지 알려주는 열쇠가 될 거예요.",
+      "이제 상아 6호는 지구를 향해 긴 여행을 시작했어요. 이 보물들이 도착하면 과학자들은 달의 과거뿐만 아니라 지구가 어떻게 변해왔는지도 연구할 수 있답니다. 밤하늘을 볼 때마다 상아 6호가 가져올 선물을 기다려 보는 건 어떨까요? 여러분이 우주 탐험가가 된다면 달의 어떤 비밀을 가장 먼저 풀고 싶나요?"
+    ],
+    "image_prompt": "A warm and realistic picture book illustration of a young child explorer wearing a silver space helmet, looking through a telescope at a glowing moon. In the background, the Chang'e 6 spacecraft is depicted taking off from a rugged, cratered lunar surface on the moon's far side, leaving a soft golden light trail. The atmosphere is magical and inspiring with a deep blue starry night sky.",
+    "category_tag": "오늘의 우주",
+    "reference": "https://www.planetary.org/space-missions/change-6"
+  },
+  "age_group": "8-10",
+  "search_core_topic": "상아 6호 달 뒷면 샘플 채취 및 이륙 성공",
+  "activity_type": "fact_opinion",
+  "word_info": {
+    "word": "샘플(Sample)",
+    "definition": "전체의 성질을 알기 위해 전체에서 조금 떼어 낸 물건을 말해요."
+  },
+  "hidden_word": {
+    "word": "이륙",
+    "mission": "비행기나 우주선이 땅에서 떠올라 하늘로 날아오르는 것을 무엇이라고 할까요?"
+  },
+  "selected_category": "오늘의 우주",
+  "selected_topic": "안녕, 달 뒷면! 세계 최초로 '달의 비밀'을 싣고 떠난 상아 6호",
+  "wisdom_pool_data": {
+    "text": "고진감래(苦盡甘來)",
+    "description": "고생 끝에 즐거움이 온다는 뜻으로, 어려운 상황을 꾹 참고 이겨내면 반드시 좋은 결과가 찾아온다는 말이에요.",
+    "message": "달 뒷면의 험한 길을 뚫고 소중한 보물을 찾아낸 상아 6호처럼, 우리 친구들도 어려운 일이 생겨도 포기하지 말고 끝까지 도전해 보세요! 노력 끝에는 반드시 기쁜 선물이 기다리고 있을 거예요."
+  },
+  "activity_data": {
+    "title": "팩트 체크 탐정",
+    "instruction": "문장을 읽고 사실인지 의견인지 표시한 뒤, 그렇게 생각한 까닭을 짧게 써보세요.",
+    "items": [
+      {
+        "statement": "상아 6호는 인류 역사상 처음으로 달 뒷면의 흙과 돌을 직접 채취해서 지구로 가져오고 있습니다.",
+        "answer": "사실",
+        "reason_hint": "실제로 일어난 역사적인 기록이나 정보인지 생각해보세요."
+      },
+      {
+        "statement": "밤하늘을 보며 상아 6호가 가져올 선물을 설레는 마음으로 기다리는 것은 아주 멋진 일입니다.",
+        "answer": "의견",
+        "reason_hint": "사람마다 느끼는 기분이나 생각이 다를 수 있는지 생각해보세요."
+      },
+      {
+        "statement": "상아 6호는 지구와 직접 통신하기 어려운 환경에서 로봇 팔을 이용해 샘플을 모았습니다.",
+        "answer": "사실",
+        "reason_hint": "기사에서 설명한 기계의 동작이나 환경에 대한 설명인지 확인해 보세요."
+      }
+    ]
+  }
+}

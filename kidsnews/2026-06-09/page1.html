@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
     <script>
@@ -498,7 +498,7 @@ body {
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID ');
     </script>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -507,9 +507,9 @@ body {
 
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -530,9 +530,9 @@ body {
         </div>
 
         <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
-            
+
             <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
-            
+
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
                 <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
@@ -543,13 +543,13 @@ body {
 
         <article class="flex-1 overflow-hidden">
             <div class="columns-2 gap-8 article-text h-full">
-                
+
                 <p class="drop-cap">플라스틱은 가볍고 튼튼해서 우리 생활에 많이 쓰여요. 하지만 버려진 플라스틱은 아주 오래 남아 바다와 흙을 아프게 할 수 있어요.</p>
-                
+
                 <p class="">과학자들은 플라스틱을 조금씩 잘게 나누는 박테리아를 찾고 있어요. 박테리아는 눈에 잘 보이지 않는 아주 작은 생명체예요.</p>
-                
+
                 <p class="">이 연구가 더 자라면 쓰레기를 줄이는 데 도움이 될 수 있어요. 그래도 가장 좋은 방법은 물건을 오래 쓰고 분리배출을 잘하는 거예요.</p>
-                
+
             </div>
         </article>
 
@@ -576,11 +576,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 149호 (2026년 06월 09일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -606,15 +606,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -622,7 +622,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;
@@ -652,11 +652,11 @@ body {
             const container = document.querySelector('article');
             const content = document.querySelector('.article-text');
             if (!container || !content) return;
-            
-            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
-            const minFontSize = 14; 
 
-            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
+            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
+            const minFontSize = 14;
+
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다
             // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
             function isOverflowing() {
                 // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크

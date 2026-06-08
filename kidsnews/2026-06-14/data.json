@@ -2,11 +2,11 @@
   "page1": {
     "headline": "우리 주변의 작은 자연을 관찰하는 방법 이야기",
     "article_body": [
-      "오늘은 '우리 주변의 작은 자연을 관찰하는 방법' 이야기를 만나 볼 거예요. 처음에는 조금 낯설 수 있어요. 그래도 천천히 읽으면 작은 힌트가 하나씩 보여요.",
-      "새로운 것을 배울 때는 먼저 눈으로 살펴보고, 마음속 질문을 떠올려요. 모르는 낱말이 나오면 잠깐 멈추고 쉬운 뜻을 생각해요.",
-      "본문에서 '주변' 낱말을 찾아 보세요. 이 말이 어떤 뜻인지 가족에게 설명해 보세요. 오늘 찾은 생각을 나누면 지식 씨앗이 자라나요."
+      "자연은 멀리 산이나 바다에만 있는 것이 아니에요. 길가의 잎, 운동장의 작은 돌, 창밖의 구름도 관찰할 수 있는 자연이에요.",
+      "관찰할 때는 먼저 조용히 보고, 모양과 색을 살펴요. 만지기 전에 안전한지 생각하고, 작은 생명은 다치게 하지 않아요.",
+      "본 것을 그림이나 짧은 말로 적어 두면 좋아요. 어제와 오늘이 어떻게 다른지 보면 자연의 작은 변화가 보이기 시작해요."
     ],
-    "image_prompt": "Warm simple picture book illustration for young children about 우리 주변의 작은 자연을 관찰하는 방법",
+    "image_prompt": "Warm picture book illustration of a child observing leaves, stones, and clouds with a small notebook",
     "reference": "",
     "category_tag": "오늘의 지혜"
   },
@@ -14,12 +14,12 @@
   "selected_topic": "우리 주변의 작은 자연을 관찰하는 방법",
   "activity_type": "basic",
   "word_info": {
-    "word": "주변",
-    "definition": "오늘 글에서 중요한 낱말이에요. 글을 다시 보며 어떤 뜻인지 생각해요."
+    "word": "관찰",
+    "definition": "눈과 귀로 자세히 살펴보고 무엇이 다른지 알아보는 일이에요."
   },
   "hidden_word": {
-    "word": "주변",
-    "mission": "본문에서 '주변' 낱말을 찾아 동그라미 해보세요."
+    "word": "관찰",
+    "mission": "본문에서 '관찰' 낱말을 찾아 동그라미 해보세요."
   },
   "selected_category": "오늘의 동물과 자연",
   "wisdom_pool_data": {
@@ -28,6 +28,6 @@
   },
   "activity_data": {
     "title": "생각 쑥쑥 활동",
-    "instruction": "'우리 주변의 작은 자연을 관찰하…' 이야기를 떠올리며 가장 기억나는 장면을 그려보세요."
+    "instruction": "오늘 내가 본 작은 자연 하나를 자세히 그려보세요."
   }
 }

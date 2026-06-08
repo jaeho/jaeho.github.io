@@ -2,11 +2,11 @@
   "page1": {
     "headline": "우주 공간에서 살 집을 설계하는 우주 건축가 이야기",
     "article_body": [
-      "오늘은 '우주 공간에서 살 집을 설계하는 우주 건축가' 이야기를 만나 볼 거예요. 처음에는 조금 낯설 수 있어요. 그래도 천천히 읽으면 작은 힌트가 하나씩 보여요.",
-      "새로운 것을 배울 때는 먼저 눈으로 살펴보고, 마음속 질문을 떠올려요. 모르는 낱말이 나오면 잠깐 멈추고 쉬운 뜻을 생각해요.",
-      "본문에서 '우주' 낱말을 찾아 보세요. 이 말이 어떤 뜻인지 가족에게 설명해 보세요. 오늘 찾은 생각을 나누면 지식 씨앗이 자라나요."
+      "우주에는 우리가 숨 쉬는 공기가 거의 없고, 날씨도 지구와 달라요. 그래서 우주 집은 보통 집보다 훨씬 꼼꼼하게 만들어야 해요.",
+      "우주 건축가는 사람이 숨 쉴 공기, 마실 물, 잠자는 방을 생각해요. 작은 돌이 빠르게 날아와도 안전하도록 튼튼한 벽도 필요해요.",
+      "또 몸이 약해지지 않게 운동할 자리도 마련해요. 우주 집을 상상해 보면 과학과 건축이 함께 일한다는 걸 알 수 있어요."
     ],
-    "image_prompt": "Warm simple picture book illustration for young children about 우주 공간에서 살 집을 설계하는 우주 건축가",
+    "image_prompt": "Warm picture book illustration of a child architect designing a cozy space house on the moon",
     "reference": "",
     "category_tag": "오늘의 직업과 미래"
   },
@@ -14,12 +14,12 @@
   "selected_topic": "우주 공간에서 살 집을 설계하는 우주 건축가",
   "activity_type": "basic",
   "word_info": {
-    "word": "우주",
-    "definition": "오늘 글에서 중요한 낱말이에요. 글을 다시 보며 어떤 뜻인지 생각해요."
+    "word": "건축가",
+    "definition": "사람들이 지낼 집이나 건물을 어떻게 만들지 계획하는 사람이에요."
   },
   "hidden_word": {
-    "word": "우주",
-    "mission": "본문에서 '우주' 낱말을 찾아 동그라미 해보세요."
+    "word": "건축가",
+    "mission": "본문에서 '건축가' 낱말을 찾아 밑줄을 그어보세요."
   },
   "selected_category": "오늘의 직업과 미래",
   "wisdom_pool_data": {
@@ -28,6 +28,6 @@
   },
   "activity_data": {
     "title": "생각 쑥쑥 활동",
-    "instruction": "'우주 공간에서 살 집을 설계하는…' 이야기를 떠올리며 가장 기억나는 장면을 그려보세요."
+    "instruction": "내가 만든다면 어떤 우주 집을 짓고 싶은지 그려보세요."
   }
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 생각 쑥쑥 활동</title>
+    <title>씨앗 어린이 신문 - 숨은그림 찾기</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
     <script>
@@ -498,16 +498,16 @@ body {
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID ');
     </script>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
     <div class="paper flex flex-col gap-6">
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -520,24 +520,32 @@ body {
             </div>
         </header>
 
-        
-        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">생각 쑥쑥 활동</h2>
-        
+
+        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">숨은그림 찾기</h2>
+
 
         <main class="flex-1 overflow-hidden">
             <div class="flex flex-col gap-6">
-    <div class="bg-brand-cream p-8 rounded-[32px] border-2 border-brand-sun shadow-inner">
-        <p class="text-2xl font-bold text-slate-800 mb-6 text-center">✍️ 플라스틱 쓰레기를 줄이기 위해 내가 할 수 있는 일을 그려보세요.</p>
+    <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100 shadow-sm text-center">
+        <p class="text-xl font-bold text-gray-800">그림 속에서 플라스틱을 줄이는 데 도움이 되는 물건을 찾아보세요.</p>
+        <div class="flex justify-center gap-4 mt-3">
 
-        <div class="w-full h-80 bg-white rounded-2xl border-4 border-dashed border-slate-200 relative">
-            <div class="absolute inset-0 flex items-center justify-center opacity-10">
-                <span class="material-symbols-rounded text-6xl">draw</span>
-            </div>
+            <span class="px-3 py-1 bg-white rounded-full border border-blue-200 text-sm font-bold text-blue-600">
+                🔍 물병
+            </span>
+
+            <span class="px-3 py-1 bg-white rounded-full border border-blue-200 text-sm font-bold text-blue-600">
+                🔍 분리배출 표시
+            </span>
+
+            <span class="px-3 py-1 bg-white rounded-full border border-blue-200 text-sm font-bold text-blue-600">
+                🔍 박테리아
+            </span>
+
         </div>
     </div>
-
-    <div class="text-center italic text-slate-400 text-sm">
-        생각을 엄마, 아빠에게도 들려주세요!
+    <div class="relative rounded-2xl overflow-hidden border-4 border-white shadow-xl">
+        <img src="activity_image.webp" class="w-full">
     </div>
 </div>
         </main>
@@ -559,11 +567,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 149호 (2026년 06월 09일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -589,15 +597,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -605,7 +613,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

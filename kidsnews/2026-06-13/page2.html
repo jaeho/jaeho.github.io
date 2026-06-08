@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 생각 쑥쑥 활동</title>
+    <title>씨앗 어린이 신문 - 초성 퀴즈</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
     <script>
@@ -498,16 +498,16 @@ body {
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID ');
     </script>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
     <div class="paper flex flex-col gap-6">
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -520,24 +520,64 @@ body {
             </div>
         </header>
 
-        
-        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">생각 쑥쑥 활동</h2>
-        
+
+        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">초성 퀴즈</h2>
+
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6">
-    <div class="bg-brand-cream p-8 rounded-[32px] border-2 border-brand-sun shadow-inner">
-        <p class="text-2xl font-bold text-slate-800 mb-6 text-center">✍️ 내가 자신 있게 말하고 싶은 생각을 그림으로 그려보세요.</p>
+            <div class="flex flex-col gap-8">
+    <p class="text-2xl font-bold text-gray-800 italic">✏️ 힌트를 읽고 기사 속 낱말의 초성을 맞혀보세요.</p>
+    <div class="space-y-10">
 
-        <div class="w-full h-80 bg-white rounded-2xl border-4 border-dashed border-slate-200 relative">
-            <div class="absolute inset-0 flex items-center justify-center opacity-10">
-                <span class="material-symbols-rounded text-6xl">draw</span>
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"친구들 앞에서 내 생각을 말하는 일이에요."</p>
+            <div class="flex gap-3">
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅂ
+                </div>
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅍ
+                </div>
+
             </div>
         </div>
-    </div>
 
-    <div class="text-center italic text-slate-400 text-sm">
-        생각을 엄마, 아빠에게도 들려주세요!
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"내가 해볼 수 있다고 믿는 마음이에요."</p>
+            <div class="flex gap-3">
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅈ
+                </div>
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅅ
+                </div>
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㄱ
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+            <p class="text-xl font-bold text-gray-600">"잘 말하기 위해 미리 해보는 일이에요."</p>
+            <div class="flex gap-3">
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅇ
+                </div>
+
+                <div class="w-16 h-16 bg-white border-4 border-dashed border-gray-300 rounded-2xl flex items-center justify-center text-3xl font-black text-gray-800 shadow-sm">
+                    ㅅ
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </div>
         </main>
@@ -559,11 +599,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 153호 (2026년 06월 13일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -589,15 +629,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -605,7 +645,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

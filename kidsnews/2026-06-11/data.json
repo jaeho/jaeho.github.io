@@ -12,7 +12,7 @@
   },
   "age_group": "7-8",
   "selected_topic": "다른 나라 친구와 펜팔을 하며 우정을 나누는 방법",
-  "activity_type": "basic",
+  "activity_type": "letter_writing",
   "word_info": {
     "word": "펜팔",
     "definition": "멀리 있는 친구와 편지를 주고받으며 친해지는 일이에요."
@@ -27,7 +27,10 @@
     "description": "자신을 낮추고 다른 사람을 존중하는 태도를 말해요. 친구에게 자랑하거나 뽐내기보다는 겸손하게 행동하면, 친구도 당신을 좋아할 거예요. 겸손한 태도를 유지하세요."
   },
   "activity_data": {
-    "title": "생각 쑥쑥 활동",
-    "instruction": "다른 나라 친구에게 보내고 싶은 첫 편지 그림을 그려보세요."
+    "title": "마음 편지 쓰기",
+    "instruction": "다른 나라 친구에게 보내는 첫 편지를 완성해보세요.",
+    "receiver": "다른 나라 친구에게",
+    "greeting": "안녕! 나는 너와 편지로 친해지고 싶어.",
+    "guide_text": "내가 좋아하는 놀이는..."
   }
 }

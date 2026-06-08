@@ -12,7 +12,7 @@
   },
   "age_group": "7-8",
   "selected_topic": "우리 주변의 작은 자연을 관찰하는 방법",
-  "activity_type": "basic",
+  "activity_type": "coloring",
   "word_info": {
     "word": "관찰",
     "definition": "눈과 귀로 자세히 살펴보고 무엇이 다른지 알아보는 일이에요."
@@ -27,7 +27,8 @@
     "description": "시간은 금과 같이 소중하므로 헛되이 보내지 말고 의미있게 사용하라는 뜻이야. 오늘 하루도 시간을 알차게 보내고 즐거운 추억을 많이 만들렴!"
   },
   "activity_data": {
-    "title": "생각 쑥쑥 활동",
-    "instruction": "오늘 내가 본 작은 자연 하나를 자세히 그려보세요."
+    "title": "자연 색칠하기",
+    "instruction": "오늘 내가 본 작은 자연을 떠올리며 색칠해보세요.",
+    "image_prompt": "Black and white simple coloring page for young children, child observing leaves, small stones, flowers, clouds, notebook, thick clean line art, white background, no shading, no text"
   }
 }

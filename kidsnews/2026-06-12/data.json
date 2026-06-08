@@ -12,7 +12,7 @@
   },
   "age_group": "7-8",
   "selected_topic": "우주 공간에서 살 집을 설계하는 우주 건축가",
-  "activity_type": "basic",
+  "activity_type": "word_hunt",
   "word_info": {
     "word": "건축가",
     "definition": "사람들이 지낼 집이나 건물을 어떻게 만들지 계획하는 사람이에요."
@@ -27,7 +27,13 @@
     "description": "하나의 목표를 정하고 끈기 있게 노력하면 성공할 수 있다는 뜻이야. 좋아하는 일을 정하고 끈기 있게 노력해서 전문가가 되어보자!"
   },
   "activity_data": {
-    "title": "생각 쑥쑥 활동",
-    "instruction": "내가 만든다면 어떤 우주 집을 짓고 싶은지 그려보세요."
+    "title": "그림 속 단어 찾기",
+    "instruction": "우주 집 그림에서 기사 속 단어를 찾아 동그라미 쳐보세요.",
+    "words": [
+      "우주 집",
+      "공기통",
+      "운동 기구"
+    ],
+    "image_prompt": "Black and white word hunt illustration for young children, cozy moon habitat, oxygen tank, exercise machine, child astronaut architect, thick clean line art, white background, no text"
   }
 }

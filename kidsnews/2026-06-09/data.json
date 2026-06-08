@@ -12,7 +12,7 @@
   },
   "age_group": "7-8",
   "selected_topic": "플라스틱을 먹어서 없애주는 착한 박테리아 이야기",
-  "activity_type": "basic",
+  "activity_type": "hidden_objects",
   "word_info": {
     "word": "박테리아",
     "definition": "눈에 잘 보이지 않을 만큼 작은 생명체예요. 어떤 박테리아는 자연을 깨끗하게 돕기도 해요."
@@ -27,7 +27,13 @@
     "description": "실패를 통해 배우고 다시 도전하는 것을 말해요. 실패를 두려워하지 말고 다시 도전하는 어린이가 되어 보세요."
   },
   "activity_data": {
-    "title": "생각 쑥쑥 활동",
-    "instruction": "플라스틱 쓰레기를 줄이기 위해 내가 할 수 있는 일을 그려보세요."
+    "title": "숨은그림 찾기",
+    "instruction": "그림 속에서 플라스틱을 줄이는 데 도움이 되는 물건을 찾아보세요.",
+    "items": [
+      "물병",
+      "분리배출 표시",
+      "박테리아"
+    ],
+    "image_prompt": "Black and white hidden object puzzle for young children, recycling bin, plastic bottle, tiny friendly bacteria, magnifying glass, thick clean line art, white background, no text"
   }
 }

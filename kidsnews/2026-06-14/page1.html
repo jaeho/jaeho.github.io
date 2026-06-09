@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
     <script>
@@ -498,7 +498,7 @@ body {
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID ');
     </script>
-
+    
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -507,9 +507,9 @@ body {
 
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-
+                
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-
+                
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -530,9 +530,9 @@ body {
         </div>
 
         <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
-
+            
             <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
-
+            
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
                 <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
@@ -543,13 +543,13 @@ body {
 
         <article class="flex-1 overflow-hidden">
             <div class="columns-2 gap-8 article-text h-full">
-
+                
                 <p class="drop-cap">자연은 멀리 산이나 바다에만 있는 것이 아니에요. 길가의 잎, 운동장의 작은 돌, 창밖의 구름도 관찰할 수 있는 자연이에요.</p>
-
+                
                 <p class="">관찰할 때는 먼저 조용히 보고, 모양과 색을 살펴요. 만지기 전에 안전한지 생각하고, 작은 생명은 다치게 하지 않아요.</p>
-
+                
                 <p class="">본 것을 그림이나 짧은 말로 적어 두면 좋아요. 어제와 오늘이 어떻게 다른지 보면 자연의 작은 변화가 보이기 시작해요.</p>
-
+                
             </div>
         </article>
 
@@ -576,11 +576,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 154호 (2026년 06월 14일)
             </button>
-
+            
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-
+            
         </footer>
     </div>
 
@@ -606,15 +606,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-
+            
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-
+                        
                         const isCurrent = window.location.pathname.includes(date);
-
+                        
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -622,7 +622,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-
+                        
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;
@@ -652,11 +652,11 @@ body {
             const container = document.querySelector('article');
             const content = document.querySelector('.article-text');
             if (!container || !content) return;
-
+            
             let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
-            const minFontSize = 14;
+            const minFontSize = 14; 
 
-            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
             // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
             function isOverflowing() {
                 // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크

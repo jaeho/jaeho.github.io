@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 마음 편지 쓰기</title>
+    <title>씨앗 어린이 신문 - 이야기 만화</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID "></script>
     <script>
@@ -498,16 +498,16 @@ body {
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID ');
     </script>
-
+    
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-2">
             <div class="flex items-center gap-0">
-
+                
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-
+                
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -520,33 +520,51 @@ body {
             </div>
         </header>
 
-
-        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">마음 편지 쓰기</h2>
-
+        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">💌 다른 나라 친구에게 보내는 첫 편지를 완성해보세요.</p>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 장면을 보고 다음 이야기를 상상해서 그려보세요.</p>
 
-    <div class="flex-1 flex flex-col items-center justify-center py-2 h-full w-full relative">
-        <!-- 편지 봉투 귀여운 디자인 요소 추가 가능 -->
-        <div class="bg-[#fffdf8] rounded-sm shadow-md border border-slate-200 p-8 md:p-10 w-full max-w-2xl relative overflow-hidden"
-             style="background-image: repeating-linear-gradient(transparent, transparent 49px, #d7e7d1 49px, #d7e7d1 50px); background-position: 0 35px; min-height: 400px;">
-            <p class="text-2xl font-bold text-slate-800 leading-[50px]">To. <span class="bg-blue-100 px-2 rounded-md">다른 나라 친구에게</span></p>
-            <p class="text-xl font-bold text-slate-700 leading-[50px] pl-2 whitespace-normal break-keep">
-                안녕! 나는 너와 편지로 친해지고 싶어.
-            </p>
-            <p class="text-xl font-bold text-blue-400 leading-[50px] pl-2">
-                내가 좋아하는 놀이는...
-            </p>
-            <!-- Blank lines for kids to write on -->
-            <div class="h-[50px]"></div>
-            <div class="h-[50px]"></div>
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    이건 왜 그럴까?
+                </div>
+            </div>
 
-            <p class="text-xl font-bold text-slate-800 leading-[50px] text-right mt-4">
-                From. <span class="inline-block w-32 border-b-2 border-slate-400 border-dashed"></span>
-            </p>
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -558,8 +576,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-brand-forest">겸손</p>
-                    <p class="text-base font-bold text-brand-forest/80 leading-snug">자신을 낮추고 다른 사람을 존중하는 태도를 말해요. 친구에게 자랑하거나 뽐내기보다는 겸손하게 행동하면, 친구도 당신을 좋아할 거예요. 겸손한 태도를 유지하세요.</p>
+                    <p class="text-3xl font-black text-brand-forest">친구는 내 보물</p>
+                    <p class="text-base font-bold text-brand-forest/80 leading-snug">친구는 함께 웃고, 함께 놀고, 서로 도와주는 소중한 존재야. 네 옆에 있는 친구들을 항상 아끼고 소중하게 생각해 주렴!</p>
                 </div>
             </div>
         </footer>
@@ -568,11 +586,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 151호 (2026년 06월 11일)
             </button>
-
+            
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-
+            
         </footer>
     </div>
 
@@ -598,15 +616,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-
+            
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-
+                        
                         const isCurrent = window.location.pathname.includes(date);
-
+                        
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -614,7 +632,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-
+                        
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

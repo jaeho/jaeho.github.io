@@ -12,7 +12,7 @@
   },
   "age_group": "7-8",
   "search_core_topic": "수성, 금성, 목성 3개 행성 정렬 현상",
-  "activity_type": "cartoon",
+  "activity_type": "scale_quiz",
   "word_info": {
     "word": "행성",
     "definition": "수성, 금성, 목성, 지구처럼 스스로 빛을 내지 않고 태양 주위를 빙글빙글 도는 커다란 별을 말해요."
@@ -29,9 +29,24 @@
     "message": "행성 친구들이 줄을 선 신비한 이야기를 듣기만 하는 것보다, 오늘 저녁 직접 창문을 열고 밤하늘을 올려다보며 찾아보세요! 내 눈으로 직접 반짝이는 우주 친구들을 만나면 훨씬 더 신나고 즐거울 거예요."
   },
   "activity_data": {
-    "title": "이야기 만화",
-    "instruction": "첫 장면을 보고 다음 이야기를 상상해서 그려보세요.",
-    "first_cut_dialogue": "이건 왜 그럴까?",
-    "image_prompt": "Black and white first panel of a simple four panel comic for children about 밤하늘 우주 친구들이 나란히 줄…, thick line art, white background, no text"
+    "instruction": "누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!",
+    "items": [
+      {
+        "question": "밤하늘의 덩치 큰 친구 '목성'은 과연 얼마나 클까요?",
+        "options": [
+          "우리 학교 건물 1개만큼 커요",
+          "지구라는 작은 구슬을 1,300개나 담을 수 있을 만큼 커요",
+          "아빠가 타는 자동차 10대만큼 커요"
+        ]
+      },
+      {
+        "question": "가장 작은 행성인 '수성'의 크기를 상상해볼까요?",
+        "options": [
+          "지구가 커다란 축구공이라면, 수성은 작은 탁구공만 해요",
+          "놀이터에 있는 시소만큼 길어요",
+          "우리 교실에 있는 칠판만큼 넓어요"
+        ]
+      }
+    ]
   }
 }

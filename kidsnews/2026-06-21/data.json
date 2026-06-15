@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "밤하늘 우주 친구들이 나란히 줄을 섰어요!",
+    "article_body": [
+      "밤하늘에 반짝이는 별들이 기차처럼 줄을 선 모습을 본 적 있나요? 요즘 저녁 하늘을 보면 수성, 금성, 목성이라는 우주 친구들 셋이 나란히 서 있어요. 마치 우리 친구들이 급식실 앞에 줄을 서 있는 모습 같지요.",
+      "이 현상을 '행성 정렬'이라고 불러요. 행성들은 태양 주위를 빙글빙글 돌고 있어요. 그러다 지구에서 볼 때 우연히 한 줄로 딱 맞춰 서게 된 거랍니다. 넓은 우주에서 이렇게 모이는 건 아주 특별한 일이에요.",
+      "우주는 정말 신비로운 마술사 같아요. 오늘 저녁에는 창문을 열고 밤하늘을 올려다보세요. 나란히 선 행성 친구들을 향해 반갑게 손을 흔들어 주면 어떨까요? 분명히 우주 친구들도 여러분을 보고 기뻐할 거예요."
+    ],
+    "image_prompt": "Warm and realistic picture book illustration of a young explorer child looking up at the night sky where three bright planets are aligned in a row, soft starlight, enchanting and cozy atmosphere.",
+    "category_tag": "오늘의우주",
+    "reference": "https://starwalk.space/ko/news/planetary-alignment-june-2026"
+  },
+  "age_group": "7-8",
+  "search_core_topic": "수성, 금성, 목성 3개 행성 정렬 현상",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "행성",
+    "definition": "수성, 금성, 목성, 지구처럼 스스로 빛을 내지 않고 태양 주위를 빙글빙글 도는 커다란 별을 말해요."
+  },
+  "hidden_word": {
+    "word": "마술사",
+    "mission": "신기한 속임수나 마법으로 짠! 하고 멋진 공연을 보여주는 사람은 누구일까요?"
+  },
+  "selected_category": "오늘의우주",
+  "selected_topic": "우주 친구들이 줄을 섰어요! 밤하늘의 행성 퍼레이드",
+  "wisdom_pool_data": {
+    "text": "백문이 불여일견(百聞不如一見)",
+    "description": "백 번 듣는 것보다 한 번 직접 눈으로 보는 것이 훨씬 낫다는 뜻이에요.",
+    "message": "행성 친구들이 줄을 선 신비한 이야기를 듣기만 하는 것보다, 오늘 저녁 직접 창문을 열고 밤하늘을 올려다보며 찾아보세요! 내 눈으로 직접 반짝이는 우주 친구들을 만나면 훨씬 더 신나고 즐거울 거예요."
+  },
+  "activity_data": {
+    "title": "이야기 만화",
+    "instruction": "첫 장면을 보고 다음 이야기를 상상해서 그려보세요.",
+    "first_cut_dialogue": "이건 왜 그럴까?",
+    "image_prompt": "Black and white first panel of a simple four panel comic for children about 밤하늘 우주 친구들이 나란히 줄…, thick line art, white background, no text"
+  }
+}

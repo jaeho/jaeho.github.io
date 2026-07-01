@@ -1,0 +1,50 @@
+{
+  "page1": {
+    "headline": "눈이 펑펑! 햇볕 쨍쨍! 전 세계 친구들의 겨울 이야기",
+    "article_body": [
+      "추운 겨울이 찾아왔어요. 나라마다 겨울을 보내는 모습은 아주 달라요. 어떤 나라는 눈이 펑펑 내리고 차가운 바람이 불어요. 하지만 어떤 나라는 쨍쨍한 햇볕이 내리쬐는 더운 겨울을 보내기도 하지요.",
+      "북쪽 나라 친구들은 두꺼운 외투를 입고 썰매를 타요. 꽁꽁 얼어붙은 호수 위에서 스케이트를 타며 즐겁게 놀기도 해요. 반대로 남쪽 나라 친구들은 바다에서 수영을 하며 크리스마스를 맞이해요. 산타클로스 할아버지가 서핑 보드를 타고 나타날지도 몰라요.",
+      "겨울이 되면 전 세계 친구들은 따뜻한 음식을 나누어 먹어요. 달콤한 코코아를 마시거나 맛있는 고기를 구워 먹으며 가족과 시간을 보내지요. 모습은 조금씩 다르지만 마음만은 모두 따뜻하고 행복하답니다. 여러분은 어떤 겨울 풍경을 가장 좋아하나요?"
+    ],
+    "image_prompt": "A bright and warm pastel-style illustration showing two scenes side by side: one side with children in thick coats playing in the snow, and the other side with children in swimsuits playing on a sunny beach with a decorated palm tree. Cheerful and friendly atmosphere for kids.",
+    "category_tag": "오늘의 세계와 사회"
+  },
+  "age_group": "7-8",
+  "activity_type": "scale_quiz",
+  "word_info": {
+    "word": "남쪽 나라",
+    "definition": "우리나라와 반대편에 있어서 날씨나 계절이 반대인 따뜻한 곳이에요."
+  },
+  "hidden_word": {
+    "word": "썰매",
+    "mission": "눈 위를 쌩쌩 미끄러지며 타는 신나는 놀이기구는 무엇일까요?"
+  },
+  "selected_topic": "전 세계 친구들의 겨울나기 모습",
+  "selected_category": "오늘의 세계와 사회",
+  "wisdom_pool_data": {
+    "text": "역지사지",
+    "description": "다른 사람의 입장에서 생각해 보는 거예요. 나는 눈이 와서 춥지만, 지구 반대편 친구는 더운 여름 같은 겨울을 보낼 수도 있다는 걸 이해하는 마음이지요.",
+    "message": "우리와 다른 모습으로 겨울을 지내는 전 세계 친구들의 상황을 떠올려 보세요. 서로의 차이를 이해하고 존중할 때 우리 마음은 더욱 따뜻해진답니다!"
+  },
+  "activity_data": {
+    "instruction": "누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!",
+    "items": [
+      {
+        "question": "기사에 나온 '꽁꽁 얼어붙은 호수'는 과연 얼마나 넓을까요?",
+        "options": [
+          "우리 학교 운동장을 몇 개 합친 것보다 훨씬 넓어요",
+          "우리가 쓰는 세수대야 속에 쏙 들어갈 만큼 작아요",
+          "작은 우유 갑 5개를 세워둔 크기예요"
+        ]
+      },
+      {
+        "question": "남쪽 나라 산타 할아버지가 타는 '서핑 보드'는 얼마나 길까요?",
+        "options": [
+          "필통 안에 들어있는 연필 한 자루만큼 짧아요",
+          "어린이 친구 두 명을 나란히 눕혀놓은 것만큼 길어요",
+          "우리 집 거실에 있는 커다란 소파를 100개 이어붙인 것만큼 길어요"
+        ]
+      }
+    ]
+  }
+}

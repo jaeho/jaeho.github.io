@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "여보세요? 벨이 만든 마법의 전화기",
+    "article_body": [
+      "옛날에는 멀리 있는 사람과 바로 이야기를 나눌 수 없었어요. 하지만 1876년 3월 10일에 아주 놀라운 일이 일어났답니다. 그레이엄 벨이라는 발명가가 전화기로 처음 목소리를 전달하는 데 성공했어요. 그는 옆방에 있는 조수 왓슨에게 \"이리 와 보세요\"라고 말했지요.",
+      "선으로 이어진 기계를 통해 사람의 목소리가 전해지자 모두가 깜짝 놀랐어요. 이전까지는 편지를 써서 며칠을 기다려야 소식을 알 수 있었거든요. 벨의 멋진 발명 덕분에 우리는 보고 싶은 사람과 언제든 대화할 수 있게 되었어요. 전화기는 세상을 더 가깝게 연결해 주는 마법 같은 도구가 되었답니다.",
+      "처음 만들어진 전화기는 지금의 스마트폰과는 아주 다르게 생겼어요. 크고 무거웠지만 사람들의 따뜻한 마음을 전해주는 소중한 보물이었지요. 오늘날 우리는 전화기로 사랑한다는 말을 아주 쉽게 전할 수 있어요. 여러분은 지금 누구의 목소리를 가장 듣고 싶나요?"
+    ],
+    "image_prompt": "A warm and bright pastel illustration of Alexander Graham Bell in his 19th-century lab, holding an early wooden telephone, smiling kindly. A soft and friendly storybook style with gentle lighting, children's book illustration.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "age_group": "7-8",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "발명가",
+    "definition": "세상에 없던 새로운 물건을 처음으로 만들어 내는 사람을 말해요."
+  },
+  "hidden_word": {
+    "word": "목소리",
+    "mission": "우리가 입을 벌려 말하거나 노래할 때 밖으로 나오는 소리는 무엇일까요?"
+  },
+  "selected_topic": "그레이엄 벨이 전화기로 처음 목소리를 전달한 날",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "천리길도 한 걸음부터",
+    "description": "아무리 먼 길이라도 첫걸음을 떼는 것부터 시작된다는 뜻이에요.",
+    "message": "벨이 보낸 첫 번째 목소리가 오늘날 전 세계를 연결하는 전화기가 된 것처럼, 우리 친구의 작은 호기심과 시작이 미래의 멋진 마법이 될 수 있답니다!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 느낀 점을 담아 짧은 편지를 완성해보세요!",
+    "receiver": "세상을 가깝게 연결해 준 발명가 그레이엄 벨에게",
+    "greeting": "안녕하세요, 벨 할아버지! 목소리를 멀리 전달하는 마법 같은 전화기를 만들어 주셔서 정말 감사해요.",
+    "guide_text": "만약 제가 할아버지가 처음 성공했던 그날의 전화기를 직접 사용해 본다면 하고 싶은 말은..."
+  }
+}

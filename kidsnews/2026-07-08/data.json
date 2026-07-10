@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "피카소의 마법 그림: 왜 얼굴이 여러 개일까요?",
+    "article_body": [
+      "유명한 화가 피카소의 그림을 본 적이 있나요? 피카소가 그린 사람의 얼굴은 조금 특별해요. 앞을 보는 눈과 옆을 보는 코가 한 얼굴에 같이 있답니다. 마치 조각난 퍼즐을 마구 섞어 놓은 것 같은 재미있는 모습이지요.",
+      "피카소는 왜 이렇게 그렸을까요? 그는 사람이나 물건의 진짜 모습을 모두 보여주고 싶었어요. 우리가 앞, 뒤, 양옆에서 본 모습을 한 장의 종이 위에 모아서 그린 거예요. 그래서 얼굴이 여러 방향을 향하고 있답니다.",
+      "피카소의 그림은 처음엔 이상해 보이지만 아주 신기한 마법 같아요. 정해진 규칙을 깨고 자유로운 눈으로 세상을 바라보았기 때문이에요. 우리 친구들도 내 얼굴의 앞모습과 옆모습을 합치면 어떤 재미있는 그림이 탄생할까요?"
+    ],
+    "image_prompt": "A bright and warm pastel-toned illustration of a cute 7-year-old child looking at a playful Picasso-style portrait painting in a cozy art museum. The painting shows a funny face looking in multiple directions. Whimsical, friendly, and appealing to kids.",
+    "category_tag": "오늘의 역사와 인물"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "방향",
+    "definition": "어떤 곳을 향하는 쪽을 말해요. 앞, 뒤, 오른쪽, 왼쪽이 모두 방향이랍니다."
+  },
+  "hidden_word": {
+    "word": "퍼즐",
+    "mission": "여러 조각을 요리조리 맞추어 하나의 멋진 그림으로 완성하는 놀이는 무엇일까요?"
+  },
+  "selected_topic": "피카소의 그림은 왜 얼굴이 여러 방향일까요?",
+  "selected_category": "오늘의 역사와 인물",
+  "wisdom_pool_data": {
+    "text": "정답은 하나가 아니야",
+    "description": "무엇인가를 생각하거나 그릴 때, 꼭 남들과 똑같이 할 필요는 없다는 뜻이에요. 피카소가 앞모습과 옆모습을 한 번에 그린 것처럼 여러 가지 방법과 모습이 있을 수 있답니다.",
+    "message": "피카소처럼 정해진 규칙을 깨고 자유로운 눈으로 세상을 바라보렴! 우리 친구만의 기발하고 재미있는 상상력이 세상을 훨씬 더 멋지게 만들 거야!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "눈",
+      "코",
+      "퍼즐"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring an eye, a nose, and puzzle pieces, thick line art style, black and white, white background, no text"
+  }
+}

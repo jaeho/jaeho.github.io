@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "건전지 속에는 진짜 전기가 숨어 있을까요?",
+    "article_body": [
+      "장난감을 움직이게 하는 건전지를 본 적 있나요? 건전지 속에는 전기가 찰랑찰랑 들어있을 것 같지요. 하지만 물병에 물이 들어있는 것처럼 전기가 미리 들어있는 건 아니랍니다. 정말 신기하지 않나요?",
+      "건전지 안에는 전기를 만들어 내는 마법의 재료들이 숨어 있어요. 장난감에 건전지를 끼우고 스위치를 켜면, 이 재료들이 서로 만나서 찌릿찌릿 전기를 만들어 낸답니다. 작은 마법사들이 모여서 신나게 마법 주문을 외우는 것 같아요!",
+      "그래서 건전지는 전기를 담아두는 주머니가 아니라 전기를 만드는 아주 작은 공장이에요. 마법의 재료를 다 쓰면 전기를 더 이상 만들 수 없게 된답니다. 우리 집에서 건전지로 윙윙 움직이는 물건은 또 무엇이 있을까요?"
+    ],
+    "image_prompt": "A bright and warm pastel-toned illustration of a cute little battery acting like a tiny magical factory, making sparkly electricity. Small magical ingredients mixing together happily, children's book illustration style, soft and friendly.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "age_group": "7-8",
+  "activity_type": "hidden_objects",
+  "word_info": {
+    "word": "건전지",
+    "definition": "장난감이나 시계 같은 물건이 움직일 수 있게 전기를 만들어 주는 작은 물건이에요."
+  },
+  "hidden_word": {
+    "word": "마법사",
+    "mission": "망토를 두르고 신비한 주문을 외우며 펑! 하고 신기한 일을 보여주는 사람은 누구일까요?"
+  },
+  "selected_topic": "건전지 속에는 전기가 들어있나요?",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "시작이 어려우면 반은 성공한 것",
+    "description": "처음 시작이 힘들지만, 그것을 이겨내면 이미 절반은 성공한 것과 같다는 뜻이야. 어려운 과학 개념도 포기하지 말고 도전해 봐!"
+  },
+  "activity_data": {
+    "instruction": "건전지 내부를 상상한 톱니바퀴와 전선이 가득한 공장 배경 속에 '번개 기호', '전구', 'U자석'을 각각 딱 하나씩만 숨겨주세요. 사물들이 배경의 선화(라인아트) 일부처럼 자연스럽게 섞이도록 선의 굵기와 형태를 맞춰 그려야 합니다.",
+    "items": [
+      "번개 기호",
+      "전구",
+      "U자석"
+    ],
+    "image_prompt": "Black and white line art style for searching objects, imaginative inside of a battery, fantasy miniature factory with tiny cute robots, wires, gears, and energy flowing pipes. Carefully hide exactly one lightning bolt shape disguised within the gears, hide exactly one small light bulb as a joint of a pipe, and hide exactly one U-shaped magnet tangled in the wires. Highly detailed, clean uniform lines, no shading, intricate kids puzzle illustration."
+  }
+}

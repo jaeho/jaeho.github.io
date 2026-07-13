@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "꿈을 입히는 마법사, 패션 디자이너의 비밀",
+    "article_body": [
+      "패션 디자이너는 새로운 옷을 만드는 마법사예요. 제일 먼저 머릿속으로 멋진 옷의 모양을 상상해요. 공원의 예쁜 꽃이나 밤하늘의 별을 보며 아이디어를 얻기도 하지요. 종이 위에 연필로 슥슥 밑그림을 그리면 멋진 옷의 설계도가 완성된답니다.",
+      "밑그림을 그린 뒤에는 옷의 재료인 천을 골라요. 부드러운 면이나 반짝이는 비단 중에서 가장 잘 어울리는 것을 찾지요. 가위로 천을 자르고 바늘과 실로 꼼꼼하게 꿰매어 옷을 만들어요. 디자이너의 손길이 닿을수록 평범한 천이 특별한 옷으로 변신해요.",
+      "완성된 옷은 단추나 리본을 달아 더 예쁘게 꾸며요. 디자이너는 우리가 이 옷을 입고 행복해하는 모습을 꿈꾼답니다. 정성이 가득 담긴 옷은 입는 사람의 마음까지 따뜻하게 만들어 줘요. 여러분은 만약 디자이너가 된다면 어떤 예쁜 옷을 만들고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration of a friendly fashion designer's studio. A designer is sketching a colorful dress on a paper, surrounded by soft fabric rolls, buttons, and colorful threads. The atmosphere is cozy, artistic, and imaginative.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "age_group": "7-8",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "천",
+    "definition": "옷이나 이불을 만들 때 쓰는 부드러운 헝겊이에요."
+  },
+  "hidden_word": {
+    "word": "바늘",
+    "mission": "가늘고 끝이 뾰족하며, 실을 꿰어 옷감을 연결할 때 쓰는 도구는 무엇일까요?"
+  },
+  "selected_topic": "패션 디자이너는 예쁜 옷을 어떻게 만들까요?",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "노력하면 안 되는 일은 없어요.",
+    "description": "포기하지 않고 정성을 다해 꾸준히 노력하면, 어떤 어려운 일이라도 멋지게 해낼 수 있다는 뜻이에요.",
+    "message": "평범한 천을 멋진 옷으로 바꾸는 디자이너처럼, 우리 친구도 꿈을 위해 차근차근 노력한다면 무엇이든 이룰 수 있는 마법사가 될 수 있어요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "와! 밤하늘의 별을 보니까 반짝거리는 드레스 아이디어가 떠올랐어!",
+    "image_prompt": "Black and white simple line art for kids, a cute child fashion designer character sitting at a desk and sketching on a large paper with a pencil, sparkly stars visible through a window and a small flower pot on the desk, 꿈을 입히는 마법사 theme, the first scene of a story, white background, thick lines, no shading"
+  }
+}

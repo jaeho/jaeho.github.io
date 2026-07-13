@@ -1,0 +1,36 @@
+{
+  "page1": {
+    "headline": "레고로 뚝딱! 나만의 신기한 곤충 친구",
+    "article_body": [
+      "미국에 있는 멋진 박물관에서 특별한 대회가 열렸어요. 어린이들이 모여서 작고 신기한 곤충들을 자세히 살펴봤답니다. 돋보기로 곤충의 날개와 다리를 보며 어떻게 생겼는지 공부했어요. 진짜 곤충을 관찰하니 정말 신기하고 재미있었지요.",
+      "이제는 알록달록한 레고 블록으로 나만의 곤충을 만들 차례예요. 아이들은 상상력을 발휘해서 세상에 하나뿐인 벌레 친구를 만들었어요. 반짝이는 날개를 달아주거나 튼튼한 다리를 6개나 만들기도 했답니다. 레고로 만든 곤충들이 꼭 살아있는 것 같아요.",
+      "곤충은 작지만 아주 힘이 세고 소중한 친구들이에요. 우리 주변에도 풀숲을 폴짝 뛰어다니는 멋진 곤충들이 많이 살고 있어요. 여러분도 밖으로 나가서 귀여운 곤충들을 찾아보는 건 어떨까요? 나만의 멋진 곤충 친구를 상상하며 즐거운 시간을 보내봐요."
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A young child wearing an explorer's hat is looking at a colorful insect made of LEGO bricks through a magnifying glass in a museum. The background shows nature museum exhibits with soft, natural lighting and a friendly atmosphere.",
+    "category_tag": "곤충과 문화",
+    "reference": "https://townlift.com/2026/07/utah-museum-challenges-lego-builders-to-create-a-bug-from-scratch/"
+  },
+  "age_group": "7-8",
+  "search_core_topic": "레고 곤충 만들기 대회와 자연 관찰",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "곤충",
+    "definition": "다리가 여섯 개 있고, 몸이 머리, 가슴, 배 세 부분으로 나누어진 아주 작은 동물이에요."
+  },
+  "hidden_word": {
+    "word": "레고",
+    "mission": "알록달록한 네모 조각들을 하나씩 쌓으면 무엇이든 변신해요! 이 장난감은 무엇일까요?"
+  },
+  "selected_category": "곤충과 문화",
+  "selected_topic": "\"레고로 만드는 나만의 신기한 곤충 친구들!\"",
+  "wisdom_pool_data": {
+    "text": "구슬이 서 말이라도 꿰어야 보배",
+    "description": "아무리 좋은 재료와 생각이 있어도, 직접 정성을 다해 만들고 완성해야 가치가 있다는 뜻이에요.",
+    "message": "박물관에서 관찰한 곤충들의 모습과 여러분의 멋진 상상력을 레고로 직접 만들어 냈군요! 소중한 생각들을 하나하나 모아 나만의 멋진 작품을 완성한 여러분이 정말 자랑스러워요."
+  },
+  "activity_data": {
+    "instruction": "박물관에서 멋진 진짜 곤충을 관찰한 주인공이 레고로 어떤 곤충 친구를 만들게 될까요? 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "와! 돋보기로 보니까 날개가 정말 반짝거려. 나도 레고로 나만의 멋진 곤충 친구를 만들어야지!",
+    "image_prompt": "Black and white simple line art for kids, 레고로 뚝딱! 나만의 신기한 곤충 친구 theme, the first scene of a story, a curious child looking through a magnifying glass at a small beetle in a museum, a box of colorful LEGO bricks waiting on the table, white background, thick lines, no shading"
+  }
+}

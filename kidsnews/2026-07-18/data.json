@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "오랜 기다림 끝에 매미가 노래해요",
+    "article_body": [
+      "여름이 오면 매미가 맴맴 울어요. 매미는 아주 오랫동안 땅속에서 지내요. 캄캄한 흙 속에서 수년 동안 꾹 참고 기다린답니다. 맛있는 나무 진액을 먹으며 튼튼하게 자라요. 힘들어도 포기하지 않고 밖으로 나갈 날을 꿈꿔요.",
+      "드디어 매미가 땅 위로 올라오는 날이에요. 나무에 꼭 매달려 낡은 옷을 벗어요. 영차영차 힘을 내면 멋진 날개가 돋아나요. 이제 나무 꼭대기에서 신나게 노래를 불러요. 기나긴 기다림 끝에 세상에서 가장 반짝이는 순간을 맞이해요.",
+      "우리 어린이들도 매미와 비슷해요. 배우고 싶은 것이나 잘하고 싶은 일은 시간이 걸려요. 매일 조금씩 노력하면 언젠가 매미처럼 멋지게 날아오를 수 있어요. 포기하지 않는 마음이 가장 중요해요. 여러분이 요즘 가장 열심히 연습하는 것은 무엇인가요?"
+    ],
+    "image_prompt": "A friendly, smiling cicada with shiny wings singing on a green tree branch in a bright summer forest, warm pastel colors, soft illustration style, children's book vibe.",
+    "category_tag": "오늘의 마음과 감정 (곤충 특집)"
+  },
+  "age_group": "7-8",
+  "activity_type": "hidden_objects",
+  "word_info": {
+    "word": "기다림",
+    "definition": "어떤 일이 일어나기를 바라는 마음으로 시간을 보내는 거예요."
+  },
+  "hidden_word": {
+    "word": "나무",
+    "mission": "뿌리가 깊고 초록색 잎이 무성하며, 매미가 올라가 노래를 부르는 곳은 어디일까요?"
+  },
+  "selected_topic": "매미처럼 오랜 기다림 뒤에 반짝일 수 있어요",
+  "selected_category": "오늘의 마음과 감정 (곤충 특집)",
+  "wisdom_pool_data": {
+    "text": "마부작침 (磨斧作針)",
+    "description": "도끼를 갈아 바늘을 만든다는 뜻으로, 아무리 어려운 일이라도 끈기 있게 계속 노력하면 결국 해낼 수 있다는 말이에요.",
+    "message": "매미가 긴 시간 동안 땅속에서 꾹 참고 기다려 멋진 노래를 부르는 것처럼, 우리 친구도 지금 하고 있는 노력이 언젠가 예쁜 꽃을 피울 거예요. 힘들어도 포기하지 않고 매일 조금씩 나아가는 여러분의 모습을 응원해요!"
+  },
+  "activity_data": {
+    "instruction": "오랜 시간 땅속에서 기다려온 매미가 드디어 나무 위로 올라와 시원하게 노래하는 여름 숲의 풍경입니다. 복잡한 나무껍질과 나뭇잎 사이에 숨겨진 세 가지 물건을 찾아보세요.",
+    "items": [
+      "모래시계",
+      "음표",
+      "밀짚모자"
+    ],
+    "image_prompt": "Detailed black and white line art for a hidden object game. A scene of a large summer tree with a cicada singing on a branch, featuring intricate leaves and bark patterns. Hidden subtly within the composition are exactly one hourglass, one musical note, and one straw hat. The style is clean, high-contrast, with clear outlines and no shading, optimized for a coloring book and searching game."
+  }
+}

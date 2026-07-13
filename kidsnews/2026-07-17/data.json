@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "꿀벌을 도와주는 도시의 마법사, 정원 설계가",
+    "article_body": [
+      "도시 한복판에 꿀벌을 위한 예쁜 꽃밭을 만드는 사람들이 있어요. 바로 '도시 정원 설계가'라고 불러요. 이분들은 회색 건물 사이에 꿀벌이 좋아하는 꽃과 나무를 심어요. 꿀벌이 편하게 쉴 수 있는 멋진 집을 지어주는 거예요.",
+      "꿀벌은 꽃에서 달콤한 꿀과 가루를 얻어 살아가요. 하지만 요즘은 도시에 꽃이 부족해서 꿀벌이 배가 고플 때가 많아요. 그래서 정원 설계가는 꿀벌이 좋아하는 알록달록한 꽃을 곳곳에 심어줘요. 덕분에 꿀벌은 도시에서도 건강하게 지낼 수 있답니다.",
+      "정원에 어떤 꽃을 심을지 고민하는 일은 참 즐거워요. 향기가 좋고 꿀이 많은 꽃을 고르면 꿀벌 친구들이 기뻐하며 찾아와요. 여러분도 길을 걷다 꿀벌이 쉬어가는 작은 정원을 본 적이 있나요? 우리 함께 꿀벌을 위해 어떤 예쁜 꽃을 심으면 좋을지 상상해 봐요."
+    ],
+    "image_prompt": "A warm and bright pastel illustration of a friendly urban garden designer planting colorful flowers on a city rooftop, with cute honeybees happily flying around. Soft sunlight, whimsical and cozy atmosphere, high quality, kid-friendly style.",
+    "category_tag": "오늘의 직업과 미래 (곤충 특집)"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "정원",
+    "definition": "꽃이나 나무를 심어서 예쁘게 가꾼 뜰이나 마당이에요."
+  },
+  "hidden_word": {
+    "word": "꿀벌",
+    "mission": "노란색과 검은색 줄무늬가 있고, 꽃을 찾아다니며 달콤한 꿀을 모으는 곤충은 누구일까요?"
+  },
+  "selected_topic": "꿀벌을 위한 정원을 설계하는 도시 정원 설계가",
+  "selected_category": "오늘의 직업과 미래 (곤충 특집)",
+  "wisdom_pool_data": {
+    "text": "공감",
+    "description": "다른 사람이나 동물의 기분을 함께 느끼고 이해하는 마음이에요.",
+    "message": "꿀벌이 배고프지 않게 멋진 꽃밭을 선물한 정원 설계가 선생님처럼, 우리 친구도 주변의 작은 생명이나 친구들의 마음을 먼저 생각하고 도와주는 따뜻한 어린이가 되어보세요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "꿀벌",
+      "꽃",
+      "건물"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring cute honey bees flying around, blooming flowers in a garden, and tall city buildings in the background, thick line art style, black and white, white background, no text"
+  }
+}

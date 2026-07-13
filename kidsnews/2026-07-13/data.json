@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "아빠 해마의 신기한 육아 주머니!",
+    "article_body": [
+      "바닷속에는 말의 머리를 닮은 귀여운 해마가 살아요. 이 해마 가족에게는 아주 특별하고 신기한 비밀이 있답니다. 바로 아빠 해마가 아기를 기른다는 거예요. 엄마 대신 아빠가 아기를 돌본다니 정말 신기하지요?",
+      "엄마 해마가 아빠의 배에 있는 볼록한 주머니에 알을 낳아주어요. 아빠 해마는 주머니 속에서 알이 꼬물꼬물 아기로 자랄 때까지 안전하게 지켜준답니다. 배가 빵빵해진 아빠 해마는 아기들을 아주 정성껏 돌보아요.",
+      "시간이 지나면 아빠의 주머니에서 꼬마 해마들이 퐁퐁 헤엄쳐 나와요. 아빠의 깊은 사랑 덕분에 아기 해마들은 바다에서 건강하게 자랄 수 있어요. 우리 친구들도 부모님께 감사한 마음을 담아 사랑한다고 말해볼까요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration of a cute dad seahorse with a big pouch on its belly in the ocean, little baby seahorses playfully swimming out of the pouch, colorful corals around, friendly and cozy children's book style.",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "age_group": "7-8",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "해마",
+    "definition": "머리 모양이 땅에 사는 말을 닮아서 '바다의 말'이라고 불리는 작고 귀여운 바다 동물이에요."
+  },
+  "hidden_word": {
+    "word": "주머니",
+    "mission": "캥거루의 배에도 있고, 우리가 물건을 쏙 넣고 다닐 때 사용하는 이것은 무엇일까요?"
+  },
+  "selected_topic": "아빠 해마가 아기를 주머니에 넣고 키운대요!",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "고슴도치도 제 새끼는 예쁘다고 한다",
+    "description": "가시가 뾰족한 고슴도치도 자기 새끼는 부드럽고 예쁘다고 생각한다는 뜻이에요. 부모님이 자식을 세상에서 가장 사랑하고 아끼는 마음을 표현한 속담이랍니다.",
+    "message": "아빠 해마가 주머니 속에서 아기를 정성껏 지켜준 것처럼, 부모님도 우리 친구들을 세상에서 제일 사랑하세요. 오늘 부모님께 '키워주셔서 감사합니다, 사랑해요!' 하고 꼬옥 안아드려 볼까요?"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 느낀 점을 담아 짧은 편지를 완성해보세요!",
+    "receiver": "아기들을 정성껏 돌보는 아빠 해마에게",
+    "greeting": "안녕, 아빠 해마야! 배에 있는 볼록한 주머니에서 아기들을 안전하게 지켜주는 모습이 정말 멋지고 신기했어.",
+    "guide_text": "내가 만약 주머니에서 퐁퐁 헤엄쳐 나온 꼬마 해마라면, 아빠에게 전하고 싶은 말은..."
+  }
+}

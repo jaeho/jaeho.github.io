@@ -1,0 +1,49 @@
+{
+  "page1": {
+    "headline": "딱따구리는 왜 머리가 아프지 않을까요?",
+    "article_body": [
+      "딱따구리는 하루에 수천 번 넘게 나무를 쪼아요. \"딱딱딱\" 소리를 내며 맛있는 벌레를 잡거나 포근한 집을 만들지요. 나무를 아주 세게 치는데도 딱따구리는 머리가 하나도 아프지 않대요. 정말 신기한 마법 같지 않나요?",
+      "딱따구리의 머릿속에는 특별한 장치가 숨어 있어요. 길쭉한 혀를 감싸는 뼈가 헬멧처럼 뇌를 꽉 잡아 준답니다. 또 부리와 뇌 사이에는 말랑말랑한 뼈가 있어서 충격을 흡수해요. 푹신한 운동화 깔창처럼 머리를 안전하게 보호해 주는 거예요.",
+      "눈도 아주 튼튼해요. 나무를 쪼는 순간 눈꺼풀이 눈을 꽉 감싸서 다치지 않게 도와주거든요. 완벽한 안전장치를 가진 딱따구리는 숲속에서 가장 멋진 목수랍니다. 여러분은 딱따구리처럼 튼튼한 몸을 가지기 위해 어떤 음식을 먹고 싶나요?"
+    ],
+    "image_prompt": "A cute, colorful woodpecker with a friendly face pecking a tree in a sunny forest, soft pastel watercolor style, bright and warm atmosphere, tiny safety helmet icon floating nearby, children's book illustration",
+    "category_tag": "오늘의 동물과 자연"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_morphing",
+  "word_info": {
+    "word": "흡수",
+    "definition": "안으로 빨아들이는 것을 말해요. 스펀지가 물을 빨아들이는 것과 같아요."
+  },
+  "hidden_word": {
+    "word": "헬멧",
+    "mission": "자전거나 킥보드를 탈 때 우리 머리를 안전하게 지켜주는 모자는 무엇일까요?"
+  },
+  "selected_topic": "딱따구리는 나무를 쪼아도 머리가 아프지 않을까요?",
+  "selected_category": "오늘의 동물과 자연",
+  "wisdom_pool_data": {
+    "text": "유비무환(有備無患)",
+    "description": "미리 준비를 잘 해두면 나중에 걱정할 일이 없다는 뜻이에요.",
+    "message": "딱따구리가 머릿속에 헬멧과 깔창 같은 특별한 뼈를 미리 가지고 있어서 마음껏 나무를 쪼아도 아프지 않은 것처럼, 우리 친구들도 골고루 먹고 튼튼한 몸을 준비해서 멋진 꿈을 펼치는 어린이가 되길 바라요!"
+  },
+  "activity_data": {
+    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
+    "items": [
+      {
+        "original_word": "나무",
+        "hint": "알록달록한 날개를 가지고 꽃 사이를 팔랑팔랑 날아다니는 곤충이에요.",
+        "target_word": "나비"
+      },
+      {
+        "original_word": "부리",
+        "hint": "노란 입술을 가지고 '꽥꽥' 소리를 내며 헤엄치는 동물이에요.",
+        "target_word": "오리"
+      },
+      {
+        "original_word": "소리",
+        "hint": "거실에 있는 푹신하고 커다란 의자로, 가족들이 함께 앉아 쉴 수 있어요.",
+        "target_word": "소파"
+      }
+    ]
+  }
+}

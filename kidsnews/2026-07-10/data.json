@@ -1,0 +1,32 @@
+{
+  "page1": {
+    "headline": "인터넷 세상을 지키는 따뜻한 길잡이 선생님",
+    "article_body": [
+      "우리가 매일 즐겁게 노는 인터넷 세상은 아주 넓고 신기해요. 하지만 길을 잃거나 위험한 함정에 빠질 수도 있지요. 이때 우리를 안전하게 지켜주는 멋진 영웅이 있어요. 바로 '디지털 윤리 강사' 선생님이랍니다.",
+      "선생님은 보이지 않는 인터넷 세상에서도 예절이 꼭 필요하다고 가르쳐주세요. 친구에게 상처를 주는 나쁜 말 대신, 따뜻하고 예쁜 말을 써야 한다고 말이지요. 우리가 화면 속에서도 서로를 존중하고 배려하도록 돕는 친절한 길잡이 역할을 한답니다.",
+      "또한 선생님은 소중한 내 정보를 안전하게 지키는 비밀번호의 중요성도 알려주세요. 낯선 사람에게 내 이름이나 사는 곳을 함부로 말하면 안 된다는 것도 배우지요. 여러분은 오늘 인터넷에서 어떤 따뜻한 말을 친구에게 전해보고 싶나요?"
+    ],
+    "image_prompt": "A warm and bright pastel-toned illustration of a friendly teacher guiding happy children in a colorful digital world, floating computer screens with smiling faces, glowing hearts, and shield icons, safe and cheerful internet concept, suitable for children's book, high quality.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "age_group": "7-8",
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "예절",
+    "definition": "다른 사람과 사이좋게 지내기 위해 꼭 지켜야 하는 바른 행동이나 예쁜 말씨를 뜻해요."
+  },
+  "hidden_word": {
+    "word": "비밀번호",
+    "mission": "다른 사람이 내 소중한 정보를 함부로 볼 수 없게 나만 아는 글자나 숫자로 만든 마법의 자물쇠는 무엇일까요?"
+  },
+  "selected_topic": "인터넷 세상의 예절과 안전을 가르치는 디지털 윤리 강사",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "오늘 걷지 않으면 내일은 뛰어야 한다",
+    "description": "오늘 해야 할 일을 미루면 나중에 더 힘들어진다는 뜻이야. 오늘 해야 할 일을 잊지 말고 꼼꼼히 하자!"
+  },
+  "activity_data": {
+    "instruction": "우리의 인터넷 세상을 안전하게 지켜주시는 따뜻한 길잡이 선생님과 귀여운 컴퓨터 친구를 알록달록 예쁘게 색칠해보아요!",
+    "image_prompt": "Black and white simple line art for kids coloring book, a friendly and warm teacher holding a digital shield with a wi-fi symbol, smiling gently, standing next to a cute happy computer character, protecting the digital world, white background, thick lines, no shading, simple shapes, clear outlines, clean and minimal details"
+  }
+}

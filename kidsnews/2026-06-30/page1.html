@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>씨앗 어린이 신문 - 오늘의 활동</title>
+    <title>씨앗 어린이 신문 - 우주 정거장에는 동그란 물방울 공이 떠다녀요!</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -502,7 +502,9 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
+
     <div class="paper flex flex-col gap-6">
+
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
                 
@@ -514,100 +516,65 @@ body {
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <a href="page1.html" class="px-3 py-1 bg-brand-sage text-brand-leaf rounded-full text-xs font-bold border border-brand-lime/70 hover:bg-brand-lime/40 transition-colors">
-                    PAGE 02
+                <a href="page2.html" class="px-3 py-1 bg-brand-sage text-brand-leaf rounded-full text-xs font-bold border border-brand-lime/70 hover:bg-brand-lime/40 transition-colors">
+                    PAGE 01
                 </a>
             </div>
         </header>
 
-        
-        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">오늘의 활동</h2>
-        
-
-        <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-4 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">⚖️ 누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!</p>
-
-    <div class="flex-1 flex flex-col justify-evenly gap-4 py-2 pl-3">
-        
-        <div class="bg-indigo-50 rounded-2xl p-4 md:p-5 border-2 border-indigo-200 flex flex-col gap-3 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                Q1
-            </div>
-            
-            <p class="text-xl font-black text-indigo-900 leading-tight pl-4">
-                밤하늘의 덩치 큰 친구 '목성'은 과연 얼마나 클까요?
-            </p>
-            
-            <div class="flex flex-col gap-2 mt-1">
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>우리 학교 건물 1개만큼 커요</span>
-                </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>지구라는 작은 구슬을 1,300개나 담을 수 있을 만큼 커요</span>
-                </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>아빠가 타는 자동차 10대만큼 커요</span>
-                </div>
-                
+        <div class="flex justify-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-cream border border-brand-lime/60 rounded-full text-sm font-bold text-brand-forest shadow-sm">
+                <span class="material-symbols-rounded text-base">calendar_today</span>
+                2026년 06월 30일 (화요일)
             </div>
         </div>
-        
-        <div class="bg-indigo-50 rounded-2xl p-4 md:p-5 border-2 border-indigo-200 flex flex-col gap-3 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                Q2
+
+        <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
+            
+            <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+                <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
+                <h2 class="text-white text-2xl font-extrabold leading-tight mb-1">우주 정거장에는 동그란 물방울 공이 떠다녀요!</h2>
+                <p class="text-white/90 text-xs font-medium">오늘의 주제 [오늘의 과학과 기술] 우주 정거장 안에서는 물방울이 동그랗게 떠다녀요</p>
             </div>
-            
-            <p class="text-xl font-black text-indigo-900 leading-tight pl-4">
-                가장 작은 행성인 '수성'의 크기를 상상해볼까요?
-            </p>
-            
-            <div class="flex flex-col gap-2 mt-1">
+        </section>
+
+        <article class="flex-1 overflow-hidden">
+            <div class="columns-2 gap-8 article-text h-full">
                 
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>지구가 커다란 축구공이라면, 수성은 작은 탁구공만 해요</span>
+                <p class="drop-cap">우주 정거장에는 신기한 일이 아주 많아요. 이곳은 지구가 당기는 힘이 거의 없어서 모든 물건이 둥둥 떠요. 우리가 마시는 물도 컵 밖으로 나오면 공중에 동동 떠오르지요. 쏟아지지 않고 동그란 공 모양이 되어 이리저리 날아다녀요.</p>
+                
+                <p class="">왜 물방울은 동그란 모양이 될까요? 물방울끼리 서로 꽉 껴안으려는 성질 때문이에요. 지구에서는 중력 때문에 물이 아래로 흐르지만, 우주에서는 예쁘게 뭉쳐요. 그래서 반짝이는 유리구슬처럼 보인답니다. 손으로 톡 건드리면 작게 나누어지기도 해요.</p>
+                
+                <p class="">우주비행사들은 빨대를 사용해 이 물방울을 쏙 먹어요. 떠다니는 물방울을 입으로 덥석 잡기도 하지요. 우리 친구들도 우주에서 둥둥 떠다니는 물방울을 본다면 어떤 기분이 들까요? 나중에 우주로 여행을 떠나면 동그란 물방울과 신나게 인사해 보세요.</p>
+                
+            </div>
+        </article>
+
+        <div class="grid grid-cols-2 gap-3 mt-auto">
+            <div class="card-blue">
+                <div class="flex items-center gap-2 mb-1 text-brand-forest">
+                    <span class="material-symbols-rounded text-sm">menu_book</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 단어</span>
                 </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>놀이터에 있는 시소만큼 길어요</span>
+                <p class="text-xl font-extrabold text-brand-forest mb-1">우주 정거장</p>
+                <p class="text-base font-bold text-brand-forest/80 leading-snug">우주비행사들이 우주에서 지내며 연구를 할 수 있게 만든 커다란 집이에요.</p>
+            </div>
+
+            <div class="card-yellow">
+                <div class="flex items-center gap-2 mb-1 text-brand-forest">
+                    <span class="material-symbols-rounded text-sm">search_check</span>
+                    <span class="text-[10px] font-bold tracking-wider uppercase">숨은 단어 찾기</span>
                 </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>우리 교실에 있는 칠판만큼 넓어요</span>
-                </div>
-                
+                <p class="text-base font-extrabold text-brand-forest/90 leading-relaxed mb-2">지구가 우리와 물건들을 바닥 쪽으로 끌어당기는 힘은 무엇일까요?</p>
             </div>
         </div>
-        
-    </div>
-</div>
-        </main>
-
-        <footer class="mt-auto">
-            <div class="card-blue ">
-                <div class="flex items-center gap-2 mb-2 text-brand-forest">
-                    <span class="material-symbols-rounded text-sm">lightbulb</span>
-                    <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
-                </div>
-                <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-brand-forest">백문이 불여일견(百聞不如一見)</p>
-                    <p class="text-base font-bold text-brand-forest/80 leading-snug">백 번 듣는 것보다 한 번 직접 눈으로 보는 것이 훨씬 낫다는 뜻이에요.</p>
-                </div>
-            </div>
-        </footer>
 
         <footer class="footer-meta">
             <button onclick="openArchiveModal()" class="footer-meta-button">
-                씨앗 어린이 신문 161호 (2026년 06월 21일)
+                씨앗 어린이 신문 170호 (2026년 06월 30일)
             </button>
             
             <div class="footer-wordmark-wrap" aria-hidden="true">
@@ -677,6 +644,28 @@ body {
         document.getElementById('archiveModal').addEventListener('click', function(e) {
             if (e.target === this) {
                 closeArchiveModal();
+            }
+        });
+
+        // 기사 본문 폰트 자동 조절 (Overflow 방지)
+        window.addEventListener('load', function() {
+            const container = document.querySelector('article');
+            const content = document.querySelector('.article-text');
+            if (!container || !content) return;
+            
+            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
+            const minFontSize = 14; 
+
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
+            // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
+            function isOverflowing() {
+                // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크
+                return content.scrollWidth > container.clientWidth + 10;
+            }
+
+            while (isOverflowing() && fontSize > minFontSize) {
+                fontSize -= 0.5;
+                content.style.fontSize = fontSize + 'px';
             }
         });
     </script>

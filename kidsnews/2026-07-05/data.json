@@ -1,0 +1,40 @@
+{
+  "page1": {
+    "headline": "반짝반짝 아기 별들의 유치원을 찾았어요!",
+    "article_body": [
+      "멀고 먼 우주에 아주 예쁜 구름이 있어요. 이 구름은 아기 별들이 태어나는 따뜻한 요람이에요. 우주 망원경이 이 신비로운 모습을 사진으로 찍었답니다. 뭉게뭉게 피어오른 구름 속에서 반짝이는 아기 별들이 아주 많이 살고 있어요.",
+      "아기 별들은 유치원에 다니는 아이들처럼 옹기종기 모여 있어요. 구름 속의 먼지와 가스가 뭉쳐서 반짝반짝 빛을 내기 시작한대요. 마치 밤하늘에 보석을 뿌려놓은 것처럼 정말 아름다워요. 태어난 아기 별들은 우주에서 쑥쑥 자라난답니다.",
+      "망원경 덕분에 우리는 먼 우주의 비밀을 알게 되었어요. 어두운 밤하늘 어딘가에서 지금도 새로운 별들이 태어나고 있어요. 여러분도 밤하늘을 보며 나만의 별을 찾아보세요. 우주는 우리가 생각하는 것보다 훨씬 더 따뜻하고 신비로운 곳이랍니다."
+    ],
+    "image_prompt": "Warm and realistic picture book illustration style. A young explorer child with a telescope looking at a glowing, colorful nebula shaped like fluffy clouds. Inside the clouds, many small bright stars twinkle like jewels. Soft lighting, magical atmosphere, cosmic dust in pastel colors, high quality.",
+    "category_tag": "오늘의 우주",
+    "reference": "https://www.sciencenews.org/issue/july-1-2026"
+  },
+  "age_group": "7-8",
+  "search_core_topic": "아기 별들이 태어나는 우주의 별 요람",
+  "activity_type": "hidden_objects",
+  "word_info": {
+    "word": "요람",
+    "definition": "아기가 누워서 잠을 자거나 노는 아주 작은 침대예요."
+  },
+  "hidden_word": {
+    "word": "망원경",
+    "mission": "멀리 있는 물건을 아주 가깝고 크게 보여주는 신비한 도구는 무엇일까요?"
+  },
+  "selected_category": "오늘의 우주",
+  "selected_topic": "반짝반짝 아기 별들이 태어나요! 우주 망원경이 찍은 '별 요람'",
+  "wisdom_pool_data": {
+    "text": "티끌 모아 태산",
+    "description": "아주 작은 것들이 하나둘씩 모여서 커다란 산처럼 큰 힘을 갖게 된다는 뜻이에요.",
+    "message": "우주 구름 속의 작은 먼지들이 옹기종기 모여서 반짝이는 아기 별이 된 것처럼, 우리 친구의 작은 꿈과 노력이 하나씩 모이면 나중에 밤하늘의 별처럼 환하게 빛나는 멋진 사람이 될 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "반짝이는 밤하늘의 '아기 별 유치원' 풍경 속에 숨겨진 세 가지 물건(쪽쪽이, 곰 인형, 우유병)을 찾아보세요. 각 사물은 복잡한 그림 속에 단 하나씩만 숨겨져 있습니다.",
+    "items": [
+      "쪽쪽이",
+      "곰 인형",
+      "우유병"
+    ],
+    "image_prompt": "A detailed black and white line art for a hidden object puzzle. The scene is a 'Twinkling Baby Star Kindergarten' in the cosmos, featuring cute baby stars with bibs playing on soft clouds, sliding down rainbows, and resting in crescent moon cradles. The background is filled with planetary toys and cosmic elements. Somewhere in the scene, hide exactly one pacifier, one teddy bear, and one baby milk bottle. High contrast, clean outlines, coloring book style, white background, no shading."
+  }
+}

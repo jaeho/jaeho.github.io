@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "눈에는 안 보이지만 하늘에도 길이 있어요!",
+    "article_body": [
+      "파란 하늘 위에는 눈에 보이는 길이 없어요. 하지만 비행기는 정해진 길로만 똑바로 다녀요. 조종사 선생님은 지도와 나침반을 보며 길을 찾아요. 높은 하늘에도 자동차 도로처럼 미리 약속된 안전한 길이 있답니다.",
+      "아주 똑똑한 기계인 '레이더'가 길을 친절하게 알려줘요. 레이더는 주변에 다른 비행기가 어디에 있는지 보여준답니다. 땅에 있는 관제사 선생님과도 무전기로 계속 이야기를 나눠요. 날씨가 나빠도 길을 잃지 않게 서로서로 꼭 도와줘요.",
+      "밤에는 반짝이는 별과 땅 위의 밝은 불빛이 길잡이가 돼요. 조종사는 비행기 속의 수많은 단추를 누르며 우리를 목적지까지 데려다주지요. 여러분은 나중에 비행기를 타고 어디로 가보고 싶나요? 조종사가 되어 멋진 하늘을 자유롭게 나는 꿈을 꾸어보세요."
+    ],
+    "image_prompt": "A friendly pilot in a cockpit with many glowing buttons, looking out at a clear blue sky with fluffy white clouds, soft pastel colors, children's book illustration style, bright and cozy atmosphere.",
+    "category_tag": "오늘의 직업과 미래"
+  },
+  "age_group": "7-8",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "관제사",
+    "definition": "땅에서 비행기가 안전하게 다닐 수 있도록 길을 안내해 주는 선생님이에요."
+  },
+  "hidden_word": {
+    "word": "나침반",
+    "mission": "동서남북 방향을 알려주어 길을 잃지 않게 도와주는 도구는 무엇일까요?"
+  },
+  "selected_topic": "비행기 조종사는 하늘 길을 어떻게 찾을까요?",
+  "selected_category": "오늘의 직업과 미래",
+  "wisdom_pool_data": {
+    "text": "상생협력",
+    "description": "서로 도와서 함께 좋은 결과를 만들어내는 것을 말해요.",
+    "message": "하늘 위 비행기가 안전하게 다닐 수 있도록 조종사 선생님과 관제사 선생님이 서로 돕는 것처럼, 우리 친구도 주변 사람들과 서로 도와가며 꿈을 향해 멋지게 날아올라 보세요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "어라? 하늘에는 표지판도 길도 없네! 비행기는 어떻게 길을 찾아가는 걸까?",
+    "image_prompt": "Black and white simple line art for kids, a cute little pilot sitting in a small airplane cockpit, looking up at the empty sky with a curious expression, holding a map and a compass, thick lines, white background, no shading, coloring book style"
+  }
+}

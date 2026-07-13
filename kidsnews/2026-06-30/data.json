@@ -1,0 +1,50 @@
+{
+  "page1": {
+    "headline": "우주 정거장에는 동그란 물방울 공이 떠다녀요!",
+    "article_body": [
+      "우주 정거장에는 신기한 일이 아주 많아요. 이곳은 지구가 당기는 힘이 거의 없어서 모든 물건이 둥둥 떠요. 우리가 마시는 물도 컵 밖으로 나오면 공중에 동동 떠오르지요. 쏟아지지 않고 동그란 공 모양이 되어 이리저리 날아다녀요.",
+      "왜 물방울은 동그란 모양이 될까요? 물방울끼리 서로 꽉 껴안으려는 성질 때문이에요. 지구에서는 중력 때문에 물이 아래로 흐르지만, 우주에서는 예쁘게 뭉쳐요. 그래서 반짝이는 유리구슬처럼 보인답니다. 손으로 톡 건드리면 작게 나누어지기도 해요.",
+      "우주비행사들은 빨대를 사용해 이 물방울을 쏙 먹어요. 떠다니는 물방울을 입으로 덥석 잡기도 하지요. 우리 친구들도 우주에서 둥둥 떠다니는 물방울을 본다면 어떤 기분이 들까요? 나중에 우주로 여행을 떠나면 동그란 물방울과 신나게 인사해 보세요."
+    ],
+    "image_prompt": "A cute child astronaut in a cozy space station, smiling and trying to touch a large, round, shiny floating water droplet. Bright and warm pastel colors, soft dreamy lighting, 2D flat illustration style for children's newspaper.",
+    "category_tag": "오늘의 과학과 기술"
+  },
+  "age_group": "7-8",
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "우주 정거장",
+    "definition": "우주비행사들이 우주에서 지내며 연구를 할 수 있게 만든 커다란 집이에요."
+  },
+  "hidden_word": {
+    "word": "중력",
+    "mission": "지구가 우리와 물건들을 바닥 쪽으로 끌어당기는 힘은 무엇일까요?"
+  },
+  "selected_topic": "우주 정거장 안에서는 물방울이 동그랗게 떠다녀요",
+  "selected_category": "오늘의 과학과 기술",
+  "wisdom_pool_data": {
+    "text": "백 번 듣는 것보다 한 번 보는 것이 낫다",
+    "description": "여러 번 이야기를 듣는 것보다, 직접 눈으로 한 번 보는 것이 훨씬 더 잘 이해되고 기억에 남는다는 뜻이에요.",
+    "message": "우주 정거장의 신기한 물방울 이야기를 들으니 정말 직접 보고 싶어지지 않나요? 나중에 우리 친구가 멋진 우주 여행을 떠나서 이 신비로운 모습을 직접 눈으로 보게 되기를 응원할게요!"
+  },
+  "activity_data": {
+    "scenario": "무중력 상태의 우주 정거장에서 컵 밖으로 나온 물이 동그란 공 모양이 되어 공중에 둥둥 떠다니는 신비로운 광경을 목격했습니다.",
+    "emotions": [
+      {
+        "type": "신비로움",
+        "prompt": "An astronaut looking with wide, sparkling eyes at a perfectly spherical translucent water droplet floating in a futuristic space station, soft cosmic lighting, hyper-realistic, cinematic style."
+      },
+      {
+        "type": "즐거움",
+        "prompt": "A happy astronaut laughing and gently poking a floating water ball with a finger, the water droplet rippling, inside a bright space station with stars visible through a large window, vibrant colors."
+      },
+      {
+        "type": "평온함",
+        "prompt": "A peaceful scene of several small water droplets drifting slowly in front of a large observation window showing the blue Earth below, calm atmosphere, soft focus, ethereal lighting."
+      },
+      {
+        "type": "당황",
+        "prompt": "An astronaut looking surprised and rushing to catch a floating water droplet before it touches a sensitive computer console, tense expression, busy space station interior, dynamic camera angle."
+      }
+    ]
+  }
+}

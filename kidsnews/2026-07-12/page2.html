@@ -502,8 +502,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-2">
             <div class="flex items-center gap-0">
                 
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
@@ -521,73 +521,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-4 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">⚖️ 누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!</p>
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
 
-    <div class="flex-1 flex flex-col justify-evenly gap-4 py-2 pl-3">
-        
-        <div class="bg-indigo-50 rounded-2xl p-4 md:p-5 border-2 border-indigo-200 flex flex-col gap-3 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                Q1
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    우와! 이 거대한 뼈에 있는 무시무시한 이빨 자국은 대체 누구의 것이지?!
+                </div>
             </div>
-            
-            <p class="text-xl font-black text-indigo-900 leading-tight pl-4">
-                밤하늘의 덩치 큰 친구 '목성'은 과연 얼마나 클까요?
-            </p>
-            
-            <div class="flex flex-col gap-2 mt-1">
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>우리 학교 건물 1개만큼 커요</span>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
                 </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>지구라는 작은 구슬을 1,300개나 담을 수 있을 만큼 커요</span>
-                </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>아빠가 타는 자동차 10대만큼 커요</span>
-                </div>
-                
             </div>
-        </div>
-        
-        <div class="bg-indigo-50 rounded-2xl p-4 md:p-5 border-2 border-indigo-200 flex flex-col gap-3 relative shadow-sm">
-            <div class="absolute -top-3 -left-3 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-black text-lg shadow-md border-2 border-white">
-                Q2
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
             </div>
-            
-            <p class="text-xl font-black text-indigo-900 leading-tight pl-4">
-                가장 작은 행성인 '수성'의 크기를 상상해볼까요?
-            </p>
-            
-            <div class="flex flex-col gap-2 mt-1">
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>지구가 커다란 축구공이라면, 수성은 작은 탁구공만 해요</span>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
                 </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>놀이터에 있는 시소만큼 길어요</span>
-                </div>
-                
-                <div class="bg-white border-2 border-indigo-200 rounded-lg px-4 py-2.5 text-lg font-bold text-slate-700 shadow-sm flex items-center gap-3 selection-item">
-                    <div class="w-6 h-6 rounded-md border-2 border-slate-300 bg-slate-50 flex-shrink-0"></div>
-                    <span>우리 교실에 있는 칠판만큼 넓어요</span>
-                </div>
-                
             </div>
         </div>
-        
+    </div>
+
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -599,15 +576,15 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-brand-forest">백문이 불여일견(百聞不如一見)</p>
-                    <p class="text-base font-bold text-brand-forest/80 leading-snug">백 번 듣는 것보다 한 번 직접 눈으로 보는 것이 훨씬 낫다는 뜻이에요.</p>
+                    <p class="text-3xl font-black text-brand-forest">구슬이 서 말이라도 꿰어야 보배다</p>
+                    <p class="text-base font-bold text-brand-forest/80 leading-snug">아무리 좋은 구슬이라도 실로 꿰어야 예쁜 목걸이가 되듯이, 땅속에서 찾은 공룡 뼈 조각도 과학자들이 꼼꼼히 연구하고 맞춰보아야 비로소 수억 년 전의 멋진 옛날이야기라는 '보물'이 된다는 뜻이에요.</p>
                 </div>
             </div>
         </footer>
 
         <footer class="footer-meta">
             <button onclick="openArchiveModal()" class="footer-meta-button">
-                씨앗 어린이 신문 161호 (2026년 06월 21일)
+                씨앗 어린이 신문 182호 (2026년 07월 12일)
             </button>
             
             <div class="footer-wordmark-wrap" aria-hidden="true">

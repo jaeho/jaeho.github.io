@@ -1,48 +1,37 @@
 {
   "page1": {
-    "headline": "돋보기로 찾은 신비한 곤충의 세계",
+    "headline": "뿔이 쑥! 숲속의 힘센 대장 기데온 장수풍뎅이",
     "article_body": [
-      "옛날 사람들은 곤충을 무서워하거나 나쁘게만 생각했어요. 하지만 어떤 사람들은 곤충이 자라는 과정을 궁금해했어요. 그들은 돋보기를 들고 숲을 구석구석 돌아다녔지요. 풀잎 뒤에 숨은 곤충을 찾아내어 며칠 동안 가만히 지켜보았답니다.",
-      "관찰한 내용은 꼼꼼하게 그림으로 그렸어요. 나비가 알에서 깨어나 번데기가 되고 날개를 펴는 순간을 놓치지 않았지요. 예쁜 색칠까지 마친 그림들은 멋진 도감이 되었어요. 이분들의 노력 덕분에 우리는 곤충의 신비로운 변화를 알게 되었답니다.",
-      "우리가 보는 곤충 책들은 이분들이 남긴 소중한 선물이에요. 작고 약한 생명을 아끼는 따뜻한 마음이 가득 담겨 있지요. 우리도 길가에 앉은 나비를 조용히 바라보는 건 어떨까요? 여러분은 어떤 곤충의 비밀을 가장 알고 싶나요?"
+      "숲속에 아주 멋진 기데온 장수풍뎅이가 살고 있어요. 이 풍뎅이는 머리 위에 아주 크고 멋진 뿔을 가지고 있답니다. 뿔은 마치 두 갈래로 갈라진 나뭇가지처럼 신기하게 생겼어요. 반짝이는 갈색 몸집을 가진 이 곤충은 숲의 씩씩한 대장님 같아요.",
+      "그렇다면 커다란 뿔은 어디에 쓰는 걸까요? 장수풍뎅이는 맛있는 나무 진액을 차지하려고 친구들과 씨름을 해요. 이때 뿔을 지게차처럼 사용하여 상대방을 번쩍 들어 올려요. 힘차게 밀어내며 자기가 얼마나 힘이 센지 뽐내기도 한답니다.",
+      "뿔은 소중한 먹이와 집을 지키는 든든한 방패가 되기도 해요. 무서운 적이 나타나면 뿔을 앞세워 씩씩하게 맞서 싸워요. 정말 용감하고 멋진 숲의 전사지요? 여러분도 기데온 장수풍뎅이처럼 지키고 싶은 소중한 보물이 있나요?"
     ],
-    "image_prompt": "A bright, warm pastel illustration of a naturalist wearing old-fashioned clothes drawing a colorful butterfly in a sunny forest, holding a magnifying glass, soft lighting, child-friendly storybook style.",
-    "category_tag": "오늘의 역사와 인물 (곤충 특집)"
+    "image_prompt": "A warm, bright pastel-style illustration of a Gideon rhinoceros beetle with a large Y-shaped horn on its head, sitting on a brown tree trunk in a sunny forest, friendly and cute appearance for children.",
+    "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "word_morphing",
+  "activity_type": "emotion_guess",
   "word_info": {
-    "word": "도감",
-    "definition": "여러 가지 사물의 그림이나 사진을 모아 보기 쉽게 설명한 책이에요."
+    "word": "진액",
+    "definition": "나무에서 나오는 끈적끈적한 액체로, 곤충들이 아주 좋아하는 달콤한 밥이에요."
   },
   "hidden_word": {
-    "word": "돋보기",
-    "mission": "작은 물건을 아주 크게 보여주는 마법 같은 안경은 무엇일까요?"
+    "word": "방패",
+    "mission": "무서운 적의 공격을 막아낼 때 몸 앞에 두는 튼튼한 도구는 무엇일까요?"
   },
-  "selected_topic": "곤충 도감을 처음 만든 사람들의 노력",
-  "selected_category": "오늘의 역사와 인물 (곤충 특집)",
+  "selected_topic": "기데온 장수풍뎅이의 커다란 뿔은 어디에 쓸까요?",
+  "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "지성이면 감천(至誠感天)",
-    "description": "정성을 다하면 하늘도 감동하여 좋은 결과를 얻게 된다는 뜻이에요.",
-    "message": "곤충들의 비밀을 알아내기 위해 며칠 동안 정성껏 지켜본 분들 덕분에 우리가 멋진 책을 볼 수 있게 되었어요. 우리 친구도 주변의 작은 생명들을 아끼고 정성을 다해 살펴보면, 세상의 신비로운 비밀들을 많이 발견할 수 있을 거예요!"
+    "text": "위풍당당(威風堂堂)",
+    "description": "모습이 아주 씩씩하고 당당해서 기운이 넘친다는 뜻이에요.",
+    "message": "멋진 뿔을 가진 장수풍뎅이 대장처럼, 여러분도 언제나 자신감을 가지고 씩씩하게 꿈을 펼치길 바랄게요!"
   },
   "activity_data": {
-    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
-    "items": [
+    "scenario": "기데온 장수풍뎅이가 숲속에서 가장 크고 멋진 자신의 뿔을 거울처럼 맑은 이슬에 비춰보고 있습니다.",
+    "emotions": [
       {
-        "original_word": "나비",
-        "hint": "숲에서 볼 수 있고 초록색 잎과 튼튼한 줄기가 있는 커다란 식물이에요.",
-        "target_word": "나무"
-      },
-      {
-        "original_word": "선물",
-        "hint": "슬프거나 아플 때, 또는 너무 감동받았을 때 눈에서 톡 떨어지는 물방울이에요.",
-        "target_word": "눈물"
-      },
-      {
-        "original_word": "비밀",
-        "hint": "손을 깨끗하게 씻을 때 사용하는 보글보글 거품이 나는 물건이에요.",
-        "target_word": "비누"
+        "type": "자부심",
+        "prompt": "A majestic rhinoceros beetle with a large, glossy horn looking at its reflection in a water drop, forest background, cinematic lighting, macro photography."
       }
     ]
   }

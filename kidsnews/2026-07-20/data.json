@@ -1,33 +1,37 @@
 {
   "page1": {
-    "headline": "도마뱀은 왜 꼬리를 스스로 뚝 자를까요?",
+    "headline": "바다의 거인 고래, 알이 아니라 새끼를 낳아요!",
     "article_body": [
-      "숲속 산책을 하다가 귀여운 도마뱀을 본 적이 있나요? 도마뱀은 무서운 적을 만나면 아주 놀라운 행동을 해요. 바로 자기 몸의 일부인 꼬리를 스스로 툭 끊고 도망가는 것이지요. 꼬리가 없어도 도마뱀은 아프지 않으니 정말 신기하고 신비로운 모습이에요.",
-      "도마뱀이 꼬리를 자르는 이유는 적의 시선을 끌기 위해서예요. 잘려 나간 꼬리가 바닥에서 계속 꿈틀거리면 적은 깜짝 놀라 꼬리만 쳐다보게 돼요. 그 틈을 타서 도마뱀은 풀숲 사이로 아주 빠르게 쏙 숨어버린답니다. 잘린 꼬리는 시간이 지나면 다시 쑥쑥 자라나요.",
-      "도마뱀의 꼬리는 소중한 자기 목숨을 지키는 아주 특별한 비결이에요. 무섭고 힘든 상황에서도 포기하지 않고 지혜를 짜내어 위기를 넘기는 것이지요. 여러분도 도마뱀처럼 용기를 내어 어려운 일을 씩씩하게 이겨본 적이 있나요?"
+      "바다에 사는 커다란 고래는 물고기와 아주 달라요. 물고기는 알을 낳지만 고래는 엄마 배 속에서 나온 새끼를 낳아요. 고래는 우리 사람처럼 새끼를 낳아 기르는 포유류 친구랍니다. 꼬리를 위아래로 흔들며 멋지게 헤엄을 쳐요.",
+      "아기 고래는 태어나자마자 엄마가 주는 맛있는 젖을 먹고 자라요. 엄마 고래는 아기가 바닷물을 먹지 않게 조심하며 정성껏 돌봐 준답니다. 아기가 혼자 헤엄을 칠 때까지 엄마는 옆에 꼭 붙어 있어요. 엄마 사랑 덕분에 아기 고래는 씩씩해요.",
+      "고래는 물속에 살지만 우리 가족과 닮은 점이 참 많지요? 새끼를 낳고 사랑으로 키우는 모습이 정말 신기하고 따뜻해요. 바다를 누비는 고래 가족을 만나면 어떤 말을 하고 싶나요? 여러분도 가족에게 사랑한다고 다정하게 말해 보세요."
     ],
-    "image_prompt": "A cute green lizard in a sunny forest, its tail moving on the grass while it hides behind a large leaf. Bright and warm pastel color palette, soft watercolor children's book illustration style.",
-    "category_tag": "오늘의 사용자 지정"
+    "image_prompt": "A warm, pastel-colored illustration of a mother whale and a baby whale swimming together in a bright blue sea. Soft sunlight filters through the water. Storybook art style, friendly and peaceful atmosphere.",
+    "category_tag": "오늘의 동물과 자연"
   },
   "age_group": "7-8",
-  "activity_type": "basic",
+  "activity_type": "ox_quiz",
   "word_info": {
-    "word": "비결",
-    "definition": "어려운 일을 아주 잘 해결할 수 있는 특별한 방법이에요."
+    "word": "포유류",
+    "definition": "알을 낳지 않고 엄마 배 속에서 자란 새끼를 낳아 젖을 먹여 기르는 동물을 말해요."
   },
   "hidden_word": {
-    "word": "도마뱀",
-    "mission": "네 개의 다리와 긴 꼬리를 가졌고, 적을 만나면 꼬리를 툭 자르고 도망가는 친구는 누구일까요?"
+    "word": "새끼",
+    "mission": "엄마 동물이나 아빠 동물이 낳은 아주 어린 아기를 부르는 말은 무엇일까요?"
   },
-  "selected_topic": "도마뱀은 왜 꼬리를 스스로 자를까요?",
-  "selected_category": "오늘의 사용자 지정",
+  "selected_topic": "고래는 물고기처럼 알을 낳지 않고 새끼를 낳아요",
+  "selected_category": "오늘의 동물과 자연",
   "wisdom_pool_data": {
-    "text": "호랑이 굴에 들어가도 정신만 차리면 산다",
-    "description": "아무리 무섭고 위험한 상황에 빠지더라도, 당황하지 않고 지혜를 짜내면 위기를 벗어날 수 있다는 뜻이에요.",
-    "message": "무서운 적을 만난 도마뱀이 꼬리를 자르는 용기를 낸 것처럼, 우리 친구들도 어려운 일이 생겼을 때 당황하지 말고 씩씩하게 지혜를 발휘해 봐요!"
+    "text": "지극정성(至極精誠)",
+    "description": "온 마음과 힘을 다해 정성을 다한다는 뜻이에요.",
+    "message": "엄마 고래가 아기 고래를 지극정성으로 돌보는 것처럼, 우리 친구들도 부모님의 큰 사랑을 받으며 자라고 있어요. 오늘 가족들에게 고마운 마음을 담아 '사랑해요'라고 말해보는 건 어떨까요?"
   },
   "activity_data": {
-    "title": "생각 쑥쑥 활동",
-    "instruction": "'도마뱀은 왜 꼬리를 스스로 뚝…' 이야기를 떠올리며 가장 기억나는 장면을 그려보세요."
+    "instruction": "기사의 내용을 읽고 맞으면 O, 틀리면 X를 선택하세요.",
+    "items": [
+      "고래는 물고기처럼 알을 낳아서 번식합니다.",
+      "고래는 꼬리를 위아래로 흔들며 헤엄을 칩니다.",
+      "아기 고래는 태어나자마자 엄마가 주는 젖을 먹고 자랍니다."
+    ]
   }
 }

@@ -1,37 +1,42 @@
 {
   "page1": {
-    "headline": "윙크하는 도마뱀, 레오파드 게코를 만나 봐요!",
+    "headline": "미국에 있는 커다란 여신상은 누가 주었을까요?",
     "article_body": [
-      "귀여운 도마뱀 레오파드 게코를 아시나요? 몸에 표범처럼 멋진 점무늬가 있어서 붙여진 이름이에요. 이 친구는 보통 도마뱀과는 조금 다른 특별한 점이 있어요. 바로 우리처럼 눈꺼풀을 가지고 있다는 사실이에요.",
-      "보통 도마뱀은 눈꺼풀이 없어서 눈을 깜빡일 수 없어요. 대신 긴 혀로 눈을 핥아서 먼지를 닦아내지요. 하지만 레오파드 게코는 눈을 깜빡여서 눈을 깨끗하게 보호해요. 졸릴 때는 우리처럼 눈을 감고 잠을 자기도 한답니다.",
-      "레오파드 게코는 웃는 듯한 귀여운 얼굴로도 유명해요. 작은 발가락에는 발톱이 있어서 땅을 아주 잘 기어 다녀요. 신기하고 예쁜 도마뱀을 보면 어떤 기분이 들 것 같나요? 여러분도 레오파드 게코처럼 눈을 깜빡이며 세상을 자세히 관찰해 보세요."
+      "미국 뉴욕 바다 위에는 커다란 여신상이 서 있어요. 오른손에는 횃불을 높이 들고 있고, 머리에는 반짝이는 왕관을 쓰고 있답니다. 이 동상은 집보다 훨씬 커서 멀리서도 아주 잘 보여요. 사람들은 이 멋진 동상을 '자유의 여신상'이라고 불러요.",
+      "이 커다란 선물은 아주 먼 곳에서 왔답니다. 바로 프랑스라는 나라가 미국에게 축하의 의미로 준 선물이에요. 미국이 나라를 세운 지 100년이 된 것을 기념하며 보냈지요. 두 나라가 앞으로도 사이좋게 지내자는 따뜻한 약속이 담겨 있어요.",
+      "동상이 너무 커서 커다란 배에 실으려고 조각조각 나누어 옮겼어요. 미국에 도착한 뒤에 다시 하나로 정성껏 합쳐서 지금의 모습이 되었답니다. 여러분은 소중한 친구에게 어떤 특별한 선물을 주고 싶나요? 그 선물을 받을 때 친구의 기분을 생각해 보아요."
     ],
-    "image_prompt": "A cute, smiling yellow leopard gecko with small black spots, blinking one eye like a wink, sitting on a soft green leaf, bright pastel colors, warm illustration style, friendly atmosphere, digital art for children.",
-    "category_tag": "오늘의 사용자 지정"
+    "image_prompt": "A warm and bright pastel illustration of the Statue of Liberty standing by the sparkling blue sea. The statue has a friendly and gentle face. In the background, a large vintage ship is carrying giant gift boxes, symbolizing the gift from France. Soft sunlight, child-friendly art style.",
+    "category_tag": "오늘의 세계와 사회"
   },
   "age_group": "7-8",
-  "activity_type": "ox_quiz",
+  "activity_type": "emotion_guess",
   "word_info": {
-    "word": "눈꺼풀",
-    "definition": "눈 위아래에 있는 살로, 눈을 덮어서 보호하고 깜빡이게 도와줘요."
+    "word": "선물",
+    "definition": "사랑하는 사람이나 고마운 사람에게 기쁜 마음으로 주는 물건이에요."
   },
   "hidden_word": {
-    "word": "표범",
-    "mission": "노란 몸에 검은 점무늬가 아주 많은, 용맹하고 멋진 동물은 누구일까요?"
+    "word": "왕관",
+    "mission": "임금님이나 여왕님이 머리에 쓰는 반짝반짝 빛나는 장식은 무엇일까요?"
   },
-  "selected_topic": "레오파드 게코가 눈을 깜빡일 수 있는 특별한 도마뱀인 이유",
-  "selected_category": "오늘의 사용자 지정",
+  "selected_topic": "미국의 자유의 여신상은 어디서 왔을까요?",
+  "selected_category": "오늘의 세계와 사회",
   "wisdom_pool_data": {
-    "text": "백문이 불여일견 (百聞不如一見)",
-    "description": "백 번 듣는 것보다 한 번 직접 눈으로 보는 것이 더 낫다는 뜻이에요.",
-    "message": "레오파드 게코가 예쁜 눈을 깜빡이며 세상을 보듯이, 우리 친구도 직접 눈으로 보고 관찰하며 세상의 신기하고 재미있는 비밀들을 많이 발견해보길 바라요!"
+    "text": "구슬이 서 말이라도 꿰어야 보배",
+    "description": "아무리 예쁜 구슬이 아주 많이 있어도, 실에 잘 꿰어서 목걸이나 보석으로 만들어야 진짜 가치가 있다는 뜻이에요.",
+    "message": "프랑스가 보낸 커다란 조각들을 정성껏 하나로 합쳐서 멋진 자유의 여신상을 만든 것처럼, 우리 친구도 소중한 친구를 위해 따뜻한 마음과 정성을 차곡차곡 모아 예쁜 우정을 만들어 보세요!"
   },
   "activity_data": {
-    "instruction": "제시된 기사 내용을 바탕으로 레오파드 게코의 특징에 대한 OX 퀴즈를 작성했습니다.",
-    "items": [
-      "레오파드 게코는 보통 도마뱀과 달리 눈꺼풀이 있어서 눈을 깜빡일 수 있다.",
-      "레오파드 게코는 몸에 사자처럼 멋진 갈기가 있어서 붙여진 이름이다.",
-      "레오파드 게코는 잠을 잘 때 우리처럼 눈을 감고 잠을 잔다."
+    "scenario": "뉴욕 항구에 우뚝 솟은 거대한 자유의 여신상을 본 지우는 이 엄청난 크기의 동상을 누가, 어떤 마음으로 미국에 선물했는지 무척 궁금해하며 눈을 반짝이고 있습니다.",
+    "emotions": [
+      {
+        "type": "호기심",
+        "prompt": "A young child looking up at the massive Statue of Liberty with wide, sparkling eyes and a thinking gesture, harbor background, cinematic lighting, 8k resolution."
+      },
+      {
+        "type": "경이로움",
+        "prompt": "A person standing at the foot of the Statue of Liberty, looking up at the torch, feeling overwhelmed by its scale, majestic atmosphere, sunset glow."
+      }
     ]
   }
 }

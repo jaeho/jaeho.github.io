@@ -502,8 +502,8 @@ body {
 </head>
 
 <body class="bg-white flex justify-center antialiased">
-    <div class="paper flex flex-col gap-6">
-        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
+    <div class="paper flex flex-col gap-2">
+        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-2">
             <div class="flex items-center gap-0">
                 
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
@@ -521,34 +521,50 @@ body {
         </header>
 
         
-        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">오늘의 활동</h2>
-        
 
         <main class="flex-1 overflow-hidden">
-            <div class="flex flex-col gap-6 h-full">
-    <p class="text-2xl font-bold text-slate-800 italic">🔍 기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!</p>
-    
-    <div class="flex-1 rounded-2xl overflow-hidden border-4 border-slate-200 shadow-sm relative">
-        <img src="activity_image.webp" alt="그림 속 단어 찾기" class="object-cover w-full h-full">
+            <div class="flex flex-col gap-2 h-full">
+    <div class="bg-slate-50 p-3 rounded-[32px] border-2 border-slate-100 shadow-inner flex-1">
+        <p class="font-bold text-slate-800 mb-1 text-center">🎨 첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!</p>
+
+        <div class="cartoon-grid">
+            <!-- 1st Cut: Pre-filled with AI image and dialogue -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">1</div>
+                <img src="activity_image.webp" class="w-full h-full object-cover" alt="Cartoon Story Start">
+                <div class="cartoon-dialogue">
+                    와! 밤하늘의 별을 보니까 반짝거리는 드레스 아이디어가 떠올랐어!
+                </div>
+            </div>
+
+            <!-- 2nd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">2</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 3rd Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">3</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+
+            <!-- 4th Cut: Empty for child to draw -->
+            <div class="cartoon-panel">
+                <div class="cartoon-number">4</div>
+                <div class="w-full h-full flex items-center justify-center opacity-5">
+                    <span class="material-symbols-rounded text-6xl">draw</span>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="bg-blue-50 rounded-2xl p-6 border-2 border-blue-100 flex flex-col gap-3 shrink-0">
-        <h3 class="text-xl font-bold text-blue-800 text-center mb-2">어떤 단어를 찾을까요?</h3>
-        <div class="flex justify-center gap-4 flex-wrap">
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                카멜레온
-            </div>
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                나무
-            </div>
-            
-            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-slate-700 text-xl border-2 border-slate-200">
-                벌레
-            </div>
-            
-        </div>
+    <div class="text-center italic text-slate-400 text-sm">
+        여러분만의 재미있는 이야기를 그려보세요!
     </div>
 </div>
         </main>
@@ -560,8 +576,8 @@ body {
                     <span class="text-[10px] font-bold tracking-wider uppercase">오늘의 좋은 말</span>
                 </div>
                 <div class="flex flex-col gap-1">
-                    <p class="text-3xl font-black text-brand-forest">전광석화(電光石火)</p>
-                    <p class="text-base font-bold text-brand-forest/80 leading-snug">번갯불처럼 아주 짧은 시간 동안에 일어나는 매우 빠른 움직임을 뜻해요.</p>
+                    <p class="text-3xl font-black text-brand-forest">노력하면 안 되는 일은 없어요.</p>
+                    <p class="text-base font-bold text-brand-forest/80 leading-snug">포기하지 않고 정성을 다해 꾸준히 노력하면, 어떤 어려운 일이라도 멋지게 해낼 수 있다는 뜻이에요.</p>
                 </div>
             </div>
         </footer>

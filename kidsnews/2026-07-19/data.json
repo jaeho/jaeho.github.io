@@ -1,48 +1,37 @@
 {
   "page1": {
-    "headline": "숲속의 힘겨루기 대결! 사슴벌레 대 장수풍뎅이",
+    "headline": "다시 자라나는 꼬마 마법사, 우파루파!",
     "article_body": [
-      "여름 숲속에서 아주 멋진 대결이 열려요. 집게를 가진 사슴벌레와 뿔이 멋진 장수풍뎅이가 만났어요. 두 곤충은 달콤한 나무 진액을 먹으려고 서로 힘을 겨루기도 해요. 누가 더 힘이 센 천하장사인지 정말 궁금하지요?",
-      "장수풍뎅이는 코에 커다란 뿔이 달려 있어요. 이 뿔로 상대방을 번쩍 들어 올리는 힘이 아주 세요. 사슴벌레는 사슴 뿔처럼 생긴 긴 턱을 가지고 있어요. 이 턱으로 상대를 꽉 잡아서 나무 밖으로 휙 밀어낸답니다.",
-      "몸집은 장수풍뎅이가 조금 더 크고 밀어내는 힘도 더 강해요. 하지만 사슴벌레는 끈질기게 버티는 힘이 아주 대단해서 쉽게 지지 않아요. 숲속 친구들은 모두 각자의 장점이 있답니다. 여러분은 어떤 곤충을 응원하고 싶나요?"
+      "멕시코에서 온 우파루파는 아주 신기한 동물이에요. 핑크색 몸에 귀여운 얼굴을 가졌지요. 평생 물속에서 살며 양쪽 아가미로 숨을 쉰답니다. 항상 웃는 표정이라서 전 세계 친구들에게 큰 사랑을 받고 있어요.",
+      "우파루파는 마법사처럼 몸을 다시 자라게 해요. 다리나 꼬리를 다쳐도 금방 원래대로 돌아오지요. 심지어 심장이나 뇌가 아파도 스스로 고칠 수 있답니다. 흉터 하나 없이 변하는 모습은 세상에서 가장 놀라운 능력이에요.",
+      "하지만 지금 우파루파는 살 곳이 사라져서 슬퍼하고 있어요. 우리가 자연을 소중히 아끼고 물을 깨끗하게 지켜주어야 해요. 이 신기한 친구가 계속 웃을 수 있게 도와주세요. 여러분의 몸도 다시 자라난다면 어떨까요?"
     ],
-    "image_prompt": "A warm, pastel-toned illustration of a friendly stag beetle and a rhinoceros beetle facing each other on a large oak tree branch in a sunny forest, bright and cheerful style for children's news.",
+    "image_prompt": "A cute pink axolotl with a smiling face swimming in clean blue water, magical sparkles around its limbs representing healing, bright and warm pastel-tone illustration style, friendly for children.",
     "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "word_morphing",
+  "activity_type": "emotion_guess",
   "word_info": {
-    "word": "진액",
-    "definition": "나무나 꽃에서 나오는 끈적끈적하고 달콤한 즙이에요."
+    "word": "아가미",
+    "definition": "물속에 사는 동물이 숨을 쉴 수 있게 도와주는 몸의 부분이에요."
   },
   "hidden_word": {
-    "word": "사슴벌레",
-    "mission": "사슴의 뿔을 닮은 집게 턱을 가진 멋진 숲속 곤충은 누구일까요?"
+    "word": "마법사",
+    "mission": "신기한 힘을 써서 무엇이든 뚝딱 만들어내거나 바꾸는 사람을 무엇이라고 부를까요?"
   },
-  "selected_topic": "사슴벌레와 장수풍뎅이 중 누가 더 힘이 셀까요?",
+  "selected_topic": "다시 자라나는 마법사, 우파루파의 놀라운 재생 능력",
   "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "다름을 인정하는 멋진 너",
-    "description": "사람이나 곤충은 저마다 잘하는 것이 다르고 저마다의 특별한 장점이 있다는 뜻이에요.",
-    "message": "뿔이 멋진 장수풍뎅이와 집게가 강한 사슴벌레처럼, 우리 친구들도 각자 잘하는 게 다르답니다. 나의 장점을 소중히 여기고 친구의 멋진 점도 칭찬해 주는 어린이가 되어보아요!"
+    "text": "작은 친절이 큰 기쁨을 만든다",
+    "description": "나의 작은 배려와 노력이 누군가에게는 아주 큰 행복과 선물이 될 수 있다는 뜻이에요.",
+    "message": "물을 아껴 쓰고 자연을 아끼는 우리 친구의 작은 행동들이 모인다면, 마법사 우파루파가 살 곳을 잃지 않고 우리 곁에서 계속 웃을 수 있을 거예요!"
   },
   "activity_data": {
-    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
-    "items": [
+    "scenario": "지팡이를 휘두르자 잃어버렸던 꼬리가 반짝이며 다시 돋아나기 시작합니다. 꼬마 우파루파는 자신의 마법이 성공한 것을 보고 입을 크게 벌리며 활짝 웃습니다.",
+    "emotions": [
       {
-        "original_word": "여름",
-        "hint": "파란 하늘에 둥둥 떠 있는 하얗고 푹신한 솜사탕 같은 것이에요.",
-        "target_word": "구름"
-      },
-      {
-        "original_word": "나무",
-        "hint": "꽃밭을 팔랑팔랑 날아다니는 예쁜 날개를 가진 곤충이에요.",
-        "target_word": "나비"
-      },
-      {
-        "original_word": "벌레",
-        "hint": "더러워진 옷을 비누나 세제로 깨끗하게 빠는 일이에요.",
-        "target_word": "빨래"
+        "type": "기쁨",
+        "prompt": "A cute pink axolotl wizard wearing a tiny purple witch hat, holding a glowing magical wand, a sparkling new tail growing, wide joyful smile, underwater fantasy kingdom, bubbles and magical particles, 3D animation style."
       }
     ]
   }

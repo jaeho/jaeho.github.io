@@ -1,38 +1,35 @@
 {
   "page1": {
-    "headline": "뿔이 쑥! 숲속의 힘센 대장 기데온 장수풍뎅이",
+    "headline": "거꾸로 척척! 도마뱀 발바닥의 비밀",
     "article_body": [
-      "숲속에 아주 멋진 기데온 장수풍뎅이가 살고 있어요. 이 풍뎅이는 머리 위에 아주 크고 멋진 뿔을 가지고 있답니다. 뿔은 마치 두 갈래로 갈라진 나뭇가지처럼 신기하게 생겼어요. 반짝이는 갈색 몸집을 가진 이 곤충은 숲의 씩씩한 대장님 같아요.",
-      "그렇다면 커다란 뿔은 어디에 쓰는 걸까요? 장수풍뎅이는 맛있는 나무 진액을 차지하려고 친구들과 씨름을 해요. 이때 뿔을 지게차처럼 사용하여 상대방을 번쩍 들어 올려요. 힘차게 밀어내며 자기가 얼마나 힘이 센지 뽐내기도 한답니다.",
-      "뿔은 소중한 먹이와 집을 지키는 든든한 방패가 되기도 해요. 무서운 적이 나타나면 뿔을 앞세워 씩씩하게 맞서 싸워요. 정말 용감하고 멋진 숲의 전사지요? 여러분도 기데온 장수풍뎅이처럼 지키고 싶은 소중한 보물이 있나요?"
+      "귀여운 도마뱀 크레스티드 게코를 아나요? 이 친구는 유리창 위를 미끄러지지 않고 척척 걸어 다녀요. 심지어 거꾸로 매달려서 잠을 자기도 한답니다. 어떻게 떨어지지 않고 잘 붙어 있는 걸까요? 발바닥에 아주 특별한 비밀이 숨어 있어요.",
+      "도마뱀의 발바닥을 돋보기로 자세히 살펴봐요. 아주 가느다란 털이 수백만 개나 촘촘하게 나 있어요. 이 털들은 우리가 눈으로 볼 수 없을 만큼 정말 작아요. 털들이 유리 벽을 꽉 붙잡아 주기 때문에 절대 떨어지지 않아요. 마치 발바닥에 강력한 마법 테이프를 붙인 것 같아요.",
+      "게코는 발가락을 돌돌 말았다가 펴면서 가볍게 움직여요. 끈적이는 풀 없이도 어디든 자유롭게 다닐 수 있답니다. 우리 친구들도 게코처럼 벽을 탈 수 있다면 어디를 가장 먼저 가보고 싶나요? 거꾸로 매달려 보는 세상은 어떤 모습일지 상상해 보세요."
     ],
-    "image_prompt": "A warm, bright pastel-style illustration of a Gideon rhinoceros beetle with a large Y-shaped horn on its head, sitting on a brown tree trunk in a sunny forest, friendly and cute appearance for children.",
+    "image_prompt": "A cute crested gecko with large eyes smiling and walking upside down on a clean glass pane, soft pastel-colored background, warm and gentle illustration style for children, high quality.",
     "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "emotion_guess",
+  "activity_type": "letter_writing",
   "word_info": {
-    "word": "진액",
-    "definition": "나무에서 나오는 끈적끈적한 액체로, 곤충들이 아주 좋아하는 달콤한 밥이에요."
+    "word": "수백만",
+    "definition": "백만이 여러 번 있는 것으로, 아주아주 많은 숫자를 말해요."
   },
   "hidden_word": {
-    "word": "방패",
-    "mission": "무서운 적의 공격을 막아낼 때 몸 앞에 두는 튼튼한 도구는 무엇일까요?"
+    "word": "돋보기",
+    "mission": "작은 것을 아주 크게 보여주는 마법 같은 유리 안경은 무엇일까요?"
   },
-  "selected_topic": "기데온 장수풍뎅이의 커다란 뿔은 어디에 쓸까요?",
+  "selected_topic": "크레스티드 게코는 어떻게 유리창을 거꾸로 걸을까요?",
   "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "위풍당당(威風堂堂)",
-    "description": "모습이 아주 씩씩하고 당당해서 기운이 넘친다는 뜻이에요.",
-    "message": "멋진 뿔을 가진 장수풍뎅이 대장처럼, 여러분도 언제나 자신감을 가지고 씩씩하게 꿈을 펼치길 바랄게요!"
+    "text": "낭중지추(囊中之錐)",
+    "description": "주머니 속에 있는 뾰족한 송곳이 밖으로 뚫고 나오듯이, 특별한 재능을 가진 사람은 숨어 있어도 저절로 그 모습이 드러난다는 뜻이에요.",
+    "message": "도마뱀 발바닥의 아주 작은 털들이 모여 놀라운 비밀을 만들어낸 것처럼, 우리 친구에게도 남들이 모르는 멋진 재능이 숨어 있을 거예요. 자신감을 가지고 너만의 특별함을 멋지게 보여주길 바랄게!"
   },
   "activity_data": {
-    "scenario": "기데온 장수풍뎅이가 숲속에서 가장 크고 멋진 자신의 뿔을 거울처럼 맑은 이슬에 비춰보고 있습니다.",
-    "emotions": [
-      {
-        "type": "자부심",
-        "prompt": "A majestic rhinoceros beetle with a large, glossy horn looking at its reflection in a water drop, forest background, cinematic lighting, macro photography."
-      }
-    ]
+    "instruction": "기사를 읽고 도마뱀의 신비한 능력을 떠올리며, 크레스티드 게코에게 마음을 담은 편지를 써 보세요!",
+    "receiver": "유리창 위를 자유롭게 걷는 멋진 도마뱀 게코에게",
+    "greeting": "안녕 게코야! 네 발바닥에 수백만 개의 가느다란 털이 숨겨져 있다는 이야기를 읽고 정말 놀랐어.",
+    "guide_text": "나도 너처럼 마법 테이프 같은 발바닥을 갖게 되어 거꾸로 세상을 볼 수 있다면..."
   }
 }

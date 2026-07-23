@@ -1,33 +1,38 @@
 {
   "page1": {
-    "headline": "색을 바꾸는 마법사, 베일리 카멜레온을 만나요",
+    "headline": "입이 쩍! 숲속의 먹보 대장 팩맨 개구리",
     "article_body": [
-      "숲속에 사는 베일리는 아주 특별한 도마뱀이에요. 몸의 색깔을 자유롭게 바꿀 수 있거든요. 나뭇잎 위에 앉으면 초록색으로 변해요. 나뭇가지에 매달리면 갈색으로 변신해요. 정말 신기한 마법사 같지요?",
-      "베일리는 기분이 좋을 때도 색을 바꿔요. 화가 나면 빨간색이 되고, 무서우면 어두운색이 돼요. 적의 눈을 피해 몸을 숨기려고 색을 바꾸기도 해요. 베일리의 피부는 마음을 보여주는 도화지 같아요. 친구들도 베일리의 변신을 보면 기분을 알 수 있답니다.",
-      "베일리는 긴 혀를 쏙 내밀어 맛있는 벌레를 잡아요. 끈적끈적한 혀는 아주 멀리까지 뻗어나간답니다. 배가 부르면 다시 편안한 초록색으로 돌아와 잠을 자요. 여러분은 지금 어떤 색깔의 옷을 입고 있나요? 만약 마음대로 색을 바꾼다면 어떤 색이 되고 싶은지 생각해보세요."
+      "팩맨 개구리는 입이 아주 커서 붙여진 이름이에요. 몸의 절반이 입일 정도로 커다란 입을 가졌지요. 마치 동그란 게임 캐릭터인 팩맨을 꼭 닮았어요. 귀여운 외모와 달리 입을 쩍 벌리면 깜짝 놀랄 정도로 크답니다.",
+      "이 개구리는 사냥을 할 때 아주 끈기가 넘쳐요. 몸을 흙 속에 쏙 숨기고 가만히 기다린답니다. 그러다 먹이가 지나가면 큰 입으로 한 번에 덥석 잡아요. 힘센 혀를 사용해서 절대로 놓치지 않는 멋진 사냥꾼이에요.",
+      "커다란 입 덕분에 자기 몸만큼 큰 먹이도 꿀꺽 삼킬 수 있어요. 튼튼한 입은 팩맨 개구리에게 가장 소중한 보물이지요. 숲속에서 조용히 숨바꼭질을 하는 개구리가 정말 신기해요. 여러분은 입이 아주 큰 개구리를 보면 어떤 기분이 들까요?"
     ],
-    "image_prompt": "A cute, friendly chameleon sitting on a leafy branch, its body showing a gradient of bright rainbow colors. Soft pastel colors, warm sunlight filtering through jungle leaves, storybook illustration style, high quality, whimsical and inviting atmosphere for children.",
+    "image_prompt": "A cute, round Pacman frog with a large mouth sitting in a lush green tropical forest, soft pastel tone illustration, warm and friendly lighting, storybook style, high quality.",
     "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "coloring",
+  "activity_type": "hidden_objects",
   "word_info": {
-    "word": "변신",
-    "definition": "원래 모습과는 다른 모양이나 색깔로 아주 멋지게 바꾸는 것을 말해요."
+    "word": "사냥",
+    "definition": "동물이 배를 채우기 위해 다른 동물을 잡는 행동이에요."
   },
   "hidden_word": {
-    "word": "도마뱀",
-    "mission": "몸이 길고 꼬리가 있으며, 네 발로 엉금엉금 기어 다니는 파충류 친구는 누구일까요?"
+    "word": "보물",
+    "mission": "세상에서 가장 귀하고 소중하게 아끼는 물건을 무엇이라고 부를까요?"
   },
-  "selected_topic": "색을 바꾸는 작은 마법사, 베일리 카멜레온의 하루",
+  "selected_topic": "팩맨 개구리의 커다란 입에 담긴 비밀 이야기",
   "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "얼굴은 마음의 거울",
-    "description": "사람의 표정이나 겉모습을 보면 그 사람의 기분이나 마음을 알 수 있다는 뜻이에요.",
-    "message": "카멜레온 베일리가 몸의 색깔로 기분을 말하는 것처럼, 우리 친구들의 표정도 마음을 보여준답니다. 친구의 얼굴을 잘 살펴보고 기쁜지 슬픈지 마음을 먼저 헤아려주는 다정한 어린이가 되어보세요!"
+    "text": "수적천석(水滴穿石)",
+    "description": "작은 물방울이 계속 떨어져서 단단한 바위를 뚫는다는 뜻으로, 포기하지 않고 끈기 있게 노력하면 큰 일을 이룰 수 있다는 말이에요.",
+    "message": "사냥을 위해 흙 속에서 가만히 기다리는 팩맨 개구리처럼, 우리 친구도 목표를 위해 꾹 참고 노력하는 멋진 끈기를 가져보세요! 개구리처럼 멋지게 성공할 수 있을 거예요."
   },
   "activity_data": {
-    "instruction": "마법사 베일리가 몸의 색을 바꿀 수 있게 예쁘게 색칠해 볼까요? 좋아하는 색깔로 알록달록하게 칠해서 베일리의 마법을 도와주세요!",
-    "image_prompt": "Black and white simple line art for kids coloring book, a cute cartoon chameleon wearing a wizard hat, sitting on a tree branch, large and simple shapes, white background, thick lines, no shading, vector style."
+    "instruction": "숲속의 대식가 팩맨 개구리와 그 주변에 숨겨진 세 가지 물건(달팽이, 점박이 버섯, 무당벌레)을 찾아보세요! 각 물건은 그림 속에 딱 하나씩만 숨어 있습니다.",
+    "items": [
+      "달팽이",
+      "점박이 버섯",
+      "무당벌레"
+    ],
+    "image_prompt": "Detailed black and white line art for a hidden object puzzle. A large, round Pac-man frog with a wide mouth sitting on a tropical forest floor surrounded by thick leaves, moss, and ferns. Intricately hidden in the scene are exactly one snail, one spotted mushroom, and one ladybug. Coloring book style, clean lines, high contrast, forest floor background."
   }
 }

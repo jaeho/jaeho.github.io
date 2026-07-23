@@ -1,37 +1,34 @@
 {
   "page1": {
-    "headline": "제주도 숲의 보물, 두 개의 점을 가진 사슴벌레!",
+    "headline": "은빛 옷을 입은 도마뱀, '아잔틱'을 만나요!",
     "article_body": [
-      "우리나라 제주도에는 아주 특별한 곤충이 살고 있어요. 바로 '두점박이 사슴벌레'라는 멋진 친구예요. 이 친구는 몸이 황갈색이고, 가슴 양쪽에 까만 점이 두 개 콕 박혀 있어요. 다른 사슴벌레와는 다르게 색깔이 밝아서 금방 눈에 띈답니다.",
-      "가슴에 있는 두 개의 까만 점은 무엇을 하는 곳일까요? 이 점은 사슴벌레가 위험에 처했을 때 자신을 보호하는 데 도움을 줘요. 무서운 적이 나타나면 점이 마치 커다란 눈처럼 보여서 깜짝 놀라게 만들지요. 작지만 용감하게 살아가는 모습이 참 신기하고 대단하지 않나요?",
-      "두점박이 사슴벌레는 멸종위기 야생생물이라서 우리 주변에서 쉽게 보기 어려워요. 제주도의 숲속에서만 건강하게 자라날 수 있도록 우리가 소중히 지켜주어야 해요. 만약 숲속에서 이 친구를 만난다면 어떤 인사를 건네주고 싶은지 마음속으로 살짝 생각해보아요."
+      "안녕, 친구들! 오늘은 특별한 도마뱀을 소개할게요. 바로 ‘크레스티드 게코’예요. 이 친구는 속눈썹이 길고 아주 귀엽답니다. 그중에서도 ‘아잔틱’은 몸이 멋진 회색이나 검은색이에요. 다른 친구들과 색깔이 달라서 정말 신기하고 멋져 보여요.",
+      "도마뱀의 색깔이나 무늬가 다른 것을 ‘모프’라고 불러요. 사람들도 머리카락 색이 저마다 다르지요? 도마뱀도 부모를 닮아 예쁜 옷을 입고 태어나요. 아잔틱은 노란색이나 빨간색이 없는 모프예요. 그래서 은색처럼 멋진 몸을 가지게 되었어요.",
+      "작은 도마뱀 친구들은 우리가 소중히 아껴주어야 해요. 가만히 지켜보면 도마뱀의 매력에 푹 빠질 거예요. 여러분은 만약 도마뱀이 된다면 어떤 색깔의 옷을 입고 싶나요? 좋아하는 색깔을 떠올리며 나만의 멋진 도마뱀을 상상해 보세요."
     ],
-    "image_prompt": "A bright and warm pastel-style illustration of a yellowish-brown stag beetle with two distinct black spots on its thorax, crawling on a green leaf in a sunny Jeju Island forest. Friendly and cute character design for kids.",
+    "image_prompt": "A cute Crested Gecko with long eyelashes, silver and charcoal gray skin pattern, sitting on a bright green leaf, soft pastel colors, warm lighting, children's book illustration style, friendly and magical atmosphere.",
     "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "ox_quiz",
+  "activity_type": "cartoon",
   "word_info": {
-    "word": "멸종위기",
-    "definition": "동물이나 식물의 숫자가 아주 적어져서 세상에서 영영 사라질 수도 있는 위험한 상태를 말해요."
+    "word": "모프",
+    "definition": "동물의 색깔이나 무늬가 다른 종류를 말해요."
   },
   "hidden_word": {
-    "word": "제주도",
-    "mission": "바다 건너 아래쪽에 있는, 돌과 바람이 많은 우리나라의 아름다운 섬은 어디일까요?"
+    "word": "속눈썹",
+    "mission": "눈 위에 길게 난 털로, 우리 눈을 보호해 주는 것은 무엇일까요?"
   },
-  "selected_topic": "두점박이 사슴벌레의 등에 있는 두 점은 무엇을 뜻할까요?",
+  "selected_topic": "크레스티드 게코 '아잔틱'을 만나요 — 파충류 모프가 뭐예요?",
   "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "작은 고추가 맵다",
-    "description": "몸집은 작아도 힘이 세거나 생각이 깊어 아주 야무지다는 뜻이에요.",
-    "message": "두점박이 사슴벌레는 몸집은 작지만 무서운 적 앞에서도 당당하게 자신을 지켜내는 용감한 친구예요. 우리 친구들도 사슴벌레처럼 겉모습보다 속마음이 훨씬 더 씩씩하고 단단한 사람이 되길 바랄게요!"
+    "text": "각양각색(各樣各色)",
+    "description": "사람의 머리카락 색이 저마다 다르듯이, 모양이나 색깔이 아주 다양하고 여러 가지라는 뜻이에요.",
+    "message": "멋진 은빛 도마뱀 아잔틱처럼 세상에는 저마다의 특별한 색깔을 가진 친구들이 많아요. 우리와 다른 모습을 가진 작은 생명들도 소중히 아껴주는 따뜻한 마음을 가져보세요!"
   },
   "activity_data": {
-    "instruction": "제시된 기사 내용을 바탕으로 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
-    "items": [
-      "두점박이 사슴벌레의 가슴에 있는 두 개의 검은 점은 적에게 커다란 눈처럼 보여 자신을 보호하는 역할을 한다.",
-      "두점박이 사슴벌레는 몸 색깔이 어두워서 다른 사슴벌레와 비슷하게 생겨 눈에 잘 띄지 않는다.",
-      "두점박이 사슴벌레는 멸종위기 야생생물로 지정되어 있어 우리 주변에서 쉽게 보기 어렵다."
-    ]
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와, 정말 멋지다! 넌 왜 다른 친구들과 다르게 반짝이는 은빛 옷을 입고 있니?",
+    "image_prompt": "Black and white simple line art for kids, a cute Crested Gecko with long eyelashes sitting on a tree branch, a curious child wearing a explorer hat looking at the lizard with a magnifying glass, the lizard is silver and grey color 'Axanthic' morph, thick lines, white background, no shading, minimalist style"
   }
 }

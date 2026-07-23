@@ -1,50 +1,38 @@
 {
   "page1": {
-    "headline": "숲속의 보석 기사, 홍단딱정벌레를 만나요",
+    "headline": "번개처럼 빠른 카멜레온의 혀!",
     "article_body": [
-      "깊은 숲속에 아주 멋진 붉은 갑옷을 입은 꼬마 기사가 나타났어요. 이 친구의 이름은 홍단딱정벌레라고 해요. 햇빛을 받으면 몸에서 반짝반짝 무지개처럼 고운 빛이 나요. 머리부터 발끝까지 붉은색과 구리색이 섞여 있어서 정말 아름답고 신비로워요.",
-      "홍단딱정벌레는 밤에 주로 활동하는 아주 부지런한 사냥꾼이에요. 등껍질 날개가 딱 붙어 있어서 하늘을 쌩쌩 날지는 못해요. 대신 길고 튼튼한 다리를 가지고 있어서 숲속 바닥을 아주 빠르게 달릴 수 있답니다. 주로 달팽이나 지렁이 같은 작은 벌레를 찾아 먹으며 살아요.",
-      "무서운 적을 만나면 엉덩이에서 아주 고약한 냄새가 나는 액체를 뿜어내요. 이 냄새로 자기 몸을 씩씩하게 지키는 용감한 곤충이지요. 우리 이제 숲길을 걸을 때 발밑을 조심조심 살펴보기로 해요. 여러분은 보석처럼 빛나는 홍단딱정벌레를 만난다면 어떤 인사를 하고 싶나요?"
+      "카멜레온은 숲속의 마술사예요. 주변 색깔에 맞춰 몸을 바꾸기도 하지만, 가장 놀라운 것은 혀예요. 혀는 몸보다 두 배나 더 길게 늘어날 수 있어요. 평소에는 입속에 말려 있다가 먹이를 보면 쑥 나와요.",
+      "혀가 나가는 속도는 정말 빨라요. 자동차보다 빠르게 튀어나가서 눈 깜짝할 사이에 먹이를 잡아요. 혀 끝은 끈적해서 벌레가 딱 달라붙지요. 멀리 있는 사냥감도 놓치지 않고 한 번에 낚아챈답니다.",
+      "카멜레온은 긴 혀 덕분에 나무 위에서 가만히 식사를 할 수 있어요. 배가 고픈 카멜레온에게 혀는 가장 소중한 도구예요. 여러분이 카멜레온처럼 아주 긴 혀를 가졌다면 무엇을 가장 먼저 하고 싶나요?"
     ],
-    "image_prompt": "A bright and warm pastel illustration of a shiny red and copper-colored ground beetle on a forest floor with green leaves. The beetle looks friendly and jewel-like, soft natural lighting, storybook style for children.",
+    "image_prompt": "A cute chameleon with large eyes sitting on a green branch, extending its very long pink tongue to catch a small flying insect. Bright, warm pastel colors, soft illustration style suitable for children's newspaper.",
     "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "scale_quiz",
+  "activity_type": "word_hunt",
   "word_info": {
-    "word": "갑옷",
-    "definition": "몸을 단단하게 지켜주는 딱딱한 겉껍데기예요."
+    "word": "사냥",
+    "definition": "동물이 먹이를 잡기 위해 하는 일이에요."
   },
   "hidden_word": {
-    "word": "달팽이",
-    "mission": "등에 무거운 집을 지고 느릿느릿 기어가는 친구는 누구일까요?"
+    "word": "마술사",
+    "mission": "무대 위에서 신기한 기술을 보여주는 사람을 무엇이라고 부를까요?"
   },
-  "selected_topic": "반짝반짝 붉은 갑옷을 입은 홍단딱정벌레 이야기",
+  "selected_topic": "카멜레온의 혀는 얼마나 빠르고 얼마나 길까요?",
   "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "구슬이 서 말이라도 꿰어야 보배",
-    "description": "아무리 예쁜 보석이라도 잘 꿰어서 보물로 만들어야 진짜 가치가 있다는 뜻이에요.",
-    "message": "숲속의 보석 같은 홍단딱정벌레의 이름을 불러주고 아껴준다면, 여러분의 마음속에 소중한 자연 보물이 하나 더 생길 거예요!"
+    "text": "전광석화(電光石火)",
+    "description": "번갯불처럼 아주 짧은 시간 동안에 일어나는 매우 빠른 움직임을 뜻해요.",
+    "message": "카멜레온의 혀가 정말 번개처럼 빠르지요? 우리 친구도 카멜레온처럼 자신이 가진 특별한 능력을 잘 가꾸어서, 필요할 때 멋지게 발휘하는 어린이가 되길 응원할게요!"
   },
   "activity_data": {
-    "instruction": "누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!",
-    "items": [
-      {
-        "question": "숲속의 보석이라 불리는 '홍단딱정벌레'의 몸집은 과연 얼마나 작을까요?",
-        "options": [
-          "어린이 친구들의 엄지손가락 한 마디만큼 작고 귀여워요",
-          "우리가 타고 다니는 노란색 유치원 버스만큼 커요",
-          "교실에 있는 커다란 칠판만큼 넓고 커요"
-        ]
-      },
-      {
-        "question": "반짝이는 붉은 갑옷을 입은 홍단딱정벌레의 무게는 어느 정도일까요?",
-        "options": [
-          "커다란 수박 10개를 합친 것만큼 무거워요",
-          "달콤하고 작은 알사탕 1개만큼 아주 가벼워요",
-          "우리 집 거실에 있는 커다란 냉장고만큼 무거워요"
-        ]
-      }
-    ]
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "카멜레온",
+      "나무",
+      "벌레"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring a cute chameleon with a long tongue, a tall tree with big leaves, and a small flying bug, thick line art style, coloring book page, black and white, white background, no text"
   }
 }

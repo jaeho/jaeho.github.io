@@ -1,54 +1,33 @@
 {
   "page1": {
-    "headline": "숲속 꼬마 탐험가! 나만의 곤충 노트를 만들어요",
+    "headline": "도마뱀은 왜 꼬리를 스스로 뚝 자를까요?",
     "article_body": [
-      "공원이나 숲에는 작고 귀여운 곤충 친구들이 정말 많이 살고 있어요. 개미가 어디로 가는지, 나비는 무슨 꽃을 좋아하는지 궁금하지 않나요? 곤충을 가만히 지켜보는 일은 아주 즐거운 탐험이랍니다. 돋보기를 들고 나가서 숨어 있는 곤충을 찾아보세요.",
-      "노트를 만들려면 먼저 작은 수첩과 연필을 준비해요. 곤충의 몸이 머리, 가슴, 배로 나뉘어 있는지 꼼꼼히 살펴보는 거예요. 다리는 몇 개인지 날개 무늬는 어떤지도 하나씩 적어 보세요. 곤충이 무엇을 먹는지 적어 두면 멋진 기록이 된답니다.",
-      "그림을 잘 못 그려도 괜찮으니 보고 느낀 점을 자유롭게 표현해요. 곤충의 빠른 움직임을 동그라미나 세모로 그려도 충분하거든요. 기록을 쌓으면 나만의 보물 같은 책이 완성될 거예요. 여러분은 오늘 어떤 곤충을 가장 먼저 관찰하고 싶나요?"
+      "숲속 산책을 하다가 귀여운 도마뱀을 본 적이 있나요? 도마뱀은 무서운 적을 만나면 아주 놀라운 행동을 해요. 바로 자기 몸의 일부인 꼬리를 스스로 툭 끊고 도망가는 것이지요. 꼬리가 없어도 도마뱀은 아프지 않으니 정말 신기하고 신비로운 모습이에요.",
+      "도마뱀이 꼬리를 자르는 이유는 적의 시선을 끌기 위해서예요. 잘려 나간 꼬리가 바닥에서 계속 꿈틀거리면 적은 깜짝 놀라 꼬리만 쳐다보게 돼요. 그 틈을 타서 도마뱀은 풀숲 사이로 아주 빠르게 쏙 숨어버린답니다. 잘린 꼬리는 시간이 지나면 다시 쑥쑥 자라나요.",
+      "도마뱀의 꼬리는 소중한 자기 목숨을 지키는 아주 특별한 비결이에요. 무섭고 힘든 상황에서도 포기하지 않고 지혜를 짜내어 위기를 넘기는 것이지요. 여러분도 도마뱀처럼 용기를 내어 어려운 일을 씩씩하게 이겨본 적이 있나요?"
     ],
-    "image_prompt": "A bright and warm pastel illustration of a young child with a magnifying glass observing a ladybug on a leaf, with a small notebook and pencil nearby, soft nature background, high quality, child-friendly style.",
+    "image_prompt": "A cute green lizard in a sunny forest, its tail moving on the grass while it hides behind a large leaf. Bright and warm pastel color palette, soft watercolor children's book illustration style.",
     "category_tag": "오늘의 사용자 지정"
   },
   "age_group": "7-8",
-  "activity_type": "initial_quiz",
+  "activity_type": "basic",
   "word_info": {
-    "word": "관찰",
-    "definition": "어떤 것을 주의 깊게 자세히 살펴보는 것을 말해요."
+    "word": "비결",
+    "definition": "어려운 일을 아주 잘 해결할 수 있는 특별한 방법이에요."
   },
   "hidden_word": {
-    "word": "돋보기",
-    "mission": "작은 물건을 아주 크게 보여주어 곤충을 자세히 볼 수 있게 도와주는 도구는 무엇일까요?"
+    "word": "도마뱀",
+    "mission": "네 개의 다리와 긴 꼬리를 가졌고, 적을 만나면 꼬리를 툭 자르고 도망가는 친구는 누구일까요?"
   },
-  "selected_topic": "나만의 곤충 관찰 노트 만드는 방법",
+  "selected_topic": "도마뱀은 왜 꼬리를 스스로 자를까요?",
   "selected_category": "오늘의 사용자 지정",
   "wisdom_pool_data": {
-    "text": "적토성산(積土成山)",
-    "description": "작은 흙이 모여 큰 산을 이루듯, 작은 관찰 기록들이 하나씩 모이면 아주 멋진 보물 책이 된다는 뜻이에요.",
-    "message": "오늘 발견한 곤충의 다리 모양이나 날개 무늬 같은 작은 기록들이 모여 여러분만의 멋진 탐험 노트를 만들어줄 거예요. 포기하지 말고 차근차근 기록을 쌓아가는 멋진 꼬마 탐험가가 되어보세요!"
+    "text": "호랑이 굴에 들어가도 정신만 차리면 산다",
+    "description": "아무리 무섭고 위험한 상황에 빠지더라도, 당황하지 않고 지혜를 짜내면 위기를 벗어날 수 있다는 뜻이에요.",
+    "message": "무서운 적을 만난 도마뱀이 꼬리를 자르는 용기를 낸 것처럼, 우리 친구들도 어려운 일이 생겼을 때 당황하지 말고 씩씩하게 지혜를 발휘해 봐요!"
   },
   "activity_data": {
-    "instruction": "기사 내용을 바탕으로 곤충 관찰과 관련된 단어의 초성을 보고 정답을 맞춰보세요.",
-    "items": [
-      {
-        "clue": "곤충의 몸을 구분하는 세 가지 부분입니다.",
-        "initials": [
-          "ㅁㄹ",
-          "ㄱㅅ",
-          "ㅂ"
-        ]
-      },
-      {
-        "clue": "작은 곤충을 더 크고 자세하게 관찰할 때 사용하는 도구입니다.",
-        "initials": [
-          "ㄷㅂㄱ"
-        ]
-      },
-      {
-        "clue": "기사에서 곤충을 가만히 지켜보는 일을 이것에 비유했습니다.",
-        "initials": [
-          "ㅌㅎ"
-        ]
-      }
-    ]
+    "title": "생각 쑥쑥 활동",
+    "instruction": "'도마뱀은 왜 꼬리를 스스로 뚝…' 이야기를 떠올리며 가장 기억나는 장면을 그려보세요."
   }
 }

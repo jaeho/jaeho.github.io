@@ -1,0 +1,46 @@
+{
+  "page1": {
+    "headline": "눈 깜빡하면 슝! 카멜레온의 마법 혀",
+    "article_body": [
+      "카멜레온은 정말 신기한 친구예요. 나뭇가지에 가만히 앉아 있다가 먹이를 발견하면 눈이 뱅글뱅글 돌아가요. 주변 색깔과 똑같이 몸 색을 바꾸어 숨기도 아주 잘한답니다. 하지만 카멜레온의 진짜 비밀 무기는 바로 입속에 꼭꼭 숨겨져 있어요.",
+      "먹이가 나타나면 카멜레온은 혀를 슝 내밀어요. 이 혀는 자기 몸보다 두 배나 더 길게 쭉 늘어난답니다. 얼마나 빠른지 눈을 한 번 깜빡할 사이에 벌레를 낚아채요. 끈적끈적한 혀끝으로 먹이를 찰싹 붙여서 순식간에 입속으로 가져와요.",
+      "우리가 젓가락으로 음식을 집는 것보다 훨씬 빠르고 정확해요. 카멜레온의 혀는 세상에서 가장 멋진 낚싯대 같지요? 이렇게 빠른 혀를 가진 카멜레온은 숲속의 용감한 사냥꾼이랍니다. 여러분이 카멜레온처럼 아주 빠른 혀를 가진다면 무엇을 잡아보고 싶나요?"
+    ],
+    "image_prompt": "A cute and colorful chameleon sitting on a green branch, sticking out its very long and sticky tongue to catch a small fly, bright and warm pastel colors, soft storybook illustration style for children, friendly and magical atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "낚아채다",
+    "definition": "물건이나 동물을 아주 빠르고 날쌔게 잡는 것을 말해요."
+  },
+  "hidden_word": {
+    "word": "비밀",
+    "mission": "다른 사람에게는 말하지 않고 나만 마음속에 몰래 알고 있는 것은 무엇일까요?"
+  },
+  "selected_topic": "카멜레온의 혀는 얼마나 빠르고 얼마나 길까요?",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "백발백중(百發百中)",
+    "description": "백 번 쏘면 백 번 다 맞힌다는 뜻으로, 어떤 일을 아주 정확하고 솜씨 있게 해내는 것을 말해요.",
+    "message": "카멜레온이 끈적한 혀로 먹이를 한 번에 낚아채는 것처럼, 우리 친구도 집중력을 발휘해서 자신이 목표한 것을 멋지게 성공시키는 어린이가 되길 응원할게요!"
+  },
+  "activity_data": {
+    "instruction": "제시된 기사 내용을 바탕으로 카멜레온에 관한 초성 퀴즈를 풀어보세요.",
+    "items": [
+      {
+        "clue": "주변 색깔과 똑같이 몸 색을 바꾸며, 아주 긴 혀를 가진 이 동물의 이름은 무엇일까요?",
+        "initials": "ㅋㅁㄹㅇ"
+      },
+      {
+        "clue": "본문에서 카멜레온의 혀는 세상에서 가장 멋진 이것 같다고 비유되었어요.",
+        "initials": "ㄴㅅㄷ"
+      },
+      {
+        "clue": "빠른 혀를 가진 카멜레온은 숲속의 용감한 이것이라고 불려요.",
+        "initials": "ㅅㄴㄲ"
+      }
+    ]
+  }
+}

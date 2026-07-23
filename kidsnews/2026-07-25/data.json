@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "꿀꺽! 입이 아주 큰 팩맨 개구리",
+    "article_body": [
+      "입이 아주 커서 '팩맨 개구리'라고 불러요. 동그란 몸에 커다란 입이 꼭 게임 속 캐릭터 같아요. 알록달록한 몸 색깔 덕분에 숲속에서 숨바꼭질 대장이랍니다. 귀여운 외모 때문에 사람들에게 인기가 아주 많아요.",
+      "이 개구리는 입의 힘이 정말 대단해요. 끈적끈적한 혀를 쑥 내밀어 먹이를 꽉 잡아요. 자기 몸집만큼 큰 먹이도 한 입에 꿀꺽 삼킬 수 있답니다. 입이 크고 힘이 세서 사냥을 아주 잘하는 멋쟁이 개구리예요.",
+      "팩맨 개구리는 가만히 앉아 기다리는 것을 좋아해요. 배가 고프면 큰 입을 벌려 냠냠 맛있게 밥을 먹지요. 여러분도 팩맨 개구리처럼 입을 크게 벌리고 웃어본 적이 있나요? 오늘 거울을 보며 입을 크게 벌리고 방긋 웃어 보세요."
+    ],
+    "image_prompt": "A cute, round, colorful Pacman frog with a big smiling mouth sitting on a green mossy rock, bright pastel colors, soft watercolor illustration style, warm and friendly atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "사냥",
+    "definition": "배가 고파서 먹을 것을 잡는 일이에요."
+  },
+  "hidden_word": {
+    "word": "숨바꼭질",
+    "mission": "몸을 꼭꼭 숨기고 친구를 찾는 놀이는 무엇일까요?"
+  },
+  "selected_topic": "팩맨 개구리의 커다란 입에 담긴 비밀 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "웃으면 복이 와요",
+    "description": "방긋방긋 웃는 얼굴로 지내면 기분 좋은 일들이 많이 생긴다는 뜻이에요.",
+    "message": "팩맨 개구리의 커다란 입처럼 우리 친구도 거울을 보며 입을 크게 벌리고 활짝 웃어 보세요! 환한 웃음이 친구에게 행복한 하루를 선물해 줄 거예요."
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "내 입은 무엇이든 꿀꺽할 수 있는 커다란 팩맨 입! 오늘은 무엇을 먹어볼까?",
+    "image_prompt": "Black and white simple line art for kids, 꿀꺽! 입이 아주 큰 팩맨 개구리 theme, a cute Pacman frog with a very wide mouth sitting among forest leaves and looking excited, thick lines, white background, no shading"
+  }
+}

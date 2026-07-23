@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "흑백 사진 속 주인공? 신비로운 도마뱀 '아잔틱'",
+    "article_body": [
+      "귀여운 속눈썹을 가진 도마뱀, 크레스티드 게코를 아나요? 최근 '아잔틱'이라는 특별한 친구가 인기를 끌고 있어요. 아잔틱은 몸에 노란색이나 빨간색이 없고 세련된 회색과 검은색 옷을 입었답니다. 마치 흑백 사진 속에서 톡 튀어나온 것처럼 신비롭고 멋진 모습이에요.",
+      "파충류 친구들은 같은 종류라도 몸의 색깔이나 무늬가 저마다 달라요. 이것을 바로 '모프'라고 불러요. 사람마다 머리카락 색이나 눈 모양이 다른 것과 비슷하지요. 자연의 신비로운 마법 덕분에 우리는 알록달록하거나 차분한 색을 가진 다양한 도마뱀 친구들을 만날 수 있어요.",
+      "아잔틱 게코는 조용히 나무에 매달려 쉬는 것을 아주 좋아해요. 커다란 눈으로 세상을 구경하며 느릿느릿 움직이는 모습이 참 사랑스럽답니다. 여러분은 어떤 색깔을 가진 도마뱀을 가장 좋아하나요? 만약 나만의 도마뱀 친구가 생긴다면 어떤 멋진 무늬를 선물해주고 싶은지 상상해 보아요."
+    ],
+    "image_prompt": "A cute Crested Gecko with gray and black patterns sitting on a bright green leaf, soft pastel colors, warm and bright atmosphere, storybook illustration style for children, high quality.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "coloring",
+  "word_info": {
+    "word": "모프",
+    "definition": "동물의 몸에 나타나는 특별한 색깔이나 무늬의 종류를 말해요."
+  },
+  "hidden_word": {
+    "word": "속눈썹",
+    "mission": "눈 위에 길게 난 털이에요. 크레스티드 게코 도마뱀의 매력 포인트이기도 한 이것은 무엇일까요?"
+  },
+  "selected_topic": "크레스티드 게코 '아잔틱'을 만나요 — 파충류 모프가 뭐예요?",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "각양각색 (各樣各色)",
+    "description": "사람마다 얼굴이 다르듯, 도마뱀들도 저마다 색깔과 모양이 모두 다르다는 뜻이에요.",
+    "message": "아잔틱 도마뱀이 자신만의 멋진 색을 뽐내는 것처럼, 우리 친구도 세상에 단 하나뿐인 소중하고 특별한 사람이라는 걸 꼭 기억하세요!"
+  },
+  "activity_data": {
+    "instruction": "신비로운 아잔틱 도마뱀을 나만의 색깔로 멋지게 완성해보아요!",
+    "image_prompt": "Simple black and white line art for kids coloring book, a cute Axanthic gecko lizard sitting on a branch, thick bold outlines, white background, no shading, no colors, minimalist design, cartoon style."
+  }
+}

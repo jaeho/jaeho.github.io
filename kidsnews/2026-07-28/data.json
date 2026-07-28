@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "데굴데굴 콩벌레, 우리는 숲의 청소부예요!",
+    "article_body": [
+      "숲속이나 화단 돌을 들추면 동글동글한 콩벌레를 만나요. 콩벌레는 몸에 위험이 닥치면 몸을 공처럼 말아요. 딱딱한 등껍질로 소중하고 부드러운 배를 지키기 위해서예요. 우리 주변에서 가장 흔하게 볼 수 있는 귀여운 친구예요.",
+      "사실 콩벌레는 모양에 따라 이름과 종류가 달라요. 몸이 매끈하고 완벽하게 동그랗게 말리는 친구는 공쥐며느리예요. 반면 몸이 납작하고 잘 말리지 않는 친구는 쥐며느리라고 불러요. 쥐며느리는 꼬리가 뾰족하게 나와 있어 구별하기 쉬워요.",
+      "이 작은 친구들은 낙엽이나 죽은 나무를 먹고 살아요. 흙을 깨끗하고 건강하게 만들어 주는 고마운 숲의 청소부랍니다. 그래서 콩벌레는 자연에게 꼭 필요한 소중한 존재예요. 여러분은 오늘 길을 걷다 어떤 콩벌레를 발견하고 싶나요?"
+    ],
+    "image_prompt": "A cute, friendly illustration of pill bugs (woodlice) in a sunny garden. One is curled into a perfect ball, another is crawling on a green leaf. Bright, warm pastel colors, soft textures, child-friendly storybook style, high quality.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "청소부",
+    "definition": "더러운 곳을 깨끗하게 치우는 일을 하는 사람이나 동물을 말해요."
+  },
+  "hidden_word": {
+    "word": "낙엽",
+    "mission": "나무에서 떨어져 땅에 수북하게 쌓인 마른 잎을 무엇이라고 부를까요?"
+  },
+  "selected_topic": "다양한 콩벌레 친구들을 만나요 — 종류와 신기한 특징 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "예쁜 마음으로 보기",
+    "description": "세상을 긍정적이고 예쁜 마음으로 바라보면 모든 것이 아름답게 보인다는 뜻이에요.",
+    "message": "작은 콩벌레가 숲을 깨끗하게 만드는 소중한 친구인 것처럼, 우리 친구도 세상을 예쁜 마음으로 바라보며 주변의 작은 생명들이 주는 소중함을 발견하는 어린이가 되길 바라요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "콩벌레",
+      "낙엽",
+      "돌"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring cute pill bugs crawling near stones and under fallen leaves on the forest floor, some pill bugs are curled up like balls, thick line art style, black and white, coloring book style, high contrast, white background, no text"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "알록달록 변신쟁이 카멜레온과 친해져요",
+    "article_body": [
+      "몸 색깔을 바꾸는 신기한 친구 카멜레온을 아나요? 카멜레온을 잘 돌보려면 나무가 많은 숲처럼 꾸며줘야 해요. 카멜레온은 튼튼한 나뭇가지를 잡고 오르락내리락 노는 것을 정말 좋아한답니다. 나뭇가지가 많아야 카멜레온이 편하게 쉴 수 있어요.",
+      "카멜레온은 촉촉한 공기를 아주 좋아해요. 하루에 한두 번 분무기로 잎사귀에 물을 칙칙 뿌려주세요. 그러면 카멜레온은 잎에 맺힌 물방울을 낼름 마시며 기운을 차려요. 너무 건조하면 아플 수 있으니 항상 공기를 촉촉하게 만들어주는 것이 중요해요.",
+      "밥을 줄 때는 살아있는 작은 벌레를 준비해요. 카멜레온은 아주 긴 혀를 휙 내밀어서 벌레를 쏙 잡아먹거든요. 그 모습이 정말 빠르고 멋져서 눈을 뗄 수 없을 거예요. 여러분이 카멜레온이라면 어떤 색깔의 옷을 입고 나뭇가지 위를 걸어보고 싶나요?"
+    ],
+    "image_prompt": "A cute, colorful chameleon climbing on a green branch in a misty tropical forest with pastel colors, friendly and soft watercolor illustration style for children.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "hidden_objects",
+  "word_info": {
+    "word": "분무기",
+    "definition": "통에 든 물을 작은 안개처럼 뿜어내는 도구예요."
+  },
+  "hidden_word": {
+    "word": "나뭇가지",
+    "mission": "나무의 줄기에서 옆으로 뻗어 나온 얇은 부분을 무엇이라고 할까요?"
+  },
+  "selected_topic": "카멜레온 친구를 잘 돌보는 방법 (나뭇가지·습도·먹이)",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "환골탈태(換骨奪胎)",
+    "description": "뼈를 바꾸고 태를 빼낸다는 뜻으로, 이전의 모습에서 벗어나 완전히 새롭고 멋진 모습으로 변하는 것을 말해요.",
+    "message": "주변 환경에 맞춰 몸 색깔을 바꾸는 카멜레온처럼, 우리 친구들도 매일매일 배우고 성장하며 더 멋진 모습으로 변신할 수 있어요. 여러분의 멋진 변화를 항상 응원할게요!"
+  },
+  "activity_data": {
+    "instruction": "정글 속 나뭇가지 위에 앉아 몸의 색깔을 바꾸는 카멜레온 친구를 만나요! 카멜레온의 꼬리, 무성한 나뭇잎, 그리고 화려한 꽃들 사이에 숨겨진 세 가지 물건을 하나씩 찾아보세요.",
+    "items": [
+      "잠자리",
+      "돋보기",
+      "팔레트"
+    ],
+    "image_prompt": "Black and white line art for a hidden object game, set in a lush tropical jungle. A large, friendly chameleon is perched on a twisting tree branch as the central figure. Hidden discreetly within the scene—integrated into the patterns of leaves, vines, and flowers—are exactly one dragonfly, one magnifying glass, and one artist's paint palette. The style is clean, detailed coloring book style, high contrast, intended for children to find the items and color."
+  }
+}

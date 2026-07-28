@@ -1,0 +1,50 @@
+{
+  "page1": {
+    "headline": "하늘을 날아다니는 멋진 드래곤 친구들",
+    "article_body": [
+      "옛날이야기 속에는 멋진 용과 드래곤이 나와요. 동양의 용은 뱀처럼 몸이 아주 길고 구불구불해요. 비늘이 반짝이고 머리에는 멋진 사슴 뿔이 달려 있지요. 용은 하늘을 날며 비를 내리게 도와주는 착한 신으로 사랑받았답니다.",
+      "서양의 드래곤은 우리가 잘 아는 공룡과 아주 닮았어요. 등에 커다란 날개가 있어서 하늘을 쌩쌩 빠르게 날아다녀요. 입에서는 뜨거운 불을 뿜어내어 아주 힘이 세고 용감해요. 동굴 속에서 반짝이는 보물을 지키기도 한답니다.",
+      "동양의 용과 서양의 드래곤은 모습과 성격이 서로 달라요. 하지만 두 친구 모두 아주 오랫동안 전설 속에서 힘차게 살아왔어요. 상상 속 동물들은 우리에게 용기를 선물해 주지요. 여러분은 어떤 드래곤과 친구가 되어 보고 싶나요?"
+    ],
+    "image_prompt": "A friendly comparison illustration of an Eastern dragon and a Western dragon. The Eastern dragon is long, serpentine, and blue with golden scales. The Western dragon is winged, powerful, and red. They are in a bright, dreamy pastel sky. Soft storybook art style.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "scale_quiz",
+  "word_info": {
+    "word": "상상",
+    "definition": "실제로 보이지 않는 것을 마음속으로 그려 보는 일이에요."
+  },
+  "hidden_word": {
+    "word": "보물",
+    "mission": "반짝반짝 빛나는 금과 보석처럼 아주 소중하고 귀한 물건을 무엇이라고 할까요?"
+  },
+  "selected_topic": "세계의 전설 속 드래곤들 — 동양의 용과 서양의 드래곤 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "각양각색(各樣各色)",
+    "description": "사람이나 물건의 모양, 색깔, 성격 등이 저마다 다르다는 뜻이에요.",
+    "message": "동양의 용과 서양의 드래곤이 서로 다른 모습으로 멋진 것처럼, 우리 친구들도 저마다의 특별한 매력을 가지고 있어요. 친구와 내가 조금 다르더라도 서로의 멋진 점을 찾아주는 어린이가 되길 바라요!"
+  },
+  "activity_data": {
+    "instruction": "누가 조금 더 크고 무거울지 상상력 비교 퀴즈를 풀어봐요!",
+    "items": [
+      {
+        "question": "몸이 아주 길고 구불구불한 '동양의 용'의 길이는 무엇과 비슷할까요?",
+        "options": [
+          "우리 집 리모컨 1개만큼 짧아요",
+          "학교 운동장을 한 바퀴 빙 돌 수 있을 만큼 길어요",
+          "사과 3개를 나란히 놓은 것만큼 길어요"
+        ]
+      },
+      {
+        "question": "커다란 날개를 가진 '서양의 드래곤'이 날개를 활짝 펴면 얼마나 클까요?",
+        "options": [
+          "우리가 타는 커다란 비행기 날개만큼 넓어요",
+          "우리가 쓰는 작은 우산만큼 작아요",
+          "가방에 쏙 들어가는 공책만큼 작아요"
+        ]
+      }
+    ]
+  }
+}

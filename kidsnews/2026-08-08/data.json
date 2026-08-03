@@ -1,0 +1,33 @@
+{
+  "page1": {
+    "headline": "엉덩이에서 펑! 뜨거운 공격을 하는 폭탄먼지벌레",
+    "article_body": [
+      "풀숲에는 아주 작은 '폭탄먼지벌레'가 살고 있어요. 이 벌레는 몸집이 아주 작지만 무서운 적이 나타나도 전혀 겁을 내지 않아요. 배가 고픈 두꺼비가 한입에 꿀꺽 삼키려고 다가와도 당당하게 맞서지요. 폭탄먼지벌레에게는 자신을 안전하게 지킬 수 있는 아주 특별하고 놀라운 무기가 숨겨져 있답니다.",
+      "적을 만나면 벌레는 엉덩이 끝에서 뜨거운 액체를 펑펑 뿜어내요. 이 액체는 보글보글 끓는 물처럼 아주 뜨거워서 '폭탄'이라고 불러요. 액체가 나올 때는 슈욱 소리도 함께 나서 깜짝 놀라게 해요. 뜨거운 맛을 본 적들은 벌레를 바로 뱉어내고 무서워서 멀리 도망가 버리고 만답니다.",
+      "벌레의 몸속에는 두 가지 신기한 물질이 들어있어요. 이 물질들이 서로 섞이면 순식간에 아주 뜨거운 공격 무기로 변하는 것이지요. 몸집은 작지만 정말 대단한 능력을 갖춘 숲속의 꼬마 요리사 같아요. 여러분도 폭탄먼지벌레처럼 용감하게 나를 지키고 싶은 순간이 있나요?"
+    ],
+    "image_prompt": "A cute, cartoon-style bombardier beetle in a green forest, spraying a small, safe-looking puff of steam from its back. A surprised toad is jumping away with wide eyes. Bright, warm pastel colors, soft textures, child-friendly storybook illustration style.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "basic",
+  "word_info": {
+    "word": "액체",
+    "definition": "물이나 우유처럼 흐를 수 있는 물질을 말해요."
+  },
+  "hidden_word": {
+    "word": "폭탄",
+    "mission": "펑! 하고 크게 터지면서 아주 강력한 힘을 내는 물건은 무엇일까요?"
+  },
+  "selected_topic": "뜨거운 액체를 뿜는 폭탄먼지벌레의 놀라운 방어 무기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "작은 고추가 맵다",
+    "description": "몸집은 작아도 힘이 세거나 능력이 아주 뛰어난 경우를 말해요.",
+    "message": "우리 친구도 폭탄먼지벌레처럼 작지만 아주 큰 용기와 특별한 능력을 가지고 있답니다. 몸집이 작다고 기죽지 말고, 언제나 당당하고 씩씩하게 자신을 소중히 지키는 멋진 어린이가 되길 바라요!"
+  },
+  "activity_data": {
+    "title": "생각 쑥쑥 활동",
+    "instruction": "'엉덩이에서 펑! 뜨거운 공격을…' 이야기를 떠올리며 가장 기억나는 장면을 그려보세요."
+  }
+}

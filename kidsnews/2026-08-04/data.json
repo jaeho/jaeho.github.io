@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "기도하는 사냥꾼, 사마귀는 어떻게 사냥할까요?",
+    "article_body": [
+      "사마귀는 풀숲에 숨어 있는 멋진 사냥꾼이에요. 앞다리를 가지런히 모은 모습이 꼭 기도하는 것 같아요. 그래서 사람들은 사마귀를 '기도하는 벌레'라고 불러요. 초록색 옷을 입고 풀잎 사이에 숨으면 찾기가 정말 힘들답니다.",
+      "사마귀의 앞다리는 아주 무서운 무기예요. 날카로운 가시가 돋아 있어서 잡은 먹잇감을 놓치지 않아요. 먹이가 다가오면 쌩하고 앞다리를 뻗어 순식간에 낚아채지요. 커다란 눈으로 주변에 움직이는 벌레들을 아주 잘 살펴본답니다.",
+      "사마귀는 농사를 돕는 고마운 친구이기도 해요. 식물을 아프게 하는 벌레들을 대신 잡아먹어 주기 때문이에요. 숲속을 지키는 용감한 사마귀는 정말 씩씩한 대장 같아요. 여러분이 숲에서 사마귀를 만난다면 어떤 인사를 하고 싶나요?"
+    ],
+    "image_prompt": "A cute and friendly green praying mantis standing on a large green leaf, soft pastel colors, warm sunlight filtering through forest leaves, storybook illustration style, bright and cheerful atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "사냥꾼",
+    "definition": "다른 동물을 잡아서 먹이로 삼는 동물이나 사람을 말해요."
+  },
+  "hidden_word": {
+    "word": "앞다리",
+    "mission": "사마귀가 먹이를 낚아챌 때 사용하는, 날카로운 가시가 달린 곳은 어디일까요?"
+  },
+  "selected_topic": "기도하는 자세의 사냥꾼, 사마귀는 어떻게 사냥할까요?",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "마부작침 (磨斧作針)",
+    "description": "도끼를 갈아서 작은 바늘을 만든다는 뜻으로, 아무리 힘들고 어려운 일이라도 끈기 있게 노력하면 꼭 이룰 수 있다는 말이에요.",
+    "message": "사마귀가 먹이를 잡기 위해 꼼짝 않고 기도를 하듯 기다리는 인내심을 본받아 보세요. 우리 친구도 어려운 일이 생겨도 포기하지 않고 끝까지 노력한다면, 숲속의 사마귀 대장처럼 무엇이든 멋지게 해낼 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 숲속의 용감한 사냥꾼 사마귀에게 전하고 싶은 마음을 담아 짧은 편지를 완성해보세요!",
+    "receiver": "숲속을 지키는 용감한 사마귀 대장님에게",
+    "greeting": "안녕, 사마귀야! 기사를 읽고 네가 기도하는 모습 뒤에 숨겨진 멋진 사냥꾼의 모습을 알게 되었어.",
+    "guide_text": "농사를 돕고 숲을 지켜주는 네가 정말 씩씩하고 대단해 보여. 내가 만약 숲에서 너를 만난다면 꼭 하고 싶은 말은..."
+  }
+}

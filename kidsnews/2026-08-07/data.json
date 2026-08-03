@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "숲속의 천하장사, 헤라클레스 장수풍뎅이!",
+    "article_body": [
+      "세상에서 가장 몸집이 큰 곤충을 아나요? 바로 헤라클레스 장수풍뎅이예요. 이 곤충은 아주 크고 멋진 뿔을 가지고 있어요. 몸 길이는 어른 손바닥보다 더 길기도 해요. 힘센 영웅의 이름을 따서 지은 이름이지요.",
+      "이름처럼 힘이 정말 장사예요. 자기 몸보다 훨씬 무거운 물건도 번쩍 들어 올릴 수 있어요. 머리에 달린 커다란 뿔을 사용해서 힘을 뽐내기도 해요. 숲속의 진정한 대장님이라고 불러도 될 만큼 아주 용감하답니다.",
+      "주로 따뜻한 숲에서 살며 달콤한 나무 수액을 먹고 지내요. 낮에는 쉬다가 밤이 되면 힘차게 움직인답니다. 여러분이 이 친구처럼 힘이 세진다면 무엇을 가장 먼저 도와주고 싶나요? 숲속 친구를 아껴주는 마음을 가져요."
+    ],
+    "image_prompt": "A friendly Hercules beetle with a large prominent horn standing on a green tree branch, warm and bright pastel-toned storybook illustration, soft sunlight filtering through forest leaves, cozy atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "수액",
+    "definition": "나무의 몸속에서 흐르는 물이에요. 곤충들에게는 아주 맛있는 밥이 된답니다."
+  },
+  "hidden_word": {
+    "word": "장수풍뎅이",
+    "mission": "머리에 아주 멋지고 커다란 뿔이 달려 있는 숲속의 힘센 곤충은 누구일까요?"
+  },
+  "selected_topic": "세상에서 가장 힘센 곤충, 헤라클레스 장수풍뎅이 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "천하장사 (天下壯士)",
+    "description": "세상에서 힘이 가장 센 사람이나 동물을 부르는 말이에요.",
+    "message": "헤라클레스 장수풍뎅이처럼 우리 친구도 몸과 마음이 튼튼한 천하장사가 되어보세요! 힘이 세지면 나보다 약한 친구들이나 숲속의 작은 생물들을 소중하게 지켜주는 멋진 마음도 함께 가져봐요."
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 내용이 맞으면 O, 틀리면 X를 선택하는 OX 퀴즈입니다.",
+    "items": [
+      "헤라클레스 장수풍뎅이는 자기 몸보다 훨씬 무거운 물건도 번쩍 들어 올릴 수 있습니다.",
+      "이 곤충은 주로 추운 숲에서 살며 다른 작은 곤충들을 잡아먹고 지냅니다.",
+      "헤라클레스 장수풍뎅이는 낮에는 쉬다가 밤이 되면 힘차게 움직이는 습성이 있습니다."
+    ]
+  }
+}

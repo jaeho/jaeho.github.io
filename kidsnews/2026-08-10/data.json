@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "숲속의 작은 농부, 잎꾼개미를 만나요!",
+    "article_body": [
+      "깊은 숲속에 부지런한 작은 개미들이 살고 있어요. 이름은 '잎꾼개미'예요. 이 개미들은 자기 몸보다 큰 초록색 잎을 입에 물고 가요. 커다란 잎을 든 모습이 작은 배처럼 보여요. 정말 힘이 센 꼬마 대장들이지요.",
+      "개미들은 잎을 먹으려고 가져가는 게 아니에요. 땅속 방에 잎을 모아 두고 하얀 버섯을 정성껏 키워요. 이렇게 키운 버섯을 먹이로 먹는답니다. 잎을 거름 삼아 농사를 짓는 똑똑한 농부예요. 버섯을 기르는 모습이 정말 신기하지요?",
+      "잎꾼개미들은 서로 힘을 합쳐서 일을 나누어 해요. 어떤 개미는 잎을 자르고 다른 개미는 길을 깨끗하게 치워요. 우리도 개미들처럼 서로 도와주면 참 좋겠지요. 여러분은 오늘 누구를 도와주고 싶나요? 개미들의 지혜를 떠올려 보아요."
+    ],
+    "image_prompt": "A warm and bright pastel illustration of tiny leaf-cutter ants carrying large green leaves in a line through a sunny forest floor. One ant is holding a leaf like a sail. Friendly, cute characters, soft textures, children's book style.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "농부",
+    "definition": "논이나 밭에서 우리가 먹을 수 있는 곡식이나 채소를 정성껏 기르는 사람이에요."
+  },
+  "hidden_word": {
+    "word": "버섯",
+    "mission": "나무 아래나 땅에서 자라요. 우산처럼 생긴 모자를 쓰고 있는 이것은 무엇일까요?"
+  },
+  "selected_topic": "잎을 자르는 작은 농부, 잎꾼개미 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "백지장도 맞들면 낫다",
+    "description": "아무리 가벼운 종이라도 서로 힘을 합쳐서 들면 훨씬 쉽고 가볍다는 뜻이에요.",
+    "message": "잎꾼개미들이 각자 역할을 나누어 서로를 돕는 모습이 정말 멋지지요? 우리 친구도 개미들처럼 주변 친구들과 힘을 합쳐서 더 큰 기쁨을 만들어 보길 응원해요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "잎꾼개미",
+      "커다란 잎",
+      "하얀 버섯"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring leafcutter ants, large leaves, and white mushrooms in an underground forest colony, thick line art style, black and white, white background, no text"
+  }
+}

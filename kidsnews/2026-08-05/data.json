@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "꽃인 줄 알았지? 변신의 천재 난초사마귀",
+    "article_body": [
+      "꽃처럼 예쁜 곤충이 있어요. 바로 분홍빛 몸을 가진 난초사마귀예요. 다리가 꽃잎처럼 넓고 부드럽게 생겼지요. 멀리서 보면 진짜 꽃처럼 보여서 모두를 깜짝 놀라게 해요. 따뜻한 숲속에 사는 아주 신기한 친구랍니다.",
+      "난초사마귀는 똑똑한 사냥꾼이에요. 꽃 위에 앉아 나비나 벌이 오기를 기다려요. 곤충들은 사마귀인 줄 모르고 꿀을 먹으러 다가오지요. 그때 앞다리를 뻗어 먹이를 쏙 잡아요. 몸 색깔을 꽃과 똑같이 맞추는 재주가 있어요.",
+      "이 친구는 몸을 숨기려고 꽃으로 변신했어요. 예쁜 모습 속에는 스스로를 지키는 지혜가 담겨 있지요. 자연은 정말 신기하고 놀라운 보물창고 같아요. 여러분은 변신할 수 있다면 어떤 모습이 되고 싶나요? 꽃이 된 나의 모습을 상상해 보세요."
+    ],
+    "image_prompt": "A bright and warm pastel-style illustration of a pink orchid mantis sitting on a white flower, its legs shaped like flower petals, friendly and cute cartoon style, soft sunlight, magical jungle background.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "사냥꾼",
+    "definition": "먹이를 잡아서 생활하는 동물이나 사람을 말해요."
+  },
+  "hidden_word": {
+    "word": "숲속",
+    "mission": "키가 큰 나무들이 아주 많이 모여 살고 있는 곳은 어디일까요?"
+  },
+  "selected_topic": "세상에서 가장 예쁜 사마귀, 난초사마귀 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "인내심을 가져봐",
+    "description": "원하는 것을 얻기 위해 서두르지 않고 꾹 참고 기다리는 마음을 말해요.",
+    "message": "난초사마귀가 먹이를 잡기 위해 꽃 위에서 끈기 있게 기다리는 것처럼, 우리 친구도 조금만 참고 기다릴 줄 아는 마음을 가진다면 멋진 결과를 얻을 수 있을 거예요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "우와, 정말 예쁜 분홍색 꽃이다! 저기 앉아서 달콤한 꿀을 먹어야지~",
+    "image_prompt": "Black and white simple line art for kids, a cute butterfly flying happily towards an orchid mantis that looks exactly like a beautiful flower, the mantis has petal-shaped legs and is staying very still, white background, thick lines, no shading, clear outlines, cartoon style."
+  }
+}

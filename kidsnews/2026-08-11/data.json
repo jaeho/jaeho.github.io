@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "여름밤 반짝! 등불로 만나는 곤충 친구들",
+    "article_body": [
+      "여름밤 숲속은 아주 깜깜해요. 이때 환한 등불을 켜면 신기한 일이 생겨요. 불빛을 좋아하는 곤충들이 하나둘 모여들거든요. 이것을 ‘등화 채집’이라고 불러요. 어두운 밤에 등불을 비추면 마법처럼 곤충 친구들이 우리를 찾아온답니다.",
+      "커다란 뿔이 멋진 장수풍뎅이와 사슴벌레가 날아와요. 예쁜 무늬를 가진 나방들도 날갯짓하며 인사해요. 곤충들은 밝은 빛을 길잡이 삼아 찾아오는 성질이 있어요. 덕분에 잠들 시간에도 숲속 친구들을 만날 수 있답니다. 나무 뒤에 숨어 있던 곤충을 발견하면 정말 기뻐요.",
+      "등불에 모인 곤충을 관찰할 때는 조심해야 해요. 눈으로만 살피거나 살짝 만져야 곤충이 다치지 않거든요. 관찰이 끝나면 친구들이 집으로 가도록 등불을 꼭 꺼주세요. 오늘 밤 여러분은 어떤 곤충을 만나고 싶나요? 시원한 바람을 느끼며 상상의 등불을 켜보세요."
+    ],
+    "image_prompt": "A warm and bright pastel illustration of a glowing yellow lantern in a dark summer forest. Various friendly-looking insects like stag beetles, rhinoceros beetles, and colorful moths are flying toward the light. Two young children are observing them with curiosity. Soft starlight in the sky, magical and cozy atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "hidden_objects",
+  "word_info": {
+    "word": "채집",
+    "definition": "자연에 있는 곤충이나 식물을 정성껏 찾아보고 모으는 일이에요."
+  },
+  "hidden_word": {
+    "word": "장수풍뎅이",
+    "mission": "머리에 커다란 뿔이 있고 힘이 아주 센 곤충 친구는 누구일까요?"
+  },
+  "selected_topic": "여름밤 등불로 곤충을 만나요 — 등화 채집 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "미래는 상상력으로 만들어진다",
+    "description": "머릿속으로 그리는 멋진 생각들이 우리를 더 멋진 곳으로 데려다준다는 뜻이야.",
+    "message": "어두운 밤에 등불을 켜서 곤충을 만나는 것처럼, 우리 친구도 마음속에 '상상의 등불'을 환하게 켜보렴! 그러면 네가 꿈꾸던 멋진 일들이 마법처럼 너를 찾아올 거야."
+  },
+  "activity_data": {
+    "instruction": "여름밤 숲속에서 반짝이는 등불을 든 곤충 친구들 사이로 숨겨진 세 가지 물건을 찾아보세요!",
+    "items": [
+      "전통 등불",
+      "돋보기",
+      "잠자리채"
+    ],
+    "image_prompt": "A magical summer night forest scene with insects like beetles and fireflies holding small lanterns. Black and white line art style, clear outlines, coloring book aesthetic. The background is dense with leaves, tall grass, and flowers. Hidden seamlessly within the intricate forest patterns are exactly one traditional lantern, one magnifying glass, and one butterfly net. High detail, white background, no shading, designed for a hidden object search game."
+  }
+}

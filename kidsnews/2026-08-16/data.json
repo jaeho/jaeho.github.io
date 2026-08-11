@@ -1,0 +1,37 @@
+{
+  "page1": {
+    "headline": "물속에서 둥둥! 물고기처럼 수영해요",
+    "article_body": [
+      "여름이 되면 시원한 물놀이가 생각나요. 수영은 물속에서 팔과 다리를 움직여 앞으로 나가는 운동이에요. 처음에는 무섭기도 하지만 물과 친해지면 몸이 둥둥 떠서 아주 즐거워요. 물속에서 자유롭게 움직이는 기분은 정말 최고예요.",
+      "수영을 하면 우리 몸의 근육이 아주 튼튼해져요. 숨을 크게 들이마시고 내뱉는 연습을 하면 폐도 건강해진답니다. 수영을 시작하기 전에는 꼭 준비 운동을 해서 몸을 따뜻하게 해야 해요. 안전을 위해 구명조끼를 입는 것도 잊지 마세요.",
+      "이제 물개처럼 멋지게 헤엄치는 모습을 상상해 보세요. 발차기를 힘차게 하고 팔을 휘저으면 물고기처럼 깊은 곳까지 갈 수 있어요. 수영을 잘하게 되면 더 넓은 세상을 만날 수 있을 거예요. 여러분은 물속에서 어떤 물고기처럼 헤엄치고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration of a happy child wearing swimming goggles and swimming freely in a clear blue pool, surrounded by soft bubbles and friendly little fish, dreamy and cheerful atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "ox_quiz",
+  "word_info": {
+    "word": "수영",
+    "definition": "물속에서 팔과 다리를 저어서 몸을 뜨게 하거나 앞으로 나아가게 하는 운동이에요."
+  },
+  "hidden_word": {
+    "word": "구명조끼",
+    "mission": "물에 빠지지 않게 몸을 둥둥 띄워 주는 든든한 조끼는 무엇일까요?"
+  },
+  "selected_topic": "물속에서 자유롭게 헤엄치는 법, 수영 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "물 만난 물고기",
+    "description": "물고기가 물을 만나 신나게 헤엄치는 것처럼, 자기가 좋아하는 곳에서 마음껏 즐겁게 활동하는 모습이에요.",
+    "message": "처음에는 물이 조금 무서울 수 있지만, 꾸준히 연습하다 보면 여러분도 물속에서 아주 즐겁고 자유로워질 수 있어요. 물고기처럼 신나게 수영하며 건강하고 씩씩하게 자라나길 바랄게요!"
+  },
+  "activity_data": {
+    "instruction": "제시된 기사 내용을 바탕으로 한 OX 퀴즈입니다.",
+    "items": [
+      "수영을 하면 몸의 근육이 튼튼해지고 폐 건강에도 도움이 된다.",
+      "수영을 시작하기 전에는 준비 운동을 할 필요가 없다.",
+      "안전을 위해 수영을 할 때는 구명조끼를 입는 것이 좋다."
+    ]
+  }
+}

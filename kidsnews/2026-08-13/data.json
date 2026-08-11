@@ -1,0 +1,49 @@
+{
+  "page1": {
+    "headline": "알록달록 큐브 퍼즐, 손끝으로 만드는 무지개 세상",
+    "article_body": [
+      "큐브는 알록달록한 색깔을 가진 신기한 장난감이에요. 네모난 모양의 큐브는 여섯 면의 색을 똑같이 맞춰야 해요. 처음에는 색깔이 섞여 있어 복잡해 보일 수 있어요. 하지만 요리조리 돌리다 보면 어느새 색깔이 모인답니다.",
+      "세모 모양의 피라미드 큐브도 아주 인기가 많아요. 뾰족한 끝부분을 잡고 돌리면 기분 좋은 소리가 나기도 해요. 네모난 큐브와는 다른 재미가 있어서 많은 친구들이 좋아해요. 손가락을 움직이면 우리 뇌가 똑똑해지는 기분이 들어요.",
+      "큐브를 맞추는 일은 마치 보물찾기를 하는 것과 같아요. 포기하지 않고 끝까지 노력하면 드디어 모든 면이 완성돼요. 다 맞춘 큐브를 보면 마음이 뿌듯하고 자신감이 쑥쑥 생겨요. 여러분은 큐브를 돌리며 어떤 생각을 하고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel-colored illustration of a smiling 7-year-old child holding a colorful 3x3 cube and a triangular pyramid cube. The background is a cozy room with soft lighting, filled with creative energy and puzzle shapes. High-quality digital art style for kids' newspaper.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_morphing",
+  "word_info": {
+    "word": "장난감",
+    "definition": "우리가 가지고 놀며 재미를 느끼는 물건을 말해요."
+  },
+  "hidden_word": {
+    "word": "자신감",
+    "mission": "“나는 할 수 있어!”라고 믿는 용기 있는 마음을 세 글자로 무엇이라고 할까요?"
+  },
+  "selected_topic": "여섯 면을 완성하는 즐거움, 큐브 퍼즐과 피라미드 큐브",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "낙숫물이 댓돌을 뚫는다",
+    "description": "작은 물방울이 계속 떨어지면 단단한 돌에도 구멍이 나는 것처럼, 꾸준히 노력하면 무엇이든 해낼 수 있다는 뜻이에요.",
+    "message": "처음에는 큐브 맞추기가 어렵고 복잡해 보일 수 있어요. 하지만 포기하지 않고 조금씩 연습하다 보면 어느새 멋진 무지개를 완성할 수 있을 거예요. 끝까지 노력하는 여러분의 모습을 응원해요!"
+  },
+  "activity_data": {
+    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
+    "items": [
+      {
+        "original_word": "큐브",
+        "hint": "여름에 수영장에서 몸에 끼우고 물 위에 둥둥 떠다닐 때 쓰는 물건이에요.",
+        "target_word": "튜브"
+      },
+      {
+        "original_word": "소리",
+        "hint": "엉덩이를 실룩거리며 '꽥꽥'하고 우는 귀여운 동물 친구예요.",
+        "target_word": "오리"
+      },
+      {
+        "original_word": "세상",
+        "hint": "아침에 일어나서 비누를 사용해 얼굴을 깨끗하게 씻는 일이에요.",
+        "target_word": "세수"
+      }
+    ]
+  }
+}

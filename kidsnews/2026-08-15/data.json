@@ -1,0 +1,34 @@
+{
+  "page1": {
+    "headline": "씩씩한 몸과 바른 마음을 키워요! 우리나라 무예 태권도",
+    "article_body": [
+      "태권도는 우리나라에서 시작된 아주 멋진 운동이에요. 손과 발을 힘차게 움직이며 우리 몸을 튼튼하게 만들어 주지요. 하얀 도복을 깨끗하게 입고 허리에 띠를 매면 마음까지 씩씩해져요. 우렁찬 목소리로 기합을 넣으면 무서운 마음도 금세 사라진답니다.",
+      "태권도는 몸뿐만 아니라 마음을 다스리는 법도 알려 줘요. 친구를 배려하고 어른들께 예의를 지키는 법을 배우며 멋진 어린이로 자라나요. 연습이 힘들어도 꾹 참고 끝까지 노력하다 보면 어려운 일도 척척 해낼 수 있는 용기가 가득 생겨요.",
+      "앞차기와 지르기 동작을 하나씩 배우다 보면 자신감이 쑥쑥 올라가요. 친구들과 함께 품새를 익히며 멋진 무술가처럼 씩씩하게 행동해 보세요. 여러분은 태권도를 배우면 어떤 점이 가장 변할 것 같나요? 나중에 도복을 입고 활짝 웃는 여러분의 모습을 상상해 봐요."
+    ],
+    "image_prompt": "A bright and warm pastel-toned illustration of young children in white Taekwondo uniforms practicing together in a sunny dojang. The scene is friendly and inspiring, showing soft sunlight streaming through windows.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "cartoon",
+  "word_info": {
+    "word": "무예",
+    "definition": "몸을 단련하고 자신을 지키기 위해 배우는 기술이에요."
+  },
+  "hidden_word": {
+    "word": "도복",
+    "mission": "태권도를 할 때 입는 하얀색 옷이에요. 허리에 알록달록한 띠를 매기도 하는 이 옷은 무엇일까요?"
+  },
+  "selected_topic": "몸과 마음을 단련하는 우리나라 무예, 태권도 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "천 리 길도 한 걸음부터",
+    "description": "아무리 어렵고 먼 길이라도 한 걸음부터 시작해서 꾸준히 노력하면 목표를 이룰 수 있다는 뜻이에요.",
+    "message": "태권도 동작이 처음엔 어렵고 힘들게 느껴질 수도 있어요. 하지만 매일 조금씩 앞차기와 지르기를 연습하다 보면, 어느새 누구보다 씩씩하고 멋진 어린이가 되어 있을 거예요. 포기하지 말고 힘내세요!"
+  },
+  "activity_data": {
+    "instruction": "첫 번째 칸을 보고 나머지 이야기를 상상해서 그려보세요!",
+    "first_cut_dialogue": "와아, 정말 멋지다! 나도 저 형아들처럼 하얀 도복을 입고 씩씩해지고 싶어!",
+    "image_prompt": "Black and white simple line art for kids, 씩씩한 몸과 바른 마음을 키워요! 우리나라 무예 태권도 theme, a cute little child standing in front of a Taekwondo gym window, looking inside with sparkling eyes at people practicing Taekwondo, white background, thick lines, no shading"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "검은 돌 흰 돌의 마법, 지혜가 쑥쑥 자라는 바둑 놀이",
+    "article_body": [
+      "바둑은 검은 돌과 흰 돌로 하는 재미있는 놀이예요. 네모난 판 위에 바둑돌을 하나씩 올리며 나만의 집을 지어요. 누가 더 넓은 땅을 차지하는지 겨루는 지혜의 게임이랍니다. 돌들이 나란히 앉은 모습이 참 예뻐요.",
+      "어디에 돌을 놓을지 고민하다 보면 생각이 쑥쑥 자라요. 상대방의 다음 수를 생각하며 마음을 읽으면 지혜가 생기지요. 천천히 생각하는 힘을 기르면 어려운 문제도 스스로 풀 수 있어요. 바둑을 두면 멋진 전략가가 된답니다.",
+      "바둑은 예의를 지키는 것이 아주 중요해요. 게임이 시작하고 끝날 때 서로 인사를 나누며 소중한 마음을 전해요. 이기거나 지는 것보다 함께 즐겁게 노는 마음이 더 소중하답니다. 여러분은 어떤 멋진 집을 짓고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel-tone illustration of two cute children sitting across from each other, playing Go (Baduk) with black and white stones on a wooden board. The atmosphere is peaceful and magical, with soft sunlight and small sparkles around their heads representing smart ideas.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "지혜",
+    "definition": "어떤 문제를 잘 해결할 수 있는 똑똑한 마음이에요."
+  },
+  "hidden_word": {
+    "word": "인사",
+    "mission": "만나거나 헤어질 때 예의를 갖추어 마음을 표현하는 말은 무엇일까요?"
+  },
+  "selected_topic": "검은 돌 흰 돌로 배우는 생각의 놀이, 바둑 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "역지사지(易地思之)",
+    "description": "상대방의 입장에서 생각해보는 거예요. 바둑을 둘 때 친구가 어디에 돌을 놓을지 고민하는 마음을 미리 읽어보는 것과 같답니다.",
+    "message": "바둑판 위에서 친구의 생각을 조용히 따라가다 보면, 지혜로운 생각과 남을 배려하는 예쁜 마음이 쑥쑥 자라날 거예요. 이기고 지는 것보다 친구와 함께 즐겁게 노는 시간을 소중히 여기는 멋진 어린이가 되길 바라요!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고 바둑을 통해 지혜로운 전략가가 된 미래의 나에게 편지를 써보세요!",
+    "receiver": "지혜로운 전략가가 된 미래의 나에게",
+    "greeting": "안녕! 바둑판 위에 예쁜 돌을 놓으며 생각하는 힘을 기르고 있는 오늘의 내가 너에게 편지를 보내.",
+    "guide_text": "바둑을 두며 상대방의 마음을 읽고 예의를 배우는 내가 나중에 어떤 멋진 사람이 되어 있을지 상상해 보면..."
+  }
+}

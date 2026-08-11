@@ -1,0 +1,42 @@
+{
+  "page1": {
+    "headline": "춤추는 손가락과 88개 건반, 피아노의 마법",
+    "article_body": [
+      "피아노는 아주 특별한 악기예요. 기다란 몸 속에 하얀 건반과 검은 건반이 나란히 줄 서 있어요. 손가락으로 건반을 꾹 누르면 해머가 줄을 때려요. 그러면 맑고 고운 소리가 방 안 가득 울려 퍼져요.",
+      "피아노는 아주 낮은 소리부터 아주 높은 소리까지 낼 수 있어요. 마치 깊은 바닷속 고래 소리나 하늘 위 작은 새 소리 같아요. 건반의 개수는 모두 88개나 된답니다. 여러 개의 건반을 함께 누르면 멋진 화음이 만들어져 기분이 좋아져요.",
+      "부드럽게 치면 포근한 구름 같고 세게 치면 씩씩한 사자 같아요. 피아노 연주를 들으면 마음속에 예쁜 꽃이 피어나는 것 같아요. 여러분은 피아노 소리를 들으면 어떤 기분이 드나요? 나만의 멋진 연주를 하는 상상을 하며 음악을 들어 보세요."
+    ],
+    "image_prompt": "A bright and warm pastel-style illustration of a smiling young child playing a grand piano. Sparkling musical notes shaped like small flowers and stars float in the air. The background is a cozy room with soft sunlight streaming through a window.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "emotion_guess",
+  "word_info": {
+    "word": "건반",
+    "definition": "피아노에서 손가락으로 꾹꾹 누르는 하얗고 검은 부분을 말해요."
+  },
+  "hidden_word": {
+    "word": "연주",
+    "mission": "악기를 다루어 아름다운 소리를 내는 것을 말해요. 기사 속에서 이 단어를 찾아보세요!"
+  },
+  "selected_topic": "검은 건반 흰 건반이 만드는 아름다운 소리, 피아노 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "구슬이 서 말이라도 꿰어야 보배다",
+    "description": "아무리 좋은 구슬이 많아도 실로 꿰어야 예쁜 보석이 되듯이, 피아노의 건반도 우리가 직접 연주해야 비로소 멋진 음악이 된다는 뜻이에요.",
+    "message": "88개의 건반 하나하나가 가진 소중한 소리를 모아 너만의 멋진 연주를 들려주렴! 정성껏 건반을 누르다 보면 너의 마음속에도 예쁜 음악 꽃이 활짝 피어날 거야."
+  },
+  "activity_data": {
+    "scenario": "텅 빈 공연장, 조명이 켜지고 어린 피아니스트가 처음으로 그랜드 피아노 앞에 앉습니다. 첫 건반을 누르기 직전, 심장 박동이 손끝까지 전해지는 순간입니다.",
+    "emotions": [
+      {
+        "type": "긴장감",
+        "prompt": "A close-up of small trembling fingers hovering over ivory piano keys, dramatic spotlight from above, dark background, cinematic lighting, hyper-realistic"
+      },
+      {
+        "type": "설렘",
+        "prompt": "A young pianist's eyes reflecting the 88 keys of a grand piano, a soft smile, sparkling magical dust rising from the piano, dreamy and ethereal atmosphere"
+      }
+    ]
+  }
+}

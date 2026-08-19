@@ -1,0 +1,49 @@
+{
+  "page1": {
+    "headline": "둥둥 뜨는 튜브와 구명조끼의 비밀!",
+    "article_body": [
+      "여름이 오면 신나는 물놀이를 떠나요. 둥근 튜브 안에는 가벼운 공기가 가득 들어 있어요. 공기는 물보다 훨씬 가벼워서 위로 둥둥 잘 떠올라요. 덕분에 우리는 튜브를 타고 물 위에서 즐겁게 놀 수 있어요.",
+      "구명조끼는 우리 몸을 띄워 주는 마법 옷이에요. 조끼 속에는 가벼운 스펀지가 숨어 있어요. 조끼를 입고 버클을 채우면 몸이 물 아래로 가라앉지 않아요. 수영을 못 해도 구명조끼만 있으면 깊은 물도 정말 든든해요.",
+      "튜브와 구명조끼는 우리를 지켜 주는 소중한 친구예요. 하지만 물놀이를 할 때는 꼭 어른과 함께해야 해요. 준비 운동도 잊지 말고 꼭 하기로 약속해요. 여러분은 이번 여름에 어떤 튜브를 타고 시원하게 놀고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel-colored illustration of a smiling young child wearing a colorful life jacket and holding a striped swim tube at a sunny water park, cheerful atmosphere, soft textures, children's book style.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_morphing",
+  "word_info": {
+    "word": "구명조끼",
+    "definition": "물에 빠지지 않게 몸을 둥둥 띄워 주는 안전한 조끼예요."
+  },
+  "hidden_word": {
+    "word": "공기",
+    "mission": "눈에 보이지 않지만 우리 주변에 가득하고, 풍선이나 튜브 속을 빵빵하게 채워 주는 것은 무엇일까요?"
+  },
+  "selected_topic": "튜브와 구명조끼 속에 숨은 과학, 물놀이 안전 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "유비무환(有備無患)",
+    "description": "미리미리 준비를 잘 해두면 나중에 걱정할 일이 생기지 않는다는 뜻이에요.",
+    "message": "우리 몸을 지켜주는 구명조끼와 튜브를 미리 챙기고, 물에 들어가기 전 준비 운동도 잊지 마세요! 철저하게 준비하면 훨씬 더 즐겁고 안전한 물놀이를 할 수 있답니다."
+  },
+  "activity_data": {
+    "instruction": "원래 단어에서 딱 한 글자만 바꿔서 새로운 단어를 만들어보세요!",
+    "items": [
+      {
+        "original_word": "여름",
+        "hint": "하늘에 둥둥 떠 있는 하얀 솜사탕 같은 것",
+        "target_word": "구름"
+      },
+      {
+        "original_word": "공기",
+        "hint": "빨갛고 달콤하며 씨가 콕콕 박힌 봄 과일",
+        "target_word": "딸기"
+      },
+      {
+        "original_word": "조끼",
+        "hint": "귀가 길고 깡충깡충 뛰어다니는 귀여운 동물",
+        "target_word": "토끼"
+      }
+    ]
+  }
+}

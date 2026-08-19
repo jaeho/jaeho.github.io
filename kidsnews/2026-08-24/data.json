@@ -1,0 +1,35 @@
+{
+  "page1": {
+    "headline": "여름방학 보물창고, 나만의 관찰 노트를 완성해요!",
+    "article_body": [
+      "여름방학 동안 우리는 많은 것을 보았어요. 길가에 핀 예쁜 꽃이나 나무 위에서 우는 매미를 만났지요. 내가 직접 보고 들은 것들을 차근차근 다시 떠올려 보세요. 마음속에 보관했던 소중한 기억들이 예쁘게 피어날 거예요.",
+      "관찰 노트를 적을 때는 그림과 글을 함께 써요. '오늘 본 구름은 솜사탕처럼 폭신해 보였어'라고 적는 거예요. 날씨와 날짜도 잊지 말고 꼭 기록해 두세요. 시간이 흘러 다시 꺼내 보면 나만의 멋진 보물 창고가 될 거예요.",
+      "방학이 끝나기 전에 노트를 정성껏 마무리해 봐요. 더 궁금한 것이 있다면 도서관에서 책을 찾아봐도 좋아요. 꾸준히 쓴 관찰 노트는 여러분을 척척박사로 만들어 줄 거예요. 여러분은 이번 여름에 어떤 신기한 것을 발견했나요?"
+    ],
+    "image_prompt": "A warm, pastel-toned illustration of a young child sitting at a wooden desk by a sunny window, happily writing and drawing insects and plants in a colorful notebook. Soft sunlight, cozy atmosphere, storybook style.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "letter_writing",
+  "word_info": {
+    "word": "관찰",
+    "definition": "사물이나 현상을 주의 깊게 자세히 살펴보는 것이에요."
+  },
+  "hidden_word": {
+    "word": "보물",
+    "mission": "아주 귀하고 소중한 것을 말해요. 여러분에게 가장 소중한 이것은 무엇인가요?"
+  },
+  "selected_topic": "여름방학이 끝나기 전, 나만의 관찰 노트 정리하기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "지혜총명(智慧聰明)",
+    "description": "사물을 자세히 살펴보고 정확하게 이해하는 똑똑한 마음을 뜻해요.",
+    "message": "여러분이 직접 보고 느낀 것들을 관찰 노트에 차근차근 기록해 보세요. 정성껏 쓴 노트가 쌓일수록 여러분의 지혜도 쑥쑥 자라나 멋진 척척박사가 될 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사를 읽고, 관찰 노트에 소중한 기억을 남긴 뒤 미래의 나에게 짧은 편지를 써보세요!",
+    "receiver": "나만의 보물 창고를 열어볼 미래의 나에게",
+    "greeting": "안녕! 나는 이번 여름방학 동안 매미 소리를 들으며 열심히 관찰 노트를 쓴 과거의 너야.",
+    "guide_text": "내가 정성껏 기록한 이 관찰 노트가 너에게 소중한 보물이 되길 바라며 꼭 전하고 싶은 말은..."
+  }
+}

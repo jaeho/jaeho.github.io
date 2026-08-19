@@ -1,0 +1,62 @@
+{
+  "page1": {
+    "headline": "여름밤의 마법, 쏟아지는 별똥별을 만나요!",
+    "article_body": [
+      "여름 밤하늘에 아주 특별한 손님이 찾아와요. 바로 '별똥별'이라고 부르는 유성우예요. 우주에 떠다니던 작은 먼지나 돌멩이가 지구로 들어오면서 빛을 내는 것이에요. 깜깜한 밤하늘을 가로지르며 반짝이는 모습이 정말 아름다워요.",
+      "이번에는 '페르세우스자리'라는 곳에서 별똥별이 쏟아져 나와요. 수많은 별이 비처럼 내린다고 해서 유성우라고 불러요. 아주 빠른 속도로 지나가기 때문에 눈을 크게 뜨고 기다려야 해요. 도시의 불빛이 없는 어두운 곳에서 더 잘 보여요.",
+      "별똥별을 보면 마음속으로 소원을 빌어 보세요. 눈 깜짝할 사이에 사라지니까 미리 생각하는 게 좋아요. 가족과 함께 돗자리를 펴고 누워 밤하늘을 바라보면 어떨까요? 여러분은 밤하늘의 별똥별을 보며 어떤 소원을 빌고 싶나요?"
+    ],
+    "image_prompt": "A bright and warm pastel illustration of a young child lying on a green grassy hill with their parents, looking up at a starry dark blue night sky filled with many streaking shooting stars. The atmosphere is magical, cozy, and dreamy.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "initial_quiz",
+  "word_info": {
+    "word": "유성우",
+    "definition": "우주에 있는 작은 돌이나 먼지가 지구로 떨어지면서 비처럼 많이 내리는 별똥별이에요."
+  },
+  "hidden_word": {
+    "word": "소원",
+    "mission": "마음속으로 간절히 바라는 일을 뜻하는 두 글자 단어는 무엇일까요?"
+  },
+  "selected_topic": "여름 밤하늘의 별똥별, 페르세우스자리 유성우 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "포기하지 않으면 꿈은 이루어진다",
+    "description": "힘들어도 포기하지 않고 계속 노력하면 결국 내가 바라는 꿈을 이룰 수 있다는 뜻이에요.",
+    "message": "깜깜한 밤하늘에서 반짝이는 별똥별을 기다리는 마음으로 여러분의 소중한 꿈을 매일매일 떠올려 보세요. 포기하지 않고 노력한다면, 저 멀리 빛나는 별처럼 여러분의 꿈도 멋지게 이루어질 거예요!"
+  },
+  "activity_data": {
+    "instruction": "기사 내용을 바탕으로 한 초성 퀴즈입니다. 제시된 힌트를 보고 알맞은 단어의 초성을 맞혀보세요.",
+    "items": [
+      {
+        "clue": "수많은 별이 비처럼 내리는 현상을 무엇이라고 부르나요?",
+        "initials": [
+          "ㅇ",
+          "ㅅ",
+          "ㅇ"
+        ]
+      },
+      {
+        "clue": "이번 여름에 별똥별이 대량으로 쏟아지는 지점의 이름인 이 별자리는?",
+        "initials": [
+          "ㅍ",
+          "ㄹ",
+          "ㅅ",
+          "ㅇ",
+          "ㅅ",
+          "ㅈ",
+          "ㄹ"
+        ]
+      },
+      {
+        "clue": "우주의 작은 먼지나 돌멩이가 지구 대기권으로 들어와 빛을 내는 현상의 이름은?",
+        "initials": [
+          "ㅂ",
+          "ㄸ",
+          "ㅂ"
+        ]
+      }
+    ]
+  }
+}

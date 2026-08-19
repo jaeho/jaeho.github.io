@@ -1,0 +1,38 @@
+{
+  "page1": {
+    "headline": "나무에 대롱대롱, 매미가 벗어 놓은 갈색 옷",
+    "article_body": [
+      "나무 줄기에 갈색 껍질이 딱 붙어 있어요. 이것은 매미가 입었던 낡은 옷인 '매미 허물'이에요. 매미는 땅속에서 아주 오랜 시간 동안 살아요. 그러다 여름이 되면 나무 위로 올라와 껍질을 벗고 멋진 어른 매미가 된답니다.",
+      "매미는 등이 쫙 갈라지면서 껍질 밖으로 천천히 몸을 빼요. 처음에는 날개가 쪼글쪼글하지만 시간이 지나면 빳빳하게 펴져요. 이제 하늘을 씽씽 날아다니며 큰 소리로 노래를 부를 수 있어요. 나무에 남은 허물은 매미가 열심히 자랐다는 증거예요.",
+      "허물을 자세히 보면 매미의 다리와 눈 모양이 그대로 남아 있어요. 발톱 모양까지 선명해서 꼭 살아있는 매미가 붙어 있는 것 같지요. 여러분도 나무를 지나가다 빈 껍질을 본 적이 있나요? 여름의 흔적을 남기고 떠난 매미에게 \"고생했어!\"라고 인사해 주세요."
+    ],
+    "image_prompt": "A warm and soft pastel illustration of a golden-brown cicada shell firmly attached to a green tree trunk. Soft sunlight filters through lush summer leaves in the background. The atmosphere is peaceful, curious, and child-friendly.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "word_hunt",
+  "word_info": {
+    "word": "허물",
+    "definition": "매미나 뱀 같은 동물이 몸집이 커지면서 벗어 버리는 껍질이에요."
+  },
+  "hidden_word": {
+    "word": "여름",
+    "mission": "날씨가 덥고 매미가 아주 크게 우는 계절은 언제일까요?"
+  },
+  "selected_topic": "나무에 남겨진 여름의 옷, 매미 허물 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "고생 끝에 낙이 온다",
+    "description": "힘든 일을 꾹 참고 견디면 나중에 반드시 즐겁고 행복한 일이 생긴다는 뜻이에요.",
+    "message": "캄캄한 땅속에서 아주 오랜 시간을 기다린 매미가 드디어 나무 위에서 멋진 노래를 부르게 되었어요! 우리 친구들도 지금 당장 힘들고 어려운 일이 있더라도 매미처럼 씩씩하게 이겨내면, 언젠가 매미의 날개처럼 멋진 꿈을 펼칠 날이 올 거예요. 매일 조금씩 자라는 여러분을 응원해요!"
+  },
+  "activity_data": {
+    "instruction": "기사에서 읽은 단어들을 아래 그림에서 찾아 동그라미 쳐보세요!",
+    "words": [
+      "매미",
+      "나무",
+      "허물"
+    ],
+    "image_prompt": "Beautiful illustration for kids, featuring a cicada with its wings spread, a sturdy tree trunk, and a brown cicada shell (exuviae) clinging to the bark, thick line art style, black and white, white background, no text"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "page1": {
+    "headline": "우리 집 거실에 반짝이는 작은 바다가 생겼어요!",
+    "article_body": [
+      "우리 집에 반짝이는 작은 바다를 만들 수 있어요. 바로 예쁜 열대어들이 사는 수족관이에요. 수족관 바닥에는 고운 모래를 깔고 알록달록한 돌도 놓아주세요. 초록색 풀인 수초를 심으면 물고기들이 숨바꼭질하며 신나게 놀기 좋아요.",
+      "이제 따뜻한 물에 귀여운 열대어를 조심스럽게 넣어볼까요? 노란색, 파란색 물고기들이 꼬리를 살랑거리며 헤엄쳐요. 매일 정해진 시간에 맛있는 먹이를 주면 물고기들이 아주 기뻐해요. 물을 깨끗하게 갈아주는 약속도 꼭 지켜야 해요.",
+      "수족관 안을 가만히 보고 있으면 기분이 정말 좋아져요. 물고기들이 뻐끔뻐끔 입을 벌리며 우리에게 다정하게 인사를 건네는 것 같아요. 여러분은 작은 바다 수족관에 어떤 색깔의 물고기를 가장 먼저 초대하고 싶나요? 다 함께 상상해 보아요."
+    ],
+    "image_prompt": "A bright, pastel-colored illustration of a cozy living room with a beautiful fish tank. Inside the tank, colorful tropical fish like neon tetras and guppies swim among green aquatic plants and colorful stones. A small child is happily looking at the tank. Soft, warm lighting, dreamlike atmosphere.",
+    "category_tag": "오늘의 사용자 지정"
+  },
+  "age_group": "7-8",
+  "activity_type": "basic",
+  "word_info": {
+    "word": "열대어",
+    "definition": "더운 나라의 강이나 바다에서 사는 아주 화려하고 예쁜 물고기예요."
+  },
+  "hidden_word": {
+    "word": "수초",
+    "mission": "물속에서 자라는 초록색 풀이에요. 물고기들이 숨어 노는 이 식물은 무엇일까요?"
+  },
+  "selected_topic": "우리 집 작은 바다, 반려 열대어 수족관 만들기 이야기",
+  "selected_category": "오늘의 사용자 지정",
+  "wisdom_pool_data": {
+    "text": "수적천석(水滴穿石)",
+    "description": "작은 물방울이 똑똑 떨어져 단단한 바위를 뚫는 것처럼, 작은 노력도 꾸준히 계속하면 큰 결과를 얻을 수 있다는 뜻이에요.",
+    "message": "매일 먹이를 주고 물을 깨끗하게 갈아주는 작은 약속들을 꾸준히 지켜보세요. 여러분의 정성 어린 손길이 모여 우리 집 거실의 작은 바다를 더 아름답고 건강하게 지켜줄 거예요!"
+  },
+  "activity_data": {
+    "instruction": "우리 집 거실에 반짝이는 작은 바다가 생겼어요! 주제 관련 그림 및 감상문 제목 생성",
+    "suggestions": [
+      "반짝반짝, 우리 집 거실 바다 갤러리",
+      "거실에서 만난 파란색 꿈 조각",
+      "나만의 거실 바다 이야기 상자",
+      "찰랑찰랑, 거실 속 작은 파도 그리기",
+      "우리 집 거실 바다가 들려주는 이야기",
+      "반짝이는 물결 위에 담은 나의 마음"
+    ]
+  }
+}

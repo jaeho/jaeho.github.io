@@ -1,0 +1,40 @@
+{
+  "selected_topic": "스크래빌드로 달라지는 무기·방패·화살",
+  "selected_category": "장비",
+  "page1": {
+    "headline": "나뭇가지에 바위를 붙이면? 장비의 대변신",
+    "category_tag": "젤다의 전설 특집 ⑥",
+    "reference": "https://www.nintendo.com/kr/zelda/totk/guide/index.html",
+    "article_body": [
+      "링크의 앞에 단단한 돌벽이 나타났어요. 주변을 보니 나뭇가지와 바위가 있네요. 둘을 붙이면 어떤 도구가 될까요? 게임 속 링크는 스크래빌드라는 능력으로 장비에 물건을 붙일 수 있어요. 가지에 바위를 붙이면 벽을 깨는 데 도움이 되는 도구가 되지요.",
+      "스크래빌드는 무기뿐 아니라 방패나 화살에도 재료를 붙일 수 있어요. 붙이는 소재에 따라 다른 효과가 생긴답니다. 여기서 소재는 무언가를 만드는 데 쓰는 재료를 뜻해요. 같은 장비라도 무엇을 붙이느냐에 따라 쓰는 방법이 달라질 수 있어요.",
+      "어제 배운 울트라 핸드는 주변 물건을 서로 붙여 탈것을 만들었지요. 오늘의 스크래빌드는 손에 든 장비에 소재를 붙여요. 두 능력의 차이를 떠올려 보세요. 길이 막혔을 때는 주변에 어떤 재료가 있는지 살펴보는 것부터 시작할 수 있어요."
+    ]
+  },
+  "word_info": {
+    "word": "소재",
+    "definition": "무언가를 만드는 데 쓰는 재료예요."
+  },
+  "hidden_word": {
+    "word": "장비",
+    "mission": "모험에 쓰는 무기나 방패 같은 물건을 뜻하는 말을 찾아보세요."
+  },
+  "wisdom_pool_data": {
+    "text": "주변을 보면 방법이 보여요",
+    "description": "어려운 일이 생기면 곁에 있는 물건부터 살펴봐요.",
+    "message": ""
+  },
+  "activity_type": "zelda_fuse",
+  "activity_data": {
+    "title": "돌벽 앞 도구 실험실",
+    "instruction": "나뭇가지와 바위를 합쳐 돌벽을 깨는 도구를 상상해요.",
+    "power_choices": [
+      "울트라 핸드",
+      "스크래빌드"
+    ],
+    "answer_key": "스크래빌드"
+  },
+  "age_group": "7-8",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

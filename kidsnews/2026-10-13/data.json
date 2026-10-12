@@ -1,0 +1,57 @@
+{
+  "selected_topic": "하늘섬, 지상의 하이랄, 땅 아래 지저의 다른 풍경",
+  "selected_category": "지역",
+  "page1": {
+    "headline": "하이랄은 3층! 하늘·땅·지저 탐험",
+    "category_tag": "젤다의 전설 특집 ②",
+    "reference": "https://www.nintendo.com/en-za/News/2023/August/12-advanced-tips-for-The-Legend-of-Zelda-Tears-of-the-Kingdom-players--2428580.html",
+    "article_body": [
+      "하이랄을 한 장의 그림으로 그리면 위아래로 세 곳을 볼 수 있어요. 구름보다 높은 곳에는 하늘섬이 떠 있고, 가운데 지상에는 마을과 숲, 산이 펼쳐져 있지요. 땅 아래 깊은 곳은 지저라고 불러요. 지저에서는 또 다른 풍경을 만날 수 있답니다.",
+      "하늘섬에서는 아래로 펼쳐진 하이랄을 내려다볼 수 있어요. 지상에서는 길을 따라 사람들을 만나고 재료를 모을 수 있지요. 지저는 어두워서 길을 찾기 어려워요. 이때 조명꽃 씨앗을 던지면 주변이 환하게 밝아져 탐험에 도움이 돼요.",
+      "같은 하이랄인데도 어디에 있느냐에 따라 필요한 준비가 달라요. 하늘을 본 뒤 땅 아래를 상상해 보세요. 여러분은 세 곳 중 어디를 가장 먼저 가 보고 싶나요? 모험을 시작하기 전에 그곳에 필요한 물건도 하나 골라 보세요."
+    ]
+  },
+  "word_info": {
+    "word": "지저",
+    "definition": "땅 아래 깊은 곳이에요."
+  },
+  "hidden_word": {
+    "word": "탐험",
+    "mission": "새로운 곳을 살펴보러 다니는 일을 뜻하는 낱말을 찾아보세요."
+  },
+  "wisdom_pool_data": {
+    "text": "낯선 길에는 준비가 필요해요",
+    "description": "가는 곳의 모습을 먼저 살펴보면 필요한 물건을 고를 수 있어요.",
+    "message": ""
+  },
+  "activity_type": "zelda_layers",
+  "activity_data": {
+    "title": "하이랄 3층 탐험 지도",
+    "instruction": "하늘섬·지상·지저를 잇는 나만의 길을 그려요.",
+    "layers": [
+      {
+        "name": "하늘섬",
+        "clue": "구름 위에서 출발!"
+      },
+      {
+        "name": "지상",
+        "clue": "마을과 들판을 지나"
+      },
+      {
+        "name": "지저",
+        "clue": "어두운 땅 아래까지"
+      }
+    ],
+    "gear": [
+      "조명꽃 씨앗",
+      "사과",
+      "나뭇가지"
+    ],
+    "answer_key": {
+      "지저에 가져갈 물건": "조명꽃 씨앗"
+    }
+  },
+  "age_group": "7-8",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

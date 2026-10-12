@@ -537,16 +537,16 @@ body {
 .z-zelda_korok .z-maze{grid-template-columns:repeat(15,1fr);grid-template-rows:repeat(11,1fr);max-width:570px}
 .z-zelda_korok .z-maze-cell{font-size:10px}
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
     <div class="paper flex flex-col gap-6">
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -559,25 +559,25 @@ body {
             </div>
         </header>
 
-        
+
         <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">나만의 모험 요리 수첩</h2>
-        
+
 
         <main class="flex-1 overflow-hidden">
             <div class="z-page z-zelda_cooking">
   <div class="z-mission"><span>하이랄 탐험가 수첩</span><strong>여행지에 맞는 재료와 효과를 골라 요리를 만들어요.</strong></div>
 
-  
+
   <div class="z-section-label">① 내가 가고 싶은 여행지 하나에 동그라미</div>
   <div class="z-choice-row"><span class="z-choice">눈 덮인 리토 마을</span><span class="z-choice">높은 산길</span><span class="z-choice">평화로운 마을</span></div>
   <div class="z-section-label">② 필요한 재료와 효과를 골라 요리 카드 완성하기</div>
   <div class="z-recipe-options"><div><b>재료</b><span>○ 따끈따끈초 열매</span><span>○ 원기버섯</span><span>○ 사과</span></div><div><b>효과</b><span>○ 추위 견디기</span><span>○ 기운 채우기</span><span>○ 하트 채우기</span></div></div>
   <div class="z-recipe-card"><div class="z-recipe-plate">나만의<br>요리를 그려요</div><div class="z-recipe-writing"><p>요리 이름 <u></u></p><p>넣은 재료 <u></u></p><p>얻고 싶은 효과 <u></u></p></div></div>
-  
+
 </div>
         </main>
 
-        
+
         <footer class="mt-auto">
             <div class="card-blue ">
                 <div class="flex items-center gap-2 mb-2 text-brand-forest">
@@ -590,17 +590,17 @@ body {
                 </div>
             </div>
         </footer>
-        
+
 
         <footer class="footer-meta">
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 281호 (2026년 10월 19일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -626,15 +626,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -642,7 +642,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -498,9 +498,9 @@ body {
 
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -521,9 +521,9 @@ body {
         </div>
 
         <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
-            
+
             <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
-            
+
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
                 <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
@@ -534,13 +534,13 @@ body {
 
         <article class="flex-1 overflow-hidden">
             <div class="columns-2 gap-8 article-text h-full">
-                
+
                 <p class="drop-cap">하이랄의 숲과 들에는 코로그라는 작은 친구가 숨어 있어요. 돌이 하나 빠진 고리처럼 어딘가 이상한 곳을 살펴보면 코로그를 만날 수도 있지요. 어떤 코로그는 커다란 배낭을 메고 친구에게 가고 싶어 해요.</p>
-                
+
                 <p class="">배낭이 무거운 코로그를 친구 곁으로 데려다주면 코로그의 열매를 받아요. 이 열매를 모아 건네면 링크가 무기, 방패, 활을 넣는 공간을 늘릴 수 있답니다. 작은 친구를 도운 일이 모험에도 도움이 되는 셈이에요.</p>
-                
+
                 <p class="">코로그를 찾는 데는 눈썰미가 필요해요. 돌의 모양이나 길가의 작은 변화를 살펴보세요. 친구와 만나고 싶어 하는 코로그를 본다면 어떤 길로 데려다주고 싶나요? 그림 속 숲길을 따라 두 코로그가 만나는 모습을 상상해 보세요.</p>
-                
+
             </div>
         </article>
 
@@ -567,11 +567,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 280호 (2026년 10월 18일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -597,15 +597,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -613,7 +613,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;
@@ -643,11 +643,11 @@ body {
             const container = document.querySelector('article');
             const content = document.querySelector('.article-text');
             if (!container || !content) return;
-            
-            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
-            const minFontSize = 14; 
 
-            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
+            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
+            const minFontSize = 14;
+
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다
             // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
             function isOverflowing() {
                 // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크

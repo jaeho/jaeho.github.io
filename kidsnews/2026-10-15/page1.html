@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -498,9 +498,9 @@ body {
 
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -521,9 +521,9 @@ body {
         </div>
 
         <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
-            
+
             <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
-            
+
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
                 <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
@@ -534,13 +534,13 @@ body {
 
         <article class="flex-1 overflow-hidden">
             <div class="columns-2 gap-8 article-text h-full">
-                
+
                 <p class="drop-cap">하이랄을 걷다 보면 코가 크고 뿔이 달린 보코블린을 만날 수 있어요. 모두 똑같아 보이나요? 조금 떨어져서 자세히 관찰해 보세요. 빨간 보코블린도 있고, 파란 보코블린과 검은 보코블린도 있답니다.</p>
-                
+
                 <p class="">몸의 색은 얼마나 강한지 짐작하게 해 주는 단서예요. 같은 보코블린이라면 보통 빨강보다 파랑이, 파랑보다 검정이 더 강해요. 머리 위 뿔의 모양도 서로 달라요. 처음 보는 몬스터를 만났을 때는 바로 다가가기보다 모습을 살펴보면 좋아요.</p>
-                
+
                 <p class="">이렇게 살펴보는 일을 관찰이라고 해요. 작은 차이를 발견하면 그림 도감을 보는 것처럼 흥미롭지요. 오늘 삽화에서 보코블린의 색과 뿔을 하나씩 비교해 보세요. 어떤 모습이 가장 먼저 눈에 들어오나요?</p>
-                
+
             </div>
         </article>
 
@@ -567,11 +567,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 277호 (2026년 10월 15일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -597,15 +597,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -613,7 +613,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;
@@ -643,11 +643,11 @@ body {
             const container = document.querySelector('article');
             const content = document.querySelector('.article-text');
             if (!container || !content) return;
-            
-            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
-            const minFontSize = 14; 
 
-            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
+            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
+            const minFontSize = 14;
+
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다
             // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
             function isOverflowing() {
                 // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크

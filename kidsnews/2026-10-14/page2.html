@@ -537,16 +537,16 @@ body {
 .z-zelda_korok .z-maze{grid-template-columns:repeat(15,1fr);grid-template-rows:repeat(11,1fr);max-width:570px}
 .z-zelda_korok .z-maze-cell{font-size:10px}
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
     <div class="paper flex flex-col gap-6">
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -559,24 +559,24 @@ body {
             </div>
         </header>
 
-        
+
         <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">강을 건너는 뗏목 설계도</h2>
-        
+
 
         <main class="flex-1 overflow-hidden">
             <div class="z-page z-zelda_raft">
   <div class="z-mission"><span>하이랄 탐험가 수첩</span><strong>강을 건널 나만의 뗏목을 설계해요.</strong></div>
 
-  
+
   <div class="z-raft-brief"><strong>오늘의 설계 임무</strong><p>통나무 두 개를 붙여 뗏목을 만들고, 선풍기를 달아 보세요. 뗏목이 움직일 방향도 <b>같은 설계도 안에 화살표</b>로 그려요.</p></div>
   <div class="z-material-row"><span>오늘 사용할 것</span><span>✦ 통나무 2개</span><span>✦ 선풍기 1개</span><span>✦ 울트라 핸드</span></div>
   <div class="z-blueprint"><div class="z-blueprint-grid"></div><span class="z-blueprint-bank z-blueprint-start">출발</span><span class="z-blueprint-bank z-blueprint-end">건너편</span><div class="z-blueprint-note">여기에 나의 뗏목을 그려요</div><div class="z-blueprint-check">□ 통나무 2개　 □ 선풍기 1개　 □ 방향 화살표</div><div class="z-river">〰 〰 〰 〰 〰 〰 〰 〰</div></div>
 
-  
+
 </div>
         </main>
 
-        
+
         <footer class="mt-auto">
             <div class="card-blue ">
                 <div class="flex items-center gap-2 mb-2 text-brand-forest">
@@ -589,17 +589,17 @@ body {
                 </div>
             </div>
         </footer>
-        
+
 
         <footer class="footer-meta">
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 276호 (2026년 10월 14일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -625,15 +625,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -641,7 +641,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

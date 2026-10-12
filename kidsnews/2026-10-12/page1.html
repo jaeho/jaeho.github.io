@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -498,9 +498,9 @@ body {
 
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -521,9 +521,9 @@ body {
         </div>
 
         <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
-            
+
             <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
-            
+
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
                 <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
@@ -534,13 +534,13 @@ body {
 
         <article class="flex-1 overflow-hidden">
             <div class="columns-2 gap-8 article-text h-full">
-                
+
                 <p class="drop-cap">‘젤다의 전설’이라는 이름을 들으면 젤다가 모험의 주인공일 것 같지요? 게임에서 우리가 움직이며 함께 여행하는 인물은 용사 링크예요. 젤다는 하이랄 왕국의 공주랍니다. 두 사람의 이름과 역할을 알면 이야기가 더 잘 보여요.</p>
-                
+
                 <p class="">링크는 낯선 곳에 발을 내딛고, 어려운 일이 생기면 방법을 찾아요. 젤다는 호기심이 많아서 하이랄의 새로운 모습을 알고 싶어 하지요. 하이랄은 두 사람이 살아가는 넓은 왕국이에요. 하늘에도 섬이 떠 있어 둘러볼 곳이 아주 많답니다.</p>
-                
+
                 <p class="">모험에서는 힘만 센 사람이 용사가 되는 것은 아니에요. 주변을 자세히 살피고 다른 사람의 말을 듣는 마음도 필요하지요. 여러분이라면 하이랄에 도착해 무엇부터 살펴볼까요? 오늘은 링크와 젤다의 이름을 기억하며 첫 탐험을 시작해 봐요.</p>
-                
+
             </div>
         </article>
 
@@ -567,11 +567,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 274호 (2026년 10월 12일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -597,15 +597,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -613,7 +613,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;
@@ -643,11 +643,11 @@ body {
             const container = document.querySelector('article');
             const content = document.querySelector('.article-text');
             if (!container || !content) return;
-            
-            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
-            const minFontSize = 14; 
 
-            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
+            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
+            const minFontSize = 14;
+
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다
             // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
             function isOverflowing() {
                 // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크

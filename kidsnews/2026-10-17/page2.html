@@ -537,16 +537,16 @@ body {
 .z-zelda_korok .z-maze{grid-template-columns:repeat(15,1fr);grid-template-rows:repeat(11,1fr);max-width:570px}
 .z-zelda_korok .z-maze-cell{font-size:10px}
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
     <div class="paper flex flex-col gap-6">
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -559,25 +559,25 @@ body {
             </div>
         </header>
 
-        
+
         <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">돌벽 앞 도구 실험실</h2>
-        
+
 
         <main class="flex-1 overflow-hidden">
             <div class="z-page z-zelda_fuse">
   <div class="z-mission"><span>하이랄 탐험가 수첩</span><strong>나뭇가지와 바위를 합쳐 돌벽을 깨는 도구를 상상해요.</strong></div>
 
-  
+
   <div class="z-section-label">① 돌벽 앞! 나뭇가지와 바위를 붙인 도구를 그려요</div>
   <div class="z-material-row"><span>🌿 나뭇가지</span><span>＋</span><span>🪨 바위</span><span>→</span><span>나의 새 도구</span></div>
   <div class="z-tool-board"><div class="z-tool-wall">돌벽</div><small>어디를 어떻게 붙일까요?</small></div>
   <div class="z-choice-panel"><div class="z-section-label">② 무기에 물건을 붙이는 능력은?</div><div class="z-choice-row"><span class="z-choice">울트라 핸드</span><span class="z-choice">스크래빌드</span></div></div>
 
-  
+
 </div>
         </main>
 
-        
+
         <footer class="mt-auto">
             <div class="card-blue ">
                 <div class="flex items-center gap-2 mb-2 text-brand-forest">
@@ -590,17 +590,17 @@ body {
                 </div>
             </div>
         </footer>
-        
+
 
         <footer class="footer-meta">
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 279호 (2026년 10월 17일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -626,15 +626,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -642,7 +642,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

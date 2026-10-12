@@ -489,7 +489,7 @@ body {
     padding: 10px;
 }
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
@@ -498,9 +498,9 @@ body {
 
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -521,9 +521,9 @@ body {
         </div>
 
         <section class="relative rounded-[32px] overflow-hidden shadow-2xl shadow-brand-leaf/10 h-64 border border-brand-lime/40">
-            
+
             <img src="article_image.webp" class="w-full h-full object-cover" alt="News Image">
-            
+
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
                 <span class="inline-block px-3 py-1 bg-brand-leaf text-white text-[10px] font-bold rounded-full mb-2 uppercase tracking-[0.18em]">Today's Special</span>
@@ -534,13 +534,13 @@ body {
 
         <article class="flex-1 overflow-hidden">
             <div class="columns-2 gap-8 article-text h-full">
-                
+
                 <p class="drop-cap">링크의 앞에 단단한 돌벽이 나타났어요. 주변을 보니 나뭇가지와 바위가 있네요. 둘을 붙이면 어떤 도구가 될까요? 게임 속 링크는 스크래빌드라는 능력으로 장비에 물건을 붙일 수 있어요. 가지에 바위를 붙이면 벽을 깨는 데 도움이 되는 도구가 되지요.</p>
-                
+
                 <p class="">스크래빌드는 무기뿐 아니라 방패나 화살에도 재료를 붙일 수 있어요. 붙이는 소재에 따라 다른 효과가 생긴답니다. 여기서 소재는 무언가를 만드는 데 쓰는 재료를 뜻해요. 같은 장비라도 무엇을 붙이느냐에 따라 쓰는 방법이 달라질 수 있어요.</p>
-                
+
                 <p class="">어제 배운 울트라 핸드는 주변 물건을 서로 붙여 탈것을 만들었지요. 오늘의 스크래빌드는 손에 든 장비에 소재를 붙여요. 두 능력의 차이를 떠올려 보세요. 길이 막혔을 때는 주변에 어떤 재료가 있는지 살펴보는 것부터 시작할 수 있어요.</p>
-                
+
             </div>
         </article>
 
@@ -567,11 +567,11 @@ body {
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 279호 (2026년 10월 17일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -597,15 +597,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -613,7 +613,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;
@@ -643,11 +643,11 @@ body {
             const container = document.querySelector('article');
             const content = document.querySelector('.article-text');
             if (!container || !content) return;
-            
-            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
-            const minFontSize = 14; 
 
-            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다 
+            let fontSize = parseFloat(window.getComputedStyle(content).fontSize);
+            const minFontSize = 14;
+
+            // 다단(Columns) 레이아웃에서는 세로 scrollHeight보다
             // 가로 scrollWidth(컬럼이 늘어나는 현상)를 체크하는 것이 더 정확합니다.
             function isOverflowing() {
                 // 가로로 넘치거나(컬럼 추가), 세로로 컨테이너를 벗어나는지 체크

@@ -537,16 +537,16 @@ body {
 .z-zelda_korok .z-maze{grid-template-columns:repeat(15,1fr);grid-template-rows:repeat(11,1fr);max-width:570px}
 .z-zelda_korok .z-maze-cell{font-size:10px}
 </style>
-    
+
 </head>
 
 <body class="bg-white flex justify-center antialiased">
     <div class="paper flex flex-col gap-6">
         <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
             <div class="flex items-center gap-0">
-                
+
                 <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
-                
+
                 <div class="header-brand">
                     <h1 class="header-brand-title">씨앗 어린이 신문</h1>
                     <p class="header-brand-subtitle">Daily Kids News</p>
@@ -559,25 +559,25 @@ body {
             </div>
         </header>
 
-        
+
         <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">리토 마을 여행 가방</h2>
-        
+
 
         <main class="flex-1 overflow-hidden">
             <div class="z-page z-zelda_pack">
   <div class="z-mission"><span>하이랄 탐험가 수첩</span><strong>리토 마을의 추위에 맞는 게임 속 장비와 요리를 챙겨요.</strong></div>
 
-  
+
   <div class="z-weather"><b>리토 마을 일기예보</b><span>눈과 찬바람이 불어요. 추위를 막아 줄 장비와 요리를 챙겨요!</span></div>
   <div class="z-section-label">게임에 나오는 물건 중 추위에 도움이 되는 옷 하나와 요리 하나를 골라 가방에 적어요.</div>
   <div class="z-pack-layout"><div class="z-pack-choices"><div class="z-pack-item"><span class="z-pack-check">○</span><div><b>리토의 날개 옷</b><small>추위 가드</small></div></div><div class="z-pack-item"><span class="z-pack-check">○</span><div><b>조라의 갑옷</b><small>폭포 오르기</small></div></div><div class="z-pack-item"><span class="z-pack-check">○</span><div><b>원기 버섯쌈구이</b><small>스태미나·하트 회복</small></div></div><div class="z-pack-item"><span class="z-pack-check">○</span><div><b>화끈 따끈따끈볶음</b><small>추위 가드·하트 회복</small></div></div></div><div class="z-backpack"><div class="z-backpack-handle"></div><strong>리토 여행 가방</strong><div><small>내가 고른 옷</small><span>________________</span></div><div><small>내가 고른 요리</small><span>________________</span></div></div></div>
   <div class="z-pack-hint">힌트: 카드에 적힌 게임 속 효과를 살펴보세요. 추운 곳에 필요한 효과는 무엇일까요?</div>
 
-  
+
 </div>
         </main>
 
-        
+
         <footer class="mt-auto">
             <div class="card-blue ">
                 <div class="flex items-center gap-2 mb-2 text-brand-forest">
@@ -590,17 +590,17 @@ body {
                 </div>
             </div>
         </footer>
-        
+
 
         <footer class="footer-meta">
             <button onclick="openArchiveModal()" class="footer-meta-button">
                 씨앗 어린이 신문 278호 (2026년 10월 16일)
             </button>
-            
+
             <div class="footer-wordmark-wrap" aria-hidden="true">
                 <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
             </div>
-            
+
         </footer>
     </div>
 
@@ -626,15 +626,15 @@ body {
             const list = document.getElementById('archiveList');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            
+
             if (list.children.length === 0) {
                 if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
                     window.ARCHIVE_DATES.forEach(date => {
                         const btn = document.createElement('button');
                         btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
-                        
+
                         const isCurrent = window.location.pathname.includes(date);
-                        
+
                         let html = `<span>${date}</span>`;
                         if (isCurrent) {
                             html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
@@ -642,7 +642,7 @@ body {
                         } else {
                             html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
                         }
-                        
+
                         btn.innerHTML = html;
                         btn.onclick = () => {
                             window.location.href = `../${date}/index.html`;

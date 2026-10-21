@@ -1,0 +1,29 @@
+{
+  "selected_topic": "지저의 파마의 뿌리와 지상의 사당",
+  "selected_category": "지도의 비밀",
+  "page1": {
+    "headline": "지저의 뿌리 위에는 무엇이 있을까?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/depth/02.html",
+    "article_body": [
+      "지저를 걷다 보면 어둠 속에서 환하게 빛나는 파마의 뿌리를 발견할 수 있어요. 뿌리를 찾으면 주변을 밝힐 수 있지요. 그런데 그 위치를 지상 지도와 나란히 비교하면 더 놀라운 비밀이 보입니다.",
+      "지저에 있는 파마의 뿌리 바로 위, 지상에는 파마의 사당이 있어요. 사당을 먼저 발견했다면 그 아래 지저에서 뿌리를 찾을 수 있고, 뿌리를 먼저 발견했다면 위쪽에서 사당을 찾아볼 수도 있어요. 두 지도가 서로 힌트가 되는 거예요.",
+      "지도를 볼 때는 같은 자리를 맞춰 놓는 것이 중요해요. 지저 지도의 뿌리 하나를 찾고, 지상 지도의 같은 자리를 살펴보세요. 아직 표시하지 못한 사당이 있다면 그곳으로 탐험을 떠날 수 있겠지요. 여러분도 두 지도를 겹쳐 숨은 위치를 찾아보세요."
+    ]
+  },
+  "word_info": {
+    "word": "파마의 뿌리",
+    "definition": "지저에서 빛을 내며 주변을 밝혀 주는 장소예요."
+  },
+  "hidden_word": {
+    "word": "위치",
+    "mission": "어떤 것이 있는 자리를 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "week_lightroot",
+  "activity_data": {
+    "title": "겹쳐 보는 두 장의 지도",
+    "instruction": "지상과 지저에서 같은 칸을 찾아, 아직 표시되지 않은 사당을 발견해요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

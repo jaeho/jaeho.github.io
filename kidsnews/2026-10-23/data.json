@@ -1,0 +1,29 @@
+{
+  "selected_topic": "사토리와 동굴을 가리키는 빛기둥",
+  "selected_category": "숨은 동굴",
+  "page1": {
+    "headline": "벚나무에 과일을 놓으면 동굴이 보인다?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/central/02.html",
+    "article_body": [
+      "하이랄에서 벚꽃이 핀 나무를 찾았다면 뿌리 가까이를 살펴보세요. 작은 제단이 있을 수 있어요. 그곳에 과일을 바치면 신비로운 생물 사토리가 모습을 드러냅니다. 평소에는 만나기 어려운 특별한 손님이지요.",
+      "사토리가 나타날 때 먼 곳에 빛기둥도 솟아올라요. 그 빛은 동굴 입구가 있는 자리를 가리켜요. 평소에는 지나쳤을 동굴을 찾을 수 있는 단서가 되는 셈이에요. 과일을 놓은 자리만 바라보지 말고 멀리 보이는 빛도 찾아야 해요.",
+      "동굴 입구를 알게 되었다고 그 안의 길이나 보물까지 저절로 알 수 있는 것은 아니에요. 빛기둥은 모험의 시작을 알려 줄 뿐이지요. 여러분이라면 여러 빛기둥 중 어디부터 찾아갈까요? 주변 길을 살펴보고 이유를 말해 보세요."
+    ]
+  },
+  "word_info": {
+    "word": "제단",
+    "definition": "무언가를 올려놓거나 바칠 수 있게 마련한 자리예요."
+  },
+  "hidden_word": {
+    "word": "단서",
+    "mission": "동굴을 찾는 데 도움이 되는 실마리를 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "week_satori",
+  "activity_data": {
+    "title": "사토리의 빛기둥 탐사대",
+    "instruction": "벚나무에서 시작해 빛기둥이 가리키는 동굴까지 탐험 경로를 그려요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

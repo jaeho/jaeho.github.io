@@ -1,0 +1,29 @@
+{
+  "selected_topic": "종 울리기와 소리의 크기",
+  "selected_category": "하이랄 실험실",
+  "page1": {
+    "headline": "같은 종인데 소리가 왜 다를까?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/central/02.html",
+    "article_body": [
+      "하이랄 평원 가까이에는 커다란 종을 쳐서 소리의 크기를 겨루는 곳이 있어요. 종은 그대로인데도 부딪히는 물건과 방법에 따라 소리가 다르게 울린답니다. 어떻게 하면 더 멀리까지 들릴 만큼 큰 소리를 낼 수 있을까요?",
+      "게임에서는 더 무거운 물체를 더 빠르게 종에 부딪히는 것이 중요한 단서예요. 가벼운 돌을 살짝 닿게 할 때와 무거운 물체가 빠르게 부딪힐 때를 떠올려 보세요. 어떤 쪽이 더 크게 울릴지 예상할 수 있겠지요.",
+      "정말 무게 때문에 달라졌는지 알아보려면 두 번의 시도에서 다른 조건을 비슷하게 맞추고 무게만 바꾸어 볼 수 있어요. 빠르기를 알아볼 때는 같은 물체를 쓰면 좋겠지요. 한 번에 한 가지를 바꾸어 보는 방법은 작은 과학자에게도 유용해요."
+    ]
+  },
+  "word_info": {
+    "word": "조건",
+    "definition": "어떤 일이 일어날 때 함께 살펴보는 상황이나 방법이에요."
+  },
+  "hidden_word": {
+    "word": "무게",
+    "mission": "물체가 얼마나 무겁거나 가벼운지를 나타내는 낱말을 찾아보세요."
+  },
+  "activity_type": "week_bell",
+  "activity_data": {
+    "title": "하이랄 종소리 실험실",
+    "instruction": "한 가지 조건만 바꾸는 실험을 골라 소리가 어떻게 달라질지 예상해요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

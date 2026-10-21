@@ -1,0 +1,29 @@
+{
+  "selected_topic": "하늘섬 연못의 물을 빼는 장치",
+  "selected_category": "하늘섬의 비밀",
+  "page1": {
+    "headline": "연못의 물을 빼면 물고기는 어떻게 될까?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/sky/01.html",
+    "article_body": [
+      "하늘 높이 떠 있는 ‘어둠을 무찌르는 섬’에는 물고기가 사는 연못이 있어요. 물속을 헤엄치는 물고기를 보고 곧바로 잡으려면 쉽지 않겠지요. 그런데 이 섬에는 연못의 물을 뺄 수 있는 방법이 숨겨져 있답니다.",
+      "물을 빼면 연못의 모습이 달라져요. 깊은 물에서 헤엄치던 물고기들이 바닥 가까이에 남아 펄떡여서 잡기 쉬워지지요. 같은 장소라도 물이 많을 때와 적을 때 할 수 있는 일이 달라지는 거예요.",
+      "게임에서 장치를 발견하면 움직이기 전과 후를 비교해 보세요. 물이 어디로 나갔는지, 물고기는 어디에 남았는지 살펴보는 거예요. 무엇이 달라졌는지 눈으로 확인하면 숨은 장치의 쓰임을 더 잘 이해할 수 있어요."
+    ]
+  },
+  "word_info": {
+    "word": "장치",
+    "definition": "어떤 일을 하도록 만들어 놓은 도구나 구조예요."
+  },
+  "hidden_word": {
+    "word": "비교",
+    "mission": "달라진 모습을 서로 살펴보는 일을 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "week_pond",
+  "activity_data": {
+    "title": "하늘섬 연못 변화 관찰판",
+    "instruction": "물을 빼기 전과 후를 직접 그려 보고, 무엇이 달라졌는지 찾아요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

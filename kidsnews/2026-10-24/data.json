@@ -1,0 +1,29 @@
+{
+  "selected_topic": "조명꽃과 빛을 먹는 코가마",
+  "selected_category": "지저의 비밀",
+  "page1": {
+    "headline": "켜 둔 조명꽃이 사라졌다! 범인은 누구?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/depth/01.html",
+    "article_body": [
+      "땅 아래 지저는 햇빛이 닿지 않아 아주 어두워요. 모험가는 조명꽃 씨앗을 던지거나 화살에 붙여 멀리 쏘아요. 씨앗이 닿은 자리에는 빛나는 꽃이 피어나 길을 밝혀 줍니다. 어둠 속에서 켜는 작은 등불 같지요.",
+      "그런데 분명 조명꽃을 피웠는데 다시 어두워지는 곳이 있어요. 이상한 일이지요? 주변을 살피면 코가마라는 마물이 있을지 몰라요. 코가마는 조명꽃을 먹어 버리거든요. 빛이 사라진 까닭을 알면 다음 행동도 생각할 수 있어요.",
+      "이럴 때는 같은 자리에 꽃만 다시 피우기 전에 코가마가 있는지 살펴보세요. 다른 안전한 자리에 조명꽃을 피우거나, 주변을 밝히는 다른 장비를 생각할 수도 있어요. 모험에서는 ‘왜 어두워졌을까?’ 하고 원인을 찾는 일이 중요하답니다."
+    ]
+  },
+  "word_info": {
+    "word": "조명꽃",
+    "definition": "어두운 지저에서 빛을 내어 주변을 밝혀 주는 꽃이에요."
+  },
+  "hidden_word": {
+    "word": "원인",
+    "mission": "어떤 일이 일어난 까닭을 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "week_brightbloom",
+  "activity_data": {
+    "title": "사라진 빛 사건 파일",
+    "instruction": "현장 단서를 읽고 빛이 사라진 까닭을 찾아, 새 조명 계획을 그려요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

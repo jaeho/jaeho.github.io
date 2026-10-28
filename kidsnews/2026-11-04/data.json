@@ -1,0 +1,29 @@
+{
+  "selected_topic": "독기 예방과 회복에 쓰는 음식",
+  "selected_category": "지저 요리",
+  "page1": {
+    "headline": "독기를 막는 음식과 낫게 하는 음식",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/depth/02.html",
+    "article_body": [
+      "지저의 독기에 닿으면 하트가 독기에 물들어 평소처럼 회복하기 어려워요. 그래서 지저로 떠나기 전에는 먹을 것을 준비하는 게 좋아요. 하지만 모든 재료가 똑같은 일을 하지는 않아요.",
+      "어둠 덩어리를 넣은 요리는 독기의 영향을 줄이는 데 도움을 줘요. 독기에 닿기 전에 대비할 때 쓰는 거예요. 반면 해품이꽃을 넣은 요리는 이미 독기에 침범당한 하트를 회복하는 데 도움이 됩니다.",
+      "게임에서는 준비할 때와 문제가 생긴 뒤에 필요한 것이 다를 수 있어요. 지저에 들어가기 전이라면 무엇을 챙길까요? 이미 독기에 닿았다면 어떤 요리를 찾을까요? 두 재료의 쓰임을 구별해 보세요."
+    ]
+  },
+  "word_info": {
+    "word": "대비",
+    "definition": "앞으로 생길 일에 미리 준비하는 것이에요."
+  },
+  "hidden_word": {
+    "word": "회복",
+    "mission": "상한 상태가 다시 좋아지는 일을 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_gloom",
+  "activity_data": {
+    "title": "지저 요리 처방전",
+    "instruction": "탐험 전과 독기에 닿은 뒤의 상황을 읽고 알맞은 재료를 골라요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

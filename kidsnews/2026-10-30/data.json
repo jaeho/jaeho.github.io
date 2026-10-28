@@ -1,0 +1,29 @@
+{
+  "selected_topic": "바위 조아와 리버레코",
+  "selected_category": "시간을 돌리는 기술",
+  "page1": {
+    "headline": "바위 조아가 뱉은 돌을 되돌리면?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/southeast/02.html",
+    "article_body": [
+      "동굴에서 만나는 바위 조아는 몸이 돌처럼 단단해요. 그냥 때리면 바깥의 바위를 깨기가 어렵지요. 폭탄꽃이나 바위를 부술 수 있는 무기가 도움이 됩니다. 하지만 바위 조아가 먼저 공격할 때도 기회가 있어요.",
+      "바위 조아는 입에서 바위를 뱉기도 해요. 이 바위에 리버레코를 쓰면 바위가 지나온 길을 거꾸로 돌아갑니다. 바위가 조아에게 되돌아가면 몸을 감싼 바위를 깨뜨릴 수 있어요.",
+      "리버레코는 물체의 움직임을 되감는 게임 속 능력이에요. 앞으로 날아온 바위가 되돌아가면 어디로 움직일까요? 바위의 출발점과 이동한 길을 눈으로 따라가면 답을 찾을 수 있답니다."
+    ]
+  },
+  "word_info": {
+    "word": "리버레코",
+    "definition": "물체가 움직인 시간을 거꾸로 돌리는 게임 속 능력이에요."
+  },
+  "hidden_word": {
+    "word": "출발점",
+    "mission": "움직임이 처음 시작된 자리를 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_rocklike",
+  "activity_data": {
+    "title": "되감기 바위 추적판",
+    "instruction": "바위가 지나온 길을 따라, 리버레코를 썼을 때 돌아갈 방향을 그려요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

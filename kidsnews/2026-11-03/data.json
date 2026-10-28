@@ -1,0 +1,29 @@
+{
+  "selected_topic": "지저에서 지상으로 이어지는 기둥",
+  "selected_category": "숨은 출구",
+  "page1": {
+    "headline": "지저의 기둥에 들어가면 어디로 나올까?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/depth/02.html",
+    "article_body": [
+      "어두운 지저를 걷다 보면 위쪽으로 길게 뻗은 신기한 기둥을 만날 수 있어요. 그 기둥은 지저에서 끝나는 것이 아니라 지상까지 이어져 있답니다. 위로 올라가는 숨은 길인 셈이지요.",
+      "기둥 아래에서 트레루프를 쓰면 천장을 통과해 지상으로 나올 수 있어요. 어떤 기둥은 뜻밖의 장소로 이어져요. 추낙 지방의 한 기둥은 이가단의 아지트로 통한다고 해요.",
+      "지저 지도를 보며 기둥의 자리를 찾았다면 지상 지도에서 같은 위치를 살펴보세요. 어디로 이어질지 먼저 예상한 뒤 게임에서 확인하면 더 재미있어요. 지도는 숨은 출구를 찾는 단서가 됩니다."
+    ]
+  },
+  "word_info": {
+    "word": "트레루프",
+    "definition": "위쪽 천장을 통과해 올라가는 게임 속 능력이에요."
+  },
+  "hidden_word": {
+    "word": "출구",
+    "mission": "밖으로 나가는 곳을 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_pillar",
+  "activity_data": {
+    "title": "지저 기둥의 도착지",
+    "instruction": "땅을 옆에서 본 그림에 지저 기둥과 지상의 출구를 이어 그려요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

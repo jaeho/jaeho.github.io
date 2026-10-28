@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>씨앗 어린이 신문 - 기브도 작전 카드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#6FAF63",
+                        brand: {
+                            forest: "#2E5E3A",
+                            leaf: "#6FAF63",
+                            sprout: "#A8D58B",
+                            lime: "#CFE9B2",
+                            sage: "#EAF3E5",
+                            sky: "#BDE4F9",
+                            sun: "#FFD98A",
+                            blush: "#FFD6E1",
+                            lavender: "#E5D9F7",
+                            cream: "#FFF6E6",
+                        },
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../archive.js"></script>
+    <style>/* Tailwind CDN은 HTML에서 호출하므로 여기에는 커스텀 클래스만 넣습니다. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gaegu:wght@400;700&family=Nunito:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+    --primary-color: #6FAF63;
+    --background-light: #F7FAF3;
+    --text-main: #2E5E3A;
+    --text-strong: #264D31;
+    --text-soft: #4F6D52;
+    --text-muted: #7D907E;
+    --accent-blue: #EEF8FF;
+    --accent-yellow: #FFF8EA;
+    --paper-bg: #ffffff;
+    --logo-green-dark: #2E5E3A;
+    --logo-green-mid: #6FAF63;
+    --logo-green-light: #A8D58B;
+    --brand-lime: #CFE9B2;
+    --brand-sage: #EAF3E5;
+    --brand-sky: #BDE4F9;
+    --brand-sun: #FFD98A;
+    --brand-blush: #FFD6E1;
+    --brand-lavender: #E5D9F7;
+    --brand-cream: #FFF6E6;
+    --line-soft: #DDEAD7;
+    --line-mid: #C9DDC5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #fbfdf8 0%, var(--background-light) 100%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--text-main);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 실제 인쇄 및 캡처 시 A4 규격 유지 */
+@media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .paper {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.paper {
+    width: 210mm;
+    height: 297mm;
+    background-color: var(--paper-bg);
+    position: relative;
+    box-shadow: 0 18px 40px rgba(111, 175, 99, 0.10);
+    border: 1px solid rgba(207, 233, 178, 0.7);
+    padding: 15mm;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 드롭캡: 씨앗 어린이 신문 스타일 */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4.5rem;
+    line-height: 0.8;
+    font-weight: 800;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: var(--logo-green-mid);
+}
+
+/* 기사 본문 최적화 */
+.article-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: justify;
+    word-break: keep-all;
+    color: var(--text-main);
+    height: 100%;
+    column-fill: auto;
+}
+
+.article-text p {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.text-hand {
+    font-family: 'Gaegu', cursive;
+}
+
+/* 아이콘 스타일 */
+.material-symbols-rounded {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+/* 카드 공통 스타일 */
+.card-blue {
+    background: linear-gradient(180deg, var(--accent-blue) 0%, #ffffff 100%);
+    border: 2px solid var(--brand-sky);
+    border-radius: 24px;
+    padding: 14px;
+    box-shadow: 0 10px 18px rgba(189, 228, 249, 0.18);
+}
+
+.card-yellow {
+    background: linear-gradient(180deg, var(--accent-yellow) 0%, #ffffff 100%);
+    border: 2px dashed var(--brand-sun);
+    border-radius: 24px;
+    padding: 14px;
+    box-shadow: 0 10px 18px rgba(255, 217, 138, 0.16);
+}
+
+/* 헤더 스타일링 */
+.header-eco-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--logo-green-dark), var(--logo-green-mid));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
+}
+
+.header-logo {
+    height: 44px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.header-brand {
+    min-width: 0;
+}
+
+.header-brand-title {
+    margin: 0;
+    color: var(--logo-green-dark);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+.header-brand-subtitle {
+    margin: 0;
+    color: var(--logo-green-mid);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    line-height: 1.1;
+}
+
+.footer-meta {
+    text-align: center;
+    padding-top: 8px;
+    position: relative;
+}
+
+.footer-meta-button {
+    color: rgba(46, 94, 58, 0.45);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-meta-button:hover {
+    color: var(--primary-color);
+}
+
+.footer-wordmark-wrap {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.footer-wordmark {
+    width: 84px;
+    max-width: 18.4%;
+    height: auto;
+    display: block;
+}
+
+/* 브랜드 팔레트에 맞춰 Tailwind 유틸리티 컬러를 재매핑 */
+.paper .text-slate-900,
+.paper .text-slate-800,
+.paper .text-gray-800 {
+    color: var(--text-strong) !important;
+}
+
+.paper .text-slate-700,
+.paper .text-gray-700 {
+    color: var(--text-main) !important;
+}
+
+.paper .text-slate-600,
+.paper .text-slate-500,
+.paper .text-slate-400,
+.paper .text-gray-600,
+.paper .text-gray-500,
+.paper .text-gray-400 {
+    color: var(--text-muted) !important;
+}
+
+.paper .bg-slate-50,
+.paper .bg-gray-50 {
+    background-color: var(--brand-sage) !important;
+}
+
+.paper .border-slate-100,
+.paper .border-slate-200,
+.paper .border-gray-100,
+.paper .border-gray-200 {
+    border-color: var(--line-soft) !important;
+}
+
+.paper .border-slate-300,
+.paper .border-slate-400,
+.paper .border-gray-300,
+.paper .border-gray-400 {
+    border-color: var(--line-mid) !important;
+}
+
+.paper .bg-green-50,
+.paper .bg-emerald-50 {
+    background-color: var(--brand-sage) !important;
+}
+
+.paper .bg-green-100,
+.paper .bg-emerald-100 {
+    background-color: #DCEFD4 !important;
+}
+
+.paper .border-green-100,
+.paper .border-green-200,
+.paper .border-emerald-200,
+.paper .border-emerald-300 {
+    border-color: var(--brand-lime) !important;
+}
+
+.paper .text-green-500,
+.paper .text-green-600,
+.paper .text-green-700,
+.paper .text-emerald-600,
+.paper .text-emerald-700 {
+    color: var(--logo-green-dark) !important;
+}
+
+.paper .bg-blue-50,
+.paper .bg-sky-50 {
+    background-color: #EEF8FF !important;
+}
+
+.paper .bg-blue-100 {
+    background-color: #DDEFFE !important;
+}
+
+.paper .border-blue-100,
+.paper .border-blue-200,
+.paper .border-blue-300,
+.paper .border-blue-400,
+.paper .border-sky-200 {
+    border-color: var(--brand-sky) !important;
+}
+
+.paper .text-blue-500,
+.paper .text-blue-600,
+.paper .text-blue-700,
+.paper .text-blue-800,
+.paper .text-sky-500 {
+    color: var(--logo-green-dark) !important;
+}
+
+.paper .bg-yellow-50,
+.paper .bg-amber-50 {
+    background-color: var(--brand-cream) !important;
+}
+
+.paper .bg-yellow-100,
+.paper .bg-amber-100 {
+    background-color: #FFF0BF !important;
+}
+
+.paper .border-yellow-100,
+.paper .border-amber-200,
+.paper .border-amber-300 {
+    border-color: var(--brand-sun) !important;
+}
+
+.paper .text-yellow-600,
+.paper .text-yellow-900,
+.paper .text-amber-600,
+.paper .text-amber-700 {
+    color: var(--logo-green-dark) !important;
+}
+
+.paper .bg-purple-50,
+.paper .bg-violet-50,
+.paper .bg-indigo-50 {
+    background-color: #F4EEFD !important;
+}
+
+.paper .bg-violet-100 {
+    background-color: #EEE2FB !important;
+}
+
+.paper .border-purple-100,
+.paper .border-violet-200,
+.paper .border-violet-300,
+.paper .border-indigo-200 {
+    border-color: var(--brand-lavender) !important;
+}
+
+.paper .bg-indigo-500 {
+    background-color: var(--logo-green-mid) !important;
+}
+
+.paper .text-purple-600,
+.paper .text-violet-600,
+.paper .text-violet-700,
+.paper .text-indigo-900 {
+    color: var(--logo-green-dark) !important;
+}
+
+.paper .bg-rose-50,
+.paper .bg-red-50 {
+    background-color: #FFF0F4 !important;
+}
+
+.paper .border-rose-200,
+.paper .border-red-400 {
+    border-color: var(--brand-blush) !important;
+}
+
+.paper .text-rose-500,
+.paper .text-red-500 {
+    color: #C9758F !important;
+}
+
+.paper .shadow-sm {
+    box-shadow: 0 8px 14px rgba(111, 175, 99, 0.08) !important;
+}
+
+.paper .shadow-md,
+.paper .shadow-xl {
+    box-shadow: 0 14px 24px rgba(111, 175, 99, 0.12) !important;
+}
+
+.paper .shadow-inner {
+    box-shadow: inset 0 2px 10px rgba(111, 175, 99, 0.08) !important;
+}
+
+/* 4컷 만화 스타일 */
+.cartoon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    height: 100%;
+}
+
+.cartoon-panel {
+    border: 3px solid var(--logo-green-mid);
+    border-radius: 12px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.cartoon-number {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    background-color: var(--logo-green-dark);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.cartoon-dialogue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid var(--brand-lime);
+}
+
+.reporter-note-card,
+.reporter-note-card * {
+    min-width: 0;
+}
+
+.reporter-note-grid {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.reporter-note-instruction,
+.reporter-note-hint,
+.reporter-note-question,
+.reporter-note-summary p,
+.wisdom-description-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.reporter-note-instruction {
+    -webkit-line-clamp: 2;
+}
+
+.reporter-note-hint,
+.reporter-note-question,
+.wisdom-description-clamp {
+    -webkit-line-clamp: 2;
+}
+
+.reporter-note-summary p {
+    -webkit-line-clamp: 1;
+}
+
+.compact-wisdom {
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.nx-page{height:100%;display:flex;flex-direction:column;gap:15px;color:#285039;font-family:inherit}.nx-intro{display:flex;gap:11px;align-items:center;background:#eaf3e5;border-radius:16px;padding:12px 15px;font-size:14px;line-height:1.5}.nx-intro b{white-space:nowrap;color:#447c49}.nx-card{border:2px solid #d8e9d1;border-radius:19px;padding:17px 19px;background:#fff;box-shadow:0 5px 15px #28503909}.nx-card h3{font-size:20px;font-weight:850;margin:0 0 6px}.nx-card p{font-size:14px;font-weight:600;line-height:1.6;margin:0 0 12px}.nx-grow{flex:1;min-height:0}.nx-write{display:flex;gap:10px;align-items:flex-end;font-size:14px;font-weight:750;margin-top:13px}.nx-write i{flex:1;height:23px;border-bottom:1.5px solid #9ab79d}.nx-hint{background:#fff5df;border-radius:12px;padding:12px 15px;font-size:14px;font-weight:700}.nx-choice-row{display:flex;gap:10px}.nx-choice-row span{flex:1;text-align:center;background:#f3f9ef;border:1px solid #c8dfbc;border-radius:11px;padding:13px 5px;font-weight:750;font-size:15px}.nx-scene{height:260px;position:relative;border:2px dashed #b5cfa7;border-radius:17px;background:linear-gradient(#fff7e7 65%,#eed4a8 65%)}.nx-scene-label{position:absolute;bottom:25px;font-weight:800;font-size:14px}.nx-scene-label.left{left:30px}.nx-scene-label.right{right:30px}.nx-rewind{height:330px;border:2px dashed #b6cfc0;border-radius:16px;display:flex;align-items:center;justify-content:space-around;background:linear-gradient(#f6fbf8,#eef7ed)}.nx-rock-monster,.nx-rock-link{font-weight:850;text-align:center}.nx-rock-monster{width:90px;height:90px;border-radius:50%;background:#c8b8a4;display:grid;place-items:center}.nx-rock-dot{font-size:20px;font-weight:850;color:#4a7480;border:3px solid #9fb9bd;border-radius:50%;padding:12px}.nx-comic{display:grid;grid-template-columns:1fr 1fr;gap:16px;height:320px}.nx-comic>div{border:2px dashed #b9d3b1;border-radius:15px;padding:15px;text-align:center;background:#fbfefa}.nx-comic b{font-size:17px}.nx-bubble{border:2px solid #a8c6a8;background:#fff;border-radius:50%;padding:20px 5px;margin:20px 0 10px;font-size:14px}.nx-person{font-size:45px;line-height:.7;height:90px;color:#679364}.nx-comic small{font-weight:750}.nx-note-paper{border-bottom:2px solid #8fb48e;padding:15px 0;font-weight:700}.nx-jump-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}.nx-jump-pair>div{text-align:center;font-weight:800}.nx-jump-space{height:300px;border:2px dashed #b9d5df;border-radius:16px;margin-top:10px;background:linear-gradient(#f0f9ff 90%,#d3edcf 90%);position:relative}.nx-jump-space span{position:absolute;bottom:8px;left:0;right:0;color:#5b7c60;font-size:12px}.nx-island{text-align:center;background:#e9f6ff;border-radius:14px;padding:18px;font-weight:800}.nx-sled{height:115px;background:#f5f9ec;border:2px dashed #bed1ac;border-radius:15px;display:grid;place-items:center;color:#8b9d71;font-weight:850}.nx-terrain{height:300px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:8px}.nx-terrain div{border:2px dashed #b5c9aa;border-radius:14px;padding:13px;font-size:20px;font-weight:850}.nx-terrain div:nth-child(1){background:#f7e9c6}.nx-terrain div:nth-child(2){background:#e9f6ff}.nx-terrain div:nth-child(3){background:#e9f3d9}.nx-terrain div:nth-child(4){background:#dcefff}.nx-cutaway{height:330px;border:2px solid #abc8a6;border-radius:16px;overflow:hidden;font-size:16px;font-weight:850}.nx-surface,.nx-depth{height:100px;padding:22px}.nx-surface{background:#e5f5df}.nx-earth{height:130px;background:#d5c5aa;position:relative;padding:20px}.nx-column{position:absolute;left:63%;top:0;width:60px;height:130px;background:#a6b5a3;border-inline:4px solid #697e70}.nx-depth{background:#293a39;color:#fff}.nx-match{display:grid;grid-template-columns:1fr 1.5fr;gap:50px;min-height:150px}.nx-match>div{display:flex;flex-direction:column;justify-content:space-around;gap:15px}.nx-match b,.nx-match span{border:1.5px solid #bfd6b5;border-radius:10px;padding:12px;background:#f5faef;font-size:15px}.nx-recipe-pair{display:grid;grid-template-columns:1fr 1fr;gap:15px;height:300px}.nx-recipe-pair>div{border:2px dashed #b6cfaa;border-radius:15px;padding:14px;text-align:center;display:flex;flex-direction:column;justify-content:space-between}.nx-recipe-pair b{font-size:17px}.nx-recipe-bowl{font-size:120px;line-height:1;color:#9dc2ad}.nx-recipe-pair small{font-size:14px;font-weight:700}
+</style>
+
+</head>
+
+<body class="bg-white flex justify-center antialiased">
+    <div class="paper flex flex-col gap-6">
+        <header class="flex items-center justify-between border-b border-brand-lime/60 pb-4">
+            <div class="flex items-center gap-0">
+
+                <img src="../seeat_kids_logo.png" alt="씨앗 어린이 신문 로고" class="header-logo">
+
+                <div class="header-brand">
+                    <h1 class="header-brand-title">씨앗 어린이 신문</h1>
+                    <p class="header-brand-subtitle">Daily Kids News</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="page1.html" class="px-3 py-1 bg-brand-sage text-brand-leaf rounded-full text-xs font-bold border border-brand-lime/70 hover:bg-brand-lime/40 transition-colors">
+                    PAGE 02
+                </a>
+            </div>
+        </header>
+
+
+        <h2 class="text-3xl font-extrabold text-brand-forest tracking-tight">기브도 작전 카드</h2>
+
+
+        <main class="flex-1 overflow-hidden">
+            <div class="nx-page next_gibdo">
+  <div class="nx-intro"><b>하이랄 탐험가 수첩</b><span>기브도의 특징을 읽고 링크가 쓸 도구와 움직임을 한 장면으로 그려요.</span></div>
+
+
+  <div class="nx-card"><h3>기브도 관찰 기록</h3><p>기사에서 확인한 특징에 색칠해요.</p><div class="nx-choice-row"><span>몸이 단단하다</span><span>불에 약하다</span><span>물에 약하다</span></div></div>
+  <div class="nx-card nx-grow"><h3>링크의 한 장면 작전</h3><p>아래 사막에 기브도, 링크, 링크가 쓸 도구를 그려요. 불이나 번개가 어떻게 닿는지도 화살표로 표시해요.</p><div class="nx-scene nx-desert"><span class="nx-scene-label left">링크</span><span class="nx-scene-label right">기브도</span></div><div class="nx-write">내가 고른 도구 <i></i></div><div class="nx-write">이 도구를 고른 까닭 <i></i></div></div>
+  <div class="nx-hint">작전 힌트: 힘으로만 밀어붙이지 않고 상대의 특징을 살펴보아요.</div>
+
+
+</div>
+        </main>
+
+
+
+        <footer class="footer-meta">
+            <button onclick="openArchiveModal()" class="footer-meta-button">
+                씨앗 어린이 신문 291호 (2026년 10월 29일)
+            </button>
+
+            <div class="footer-wordmark-wrap" aria-hidden="true">
+                <img src="../seeat_kids_bi.svg" alt="SEEAT Kids" class="footer-wordmark">
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- 아카이브 모달 (추가) -->
+    <div id="archiveModal" class="fixed inset-0 bg-black/40 hidden flex-col items-center justify-center z-50 p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-[24px] p-6 w-full max-w-sm shadow-2xl relative flex flex-col max-h-[80vh]">
+            <button onclick="closeArchiveModal()" class="absolute top-4 right-4 text-brand-forest/40 hover:text-brand-forest">
+                <span class="material-symbols-rounded">close</span>
+            </button>
+            <h3 class="text-xl font-extrabold text-brand-forest mb-4 flex items-center gap-2">
+                <span class="material-symbols-rounded text-primary">auto_stories</span>
+                다른 날짜 신문 보기
+            </h3>
+            <div id="archiveList" class="flex-1 overflow-y-auto flex flex-col gap-2 pr-2">
+                <!-- JS가 여기에 목록을 채울 것입니다 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openArchiveModal() {
+            const modal = document.getElementById('archiveModal');
+            const list = document.getElementById('archiveList');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+
+            if (list.children.length === 0) {
+                if (window.ARCHIVE_DATES && window.ARCHIVE_DATES.length > 0) {
+                    window.ARCHIVE_DATES.forEach(date => {
+                        const btn = document.createElement('button');
+                        btn.className = "w-full text-left px-4 py-3 rounded-xl bg-brand-sage hover:bg-brand-lime/40 hover:text-primary font-bold text-brand-forest transition-colors border border-brand-lime/60 flex items-center justify-between";
+
+                        const isCurrent = window.location.pathname.includes(date);
+
+                        let html = `<span>${date}</span>`;
+                        if (isCurrent) {
+                            html += `<span class="text-[10px] bg-primary text-white px-2 py-0.5 rounded-full z-10">현재</span>`;
+                            btn.className += " border-primary/30 text-primary bg-brand-sage";
+                        } else {
+                            html += `<span class="material-symbols-rounded text-sm opacity-50">arrow_forward</span>`;
+                        }
+
+                        btn.innerHTML = html;
+                        btn.onclick = () => {
+                            window.location.href = `../${date}/index.html`;
+                        };
+                        list.appendChild(btn);
+                    });
+                } else {
+                    list.innerHTML = '<p class="text-center text-brand-forest/60 py-4 font-medium text-sm">목록을 불러올 수 없습니다.</p>';
+                }
+            }
+        }
+
+        function closeArchiveModal() {
+            const modal = document.getElementById('archiveModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        document.getElementById('archiveModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeArchiveModal();
+            }
+        });
+    </script>
+</body>
+
+</html>

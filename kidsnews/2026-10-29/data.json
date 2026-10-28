@@ -1,0 +1,29 @@
+{
+  "selected_topic": "기브도와 불·번개의 약점",
+  "selected_category": "마물 탐구",
+  "page1": {
+    "headline": "단단한 기브도에게 통하는 힘은?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/west/02.html",
+    "article_body": [
+      "겔드사막에 가면 기브도라는 낯선 마물을 만날 수 있어요. 겉모습은 느릿느릿 움직이지만, 단단한 몸 때문에 보통 무기로는 쉽게 상대하기 어렵지요. 날개 달린 모스기브도도 있으니 하늘까지 살펴야 해요.",
+      "기브도의 약점은 불과 번개예요. 전기 열매를 화살에 붙여 쏘거나 불을 내뿜는 도구를 쓰면 기브도에게 맞설 수 있어요. 힘센 무기만 찾기보다 상대의 특징을 알아보는 것이 먼저랍니다.",
+      "게임 속에서 어떤 방법이 잘 듣지 않을 때는 같은 방법만 되풀이하지 말고 다른 성질을 시험해 보세요. 기브도 앞에 선 링크라면 무엇을 준비해야 할까요? 불과 번개라는 단서를 떠올려 작전을 세워 보세요."
+    ]
+  },
+  "word_info": {
+    "word": "약점",
+    "definition": "상대하기에 약한 부분이나 잘 통하는 방법이에요."
+  },
+  "hidden_word": {
+    "word": "단서",
+    "mission": "문제를 풀 때 도움이 되는 힌트를 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_gibdo",
+  "activity_data": {
+    "title": "기브도 작전 카드",
+    "instruction": "기브도의 특징을 읽고 링크가 쓸 도구와 움직임을 한 장면으로 그려요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

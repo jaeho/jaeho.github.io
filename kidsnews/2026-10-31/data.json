@@ -1,0 +1,29 @@
+{
+  "selected_topic": "이가단 옷을 입으면 달라지는 반응",
+  "selected_category": "옷의 비밀",
+  "page1": {
+    "headline": "같은 옷인데 왜 반응이 다를까?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/west/02.html",
+    "article_body": [
+      "이가단의 옷을 모두 갖춰 입고 이가단에게 가면, 그들은 링크를 동료로 생각해 공격하지 않아요. 빨간 옷과 가면을 보고 자기편이라고 여기는 거지요. 이 옷은 조용히 움직이는 데도 도움이 돼요.",
+      "하지만 같은 옷을 입고 겔드의 마을에 들어가면 반응이 완전히 달라요. 이가단을 적으로 여기는 사람들이 링크를 위험한 손님으로 보고 붙잡지요. 링크는 그대로인데, 옷을 본 사람의 생각이 다른 거예요.",
+      "게임에서는 장소를 바꾸기 전에 옷을 다시 살펴보는 게 좋아요. 한곳에서 도움이 된 물건이 다른 곳에서도 똑같이 좋은 것은 아니랍니다. 이가단의 아지트와 겔드의 마을, 어디에서 그 옷을 입을지 생각해 보세요."
+    ]
+  },
+  "word_info": {
+    "word": "제복",
+    "definition": "한 무리에 속한 사람이 함께 입는 옷이에요."
+  },
+  "hidden_word": {
+    "word": "반응",
+    "mission": "어떤 일을 보고 보이는 행동이나 태도를 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_yiga",
+  "activity_data": {
+    "title": "옷을 보고 누가 뭐라고 할까?",
+    "instruction": "두 장소의 인물이 같은 옷을 보고 다르게 말하는 짧은 만화를 완성해요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

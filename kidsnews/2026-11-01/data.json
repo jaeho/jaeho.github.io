@@ -1,0 +1,29 @@
+{
+  "selected_topic": "저중력 하늘섬의 높은 점프",
+  "selected_category": "하늘섬 실험",
+  "page1": {
+    "headline": "살짝 뛰었는데 몸이 훌쩍 떠올라요!",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/sky/01.html",
+    "article_body": [
+      "하이랄의 모든 하늘섬에서 똑같이 뛰는 것은 아니에요. 별맞이 섬이나 로미섬 상층처럼 높이 있는 몇몇 장소에서는 링크가 조금만 뛰어도 몸이 크게 떠오른답니다.",
+      "이런 곳을 저중력 지역이라고 해요. 아래로 끌어당기는 힘이 평소보다 약해서 같은 점프도 더 높이 올라가는 것처럼 보이지요. 지상에서 뛰는 모습과 나란히 보면 차이가 더 잘 보여요.",
+      "게임에서 직접 비교할 때는 뛰는 방법을 비슷하게 하고 장소만 바꾸어 보세요. 어느 곳에서 더 높이 뜨는지 관찰하는 거예요. 높은 곳에서는 섬 밖으로 떨어질 수 있으니, 게임 속에서도 발 디딜 자리를 먼저 살펴야겠지요."
+    ]
+  },
+  "word_info": {
+    "word": "저중력",
+    "definition": "아래로 끌어당기는 힘이 평소보다 약한 상태예요."
+  },
+  "hidden_word": {
+    "word": "차이",
+    "mission": "두 모습을 비교했을 때 서로 다른 점을 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_gravity",
+  "activity_data": {
+    "title": "하늘섬 점프 실험장",
+    "instruction": "같은 높이에서 시작한 두 점프를 그려 보고, 어디가 더 높이 뜨는지 표시해요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}

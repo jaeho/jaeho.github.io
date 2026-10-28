@@ -1,0 +1,29 @@
+{
+  "selected_topic": "조나우 썰매의 여러 지형",
+  "selected_category": "탈것 발명",
+  "page1": {
+    "headline": "썰매는 눈밭에서만 탈 수 있을까?",
+    "reference": "https://www.nintendo.com/kr/games/zelda/totk/discovery/west/02.html",
+    "article_body": [
+      "눈 위를 미끄러지는 썰매를 떠올려 보세요. 그런데 하이랄의 조나우 기어 썰매는 눈밭에서만 쓰는 물건이 아니에요. 바닥이 넓고 평평해서 탈것의 몸체로도 쓰이지요.",
+      "썰매에 선풍기 같은 동력을 붙이면 모래밭은 물론 물 위와 풀밭에서도 미끄러지듯 이동할 수 있어요. 같은 썰매라도 무엇을 붙이고 어디에서 쓰느냐에 따라 새로운 탈것이 됩니다.",
+      "모험가라면 먼저 가고 싶은 길의 바닥을 살피고, 썰매를 움직일 힘을 마련해야 해요. 눈밭, 모래밭, 풀밭, 물 위를 이어서 여행한다면 어떤 코스로 가고 싶나요? 길을 그리며 썰매가 어떻게 움직일지 상상해 보세요."
+    ]
+  },
+  "word_info": {
+    "word": "동력",
+    "definition": "기계나 탈것을 움직이게 하는 힘이에요."
+  },
+  "hidden_word": {
+    "word": "코스",
+    "mission": "출발부터 도착까지 지나가는 길을 뜻하는 낱말을 찾아보세요."
+  },
+  "activity_type": "next_sled",
+  "activity_data": {
+    "title": "네 가지 땅을 지나는 썰매",
+    "instruction": "모래·눈·풀·물 구역을 지나도록 나만의 코스를 그리고 썰매를 꾸며요."
+  },
+  "age_group": "초등학교 1학년",
+  "content_author": "Codex 직접 작성",
+  "image_generator": "image_gen"
+}
